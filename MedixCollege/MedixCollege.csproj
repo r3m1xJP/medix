@@ -230,6 +230,16 @@
     <Content Include="Content\images\150920-Hired-Medix-Kitchener.jpg" />
     <Content Include="Content\images\150920-Hired-Medix-London.jpg" />
     <Content Include="Content\images\150920-Hired-Medix-Toronto.jpg" />
+    <Content Include="Content\images\151128-Hires-Medix-Brampton.jpg" />
+    <Content Include="Content\images\151128-Hires-Medix-Brantford.jpg" />
+    <Content Include="Content\images\151128-Hires-Medix-Kitchener.jpg" />
+    <Content Include="Content\images\151128-Hires-Medix-London.jpg" />
+    <Content Include="Content\images\151128-Hires-Medix-Scarborough.jpg" />
+    <Content Include="Content\images\151128-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\151205-Hires-Medix-Brampton.jpg" />
+    <Content Include="Content\images\151205-Hires-Medix-London.jpg" />
+    <Content Include="Content\images\151205-Hires-Medix-Scarborough.jpg" />
+    <Content Include="Content\images\151205-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\Banner-Certificates-Main.jpg" />
     <Content Include="Content\images\Banner-Discover-Medix-History.jpg" />
     <Content Include="Content\images\Banner-Discover-Medix-Index.jpg" />

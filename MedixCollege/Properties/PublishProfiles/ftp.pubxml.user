@@ -11,1321 +11,1339 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>11/03/2015 09:20:24</publishTime>
+      <publishTime>11/28/2015 00:08:03</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
-      <publishTime>04/23/2015 14:39:56</publishTime>
+      <publishTime>08/18/2015 12:19:38</publishTime>
     </File>
     <File Include="bin/MySql.Data.dll">
-      <publishTime>04/28/2015 18:17:38</publishTime>
+      <publishTime>09/22/2015 09:36:00</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>04/23/2015 14:39:56</publishTime>
+      <publishTime>08/18/2015 12:19:39</publishTime>
     </File>
     <File Include="bin/PagedList.dll">
-      <publishTime>06/15/2015 14:56:52</publishTime>
+      <publishTime>09/22/2015 09:36:00</publishTime>
     </File>
     <File Include="bin/PagedList.Mvc.dll">
-      <publishTime>06/15/2015 14:56:52</publishTime>
+      <publishTime>09/22/2015 09:36:00</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:38</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:38</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:38</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:38</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:38</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>04/23/2015 14:39:56</publishTime>
+      <publishTime>08/18/2015 12:19:38</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>04/23/2015 14:39:56</publishTime>
+      <publishTime>08/18/2015 12:19:38</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
-      <publishTime>04/23/2015 14:39:56</publishTime>
+      <publishTime>08/18/2015 12:19:39</publishTime>
     </File>
     <File Include="Content/bigplay.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css.map">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.min.css">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/bootstrap.css.map">
-      <publishTime>06/03/2015 11:28:39</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/controls.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/creativeButtons.css">
       <publishTime>06/01/2015 11:23:54</publishTime>
     </File>
     <File Include="Content/creativeButtonsDefault.css">
-      <publishTime>06/03/2015 11:28:39</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/font-awesome.css">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/font-awesome.min.css">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/._socicon-webfont.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/._socicon-webfont.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/._socicon-webfont.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/._socicon-webfont.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/._socicon-webfont.woff2">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/03805817-4611-4dbc-8c65-0f73031c3973.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/05ad458f-263b-413f-b054-6001a987ff3e.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/102ab74c-0e84-4fe5-a17a-b20fb643591a.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/1d146b29-55e2-485b-96aa-5cb628e7e9eb.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/4021a3b9-f782-438b-aeb4-c008109a8b64.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/669f79ed-002c-4ff6-965c-9da453968504.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/717f8140-20c9-4892-9815-38b48f14ce2b.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/83d5bc89-af33-46a9-8fe3-15d87784f50e.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/a20dd2d1-6128-4524-8924-74d22db44454.woff2">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/ab23c239-fb66-406e-bce6-f0f260f5a217.woff2">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/d17bc040-9e8b-4397-8356-8153f4a64edf.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/d5f9f72d-afb7-4c57-8348-b4bdac42edbb.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/d90b3358-e1e2-4abb-ba96-356983a54c22.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/ea95b44a-eab7-4bd1-861c-e73535e7f652.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/fbb08c0c-6025-4224-8a7e-816d60913d93.woff2">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/fontawesome-webfont.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/fontawesome-webfont.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/fontawesome-webfont.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/fontawesome-webfont.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/fontawesome-webfont.woff2">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/FontAwesome.otf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/icomoon.dev.svg">
-      <publishTime>05/31/2015 23:15:22</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/icomoon.eot">
-      <publishTime>05/31/2015 23:15:22</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/icomoon.svg">
-      <publishTime>05/31/2015 23:15:22</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/icomoon.ttf">
-      <publishTime>05/31/2015 23:15:22</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/icomoon.woff">
-      <publishTime>05/31/2015 23:15:22</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/medix-30032015.zip">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Black-webfont.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Black-webfont.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Black-webfont.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Black-webfont.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Light-webfont.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Light-webfont.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Light-webfont.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Light-webfont.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Medium-webfont.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Medium-webfont.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Medium-webfont.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Medium-webfont.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Regular-webfont.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Regular-webfont.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Regular-webfont.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Regular-webfont.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Thin-webfont.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Thin-webfont.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Thin-webfont.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/Roboto-Thin-webfont.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/RobotoCondensed-Bold-webfont.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/RobotoCondensed-Bold-webfont.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/RobotoCondensed-Bold-webfont.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/RobotoCondensed-Bold-webfont.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/RobotoCondensed-Regular-webfont.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/RobotoCondensed-Regular-webfont.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/RobotoCondensed-Regular-webfont.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/RobotoCondensed-Regular-webfont.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/socicon-webfont.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/socicon-webfont.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/socicon-webfont.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/socicon-webfont.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/socicon-webfont.woff2">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/texgyreheros-bold-webfont.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/texgyreheros-bold-webfont.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/texgyreheros-bold-webfont.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/texgyreheros-bold-webfont.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/texgyreheros-regular-webfont.eot">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/texgyreheros-regular-webfont.svg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/texgyreheros-regular-webfont.ttf">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/fonts/texgyreheros-regular-webfont.woff">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150517-Hired-Medix-Brantford.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150517-Hired-Medix-Kitchener.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150517-Hired-Medix-London.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150517-Hired-Medix-Toronto.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150517-Hired-NATS-London.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150523-Hired-Medix-Brantford.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150523-Hired-Medix-Kitchener.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150523-Hired-Medix-Toronto.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150606-Hired-Medix-London.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150606-Hired-Medix-Toronto-1-2.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150606-Hired-Medix-Toronto-2-2.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150606-Hired-NATS-London.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150616-Hired-Medix-Brampton.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150616-Hired-Medix-Brantford.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150616-Hired-Medix-Kitchener.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150616-Hired-Medix-London.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150616-Hired-Medix-Scarborough.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150616-Hired-Medix-Toronto.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150616-Hired-NATS-London.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150620-Hired-Medix-Brampton.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150620-Hired-Medix-Brantford.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150620-Hired-Medix-Kitchener.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150620-Hired-Medix-London.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150620-Hired-Medix-Scarborough.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150620-Hired-Medix-Toronto.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150620-Hired-NATS-Brampton.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150620-Hired-NATS-London.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150705-Hired-Medix-Kitchener.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150705-Hired-Medix-London.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150705-Hired-Medix-Toronto.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150712-Hired-Medix-Brantford.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150712-Hired-Medix-London.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150712-Hired-Medix-Toronto.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150726-Hired-Medix-Brampton.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150726-Hired-Medix-Brantford.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150726-Hired-Medix-Scarborough.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150726-Hired-Medix-Toronto.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/150808-Hired-Medix-Brampton.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:00</publishTime>
     </File>
     <File Include="Content/images/150808-Hired-Medix-Brantford.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:00</publishTime>
     </File>
     <File Include="Content/images/150808-Hired-Medix-London.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:00</publishTime>
     </File>
     <File Include="Content/images/150808-Hired-Medix-Toronto.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:00</publishTime>
     </File>
     <File Include="Content/images/150808-Hired-Medix-Toronto2.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:00</publishTime>
     </File>
     <File Include="Content/images/150815-Hired-Medix-Brantford.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:00</publishTime>
     </File>
     <File Include="Content/images/150815-Hired-Medix-Kitchener.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:00</publishTime>
     </File>
     <File Include="Content/images/150815-Hired-Medix-London.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:00</publishTime>
     </File>
     <File Include="Content/images/150815-Hired-Medix-Toronto.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:00</publishTime>
     </File>
     <File Include="Content/images/150822-Hired-Medix-Brantford.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:00</publishTime>
     </File>
     <File Include="Content/images/150822-Hired-Medix-Kitchener.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:00</publishTime>
     </File>
     <File Include="Content/images/150822-Hired-Medix-London.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:00</publishTime>
     </File>
     <File Include="Content/images/150822-Hired-Medix-Toronto.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:01</publishTime>
     </File>
     <File Include="Content/images/150829-Hired-Medix-Brantford.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:01</publishTime>
     </File>
     <File Include="Content/images/150829-Hired-Medix-Kitchener.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:01</publishTime>
     </File>
     <File Include="Content/images/150829-Hired-Medix-London.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:01</publishTime>
     </File>
     <File Include="Content/images/150829-Hired-Medix-Toronto.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:01</publishTime>
     </File>
     <File Include="Content/images/150905-Hired-Medix-Kitchener.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:01</publishTime>
     </File>
     <File Include="Content/images/150905-Hired-Medix-London.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:01</publishTime>
     </File>
     <File Include="Content/images/150905-Hired-Medix-Toronto.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:01</publishTime>
     </File>
     <File Include="Content/images/150920-Hired-Medix-Brantford.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:01</publishTime>
     </File>
     <File Include="Content/images/150920-Hired-Medix-Kitchener.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:01</publishTime>
     </File>
     <File Include="Content/images/150920-Hired-Medix-London.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:01</publishTime>
     </File>
     <File Include="Content/images/150920-Hired-Medix-Toronto.jpg">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:01</publishTime>
+    </File>
+    <File Include="Content/images/151128-Hires-Medix-Brampton.jpg">
+      <publishTime>11/28/2015 00:05:25</publishTime>
+    </File>
+    <File Include="Content/images/151128-Hires-Medix-Brantford.jpg">
+      <publishTime>11/28/2015 00:05:25</publishTime>
+    </File>
+    <File Include="Content/images/151128-Hires-Medix-Kitchener.jpg">
+      <publishTime>11/28/2015 00:05:25</publishTime>
+    </File>
+    <File Include="Content/images/151128-Hires-Medix-London.jpg">
+      <publishTime>11/28/2015 00:05:25</publishTime>
+    </File>
+    <File Include="Content/images/151128-Hires-Medix-Scarborough.jpg">
+      <publishTime>11/28/2015 00:05:25</publishTime>
+    </File>
+    <File Include="Content/images/151128-Hires-Medix-Toronto.jpg">
+      <publishTime>11/28/2015 00:05:25</publishTime>
     </File>
     <File Include="Content/images/Banner-Certificates-Main.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/Banner-Discover-Medix-History.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/Banner-Discover-Medix-Index.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/Banner-Programs-Medical-Office-Administrator.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/Banner-Programs-Pharmacy-Assistant.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/button-next.png">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/button-previous.png">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/CCGLogo.png">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/facebook-ic.gif">
-      <publishTime>07/08/2015 16:41:45</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/facebook.gif">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/Fran-Women-Of-Excellence.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/googleplus-ic-jpg.jpg">
-      <publishTime>07/08/2015 16:41:45</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/googleplus-ic.svg">
-      <publishTime>07/08/2015 16:41:45</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/googleplus.gif">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Bayshore.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Canes.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Crest.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Grand Erie - BRF.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Homeinstead.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Humber River - TOR.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/IDA - TOR.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Infomax.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Lchaim - TOR.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/LifeLabs.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Medisystems.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/NYCH.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Oaks.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Paramed - TOR.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Peekaboo - BRA.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/pinterest.gif">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/PremierHomecare - BRA.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Red Cross.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Revera - BRF.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/ROmanson.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Rutherford.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Sante.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Shoppers.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Solar Dental.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Spectrum.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/steliza.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/TGH.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/Toronto Western.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/UHN Prince Margaret.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/UT - Scar.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/VHA Home Healthcare.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/graduates/VON.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/instagram-ic.gif">
-      <publishTime>07/08/2015 16:41:45</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/instagram.gif">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/linkedin-ic.gif">
-      <publishTime>07/08/2015 16:41:45</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/mainBANNER-1-ECA.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/mainBANNER-2-IODA.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/mainBANNER-3-MLAT.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/mainBANNER-4-PSW.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/medix-banner-cpu.jpg">
-      <publishTime>07/08/2015 16:41:45</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/medix-banner-dental.jpg">
-      <publishTime>07/28/2015 16:28:12</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/medix-banner-doa2.jpg">
-      <publishTime>07/28/2015 16:28:12</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/medix-banner-mlat.jpg">
-      <publishTime>07/28/2015 16:28:12</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/medix-banner-mlat2.jpg">
-      <publishTime>07/08/2015 16:41:45</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/medix-banner-mt.jpg">
-      <publishTime>07/28/2015 16:28:12</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/medix-banner-psw.jpg">
-      <publishTime>07/28/2015 16:28:12</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/Medix-Weekly-Hired-Logo.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/medixCollegeHeader.gif">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/MedixIMG1.gif">
-      <publishTime>06/23/2015 20:25:28</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/MedixIMG2.gif">
-      <publishTime>06/23/2015 20:25:28</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/MedixIMG3.gif">
-      <publishTime>06/23/2015 20:25:28</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/MedixIMG4.gif">
-      <publishTime>06/23/2015 20:25:28</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/MedixIMG5.gif">
-      <publishTime>06/23/2015 20:25:28</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/MedixOnlineLogo.PNG">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/nats-logo-main.png">
-      <publishTime>06/15/2015 17:25:43</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/payments.jpg">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/pinterest-ic.gif">
-      <publishTime>07/08/2015 16:41:45</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/pinterest.gif">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/topDIVgold.jpg">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/twitter-ic.gif">
-      <publishTime>07/08/2015 16:41:45</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/twitter.gif">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/youtube-ic.gif">
-      <publishTime>07/08/2015 16:41:45</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/images/youtube.gif">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/mediaelementplayer.min.css">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/PagedList.css">
-      <publishTime>06/15/2015 14:56:53</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/responsiveslides.css">
-      <publishTime>07/28/2015 16:28:12</publishTime>
+      <publishTime>11/28/2015 00:05:08</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:33</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes.gif">
-      <publishTime>06/08/2015 09:57:29</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/accordion.css">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/all.css">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/autocomplete.css">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/base.css">
-      <publishTime>04/23/2015 14:39:54</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/button.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/core.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/datepicker.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/dialog.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/draggable.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/menu.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/progressbar.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/resizable.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/selectable.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/selectmenu.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/slider.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/sortable.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/spinner.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/tabs.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/theme.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/themes/base/tooltip.css">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/videos/Cinescope Shorter - No Tattoos.mp4.mp4">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
     <File Include="Content/videos/Cinescope Shorter - No Tattoos.oggtheora.ogv">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:35</publishTime>
     </File>
     <File Include="Content/videos/Cinescope Shorter - No Tattoos.webmhd.webm">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:35</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/codropsicons/codropsicons.eot">
-      <publishTime>05/31/2015 23:44:08</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/codropsicons/codropsicons.svg">
-      <publishTime>05/31/2015 23:44:08</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/codropsicons/codropsicons.ttf">
-      <publishTime>05/31/2015 23:44:08</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/codropsicons/codropsicons.woff">
-      <publishTime>05/31/2015 23:44:08</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/codropsicons/license.txt">
-      <publishTime>05/31/2015 23:44:08</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/fontawesome-webfont.eot">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/fontawesome-webfont.svg">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/fontawesome-webfont.ttf">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/fontawesome-webfont.woff">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/fontawesome-webfont.woff2">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/FontAwesome.otf">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff2">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/icomoon/icomoon.dev.svg">
-      <publishTime>05/31/2015 23:44:33</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/icomoon/icomoon.eot">
-      <publishTime>05/31/2015 23:44:33</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/icomoon/icomoon.svg">
-      <publishTime>05/31/2015 23:44:33</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/icomoon/icomoon.ttf">
-      <publishTime>05/31/2015 23:44:33</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/icomoon/icomoon.woff">
-      <publishTime>05/31/2015 23:44:33</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/icomoon/license.txt">
-      <publishTime>05/31/2015 23:44:33</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="fonts/icomoon/Read Me.txt">
-      <publishTime>05/31/2015 23:44:33</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Icon.png">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>06/15/2015 14:56:53</publishTime>
+      <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/bootstrap.youtubepopup.min.js">
-      <publishTime>06/19/2015 18:20:03</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.map">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/jquery-ui-1.11.3.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/jquery-ui-1.11.3.min.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/jquery.flexisel.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/jquery.mousewheel.min.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/jquery.smoothdivscroll-1.3-min.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.min.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.min.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/mediaelement-and-player.min.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.6.2.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/npm.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/respond.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/respond.min.js">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/responsiveslides.min.js">
-      <publishTime>06/08/2015 09:44:58</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>06/23/2015 20:28:06</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Admissions/EmploymentOntario.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Admissions/FinancialOptions.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Admissions/Index.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Admissions/LifelongLearningPlan.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Admissions/OSAP.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Admissions/OutOfProvinceStudents.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Admissions/RegisteredEducationSavingsPlans.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Admissions/SecondCareers.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Admissions/StudentLinesOfCredit.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Admissions/_AdmissionsLayout.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Admissions/_MonthlyPaymentPlan.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Campuses/Brampton.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 22:52:09</publishTime>
     </File>
     <File Include="Views/Campuses/Brantford.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Campuses/Index.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Campuses/Kitchener.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Campuses/London.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Campuses/Scarborough.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Campuses/Toronto.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Campuses/_CampusesLayout.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/CareerServices/HireAGrad.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/CareerServices/Index.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/CareerServices/InterviewTips.cshtml">
-      <publishTime>05/27/2015 02:24:16</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/CareerServices/JobSearchTips.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/CareerServices/MedixAdvantage.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/CareerServices/ProfessionalTips.cshtml">
-      <publishTime>05/27/2015 02:24:16</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/CareerServices/ResumeTips.cshtml">
-      <publishTime>05/27/2015 02:24:16</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/CareerServices/_CareerServicesLayout.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Certificates/AbelDent.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Certificates/AllCertificates.cshtml">
-      <publishTime>05/27/2015 02:24:16</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Certificates/BasicWoundTreatment.cshtml">
-      <publishTime>08/17/2015 16:24:24</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Certificates/CertificatesContinuingEducation.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Certificates/Electrocardiogram.cshtml">
-      <publishTime>08/17/2015 16:24:24</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Certificates/EmotionalFirstAid.cshtml">
-      <publishTime>08/17/2015 16:24:24</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Certificates/EnglishSecondLanguage.cshtml">
-      <publishTime>08/17/2015 16:24:24</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Certificates/EnglishSkillsHealthcareWorkers.cshtml">
-      <publishTime>08/17/2015 16:24:24</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Certificates/FirstAidCPR.cshtml">
-      <publishTime>08/17/2015 16:24:24</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/Certificates/FoodHandlerSafety.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Certificates/HomeChildCareManagement.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Certificates/Index.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Certificates/IntramuscularInjections.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Certificates/IntroductionDevelopmentalDisabilitiesServices.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Certificates/IntroductionSwedishMassage.cshtml">
-      <publishTime>05/27/2015 02:24:16</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Certificates/MedixOnline.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Certificates/MentalHealthAddictions.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Certificates/Phlebotomy.cshtml">
-      <publishTime>05/27/2015 02:24:16</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Certificates/SoftTissueBackInjuryPrevention.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Certificates/Urinalysis.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Certificates/_CertificatesLayout.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/CareersAtMedix.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/History.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/Index.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/LaptopInitiative.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/TranscriptRequest.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/VirtualTour.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>11/03/2015 09:31:13</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/_DiscoverMedixLayout.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/External/ContactUs.cshtml">
-      <publishTime>07/29/2015 20:01:43</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/External/ContactUsMobile.cshtml">
-      <publishTime>05/27/2015 02:16:56</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/External/PPC.cshtml">
-      <publishTime>05/27/2015 02:16:56</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/External/PPCNoDropDown.cshtml">
-      <publishTime>05/27/2015 02:16:56</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/External/QuickContact.cshtml">
-      <publishTime>05/27/2015 02:19:29</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/External/ReferAFriend.cshtml">
-      <publishTime>05/27/2015 02:16:56</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/External/RequestInformation.cshtml">
-      <publishTime>07/29/2015 20:01:20</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/External/ThankYou.cshtml">
-      <publishTime>10/22/2015 19:48:28</publishTime>
+      <publishTime>11/03/2015 09:31:19</publishTime>
     </File>
     <File Include="Views/Home/AccessibilityPolicy.cshtml">
-      <publishTime>05/27/2015 02:24:16</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Home/ApplyNow.cshtml">
       <publishTime>03/09/2015 19:04:40</publishTime>
     </File>
     <File Include="Views/Home/CareersAtMedix.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Home/HireAMedixGrad.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>11/03/2015 22:36:01</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Home/NewsDirectory.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Home/PrivacyPolicy.cshtml">
-      <publishTime>04/28/2015 17:04:58</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Home/ReferralProgram.cshtml">
-      <publishTime>08/17/2015 16:24:24</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Home/Search.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Home/SiteMap.cshtml">
-      <publishTime>05/27/2015 02:24:16</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Home/SocialMedia.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Home/Test.cshtml">
-      <publishTime>05/31/2015 23:50:53</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Home/ThankYou.cshtml">
-      <publishTime>10/22/2015 19:48:32</publishTime>
+      <publishTime>11/03/2015 09:31:19</publishTime>
     </File>
     <File Include="Views/Home/VirtualTours.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Home/_HomeLayout.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Leads/Index.cshtml">
-      <publishTime>07/08/2015 16:41:45</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/MedixOnline/Advantages.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/MedixOnline/ContactMedixOnline.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/MedixOnline/ELearning.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/MedixOnline/Index.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/MedixOnline/MedicalTranscription.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/MedixOnline/SchedulesAndFees.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/MedixOnline/ThankYou.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/MedixOnline/_MedixOnlineLayout.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Programs/AllPrograms.cshtml">
-      <publishTime>11/02/2015 14:47:56</publishTime>
+      <publishTime>11/03/2015 22:49:55</publishTime>
     </File>
     <File Include="Views/Programs/ChildYouthAddictionsWorker.cshtml">
-      <publishTime>11/02/2015 14:47:01</publishTime>
+      <publishTime>11/03/2015 22:45:29</publishTime>
     </File>
     <File Include="Views/Programs/CommunityServiceWorker.cshtml">
-      <publishTime>11/02/2015 14:43:19</publishTime>
+      <publishTime>11/03/2015 22:46:47</publishTime>
     </File>
     <File Include="Views/Programs/DentalAssistantII.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Programs/DevelopmentalServiceWorker.cshtml">
-      <publishTime>11/02/2015 14:47:51</publishTime>
+      <publishTime>11/03/2015 22:47:00</publishTime>
     </File>
     <File Include="Views/Programs/EarlyChildCareAssistant.cshtml">
-      <publishTime>11/02/2015 14:47:47</publishTime>
+      <publishTime>11/03/2015 22:47:13</publishTime>
     </File>
     <File Include="Views/Programs/FitnessHealthPromotion.cshtml">
-      <publishTime>11/02/2015 14:47:41</publishTime>
+      <publishTime>11/03/2015 22:47:26</publishTime>
     </File>
     <File Include="Views/Programs/Index.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Programs/IntraOralDentalAssistant.cshtml">
-      <publishTime>11/02/2015 14:47:36</publishTime>
+      <publishTime>11/03/2015 22:47:40</publishTime>
     </File>
     <File Include="Views/Programs/MassageTherapy.cshtml">
-      <publishTime>11/02/2015 14:47:32</publishTime>
+      <publishTime>11/03/2015 22:48:04</publishTime>
     </File>
     <File Include="Views/Programs/MassageTherapyAdvancedStanding.cshtml">
-      <publishTime>11/02/2015 14:47:27</publishTime>
+      <publishTime>11/03/2015 22:48:02</publishTime>
     </File>
     <File Include="Views/Programs/MedicalLabAssistantTechnician.cshtml">
-      <publishTime>11/02/2015 14:47:22</publishTime>
+      <publishTime>11/03/2015 22:48:18</publishTime>
     </File>
     <File Include="Views/Programs/MedicalOfficeAdministrator.cshtml">
-      <publishTime>11/02/2015 14:47:17</publishTime>
+      <publishTime>11/03/2015 22:48:40</publishTime>
     </File>
     <File Include="Views/Programs/MedixOnline.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Programs/PersonalSupportWorker.cshtml">
-      <publishTime>11/02/2015 14:47:12</publishTime>
+      <publishTime>11/03/2015 22:48:57</publishTime>
     </File>
     <File Include="Views/Programs/PharmacyAssistant.cshtml">
-      <publishTime>11/02/2015 14:47:07</publishTime>
+      <publishTime>11/03/2015 22:49:08</publishTime>
     </File>
     <File Include="Views/Programs/_ProgramsLayout.cshtml">
-      <publishTime>08/05/2015 17:38:14</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>10/22/2015 17:49:09</publishTime>
+      <publishTime>10/19/2015 10:17:07</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>04/23/2015 14:39:55</publishTime>
+      <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/15/2015 17:27:28</publishTime>
+      <publishTime>09/22/2015 09:59:46</publishTime>
     </File>
   </ItemGroup>
 </Project>
