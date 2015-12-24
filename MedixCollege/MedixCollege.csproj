@@ -589,6 +589,8 @@
     <Content Include="Views\External\QuickContact.cshtml" />
     <Content Include="Views\Home\Test.cshtml" />
     <Content Include="Views\MedixOnline\MedicalTranscription.cshtml" />
+    <Content Include="Views\External\FacebookPPC.cshtml" />
+    <Content Include="Views\External\FacebookPPCThankYou.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
