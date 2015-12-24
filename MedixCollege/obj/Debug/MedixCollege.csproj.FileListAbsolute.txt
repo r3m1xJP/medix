@@ -84,6 +84,5 @@ D:\Development\Phanyasaeng Technologies\medix\MedixCollege\bin\System.Web.WebPag
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\bin\System.Web.WebPages.Razor.xml
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\bin\Antlr3.Runtime.pdb
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\bin\Newtonsoft.Json.xml
-D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.dll
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.pdb
