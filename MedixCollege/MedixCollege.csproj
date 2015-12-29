@@ -245,10 +245,14 @@
     <Content Include="Content\images\151219-Hires-Medix-London.jpg" />
     <Content Include="Content\images\151219-Hires-Medix-Scarborough.jpg" />
     <Content Include="Content\images\151219-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\admissions-eo.jpg" />
+    <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
     <Content Include="Content\images\admissions-llp.jpg" />
     <Content Include="Content\images\admissions-mpp.jpg" />
     <Content Include="Content\images\admissions-oop.jpg" />
+    <Content Include="Content\images\admissions-osap.jpg" />
+    <Content Include="Content\images\admissions-sloc.jpg" />
     <Content Include="Content\images\Banner-Certificates-Main.jpg" />
     <Content Include="Content\images\Banner-Discover-Medix-History.jpg" />
     <Content Include="Content\images\Banner-Discover-Medix-Index.jpg" />
@@ -259,12 +263,17 @@
     <Content Include="Content\images\button-previous.png" />
     <Content Include="Content\images\campus-london.jpg" />
     <Content Include="Content\images\CCGLogo.png" />
+    <Content Include="Content\images\cert-all.jpg" />
     <Content Include="Content\images\cert-phle.jpg" />
     <Content Include="Content\images\certs-allcerts.jpg" />
     <Content Include="Content\images\cs-main.jpg" />
     <Content Include="Content\images\cs-medixadvantage.jpg" />
     <Content Include="Content\images\discover-careers.jpg" />
+    <Content Include="Content\images\discover-history.jpg" />
     <Content Include="Content\images\discover-laptop.jpg" />
+    <Content Include="Content\images\discover-main.jpg" />
+    <Content Include="Content\images\discover-transcript.jpg" />
+    <Content Include="Content\images\discover-virtualtours.jpg" />
     <Content Include="Content\images\extra-classroom shot.jpg" />
     <Content Include="Content\images\extra-smiling award.jpg" />
     <Content Include="Content\images\extra-smilingstudent.jpg" />
@@ -306,6 +315,9 @@
     <Content Include="Content\images\graduates\UT - Scar.jpg" />
     <Content Include="Content\images\graduates\VHA Home Healthcare.jpg" />
     <Content Include="Content\images\graduates\VON.jpg" />
+    <Content Include="Content\images\home-hiregrad.jpg" />
+    <Content Include="Content\images\home-news.jpg" />
+    <Content Include="Content\images\home-referral.jpg" />
     <Content Include="Content\images\instagram-ic.gif" />
     <Content Include="Content\images\instagram.gif" />
     <Content Include="Content\images\linkedin-ic.gif" />
@@ -339,6 +351,7 @@
     <Content Include="Content\images\program-dsw.jpg" />
     <Content Include="Content\images\program-eca.jpg" />
     <Content Include="Content\images\program-eca2.jpg" />
+    <Content Include="Content\images\program-fhp.jpg" />
     <Content Include="Content\images\program-ioda.jpg" />
     <Content Include="Content\images\program-mlat.jpg" />
     <Content Include="Content\images\program-moad.jpg" />
@@ -593,7 +606,6 @@
     <Content Include="Views\Home\SiteMap.cshtml" />
     <Content Include="Views\Home\PrivacyPolicy.cshtml" />
     <Content Include="Views\Home\AccessibilityPolicy.cshtml" />
-    <Content Include="Views\Home\CareersAtMedix.cshtml" />
     <Content Include="Views\Home\HireAMedixGrad.cshtml" />
     <Content Include="Views\Home\VirtualTours.cshtml" />
     <Content Include="Views\Home\SocialMedia.cshtml" />
@@ -607,7 +619,7 @@
     <Content Include="Views\MedixOnline\ContactMedixOnline.cshtml" />
     <Content Include="Views\Home\_HomeLayout.cshtml" />
     <Content Include="Views\MedixOnline\ThankYou.cshtml" />
-    <Content Include="Views\Admissions\_MonthlyPaymentPlan.cshtml" />
+    <Content Include="Views\Admissions\MonthlyPaymentPlan.cshtml" />
     <Content Include="Views\CareerServices\HireAGrad.cshtml" />
     <Content Include="Views\External\ContactUs.cshtml" />
     <Content Include="Views\External\ThankYou.cshtml" />
