@@ -7,16 +7,17 @@
     ViewBag.PageDescription = "Learn more about Child and Youth Care with Addictions Support Worker Training Program at Medix College.";
 }
 
-<div class="col-sm-12">
+<div class="col-sm-12 no-padding botMARG">
     <h1 class="contentPageH1">CHILD & YOUTH CARE WITH ADDICTIONS SUPPORT WORKER <small class="contentH1-small">DIPLOMA PROGRAM</small></h1>
     <ol class="breadcrumb">
         <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
         <li class="contentp">@Html.ActionLink("Programs", "AllPrograms", "Programs")</li>
         <li class="active contentp">Child and Youth Care with Addictions Support Worker</li>
     </ol>
+    <img class="img-responsive" width="100%" src="/Content/images/program-cyw.jpg" alt="youth support worker helping client" />
 </div>
 
-<div class="col-sm-8 mid-padding">
+<div class="col-sm-8  mid-padding">
     <div class="panel panel-default">
         <div class="panel-heading">
             <h1 class="contentH1">PROGRAM SUMMARY</h1>
@@ -41,13 +42,6 @@
 
                 gambling, examine the process of addictions assessment and teach effective case management skills.
 
-                There are employment opportunities for graduates of the Child and Youth Care with Addictions Support
-
-                Worker Program in Brantford, Brampton, Burlington, Cambridge, Durham, Guelph, Hamilton, Kitchener,
-
-                London, Mississauga, Markham, Milton, North York, Oakville, Oshawa, Scarborough, Toronto, Waterloo
-
-                and other cities across southern Ontario. 
             </p>
         </div>
     </div>
@@ -176,10 +170,10 @@
     </div>
 
 
-        <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO PROGRAM DIRECTORY", "AllPrograms", "Programs")</button>
-        <br />
-        <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
-        <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO PROGRAM DIRECTORY", "AllPrograms", "Programs")</button>
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
+    <br />
 </div>
 
 <div class="col-sm-4 pull-right no-padding">
