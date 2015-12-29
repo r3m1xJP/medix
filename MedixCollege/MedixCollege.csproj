@@ -252,6 +252,8 @@
     <Content Include="Content\images\admissions-mpp.jpg" />
     <Content Include="Content\images\admissions-oop.jpg" />
     <Content Include="Content\images\admissions-osap.jpg" />
+    <Content Include="Content\images\admissions-resp.jpg" />
+    <Content Include="Content\images\admissions-sc.jpg" />
     <Content Include="Content\images\admissions-sloc.jpg" />
     <Content Include="Content\images\Banner-Certificates-Main.jpg" />
     <Content Include="Content\images\Banner-Discover-Medix-History.jpg" />
@@ -261,7 +263,12 @@
     <Content Include="Content\images\blur-extra-lab.jpg" />
     <Content Include="Content\images\button-next.png" />
     <Content Include="Content\images\button-previous.png" />
+    <Content Include="Content\images\campus-brampton.jpg" />
+    <Content Include="Content\images\campus-brantford.jpg" />
+    <Content Include="Content\images\campus-kitchener.jpg" />
     <Content Include="Content\images\campus-london.jpg" />
+    <Content Include="Content\images\campus-scar.jpg" />
+    <Content Include="Content\images\campus-toronto.jpg" />
     <Content Include="Content\images\CCGLogo.png" />
     <Content Include="Content\images\cert-all.jpg" />
     <Content Include="Content\images\cert-phle.jpg" />
@@ -339,6 +346,10 @@
     <Content Include="Content\images\MedixIMG3.gif" />
     <Content Include="Content\images\MedixIMG4.gif" />
     <Content Include="Content\images\MedixIMG5.gif" />
+    <Content Include="Content\images\medixonline-advantages.jpg" />
+    <Content Include="Content\images\medixonline-contact.jpg" />
+    <Content Include="Content\images\medixonline-elearning.jpg" />
+    <Content Include="Content\images\medixonline-fees.jpg" />
     <Content Include="Content\images\medixonline-main.jpg" />
     <Content Include="Content\images\medixonline-programs.jpg" />
     <Content Include="Content\images\MedixOnlineLogo.PNG" />
