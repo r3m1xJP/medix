@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>12/29/2015 04:06:53</publishTime>
+      <publishTime>12/29/2015 12:40:51</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>08/18/2015 12:19:38</publishTime>
@@ -592,8 +592,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/button-previous.png">
       <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
+    <File Include="Content/images/campus-brampton.jpg">
+      <publishTime>12/29/2015 12:24:31</publishTime>
+    </File>
+    <File Include="Content/images/campus-brantford.jpg">
+      <publishTime>12/29/2015 12:24:31</publishTime>
+    </File>
+    <File Include="Content/images/campus-kitchener.jpg">
+      <publishTime>12/29/2015 12:24:31</publishTime>
+    </File>
     <File Include="Content/images/campus-london.jpg">
       <publishTime>12/29/2015 02:44:40</publishTime>
+    </File>
+    <File Include="Content/images/campus-scar.jpg">
+      <publishTime>12/29/2015 12:24:31</publishTime>
+    </File>
+    <File Include="Content/images/campus-toronto.jpg">
+      <publishTime>12/29/2015 12:31:14</publishTime>
     </File>
     <File Include="Content/images/CCGLogo.png">
       <publishTime>08/18/2015 12:19:34</publishTime>
@@ -825,6 +840,18 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/MedixIMG5.gif">
       <publishTime>08/18/2015 12:19:34</publishTime>
+    </File>
+    <File Include="Content/images/medixonline-advantages.jpg">
+      <publishTime>12/29/2015 12:24:31</publishTime>
+    </File>
+    <File Include="Content/images/medixonline-contact.jpg">
+      <publishTime>12/29/2015 12:24:31</publishTime>
+    </File>
+    <File Include="Content/images/medixonline-elearning.jpg">
+      <publishTime>12/29/2015 12:24:31</publishTime>
+    </File>
+    <File Include="Content/images/medixonline-fees.jpg">
+      <publishTime>12/29/2015 12:24:31</publishTime>
     </File>
     <File Include="Content/images/medixonline-main.jpg">
       <publishTime>12/29/2015 02:44:40</publishTime>
@@ -1217,25 +1244,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Campuses/Brampton.cshtml">
-      <publishTime>11/03/2015 22:52:09</publishTime>
+      <publishTime>12/29/2015 12:25:33</publishTime>
     </File>
     <File Include="Views/Campuses/Brantford.cshtml">
-      <publishTime>11/03/2015 09:31:13</publishTime>
+      <publishTime>12/29/2015 12:26:47</publishTime>
     </File>
     <File Include="Views/Campuses/Index.cshtml">
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Campuses/Kitchener.cshtml">
-      <publishTime>11/03/2015 09:31:13</publishTime>
+      <publishTime>12/29/2015 12:27:17</publishTime>
     </File>
     <File Include="Views/Campuses/London.cshtml">
-      <publishTime>11/03/2015 09:31:13</publishTime>
+      <publishTime>12/29/2015 12:27:43</publishTime>
     </File>
     <File Include="Views/Campuses/Scarborough.cshtml">
-      <publishTime>11/03/2015 09:31:13</publishTime>
+      <publishTime>12/29/2015 12:28:28</publishTime>
     </File>
     <File Include="Views/Campuses/Toronto.cshtml">
-      <publishTime>11/03/2015 09:31:13</publishTime>
+      <publishTime>12/29/2015 12:29:03</publishTime>
     </File>
     <File Include="Views/Campuses/_CampusesLayout.cshtml">
       <publishTime>08/18/2015 12:19:36</publishTime>
@@ -1424,34 +1451,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/MedixOnline/Advantages.cshtml">
-      <publishTime>08/18/2015 12:19:36</publishTime>
+      <publishTime>12/29/2015 12:36:06</publishTime>
     </File>
     <File Include="Views/MedixOnline/ContactMedixOnline.cshtml">
-      <publishTime>08/18/2015 12:19:36</publishTime>
+      <publishTime>12/29/2015 12:36:46</publishTime>
     </File>
     <File Include="Views/MedixOnline/ELearning.cshtml">
-      <publishTime>08/18/2015 12:19:36</publishTime>
+      <publishTime>12/29/2015 12:37:19</publishTime>
     </File>
     <File Include="Views/MedixOnline/Index.cshtml">
-      <publishTime>08/18/2015 12:19:36</publishTime>
+      <publishTime>12/29/2015 12:33:59</publishTime>
     </File>
     <File Include="Views/MedixOnline/MedicalTranscription.cshtml">
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/MedixOnline/SchedulesAndFees.cshtml">
-      <publishTime>08/18/2015 12:19:36</publishTime>
+      <publishTime>12/29/2015 12:38:40</publishTime>
     </File>
     <File Include="Views/MedixOnline/ThankYou.cshtml">
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/MedixOnline/_MedixOnlineLayout.cshtml">
-      <publishTime>08/18/2015 12:19:36</publishTime>
+      <publishTime>12/29/2015 12:40:17</publishTime>
     </File>
     <File Include="Views/Programs/AllPrograms.cshtml">
       <publishTime>11/03/2015 22:49:55</publishTime>
     </File>
     <File Include="Views/Programs/ChildYouthAddictionsWorker.cshtml">
-      <publishTime>12/29/2015 02:44:40</publishTime>
+      <publishTime>12/31/2015 01:59:06</publishTime>
     </File>
     <File Include="Views/Programs/CommunityServiceWorker.cshtml">
       <publishTime>12/29/2015 02:44:40</publishTime>
@@ -1466,7 +1493,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/29/2015 02:44:40</publishTime>
     </File>
     <File Include="Views/Programs/FitnessHealthPromotion.cshtml">
-      <publishTime>11/03/2015 22:47:26</publishTime>
+      <publishTime>12/29/2015 11:46:14</publishTime>
     </File>
     <File Include="Views/Programs/Index.cshtml">
       <publishTime>08/18/2015 12:19:36</publishTime>
@@ -1511,7 +1538,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/22/2015 09:59:46</publishTime>
+      <publishTime>12/31/2015 01:59:18</publishTime>
     </File>
   </ItemGroup>
 </Project>
