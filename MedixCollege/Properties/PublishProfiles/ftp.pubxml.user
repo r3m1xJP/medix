@@ -7,7 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABeHNczD2QkOBMguRrQKMjgAAAAACAAAAAAADZgAAwAAAABAAAADQmiuHJhShAUC0vkoexsfuAAAAAASAAACgAAAAEAAAADa+Fi+xymgSe7tmuIrjx/UQAAAAqK8pI+mDhD2UkW/N+jBSJBQAAADz3+JV0auXskC14vUK6OU5TY4z5A==</EncryptedPassword>
-    <_PublishTargetUrl>ftp://ftp.medixcollege.ca/public</_PublishTargetUrl>
+    <_PublishTargetUrl>ftp://ftp.medixcollege.net/public</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
@@ -1217,7 +1217,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/29/2015 03:08:04</publishTime>
     </File>
     <File Include="Views/Admissions/Index.cshtml">
-      <publishTime>01/04/2016 10:57:39</publishTime>
+      <publishTime>01/05/2016 12:13:06</publishTime>
     </File>
     <File Include="Views/Admissions/LifelongLearningPlan.cshtml">
       <publishTime>12/29/2015 03:14:16</publishTime>
