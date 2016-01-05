@@ -7,14 +7,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABeHNczD2QkOBMguRrQKMjgAAAAACAAAAAAADZgAAwAAAABAAAADQmiuHJhShAUC0vkoexsfuAAAAAASAAACgAAAAEAAAADa+Fi+xymgSe7tmuIrjx/UQAAAAqK8pI+mDhD2UkW/N+jBSJBQAAADz3+JV0auXskC14vUK6OU5TY4z5A==</EncryptedPassword>
-    <_PublishTargetUrl>ftp://ftp.medixcollege.net/public</_PublishTargetUrl>
+    <_PublishTargetUrl>ftp://ftp.medixcollege.ca/public</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>12/29/2015 12:40:51</publishTime>
+      <publishTime>01/04/2016 11:12:46</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>08/18/2015 12:19:38</publishTime>
@@ -944,7 +944,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/28/2015 00:05:08</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>12/29/2015 02:44:40</publishTime>
+      <publishTime>01/04/2016 01:50:26</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
       <publishTime>08/18/2015 12:19:34</publishTime>
@@ -1195,6 +1195,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/npm.js">
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
+    <File Include="Scripts/parsley.min.js">
+      <publishTime>01/04/2016 01:50:26</publishTime>
+    </File>
     <File Include="Scripts/respond.js">
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
@@ -1205,7 +1208,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>08/18/2015 12:19:36</publishTime>
+      <publishTime>01/04/2016 01:50:26</publishTime>
     </File>
     <File Include="Views/Admissions/EmploymentOntario.cshtml">
       <publishTime>12/29/2015 03:15:09</publishTime>
@@ -1214,7 +1217,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/29/2015 03:08:04</publishTime>
     </File>
     <File Include="Views/Admissions/Index.cshtml">
-      <publishTime>12/29/2015 02:44:48</publishTime>
+      <publishTime>01/04/2016 10:57:39</publishTime>
     </File>
     <File Include="Views/Admissions/LifelongLearningPlan.cshtml">
       <publishTime>12/29/2015 03:14:16</publishTime>
