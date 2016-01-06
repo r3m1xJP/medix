@@ -265,8 +265,7 @@ textarea {
 
 footer {
     background-color: #f4f4f4;
-    color: #222222 !important;
-    margin-top: 5px !important;
+
 }
 
     footer ul {
@@ -797,9 +796,21 @@ footer {
 
 .containervideoItem {
     background-color: #0F3F6F;
-    border-top: solid 3px #EDAA0F;
-    border-bottom: solid 3px #EDAA0F;
+
 }
+
+.containervideoItem2 {
+    background-color: #686868;
+
+}
+
+.containervideoItem3 {
+    background-color: #EDAA0F;
+    padding-bottom:12px;
+    text-align:center;
+    align-content:center;
+}
+
 
 
 /* HOME */
@@ -934,6 +945,10 @@ video {
     padding: 0px 0px 0px 5px;
 }
 
+.videoItem3 {
+    height: 375px;
+    padding: 0px 5px 0px 0px;
+}
 
 
 .graduatesHiredWrapper {
@@ -1477,6 +1492,13 @@ blockquote p {
 .contentH1-mainW {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: white;
+    font-size: 1.65em;
+    line-height: 1em;
+}
+
+.contentH1-mainG {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: #EDAA0F;
     font-size: 1.65em;
     line-height: 1em;
 }
