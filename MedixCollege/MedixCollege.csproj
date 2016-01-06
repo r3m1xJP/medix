@@ -322,6 +322,7 @@
     <Content Include="Content\images\graduates\UT - Scar.jpg" />
     <Content Include="Content\images\graduates\VHA Home Healthcare.jpg" />
     <Content Include="Content\images\graduates\VON.jpg" />
+    <Content Include="Content\images\hiredCO.jpg" />
     <Content Include="Content\images\home-hiregrad.jpg" />
     <Content Include="Content\images\home-news.jpg" />
     <Content Include="Content\images\home-referral.jpg" />
@@ -332,6 +333,7 @@
     <Content Include="Content\images\mainBANNER-2-IODA.jpg" />
     <Content Include="Content\images\mainBANNER-3-MLAT.jpg" />
     <Content Include="Content\images\mainBANNER-4-PSW.jpg" />
+    <Content Include="Content\images\mcHIRED.jpg" />
     <Content Include="Content\images\medix-banner-cpu.jpg" />
     <Content Include="Content\images\medix-banner-dental.jpg" />
     <Content Include="Content\images\medix-banner-doa2.jpg" />
