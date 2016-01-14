@@ -24,7 +24,7 @@ namespace MedixCollege.Controllers
             programs.Add(818, "Dental Level 2");
             programs.Add(38883, "Dental Office Procedures (abel dent)");
             programs.Add(634, "Developmental Service Worker");
-            programs.Add(38526, "Early Childhood Assistant");
+            programs.Add(38526, "Early Childcare Assistant");
             programs.Add(642, "ECG");
             programs.Add(37255, "Fitness & Health Promotion");
             programs.Add(39162, "Intramuscular Injection");
