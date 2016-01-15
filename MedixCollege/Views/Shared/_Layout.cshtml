@@ -313,12 +313,12 @@
                     <label class="popup-form-header">APPLY NOW</label>
                 </div>
                 <div class="popup-form col-lg-6 col-lg-offset-3">
-                    <form id="applyNowForm" name="applyNowForm" method="post" action="/home/applynow">
+                    <form id="applyNowForm" name="applyNowForm" data-parsley-validate=""  method="post" action="/home/applynow">
                         <input type="hidden" name="ORGID" value="240" />
                         <input type="hidden" name="MailListID" value="240001" />
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formfirstname">First Name: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="FirstName" id="formfirstname" />
+                            <input type="text" class="form-control pull-right" name="FirstName" id="formfirstname" required="" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formlastname">Last Name: <span class="text-danger">*</span></label>
@@ -326,11 +326,11 @@
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formtelephone">Telephone: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" />
+                            <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" required="" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formemail">Email: <span class="text-danger">*</span></label>
-                            <input type="email" class="form-control pull-right" name="Email" for="formemail" />
+                            <input type="email" class="form-control pull-right" name="Email" for="formemail" required="" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formlocation">Location: <span class="text-danger">*</span></label>
@@ -587,12 +587,12 @@
                     <label class="popup-form-header">Request Catalogue</label>
                 </div>
                 <div class="popup-form col-lg-6 col-lg-offset-3">
-                    <form id="requestCatalogueForm" name="requestCatalogueForm" method="post" action="/home/requestcatalogue">
+                    <form id="requestCatalogueForm" name="requestCatalogueForm" data-parsley-validate="" method="post" action="/home/requestcatalogue">
                         <input type="hidden" name="ORGID" value="240" />
                         <input type="hidden" name="MailListID" value="240001" />
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formfirstname">First Name: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="FirstName" id="formfirstname" />
+                            <input type="text" class="form-control pull-right" name="FirstName" id="formfirstname" required="" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formlastname">Last Name: <span class="text-danger">*</span></label>
@@ -600,11 +600,11 @@
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formtelephone">Telephone: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" />
+                            <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" required="" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formemail">Email: <span class="text-danger">*</span></label>
-                            <input type="email" class="form-control pull-right" name="Email" for="formemail" />
+                            <input type="email" class="form-control pull-right" name="Email" for="formemail" required="" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formlocation">Location: <span class="text-danger">*</span></label>
@@ -861,20 +861,20 @@
                     <label class="popup-form-header">Ask a Question</label>
                 </div>
                 <div class="popup-form col-lg-6 col-lg-offset-3">
-                    <form id="askQuestionForm" name="askQuestionForm" method="post" action="/home/askquestion">
+                    <form id="askQuestionForm" name="askQuestionForm" data-parsley-validate="" method="post" action="/home/askquestion">
                         <input type="hidden" name="ORGID" value="240" />
                         <input type="hidden" name="MailListID" value="240001" />
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formfirstname">First Name: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="FirstName" id="formfirstname" />
+                            <input type="text" class="form-control pull-right" name="FirstName" id="formfirstname" required="" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formemail">Email: <span class="text-danger">*</span></label>
-                            <input type="email" class="form-control pull-right" name="Email" for="formemail" />
+                            <input type="email" class="form-control pull-right" name="Email" for="formemail" required="" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formtelephone">Telephone: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" />
+                            <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" required="" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formlocation">Location: <span class="text-danger">*</span></label>
@@ -937,12 +937,12 @@
                     <label class="popup-form-header">Tour a Campus</label>
                 </div>
                 <div class="popup-form col-lg-6 col-lg-offset-3">
-                    <form id="tourCampusForm" name="tourCampusForm" method="post" action="/home/tourcampus">
+                    <form id="tourCampusForm" name="tourCampusForm" data-parsley-validate="" method="post" action="/home/tourcampus">
                         <input type="hidden" name="ORGID" value="240" />
                         <input type="hidden" name="MailListID" value="240001" />
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formfirstname">First Name: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="FirstName" id="formfirstname" />
+                            <input type="text" class="form-control pull-right" name="FirstName" id="formfirstname" required="" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formlastname">Last Name: <span class="text-danger">*</span></label>
@@ -950,11 +950,11 @@
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formtelephone">Telephone: <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" />
+                            <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" required="" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formemail">Email: <span class="text-danger">*</span></label>
-                            <input type="email" class="form-control pull-right" name="Email" for="formemail" />
+                            <input type="email" class="form-control pull-right" name="Email" for="formemail" required="" />
                         </div>
                         <div class="input-group spacer-top">
                             <label class="pull-left" for="formlocation">Location: <span class="text-danger">*</span></label>

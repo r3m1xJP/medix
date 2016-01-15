@@ -96,7 +96,7 @@
     <div class="panel panel-default">
 
         <div class="panel-body">
-            <form id="programsQuestionsForm" name="programsQuestionsForm" method="post" class="questionsForm" action="/home/askquestionprogram">
+            <form id="programsQuestionsForm" name="programsQuestionsForm" method="post" data-parsley-validate=""  class="questionsForm" action="/home/askquestionprogram">
                 <input type="hidden" name="ORGID" value="240" />
                 <input type="hidden" name="MailListID" value="240001" />
                 <h1 class="contentH1 text-center">
@@ -104,15 +104,15 @@
                 </h1><hr class="hrpblue" />
                 <div class="input-group spacer-top">
                     <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control pull-right" name="FirstName">
+                    <input type="text" class="form-control pull-right" name="FirstName" required="" />
                 </div>
                 <div class="input-group spacer-top">
                     <label class="pull-left contentp">Telephone: <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control pull-right" name="Telephone">
+                    <input type="text" class="form-control pull-right" name="Telephone" required="" />
                 </div>
                 <div class="input-group spacer-top">
                     <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
-                    <input type="email" class="form-control pull-right" name="Email">
+                    <input type="email" class="form-control pull-right" name="Email" required="" />
                 </div>
                 <div class="input-group spacer-top">
                     <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
@@ -246,7 +246,7 @@
 <div class="container">
     <div class="socialWrapper">
         <div class="col-md-4 facebook">
-            <h2 class="contentH2-white-graybg contentH1-mainW">FACEBOOK <a href="#" id="facebook" class="socialMobileLink"><span class="glyphicon glyphicon-plus pull-right visible-xs goldColour"></span></a></h2>
+            <h2 class="contentH2-white-graybg contentH1-mainW">FACEBOOK <a href="#" id="facebook" class="socialMobileLink"><span class="glyphicon glyphicon-menu-down pull-right visible-xs goldColour"></span></a></h2>
             <div class="mobile-content facebook hidden-xs">
                 <div class="fb-page" data-href="https://www.facebook.com/MedixCollege" data-small-header="true" data-width="500" data-height="400" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/MedixCollege"><a href="https://www.facebook.com/MedixCollege">Medix College</a></blockquote></div></div>
             </div>
@@ -263,7 +263,7 @@
 
         <div class="insidetwitter">
             <div class="col-md-4 twitter">
-                <h2 class="contentH2-white-graybg contentH1-mainW">MEDIX HIRES <a href="#" id="twitter" class="socialMobileLink"><span class="glyphicon glyphicon-plus pull-right visible-xs goldColour"></span></a></h2>
+                <h2 class="contentH2-white-graybg contentH1-mainW">MEDIX HIRES <a href="#" id="twitter" class="socialMobileLink"><span class="glyphicon glyphicon-menu-down pull-right visible-xs goldColour"></span></a></h2>
                 <div class="mobile-content twitter hidden-xs">
                     <a class="twitter-timeline" href="https://twitter.com/medixhired" data-widget-id="573863902028632064">Tweets by medixhired</a>
                     <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
@@ -272,7 +272,7 @@
         </div>
 
         <div class="col-md-4 newsUpdates">
-            <h2 class="contentH2-white-graybg contentH1-mainW" ">NEWS UPDATES<a href=" #" id="newsUpdates" class="socialMobileLink"> <span class="glyphicon glyphicon-plus pull-right visible-xs goldColour"></span></a></h2>
+            <h2 class="contentH2-white-graybg contentH1-mainW" ">NEWS UPDATES<a href=" #" id="newsUpdates" class="socialMobileLink"> <span class="glyphicon glyphicon-menu-down pull-right visible-xs goldColour"></span></a></h2>
             <div class="mobile-content newsUpdates hidden-xs">
                 <ul class="list-unstyled newsList">
                     @foreach (MedixCollege.Models.NewsArticleDTO article in ViewBag.NewsArticles)
