@@ -26,7 +26,7 @@ namespace MedixCollege.Models
 
             try
             {
-
+                using (var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["MySQLConnection"].ConnectionString))
                 {
                     connection.Open();
 
@@ -35,22 +35,22 @@ namespace MedixCollege.Models
                         var reader = command.ExecuteReader();
                         reader.Read();
 
-                    if (reader.IsDBNull(1) == false)
+                        if (reader.IsDBNull(1) == false)
                             NewsArticleDTO.Date = reader.GetDateTime(1);
                         else
                             NewsArticleDTO.Date = DateTime.Now;
 
-                    if (reader.IsDBNull(2) == false)
+                        if (reader.IsDBNull(2) == false)
                             NewsArticleDTO.Title = reader.GetString(2);
                         else
                             NewsArticleDTO.Title = null;
 
-                    if (reader.IsDBNull(3) == false)
-                        NewsArticleDTO.Body = reader.GetString(3);
-                    else
-                        NewsArticleDTO.Body = null;
+                        if (reader.IsDBNull(3) == false)
+                            NewsArticleDTO.Body = reader.GetString(3);
+                        else
+                            NewsArticleDTO.Body = null;
 
-                    reader.Close();
+                        reader.Close();
                     }
                 }
             }
@@ -58,12 +58,10 @@ namespace MedixCollege.Models
             {
                 //TODO: log error
             }
-
         }
 
         public IList<NewsArticleDTO> Get()
         {
-   
             IList<NewsArticleDTO> newsArticles = new List<NewsArticleDTO>();
 
             try
@@ -102,18 +100,13 @@ namespace MedixCollege.Models
 
                             newsArticles.Add(newsArticle);
                         }
-                       
                     }
-
-                   
                 }
             }
             catch (MySqlException e)
             {
                 //TODO: log error
             }
-
-           
 
             return newsArticles;
         }
@@ -153,3 +146,7 @@ namespace MedixCollege.Models
         public string Body { get; set; }
     }
 }
+
+
+  
+
