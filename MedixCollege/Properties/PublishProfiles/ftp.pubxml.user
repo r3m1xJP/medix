@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>02/05/2016 02:32:42</publishTime>
+      <publishTime>02/13/2016 00:15:25</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>08/18/2015 12:19:38</publishTime>
@@ -603,6 +603,33 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/160131-Hires-Medix-Toronto.jpg">
       <publishTime>02/05/2016 02:32:21</publishTime>
+    </File>
+    <File Include="Content/images/160206-Hires-Medix-Brampton.jpg">
+      <publishTime>02/06/2016 01:17:31</publishTime>
+    </File>
+    <File Include="Content/images/160206-Hires-Medix-Kitchener.jpg">
+      <publishTime>02/06/2016 01:17:31</publishTime>
+    </File>
+    <File Include="Content/images/160206-Hires-Medix-Scarborough.jpg">
+      <publishTime>02/06/2016 01:17:31</publishTime>
+    </File>
+    <File Include="Content/images/160206-Hires-Medix-Toronto.jpg">
+      <publishTime>02/06/2016 01:17:31</publishTime>
+    </File>
+    <File Include="Content/images/160213-Hires-Medix-Brampton.jpg">
+      <publishTime>02/13/2016 00:14:07</publishTime>
+    </File>
+    <File Include="Content/images/160213-Hires-Medix-Brantford.jpg">
+      <publishTime>02/13/2016 00:14:07</publishTime>
+    </File>
+    <File Include="Content/images/160213-Hires-Medix-London.jpg">
+      <publishTime>02/13/2016 00:14:07</publishTime>
+    </File>
+    <File Include="Content/images/160213-Hires-Medix-Scarborough.jpg">
+      <publishTime>02/13/2016 00:14:07</publishTime>
+    </File>
+    <File Include="Content/images/160213-Hires-Medix-Toronto.jpg">
+      <publishTime>02/13/2016 00:14:07</publishTime>
     </File>
     <File Include="Content/images/admissions-eo.jpg">
       <publishTime>12/29/2015 02:44:48</publishTime>
