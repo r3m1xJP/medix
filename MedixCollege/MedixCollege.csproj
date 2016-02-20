@@ -272,6 +272,9 @@
     <Content Include="Content\images\160213-Hires-Medix-London.jpg" />
     <Content Include="Content\images\160213-Hires-Medix-Scarborough.jpg" />
     <Content Include="Content\images\160213-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\160220-Hires-Medix-Brampton.jpg" />
+    <Content Include="Content\images\160220-Hires-Medix-London.jpg" />
+    <Content Include="Content\images\160220-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
