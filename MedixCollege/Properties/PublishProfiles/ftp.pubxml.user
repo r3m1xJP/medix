@@ -6,15 +6,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABeHNczD2QkOBMguRrQKMjgAAAAACAAAAAAADZgAAwAAAABAAAADQmiuHJhShAUC0vkoexsfuAAAAAASAAACgAAAAEAAAADa+Fi+xymgSe7tmuIrjx/UQAAAAqK8pI+mDhD2UkW/N+jBSJBQAAADz3+JV0auXskC14vUK6OU5TY4z5A==</EncryptedPassword>
-    <_PublishTargetUrl>ftp://ftp.medixcollege.net/public</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV/ilqoZ43UqwgfjcT74ejwAAAAACAAAAAAAQZgAAAAEAACAAAAD/nB3rK3TrOHRgEj81y/lY9gU4kSt7hungNouYjh9VBQAAAAAOgAAAAAIAACAAAABeHMV3fujZ0mPt+NkGK5tfZ/fONvFrx2dMx99BRvH7uhAAAAC4DxXxl0hkLZYV2Z/8uNLXQAAAAILRjgrnY1cddSna3ZheGZS3aukzPmgIh0g3VGcSqEbnsXCcmE9yj2SLHBYuo7jRd3TLFES81jEcxMtQ3UYgKbQ=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.medixcollege.ca/public</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>02/20/2016 09:54:54</publishTime>
+      <publishTime>03/07/2016 16:33:57</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>08/18/2015 12:19:38</publishTime>
@@ -639,6 +639,24 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/160220-Hires-Medix-Toronto.jpg">
       <publishTime>02/20/2016 09:53:55</publishTime>
+    </File>
+    <File Include="Content/images/160227-Hires-Medix-London.jpg">
+      <publishTime>03/07/2016 16:33:42</publishTime>
+    </File>
+    <File Include="Content/images/160227-Hires-Medix-Toronto.jpg">
+      <publishTime>03/07/2016 16:33:42</publishTime>
+    </File>
+    <File Include="Content/images/160305-Hires-Medix-Brampton.jpg">
+      <publishTime>03/07/2016 16:33:42</publishTime>
+    </File>
+    <File Include="Content/images/160305-Hires-Medix-Brantford.jpg">
+      <publishTime>03/07/2016 16:33:42</publishTime>
+    </File>
+    <File Include="Content/images/160305-Hires-Medix-London.jpg">
+      <publishTime>03/07/2016 16:33:42</publishTime>
+    </File>
+    <File Include="Content/images/160305-Hires-Medix-Toronto.jpg">
+      <publishTime>03/07/2016 16:33:42</publishTime>
     </File>
     <File Include="Content/images/admissions-eo.jpg">
       <publishTime>12/29/2015 02:44:48</publishTime>
@@ -1466,10 +1484,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/CareersAtMedix.cshtml">
-      <publishTime>01/14/2016 16:33:57</publishTime>
+      <publishTime>03/07/2016 13:37:48</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/History.cshtml">
-      <publishTime>01/14/2016 16:33:59</publishTime>
+      <publishTime>03/07/2016 13:35:21</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/Index.cshtml">
       <publishTime>02/04/2016 02:32:38</publishTime>
@@ -1481,7 +1499,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/14/2016 16:34:05</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/VirtualTour.cshtml">
-      <publishTime>01/14/2016 16:34:08</publishTime>
+      <publishTime>03/07/2016 16:27:26</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/_DiscoverMedixLayout.cshtml">
       <publishTime>08/18/2015 12:19:36</publishTime>
