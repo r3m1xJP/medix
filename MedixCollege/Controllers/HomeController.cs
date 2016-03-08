@@ -1378,7 +1378,7 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> HireAGrad(FormCollection fc)
         {
-            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
+            if (fc["Comment1"].Contains("www.") || fc["Comment1"].Contains("http://"))
             {
                 ViewBag.Success = false;
 
@@ -1389,7 +1389,7 @@ namespace MedixCollege.Controllers
 
             int phoneNumber = 0;
 
-            int.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
+            int.TryParse(Helpers.Helpers.GetNumbers(fc["PhoneNumber"]), out phoneNumber);
 
             if (phoneNumber == 0)
             {
