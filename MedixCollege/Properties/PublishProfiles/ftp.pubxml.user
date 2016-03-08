@@ -1583,7 +1583,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/29/2015 12:36:06</publishTime>
     </File>
     <File Include="Views/MedixOnline/ContactMedixOnline.cshtml">
-      <publishTime>12/29/2015 12:36:46</publishTime>
+      <publishTime>03/07/2016 22:37:28</publishTime>
     </File>
     <File Include="Views/MedixOnline/ELearning.cshtml">
       <publishTime>12/29/2015 12:37:19</publishTime>
@@ -1658,7 +1658,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/15/2016 11:28:42</publishTime>
+      <publishTime>03/07/2016 17:15:01</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>08/18/2015 12:19:36</publishTime>
