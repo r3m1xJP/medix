@@ -499,5 +499,12 @@
             visibleItems: 5
         });
     });
+
+    $(window).bind("pageshow", function () {
+        var forms = $("form");
+        forms.each(function (i) {
+            forms[i].reset();
+        });
+    });
 </script>
 
