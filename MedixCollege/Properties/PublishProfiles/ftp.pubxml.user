@@ -7,7 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV/ilqoZ43UqwgfjcT74ejwAAAAACAAAAAAAQZgAAAAEAACAAAAD/nB3rK3TrOHRgEj81y/lY9gU4kSt7hungNouYjh9VBQAAAAAOgAAAAAIAACAAAABeHMV3fujZ0mPt+NkGK5tfZ/fONvFrx2dMx99BRvH7uhAAAAC4DxXxl0hkLZYV2Z/8uNLXQAAAAILRjgrnY1cddSna3ZheGZS3aukzPmgIh0g3VGcSqEbnsXCcmE9yj2SLHBYuo7jRd3TLFES81jEcxMtQ3UYgKbQ=</EncryptedPassword>
-    <_PublishTargetUrl>ftp://ftp.medixcollege.ca/public</_PublishTargetUrl>
+    <_PublishTargetUrl>ftp://ftp.medixcollege.net/public</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">

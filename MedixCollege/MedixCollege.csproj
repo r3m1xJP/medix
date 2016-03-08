@@ -128,6 +128,7 @@
     <Compile Include="Controllers\CampusesController.cs" />
     <Compile Include="Controllers\CareerServicesController.cs" />
     <Compile Include="Controllers\CertificatesController.cs" />
+    <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\DiscoverMedixController.cs" />
     <Compile Include="Controllers\ExternalController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -682,6 +683,7 @@
     <Content Include="Views\External\QuickContact.cshtml" />
     <Content Include="Views\Home\Test.cshtml" />
     <Content Include="Views\MedixOnline\MedicalTranscription.cshtml" />
+    <Content Include="Views\Courses\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
