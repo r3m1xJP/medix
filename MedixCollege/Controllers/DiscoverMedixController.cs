@@ -43,6 +43,12 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        // GET: Partnerships
+        public ActionResult PartnerSchools()
+        {
+            return View();
+        }
+
         public ActionResult VirtualTour()
         {
             return View();

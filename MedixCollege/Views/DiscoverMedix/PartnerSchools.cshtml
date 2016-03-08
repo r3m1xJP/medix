@@ -1,0 +1,200 @@
+﻿@{
+    Layout = "~/Views/DiscoverMedix/_DiscoverMedixLayout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Transcript Request";
+    ViewBag.PageDescription = "The London Medix College Campus provides transcripts to students at their request";
+    
+}
+
+<div class="col-sm-12 no-padding botMARG">
+    <h1 class="contentPageH1">PARTNER SCHOOLS</h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="contentp">@Html.ActionLink("About Medix", "Index", "DiscoverMedix")</li>
+        <li class="active contentp">Partner Schools</li>
+    </ol>
+
+    <img class="img-responsive" width="100%" src="~/Content/images/discover-transcript.jpg" alt="administration passing over transcript to student" />
+
+</div>
+
+<div class="col-sm-8 mid-padding">
+
+    
+
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">North American Trade Schools</h1>
+            <hr class="hrp" />
+            <p class="contentp">
+
+                <img class="img-responsive" width="100%" src="/Content/images/banner-solar.jpg" alt="solar energy technician working on panels" />
+                <br />
+                North American Trade Schools is the leading training for those looking for a career in the skilled trades.
+                North American Trade Schools has two state-of-the-art facilities in London Ontario and Brampton Ontario.<br /><br />
+                <a href="http://northamericantradeschools.ca/" onclick="return popitup('http://northamericantradeschools.ca/')">Go to North American Trade Schools</a>
+
+
+            </p>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">New Horizons Computer Learning Centers of Toronto</h1>
+            <hr class="hrp" />
+            <p class="contentp">
+
+                <img class="img-responsive" width="100%" src="~/Content/images/program-ithelpdesk.jpg" alt="IT server admin professional" />
+                <br />
+
+                New Horizons Computer Learning Centers Inc. is the world's largest independent IT training company with 300 centers in 70 countries. At New Horizons, we focus on continued worldwide expansion to meet the ever-increasing demands of the technology evolution.
+                <br /><br />
+                Innovative, award-winning learning methods such as Online LIVE(r) and Mentored Learning(r) have revolutionized the way students learn, retain and apply new knowledge.
+                <br /><br />
+                New Horizons offers an extensive selection of vendor-authorized training and certifications for top technology providers such as Microsoft, Cisco and CompTIA. 
+                <br /><br />
+                <a href="http://nhontario.ca" onclick="return popitup('http://nhontario.ca')">Go to New Horizons Computer Learning Centers of Toronto</a>
+
+
+            </p>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 class="contentH1">National American University</h1>
+            <hr class="hrp" />
+            <p class="contentp">
+                National American University is a regionally accredited, multi-campus institution of higher learning offering associate, bachelor’s, and master’s degree programs in technical and professional fields. In 1941, NAU opened its first campus in Rapid City, South Dakota, and has since grown to multiple locations throughout the central United States, near major cities like Minneapolis, Denver, Dallas, Austin, and Kansas City. Today, NAU offers traditional degree programs, online college degrees, and hybrid formats, which provide students the increased flexibility to take courses at times and places convenient to their busy lifestyles.<br /><br />
+                <a href="http://www.national.edu/" onclick="return popitup('http://www.national.edu/')">Go to National American University</a>
+
+
+            </p>
+        </div>
+    </div>
+    
+
+  
+    
+
+    
+
+
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO PROGRAM DIRECTORY", "AllPrograms", "Programs")</button>
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
+    <br />
+</div>
+
+<div class="col-sm-4 pull-right no-padding">
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+            <form id="programsQuestionsForm" name="programsQuestionsForm" method="post" class="questionsForm" action="/home/askquestionprogram">
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240001" />
+                <h1 class="contentH1 text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                </h1><hr class="hrpblue" />
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="FirstName">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control pull-right" name="Email">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Telephone: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="Telephone">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="CampusID">
+                        <option value="0">Select</option>
+                        <option value="246">Brampton</option>
+                        <option value="243">Brantford</option>
+                        <option value="242">Kitchener</option>
+                        <option value="244">London</option>
+                        <option value="241">Scarborough</option>
+                        <option value="240">Toronto</option>
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="ProgramID">
+                        <option value="0">Select</option>
+                        <option value="38882">Anatomy &amp; Physiology</option>
+                        <option value="39877">Child and Youth Care with Addictions Support Worker</option>
+                        <option value="632">Community Service Worker</option>
+                        <option value="39478">CPR &amp; First Aid</option>
+                        <option value="818">Dental Level 2</option>
+                        <option value="38883">Dental Office Procedures (abel dent)</option>
+                        <option value="634">Developmental Service Worker</option>
+                        <option value="38526">Early Childcare Assistant</option>
+                        <option value="642">ECG</option>
+                        <option value="37255">Fitness &amp; Health Promotion</option>
+                        <option value="39162">Intramuscular Injection</option>
+                        <option value="627">Intra-Oral Dental Assistant </option>
+                        <option value="629">Massage Therapy</option>
+                        <option value="633">Medical Laboratory Assistant / Technician</option>
+                        <option value="630">Medical Office Administrator</option>
+                        <option value="1170">Medical Terminology</option>
+                        <option value="38887">Medical Transcription</option>
+                        <option value="39415">Mental Health &amp; Addictions</option>
+                        <option value="1169">OHIP Billing</option>
+                        <option value="631">Personal Support Worker</option>
+                        <option value="628">Pharmacy Assistant</option>
+                        <option value="636">Phlebotomy</option>
+                        <option value="1167">Principles of Nutrition</option>
+                        <option value="643">PSW Upgrading</option>
+                        <option value="1171">Thought Patterns</option>
+
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Comments: </label>
+                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                </div>
+                <div class="small-text spacer-top text-center grayColor">
+                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                </div>
+                <div class="text-center">
+                    <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-body panelBG">
+            <h1 class="contentH1 text-center"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;CAMPUSES</h1>
+            <hr class="hrpblue" />
+            <p class="contentp">
+                @Html.ActionLink("Brampton", "Brampton", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Brantford", "Brantford", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+
+                @Html.ActionLink("Kitchener", "Kitchener", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("London", "London", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Scarborough", "Scarborough", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Toronto", "Toronto", "Campuses")
+            </p>
+        </div>
+
+    </div>
+</div>

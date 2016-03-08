@@ -298,6 +298,7 @@
     <Content Include="Content\images\Banner-Discover-Medix-Index.jpg" />
     <Content Include="Content\images\Banner-Programs-Medical-Office-Administrator.jpg" />
     <Content Include="Content\images\Banner-Programs-Pharmacy-Assistant.jpg" />
+    <Content Include="Content\images\banner-solar.jpg" />
     <Content Include="Content\images\blur-extra-lab.jpg" />
     <Content Include="Content\images\button-next.png" />
     <Content Include="Content\images\button-previous.png" />
@@ -404,6 +405,7 @@
     <Content Include="Content\images\program-eca2.jpg" />
     <Content Include="Content\images\program-fhp.jpg" />
     <Content Include="Content\images\program-ioda.jpg" />
+    <Content Include="Content\images\program-ithelpdesk.jpg" />
     <Content Include="Content\images\program-mlat.jpg" />
     <Content Include="Content\images\program-moad.jpg" />
     <Content Include="Content\images\program-mt.jpg" />
@@ -685,6 +687,7 @@
     <Content Include="Views\Home\Test.cshtml" />
     <Content Include="Views\MedixOnline\MedicalTranscription.cshtml" />
     <Content Include="Views\Courses\Index.cshtml" />
+    <Content Include="Views\DiscoverMedix\PartnerSchools.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
