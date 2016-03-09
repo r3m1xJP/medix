@@ -1505,7 +1505,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/14/2016 16:34:03</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/PartnerSchools.cshtml">
-      <publishTime>03/08/2016 12:44:00</publishTime>
+      <publishTime>03/08/2016 23:46:20</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/TranscriptRequest.cshtml">
       <publishTime>01/14/2016 16:34:05</publishTime>
