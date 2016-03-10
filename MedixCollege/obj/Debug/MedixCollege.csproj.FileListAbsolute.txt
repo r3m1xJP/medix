@@ -86,4 +86,3 @@ D:\Development\Phanyasaeng Technologies\medix\MedixCollege\bin\Newtonsoft.Json.x
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.dll
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.pdb
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
-C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache

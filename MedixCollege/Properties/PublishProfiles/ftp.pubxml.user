@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>03/08/2016 12:48:32</publishTime>
+      <publishTime>03/09/2016 01:56:08</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>08/18/2015 12:19:38</publishTime>
@@ -1051,6 +1051,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/program-psw2.jpg">
       <publishTime>12/29/2015 02:44:40</publishTime>
     </File>
+    <File Include="Content/images/thanksimagemedix1.jpg">
+      <publishTime>03/09/2016 01:52:02</publishTime>
+    </File>
     <File Include="Content/images/topDIVgold.jpg">
       <publishTime>08/18/2015 12:19:34</publishTime>
     </File>
@@ -1415,7 +1418,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/CareerServices/MedixAdvantage.cshtml">
-      <publishTime>01/14/2016 16:29:34</publishTime>
+      <publishTime>03/10/2016 11:18:33</publishTime>
     </File>
     <File Include="Views/CareerServices/ProfessionalTips.cshtml">
       <publishTime>08/18/2015 12:19:36</publishTime>
@@ -1580,7 +1583,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Home/ThankYou.cshtml">
-      <publishTime>11/03/2015 09:31:19</publishTime>
+      <publishTime>03/09/2016 01:52:09</publishTime>
     </File>
     <File Include="Views/Home/VirtualTours.cshtml">
       <publishTime>08/18/2015 12:19:36</publishTime>
@@ -1607,7 +1610,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/MedixOnline/SchedulesAndFees.cshtml">
-      <publishTime>12/29/2015 12:38:40</publishTime>
+      <publishTime>03/10/2016 11:24:10</publishTime>
     </File>
     <File Include="Views/MedixOnline/ThankYou.cshtml">
       <publishTime>08/18/2015 12:19:36</publishTime>
@@ -1661,7 +1664,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/08/2016 16:06:00</publishTime>
     </File>
     <File Include="Views/Programs/PharmacyAssistant.cshtml">
-      <publishTime>03/08/2016 16:06:08</publishTime>
+      <publishTime>03/09/2016 01:49:39</publishTime>
     </File>
     <File Include="Views/Programs/_ProgramsLayout.cshtml">
       <publishTime>03/08/2016 09:31:08</publishTime>
