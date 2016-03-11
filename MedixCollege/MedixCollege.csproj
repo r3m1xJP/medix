@@ -395,6 +395,7 @@
     <Content Include="Content\images\medixonline-programs.jpg" />
     <Content Include="Content\images\MedixOnlineLogo.PNG" />
     <Content Include="Content\images\nats-logo-main.png" />
+    <Content Include="Content\images\nauimg.jpg" />
     <Content Include="Content\images\payments.jpg" />
     <Content Include="Content\images\pinterest-ic.gif" />
     <Content Include="Content\images\pinterest.gif" />
