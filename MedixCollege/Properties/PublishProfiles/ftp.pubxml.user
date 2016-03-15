@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>03/11/2016 18:24:24</publishTime>
+      <publishTime>03/15/2016 15:01:28</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>08/18/2015 12:19:38</publishTime>
@@ -1075,6 +1075,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/program-psw2.jpg">
       <publishTime>12/29/2015 02:44:40</publishTime>
     </File>
+    <File Include="Content/images/PSD.jpg">
+      <publishTime>03/14/2016 23:38:54</publishTime>
+    </File>
+    <File Include="Content/images/PSD2.jpg">
+      <publishTime>03/14/2016 23:38:54</publishTime>
+    </File>
+    <File Include="Content/images/PSD3.jpg">
+      <publishTime>03/14/2016 23:38:54</publishTime>
+    </File>
     <File Include="Content/images/thanksimagemedix1.jpg">
       <publishTime>03/09/2016 01:52:02</publishTime>
     </File>
@@ -1415,7 +1424,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/14/2016 16:28:29</publishTime>
     </File>
     <File Include="Views/Campuses/Kitchener.cshtml">
-      <publishTime>01/14/2016 16:28:31</publishTime>
+      <publishTime>03/14/2016 23:42:49</publishTime>
     </File>
     <File Include="Views/Campuses/London.cshtml">
       <publishTime>01/14/2016 16:28:33</publishTime>
@@ -1532,7 +1541,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/14/2016 16:34:03</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/PartnerSchools.cshtml">
-      <publishTime>03/11/2016 01:09:41</publishTime>
+      <publishTime>03/15/2016 15:25:02</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/TranscriptRequest.cshtml">
       <publishTime>01/14/2016 16:34:05</publishTime>
