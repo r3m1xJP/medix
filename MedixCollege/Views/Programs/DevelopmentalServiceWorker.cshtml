@@ -189,7 +189,7 @@
     <div class="panel panel-default">
 
         <div class="panel-body">
-            <form id="programsQuestionsForm" name="programsQuestionsForm" method="post" class="questionsForm" action="/home/askquestionprogram">
+            <form id="programsQuestionsForm" name="programsQuestionsForm" data-parsley-validate="" method="post" class="questionsForm" action="/home/askquestionprogram">
                 <input type="hidden" name="ORGID" value="240" />
                 <input type="hidden" name="MailListID" value="240001" />
                 <h1 class="contentH1 text-center">
@@ -197,15 +197,15 @@
                 </h1><hr class="hrpblue" />
                 <div class="input-group spacer-top">
                     <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control pull-right" name="FirstName">
+                    <input type="text" class="form-control pull-right" name="FirstName" required="">
                 </div>
                 <div class="input-group spacer-top">
                     <label class="pull-left contentp">Telephone: <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control pull-right" name="Telephone">
+                    <input type="text" class="form-control pull-right" name="Telephone" required="">
                 </div>
                 <div class="input-group spacer-top">
                     <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
-                    <input type="email" class="form-control pull-right" name="Email">
+                    <input type="email" class="form-control pull-right" name="Email" required="">
                 </div>
                 <div class="input-group spacer-top">
                     <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>

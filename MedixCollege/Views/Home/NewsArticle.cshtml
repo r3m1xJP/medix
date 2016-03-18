@@ -29,19 +29,26 @@
             <h1 class="contentH1 text-center">
                 <span class="glyphicon glyphicon-comment blueGoldBorder"></span>&nbsp; Ask a Question
             </h1>
-            <form id="programsQuestionsForm" name="programsQuestionsForm" method="post" class="questionsForm" action="/home/askquestionprogram">
+            <form id="programsQuestionsForm" name="programsQuestionsForm" data-parsley-validate="" method="post" class="questionsForm" action="/home/askquestionprogram">
                 <input type="hidden" name="ORGID" value="240" />
                 <input type="hidden" name="MailListID" value="240001" />
+                <h1 class="contentH1 text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                </h1><hr class="hrpblue" />
                 <div class="input-group spacer-top">
-                    <label class="pull-left">First Name: <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control pull-right" name="FirstName">
+                    <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="FirstName" required="">
                 </div>
                 <div class="input-group spacer-top">
-                    <label class="pull-left">Email: <span class="text-danger">*</span></label>
-                    <input type="email" class="form-control pull-right" name="Email">
+                    <label class="pull-left contentp">Telephone: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="Telephone" required="">
                 </div>
                 <div class="input-group spacer-top">
-                    <label class="pull-left">Location: <span class="text-danger">*</span></label>
+                    <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control pull-right" name="Email" required="">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
                     <select class="form-control pull-right" name="CampusID">
                         <option value="0">Select</option>
                         <option value="246">Brampton</option>
@@ -53,7 +60,7 @@
                     </select>
                 </div>
                 <div class="input-group spacer-top">
-                    <label class="pull-left">Program: <span class="text-danger">*</span></label>
+                    <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
                     <select class="form-control pull-right" name="ProgramID">
                         <option value="0">Select</option>
                         <option value="38882">Anatomy &amp; Physiology</option>
@@ -85,7 +92,7 @@
                     </select>
                 </div>
                 <div class="input-group spacer-top">
-                    <label class="pull-left">Comments: </label>
+                    <label class="pull-left contentp">Question: </label>
                     <textarea class="form-control pull-right" name="Comment2"></textarea>
                 </div>
                 <div class="small-text spacer-top text-center grayColor">
