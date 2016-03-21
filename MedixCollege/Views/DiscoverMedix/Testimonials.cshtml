@@ -1,32 +1,73 @@
 ﻿@{
-    Layout = "~/Views/Home/_HomeLayout.cshtml";
+    Layout = "~/Views/DiscoverMedix/_DiscoverMedixLayout.cshtml";
 }
 
-<div class="col-sm-12">
-    <div>
-        <h2 class="contentPageH1">@ViewBag.Title</h2>
-    </div>
+@{
+    ViewBag.Title = "Medix College Testimonials and Reviews";
+    ViewBag.PageDescription = "Medix College has had good reviews from past students and graduates. Below are a couple of reviews of their Medix College Experience.";
+    
+}
+
+<div class="col-sm-12 no-padding botMARG">
+    <h1 class="contentPageH1">TESTIMONIALS</h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="contentp">@Html.ActionLink("About Medix", "Index", "DiscoverMedix")</li>
+        <li class="active contentp">Partner Schools</li>
+    </ol>
+
 </div>
 
+<div class="col-sm-8 mid-padding">
 
-<div class="col-sm-12">
-    <div class="spacer-top">
-        <h3 class="date spacer-top contentH2">
-            @ViewBag.NewsDate.ToString("MMMM d, yyyy")
-        </h3>
-
-    </div>
-</div>
+    
 
 
-<div class="col-sm-8"><p>
-    @Html.Raw(ViewBag.NewsBody)
-</p></div>
-
-    <div class="col-sm-4">
-        <div class="col-sm-12 formWrapper overquestionsForm">
+    <div class="panel panel-default">
+        <div class="panel-body">
+                        <div class="videoWrapperProgram">
+                <iframe width="560" height="349" src="https://www.youtube.com/embed/XHp9oNX4cZI?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
           <br/>
-          
+            <p class="contentp">
+                To see more reviews please go to
+                <a href="http://www.medixcollegereviews.com" target="_blank"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;Medix College Student Reviews</a>
+            </p>
+        </div>
+    </div>
+
+  
+    
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="videoWrapperProgram">
+                <iframe width="560" height="349" src="https://www.youtube.com/embed/lK7-VbtSDfA?rel=0?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <br />
+            <p class="contentp">
+                To see more reviews please go to
+                <a href="http://www.medixcollegereviews.com" target="_blank">
+                    <span class="glyphicon glyphicon-play-circle"></span>&nbsp;Medix College Student Reviews</a>
+            </p>
+        </div>
+    </div>
+  
+    
+
+    
+
+
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO PROGRAM DIRECTORY", "AllPrograms", "Programs")</button>
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
+    <br />
+</div>
+
+<div class="col-sm-4 pull-right no-padding">
+    <div class="panel panel-default">
+
+        <div class="panel-body">
             <form id="programsQuestionsForm" name="programsQuestionsForm" data-parsley-validate="" method="post" class="questionsForm" action="/home/askquestionprogram">
                 <input type="hidden" name="ORGID" value="240" />
                 <input type="hidden" name="MailListID" value="240001" />
@@ -101,5 +142,33 @@
                 </div>
             </form>
         </div>
+
     </div>
 
+    <div class="panel panel-default">
+        <div class="panel-body panelBG">
+            <h1 class="contentH1 text-center"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;CAMPUSES</h1>
+            <hr class="hrpblue" />
+            <p class="contentp">
+                @Html.ActionLink("Brampton", "Brampton", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Brantford", "Brantford", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+
+                @Html.ActionLink("Kitchener", "Kitchener", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("London", "London", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Scarborough", "Scarborough", "Campuses")
+            </p> <hr class="hrp" />
+            <p class="contentp">
+                @Html.ActionLink("Toronto", "Toronto", "Campuses")
+            </p>
+        </div>
+
+    </div>
+</div>

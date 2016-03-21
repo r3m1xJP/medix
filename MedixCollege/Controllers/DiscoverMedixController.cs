@@ -54,6 +54,11 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult Testimonials()
+        {
+            return View();
+        }
+
         public ActionResult CareersAtMedix()
         {
             return View();
