@@ -700,6 +700,7 @@
     <Content Include="Views\Courses\Index.cshtml" />
     <Content Include="Views\DiscoverMedix\PartnerSchools.cshtml" />
     <Content Include="Views\DiscoverMedix\Testimonials.cshtml" />
+    <Content Include="Views\MedixOnline\MedixOnlinePrograms.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

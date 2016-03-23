@@ -35,7 +35,7 @@
             <div class="col-sm-4">
                 @if (ViewBag.MedixOnline != null && ViewBag.MedixOnline)
                 {
-                    <a href="/home"><img src="~/Content/images/MedixOnlineLogo.png" class="mainLogo img-responsive" alt="Medix College Online Logo" /></a>
+                    <a href="http://www.medixonline.ca" target="_blank"><img src="~/Content/images/MedixOnlineLogo.png" class="mainLogo img-responsive" alt="Medix College Online Logo" /></a>
                 }
                 else
                 {
@@ -171,7 +171,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">MEDIX ONLINE <span class="caret pull-right"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>@Html.ActionLink("About Medix Online", "Index", "MedixOnline")</li>
-                            <li>@Html.ActionLink("Medix Online Programs", "Index", "MedixOnline")</li>
+                            <li>@Html.ActionLink("Medix Online Programs", "MedixOnlinePrograms", "MedixOnline")</li>
                             <li>@Html.ActionLink("Schedules and Fees", "SchedulesAndFees", "MedixOnline")</li>
                             <li>@Html.ActionLink("E-Learning", "ELearning", "MedixOnline")</li>
                             <li>@Html.ActionLink("Advantages", "Advantages", "MedixOnline")</li>
@@ -292,7 +292,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">MEDIX ONLINE <span class="glyphicon glyphicon-triangle-bottom GLPsize goldColour"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>@Html.ActionLink("About Medix Online", "Index", "MedixOnline")</li>
-                                <li>@Html.ActionLink("Medix Online Programs", "Index", "MedixOnline")</li>
+                                <li>@Html.ActionLink("Medix Online Programs", "MedixOnlinePrograms", "MedixOnline")</li>
                                 <li>@Html.ActionLink("Schedules and Fees", "SchedulesAndFees", "MedixOnline")</li>
                                 <li>@Html.ActionLink("E-Learning", "ELearning", "MedixOnline")</li>
                                 <li>@Html.ActionLink("Advantages", "Advantages", "MedixOnline")</li>

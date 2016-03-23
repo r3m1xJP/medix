@@ -89,6 +89,14 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        // GET: Schedules And Fees
+        public ActionResult MedixOnlinePrograms()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
         // GET: ELearning
         public ActionResult ELearning()
         {
