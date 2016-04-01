@@ -335,9 +335,11 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
-            double phoneNumber = 0;
+            var test = Helpers.Helpers.GetNumbers(fc["Telephone"]);
 
-            double.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
+            Int64 phoneNumber = 0;
+
+            Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
             if (phoneNumber == 0)
             {
@@ -491,9 +493,9 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
-            double phoneNumber = 0;
+            Int64 phoneNumber = 0;
 
-            double.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
+            Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
             if (phoneNumber == 0)
             {
@@ -661,9 +663,9 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
-            double phoneNumber = 0;
+            Int64 phoneNumber = 0;
 
-            double.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
+            Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
             if (phoneNumber == 0)
             {
@@ -831,9 +833,9 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
-            double phoneNumber = 0;
+            Int64 phoneNumber = 0;
 
-            double.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
+            Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
             if (phoneNumber == 0)
             {
@@ -1001,9 +1003,9 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
-            double phoneNumber = 0;
+            Int64 phoneNumber = 0;
 
-            double.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
+            Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
             if (phoneNumber == 0)
             {
@@ -1171,9 +1173,9 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
-            double phoneNumber = 0;
+            Int64 phoneNumber = 0;
 
-            double.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
+            Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
             if (phoneNumber == 0)
             {
@@ -1341,9 +1343,9 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
-            double phoneNumber = 0;
+            Int64 phoneNumber = 0;
 
-            double.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
+            Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
             if (phoneNumber == 0)
             {
@@ -1387,9 +1389,9 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
-            double phoneNumber = 0;
+            Int64 phoneNumber = 0;
 
-            double.TryParse(Helpers.Helpers.GetNumbers(fc["PhoneNumber"]), out phoneNumber);
+            Int64.TryParse(Helpers.Helpers.GetNumbers(fc["PhoneNumber"]), out phoneNumber);
 
             if (phoneNumber == 0)
             {

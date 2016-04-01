@@ -265,9 +265,9 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
-            double phoneNumber = 0;
+            Int64 phoneNumber = 0;
 
-            double.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
+            Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
             if (phoneNumber == 0)
             {
