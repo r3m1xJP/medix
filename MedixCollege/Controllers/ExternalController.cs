@@ -301,7 +301,7 @@ namespace MedixCollege.Controllers
                         FirstName = fc["FirstName"],
                         LastName = fc["LastName"],
                         Email = fc["Email"],
-                        Telephone = fc["Telephone"] != null ? Convert.ToInt64(fc["Telephone"]) : 0,
+                        Telephone = phoneNumber,
                         Location = campus,
                         Program = program,
                         HearAbout = mediaSource,
