@@ -128,6 +128,13 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult DentalTerminology()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
         [HttpPost]
         public async Task<ActionResult> ContactMedixOnlineForm(FormCollection fc)
         {
