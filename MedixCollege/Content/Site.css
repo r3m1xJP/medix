@@ -1908,6 +1908,13 @@ background-color: #0F3F6F; color:white; font-family: "Helvetica W01 Roman", Aria
     height: 1px;
 }
 
+.hrpbluethin {
+    margin-top: 1px;
+    margin-bottom: 3px;
+    background-color: #0F3F6F;
+    height: 2px;
+}
+
 .ul-none {
     list-style-type: none;
 }
