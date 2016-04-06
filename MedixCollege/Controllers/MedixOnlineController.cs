@@ -113,13 +113,7 @@ namespace MedixCollege.Controllers
             return View();
         }
 
-        // GET: Medical Transcription
-        public ActionResult MedicalTranscription()
-        {
-            ViewBag.MedixOnline = true;
 
-            return View();
-        }
 
         public ActionResult ContactMedixOnline()
         {
@@ -134,6 +128,65 @@ namespace MedixCollege.Controllers
 
             return View();
         }
+
+        public ActionResult AnatomyPhysiology()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
+        public ActionResult DentalOfficeProcedures()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
+        public ActionResult DentalAssistingLevelIIUpgrade()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
+        public ActionResult ElectronicMedicalRecords()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
+        public ActionResult MedicalBilling()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
+        public ActionResult MedicalTerminology()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
+
+        public ActionResult MedicalTranscription()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
+        public ActionResult PrinciplesOfNutrition()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
+
 
         [HttpPost]
         public async Task<ActionResult> ContactMedixOnlineForm(FormCollection fc)

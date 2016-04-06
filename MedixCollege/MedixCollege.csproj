@@ -702,6 +702,13 @@
     <Content Include="Views\DiscoverMedix\Testimonials.cshtml" />
     <Content Include="Views\MedixOnline\MedixOnlinePrograms.cshtml" />
     <Content Include="Views\MedixOnline\DentalTerminology.cshtml" />
+    <Content Include="Views\MedixOnline\AnatomyPhysiology.cshtml" />
+    <Content Include="Views\MedixOnline\DentalOfficeProcedures.cshtml" />
+    <Content Include="Views\MedixOnline\DentalAssistingLevelIIUpgrade.cshtml" />
+    <Content Include="Views\MedixOnline\ElectronicMedicalRecords.cshtml" />
+    <Content Include="Views\MedixOnline\MedicalBilling.cshtml" />
+    <Content Include="Views\MedixOnline\MedicalTerminology.cshtml" />
+    <Content Include="Views\MedixOnline\PrinciplesOfNutrition.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
