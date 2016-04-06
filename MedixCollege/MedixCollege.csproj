@@ -709,6 +709,10 @@
     <Content Include="Views\MedixOnline\MedicalBilling.cshtml" />
     <Content Include="Views\MedixOnline\MedicalTerminology.cshtml" />
     <Content Include="Views\MedixOnline\PrinciplesOfNutrition.cshtml" />
+    <Content Include="Views\MedixOnline\ProfessionalExamReviews.cshtml" />
+    <Content Include="Views\MedixOnline\CareerDevelopmentAndCounselling.cshtml" />
+    <Content Include="Views\MedixOnline\MicrosoftOfficePackages.cshtml" />
+    <Content Include="Views\MedixOnline\SpecialPackages.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

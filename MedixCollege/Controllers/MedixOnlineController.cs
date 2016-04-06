@@ -186,6 +186,33 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult ProfessionalExamReviews()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
+        public ActionResult CareerDevelopmentAndCounselling()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
+        public ActionResult MicrosoftOfficePackages()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
+        public ActionResult SpecialPackages()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
 
 
         [HttpPost]
