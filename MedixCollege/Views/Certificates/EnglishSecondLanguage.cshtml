@@ -2,19 +2,24 @@
     Layout = "~/Views/Certificates/_CertificatesLayout.cshtml";
 }
 
-<div class="col-sm-12">
+@{
+    ViewBag.Title = "English as a Second Language Certificate - Medix College";
+    ViewBag.PageDescription = "Learn more about the English as a Second Language Certificate at Medix College.";
+}
+
+<div class="col-sm-12 no-padding botMARG">
     <h1 class="contentPageH1">ENGLISH AS A SECOND LANGUAGE<small class="contentH1-small">&nbsp;CERTIFICATE</small></h1>
     <ol class="breadcrumb">
         <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
         <li class="contentp">@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
         <li class="active contentp">English as a Second Language (ESL)</li>
     </ol>
+    <img class="img-responsive" width="100%" src="~/Content/images/cert-esl.jpg" alt="person smiling holding books" />
+
 </div>
 
 <div class="col-sm-8 mid-padding">
-    <div class="panel panel-default">
-        <div class="panel-body">
-
+ 
             <h1 class="contentH1">Workshop Objective</h1><hr class="hrp" />
 
 
@@ -96,8 +101,7 @@
            
 
 
-        </div>
-    </div>
+    <br />
     <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CERTIFICATES DIRECTORY", "AllCertificates", "Certificates")</button>
     <br />
     <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
@@ -189,30 +193,4 @@
 
     </div>
 
-    <div class="panel panel-default">
-        <div class="panel-body panelBG">
-            <h1 class="contentH1 text-center"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;CAMPUSES</h1>
-            <hr class="hrpblue" />
-            <p class="contentp">
-                @Html.ActionLink("Brampton", "Brampton", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-                @Html.ActionLink("Brantford", "Brantford", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-
-                @Html.ActionLink("Kitchener", "Kitchener", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-                @Html.ActionLink("London", "London", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-                @Html.ActionLink("Scarborough", "Scarborough", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-                @Html.ActionLink("Toronto", "Toronto", "Campuses")
-            </p>
-        </div>
-
-
-</div>
+    

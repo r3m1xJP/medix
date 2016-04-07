@@ -2,13 +2,22 @@
     Layout = "~/Views/Certificates/_CertificatesLayout.cshtml";
 }
 
-<div class="col-sm-12">
+@{
+    ViewBag.Title = "Food Handler Safety Certificate - Medix College";
+    ViewBag.PageDescription = "Learn more about the Food Handler Safety Certificate at Medix College.";
+}
+
+
+<div class="col-sm-12 no-padding botMARG">
+
     <h1 class="contentPageH1">FOOD HANDLER SAFETY<small class="contentH1-small">&nbsp;CERTIFICATE</small></h1>
     <ol class="breadcrumb">
         <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
         <li class="contentp">@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
         <li class="active contentp">Food Handler Safety</li>
     </ol>
+    <img class="img-responsive" width="100%" src="~/Content/images/cert-foodhandler.jpg" alt="three medical professionals behind a computer" />
+
 </div>
 
 <div class="col-sm-8 mid-padding">

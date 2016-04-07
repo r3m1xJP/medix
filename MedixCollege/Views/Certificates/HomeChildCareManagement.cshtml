@@ -2,84 +2,181 @@
     Layout = "~/Views/Certificates/_CertificatesLayout.cshtml";
 }
 
-<h1 class="contentPageH1">HOME CHILDCARE MANAGEMENT<small class="contentH1-small">&nbsp;CERTIFICATE</small></h1>
-<ol class="breadcrumb">
-    <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
-    <li class="contentp">@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
-    <li class="active contentp">Home Childcare Management</li>
-</ol>
+@{
+    ViewBag.Title = "Home Childcare Management Certificate - Medix College";
+    ViewBag.PageDescription = "Learn more about the Home Childcare Management Certificate at Medix College.";
+}
+<div class="col-sm-12 no-padding botMARG">
+    <h1 class="contentPageH1">HOME CHILDCARE MANAGEMENT<small class="contentH1-small">&nbsp;CERTIFICATE</small></h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="contentp">@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
+        <li class="active contentp">Home Childcare Management</li>
+    </ol>
+    <img class="img-responsive" width="100%" src="~/Content/images/cert-homechildcaremgmt.jpg" alt="female with child outside donig activities" />
+</div>
 
 
+<div class="col-sm-8 mid-padding">
 
-    <h1 class="contentH1">Workshop Objective</h1>
-
-
-<p class="contentp">
-    The Home Child Care Management course is for people without formal training in early learning and
-
-    child care and who are interested in pursuing a career in child care. Completion of this workshop will
-
-    help you attain the knowledge of basic child care management through the introduction and
-
-    understanding of the following key areas:
-</p>
-
-<ul class="contentp">
-    <li>Roles and Responsibilities</li>
-
-    <li>Introduction to Child Development - Infant, Toddler & Preschool Development</li>
-
-    <li>Set up and maintain a safe, clean, well-organized child care environment</li>
-
-    <li>Plan educational activities</li>
-
-    <li>Health and Safety</li>
-
-    <li>Nutrition</li>
-
-    <li>CPR</li>
-</ul>
-<br />
+    <h1 class="contentH1">Workshop Objective</h1><hr class="hrp" />
 
 
-    <h1 class="contentH1">Course Prerequisite</h1>
-<ul class="contentp">
-    <li>English Proficiency</li>
-</ul>
-<br />
+    <p class="contentp">
+        The Home Child Care Management course is for people without formal training in early learning and
 
-<h1 class="contentH1">
-    Course Duration and Schedule
-</h1>
+        child care and who are interested in pursuing a career in child care. Completion of this workshop will
 
-<ul class="contentp">
-    <li>4 Saturdays, 9:00am-2:00pm</li>
-</ul>
-<br />
+        help you attain the knowledge of basic child care management through the introduction and
+
+        understanding of the following key areas:
+    </p>
+
+    <ul class="contentp">
+        <li>Roles and Responsibilities</li>
+
+        <li>Introduction to Child Development - Infant, Toddler & Preschool Development</li>
+
+        <li>Set up and maintain a safe, clean, well-organized child care environment</li>
+
+        <li>Plan educational activities</li>
+
+        <li>Health and Safety</li>
+
+        <li>Nutrition</li>
+
+        <li>CPR</li>
+    </ul>
+    <br />
 
 
-    <h1 class="contentH1">Tuition</h1>
+    <h1 class="contentH1">Course Prerequisite</h1><hr class="hrp" />
+    <ul class="contentp">
+        <li>English Proficiency</li>
+    </ul>
+    <br />
 
-<ul class="contentp">
-    <li>
-        $399.00 (or $349.00 if registered by early bird deadline: ( Contact campus for details )
-        <ul>
-            <li>20-hour training session</li>
+    <h1 class="contentH1"><hr class="hrp" />
+        Course Duration and Schedule
+    </h1>
 
-            <li>
-                Course training manual
-            </li>
+    <ul class="contentp">
+        <li>4 Saturdays, 9:00am-2:00pm</li>
+    </ul>
+    <br />
 
-            <li>Course Final Examination</li>
 
-            <li>Certificate of completion</li>
-        </ul>
-    </li>
-</ul>
+    <h1 class="contentH1">Tuition</h1><hr class="hrp" />
 
-<br />
-<p class="contentp">
-    This program does not require approval under the Private Career Colleges Act, 2005.
+    <ul class="contentp">
+        <li>
+            $399.00 (or $349.00 if registered by early bird deadline: ( Contact campus for details )
+            <ul>
+                <li>20-hour training session</li>
 
-</p>
-<br />
+                <li>
+                    Course training manual
+                </li>
+
+                <li>Course Final Examination</li>
+
+                <li>Certificate of completion</li>
+            </ul>
+        </li>
+    </ul>
+
+    <br />
+    <p class="contentp">
+        This program does not require approval under the Private Career Colleges Act, 2005.
+
+    </p>
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CERTIFICATES DIRECTORY", "AllCertificates", "Certificates")</button>
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
+
+    <br />
+</div>
+<div class="col-sm-4 pull-right no-padding">
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+            <form id="programsQuestionsForm" name="programsQuestionsForm" data-parsley-validate="" method="post" class="questionsForm" action="/home/askquestionprogram">
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240001" />
+                <h1 class="contentH1 text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                </h1><hr class="hrpblue" />
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="FirstName" required="">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Telephone: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="Telephone" required="">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control pull-right" name="Email" required="">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="CampusID">
+                        <option value="0">Select</option>
+                        <option value="246">Brampton</option>
+                        <option value="243">Brantford</option>
+                        <option value="242">Kitchener</option>
+                        <option value="244">London</option>
+                        <option value="241">Scarborough</option>
+                        <option value="240">Toronto</option>
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="ProgramID">
+                        <option value="0">Select</option>
+                        <option value="38882">Anatomy &amp; Physiology</option>
+                        <option value="39877">Child and Youth Care with Addictions Support Worker</option>
+                        <option value="632">Community Service Worker</option>
+                        <option value="39478">CPR &amp; First Aid</option>
+                        <option value="818">Dental Level 2</option>
+                        <option value="38883">Dental Office Procedures (abel dent)</option>
+                        <option value="634">Developmental Service Worker</option>
+                        <option value="38526">Early Childcare Assistant</option>
+                        <option value="642">ECG</option>
+                        <option value="37255">Fitness &amp; Health Promotion</option>
+                        <option value="39162">Intramuscular Injection</option>
+                        <option value="627">Intra-Oral Dental Assistant </option>
+                        <option value="629">Massage Therapy</option>
+                        <option value="633">Medical Laboratory Assistant / Technician</option>
+                        <option value="630">Medical Office Administrator</option>
+                        <option value="1170">Medical Terminology</option>
+                        <option value="38887">Medical Transcription</option>
+                        <option value="39415">Mental Health &amp; Addictions</option>
+                        <option value="1169">OHIP Billing</option>
+                        <option value="631">Personal Support Worker</option>
+                        <option value="628">Pharmacy Assistant</option>
+                        <option value="636">Phlebotomy</option>
+                        <option value="1167">Principles of Nutrition</option>
+                        <option value="643">PSW Upgrading</option>
+                        <option value="1171">Thought Patterns</option>
+
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Question: </label>
+                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                </div>
+                <div class="small-text spacer-top text-center grayColor">
+                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                </div>
+                <div class="text-center">
+                    <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+</div>
