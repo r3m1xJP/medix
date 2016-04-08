@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:37</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>04/07/2016 02:08:58</publishTime>
+      <publishTime>04/08/2016 02:04:50</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>08/18/2015 12:19:38</publishTime>
@@ -1484,7 +1484,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/07/2016 12:18:32</publishTime>
     </File>
     <File Include="Views/Campuses/Toronto.cshtml">
-      <publishTime>04/07/2016 12:18:39</publishTime>
+      <publishTime>04/08/2016 01:32:51</publishTime>
     </File>
     <File Include="Views/Campuses/_CampusesLayout.cshtml">
       <publishTime>03/08/2016 09:31:08</publishTime>
@@ -1666,6 +1666,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Home/SocialMedia.cshtml">
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
+    <File Include="Views/Home/StudentsAlumni.cshtml">
+      <publishTime>04/08/2016 02:03:47</publishTime>
+    </File>
     <File Include="Views/Home/Test.cshtml">
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
@@ -1676,7 +1679,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Home/_HomeLayout.cshtml">
-      <publishTime>03/08/2016 09:31:08</publishTime>
+      <publishTime>04/08/2016 02:02:01</publishTime>
     </File>
     <File Include="Views/Leads/Index.cshtml">
       <publishTime>08/18/2015 12:19:36</publishTime>
