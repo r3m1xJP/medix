@@ -278,6 +278,11 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult StudentsAlumni()
+        {
+            return View();
+        }
+
         public ActionResult HireAMedixGrad()
         {
             return View();
@@ -345,7 +350,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
+                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return View("ThankYou");
             }
@@ -474,7 +479,7 @@ namespace MedixCollege.Controllers
                 {
                     ViewBag.Success = false;
 
-                    ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
+                    ViewBag.ErrorMessage = "There was an error with your request. Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
                 }
 
                 return View("ThankYou");
@@ -488,7 +493,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request!";
+                ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return RedirectToRoute("ThankYou");
             }
@@ -501,7 +506,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
+                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return View("ThankYou");
             }
@@ -644,7 +649,7 @@ namespace MedixCollege.Controllers
                 {
                     ViewBag.Success = false;
 
-                    ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
+                    ViewBag.ErrorMessage = "There was an error with your request. Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
                 }
 
                 return View("ThankYou");
@@ -658,7 +663,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request!";
+                ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return RedirectToRoute("ThankYou");
             }
@@ -671,7 +676,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
+                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return View("ThankYou");
             }
@@ -814,7 +819,7 @@ namespace MedixCollege.Controllers
                 {
                     ViewBag.Success = false;
 
-                    ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
+                    ViewBag.ErrorMessage = "There was an error with your request. Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
                 }
 
                 return View("ThankYou");
@@ -828,7 +833,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request!";
+                ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return RedirectToRoute("ThankYou");
             }
@@ -841,7 +846,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
+                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return View("ThankYou");
             }
@@ -984,7 +989,7 @@ namespace MedixCollege.Controllers
                 {
                     ViewBag.Success = false;
 
-                    ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
+                    ViewBag.ErrorMessage = "There was an error with your request. Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
                 }
 
                 return View("ThankYou");
@@ -998,7 +1003,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request!";
+                ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return RedirectToRoute("ThankYou");
             }
@@ -1011,7 +1016,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
+                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return View("ThankYou");
             }
@@ -1154,7 +1159,7 @@ namespace MedixCollege.Controllers
                 {
                     ViewBag.Success = false;
 
-                    ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
+                    ViewBag.ErrorMessage = "There was an error with your request. Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
                 }
 
                 return View("ThankYou");
@@ -1168,7 +1173,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request!";
+                ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return RedirectToRoute("ThankYou");
             }
@@ -1181,7 +1186,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
+                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return View("ThankYou");
             }
@@ -1324,7 +1329,7 @@ namespace MedixCollege.Controllers
                 {
                     ViewBag.Success = false;
 
-                    ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
+                    ViewBag.ErrorMessage = "There was an error with your request. Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
                 }
 
                 return View("ThankYou");
@@ -1338,7 +1343,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request!";
+                ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return RedirectToRoute("ThankYou");
             }
@@ -1351,7 +1356,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
+                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return View("ThankYou");
             }
@@ -1370,7 +1375,7 @@ namespace MedixCollege.Controllers
                 {
                     ViewBag.Success = false;
 
-                    ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
+                    ViewBag.ErrorMessage = "There was an error with your request. Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
                 }
 
                 return View("ThankYou");
@@ -1384,7 +1389,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request!";
+                ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry. Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return RedirectToRoute("ThankYou");
             }
@@ -1397,7 +1402,7 @@ namespace MedixCollege.Controllers
             {
                 ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
+                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return View("ThankYou");
             }
@@ -1416,7 +1421,7 @@ namespace MedixCollege.Controllers
                 {
                     ViewBag.Success = false;
 
-                    ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
+                    ViewBag.ErrorMessage = "There was an error with your request. Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
                 }
 
                 return View("ThankYou");

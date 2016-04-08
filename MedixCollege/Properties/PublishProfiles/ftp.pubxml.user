@@ -1466,25 +1466,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
     <File Include="Views/Campuses/Brampton.cshtml">
-      <publishTime>04/04/2016 14:24:57</publishTime>
+      <publishTime>04/07/2016 12:17:15</publishTime>
     </File>
     <File Include="Views/Campuses/Brantford.cshtml">
-      <publishTime>04/04/2016 14:46:05</publishTime>
+      <publishTime>04/07/2016 12:17:41</publishTime>
     </File>
     <File Include="Views/Campuses/Index.cshtml">
       <publishTime>03/18/2016 11:09:17</publishTime>
     </File>
     <File Include="Views/Campuses/Kitchener.cshtml">
-      <publishTime>04/04/2016 23:56:47</publishTime>
+      <publishTime>04/07/2016 12:18:06</publishTime>
     </File>
     <File Include="Views/Campuses/London.cshtml">
-      <publishTime>04/04/2016 14:49:37</publishTime>
+      <publishTime>04/07/2016 12:16:46</publishTime>
     </File>
     <File Include="Views/Campuses/Scarborough.cshtml">
-      <publishTime>04/04/2016 15:38:43</publishTime>
+      <publishTime>04/07/2016 12:18:32</publishTime>
     </File>
     <File Include="Views/Campuses/Toronto.cshtml">
-      <publishTime>04/04/2016 15:40:43</publishTime>
+      <publishTime>04/07/2016 12:18:39</publishTime>
     </File>
     <File Include="Views/Campuses/_CampusesLayout.cshtml">
       <publishTime>03/08/2016 09:31:08</publishTime>

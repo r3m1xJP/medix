@@ -730,6 +730,7 @@
     <Content Include="Views\MedixOnline\CareerDevelopmentAndCounselling.cshtml" />
     <Content Include="Views\MedixOnline\MicrosoftOfficePackages.cshtml" />
     <Content Include="Views\MedixOnline\SpecialPackages.cshtml" />
+    <Content Include="Views\Home\StudentsAlumni.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
