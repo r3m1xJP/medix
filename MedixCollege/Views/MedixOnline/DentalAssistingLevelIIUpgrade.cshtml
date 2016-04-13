@@ -1,0 +1,150 @@
+﻿
+@{
+    Layout = "~/Views/MedixOnline/_MedixOnlineLayout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Dental Terminology Training Program - Medix Online";
+    ViewBag.PageDescription = "Learn more about the Dental Terminology Training Program at Medix Online.";
+}
+
+<div class="col-sm-12 no-padding botMARG">
+    <h1 class="contentPageH1">DENTAL ASSISTING LEVEL II UPGRADE</h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="contentp">@Html.ActionLink("About Medix Online", "Index", "MedixOnline")</li>
+        <li class="active contentp">Dental Assisting Level II Upgrade</li>
+    </ol>
+</div>
+
+    <div class="col-sm-8 mid-padding">
+
+
+                <h2 class="contentH2">
+                    Course Overview
+                </h2>
+                <p class="contentp">
+                    This certificate continuing education program is designed for level I dental assistants who wish to upgrade their skills to meet the requirements of a level II dental assistant. Upon completion of theprogram the graduate will be eligible to challenge the NDAEB exam and apply for level II certification with the Ontario Dental Assistants Association.
+                    <br/><br/>
+                    Students will circulate through a module program consisting of an Online Theory Component and on site Practical Component.  The online theory component must be completed before the student enters the hands – on - practical component. Once students complete all modules, they will enter the Patient Care module where they will apply their skills on patients.   
+                </p>
+ 
+
+
+ 
+                <h2 class="contentH2">Duration</h2>
+              
+        <p class="contentp">
+            The program is designed for the working dental professional and can be completed in 17 weeks.
+            <br /><br />
+            Online Theory (65 total hours: 4 total weeks)
+            <br /><br />
+            Practical Component (72 total hours; 10 total weeks)
+            <br />
+            <ul>
+                <li>
+                    Two sessions of 4 hours (Saturdays- 8:45am-12:45pm)
+                </li>
+                <li>
+                    Eight sessions of 8 hours (Saturdays – 8:45am-4:45pm)
+                </li>
+            </ul>
+            <br />
+            Patient Care (24 hours: Total 3 weeks)
+            <br />
+            <ul>
+                <li>
+                    Three sessions of 8 hours ( Saturdays- 8:45am-4:45pm)
+                    
+                </li>
+            </ul><br />
+            Total: 17 weeks 160 Hours
+        </p>
+
+   
+
+                <h2 class="contentH2">
+                    Cost:
+                </h2>
+                <p class="contentp">
+                    $2,620 (with Ebooks) and $2,400 (without EBooks)
+                </p>
+
+
+        <br />
+        <p class="contentp">
+            *This program does not require approval under the Private Career College Act, 2005
+        </p>
+
+        <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;<a href="http://medixonline.ca/level-2-dental-assisting/?" target="_blank">Learn more about the Dental Assisting Level II Upgrade program</a></button>
+
+
+
+
+
+
+    </div>
+
+
+    <div class="col-sm-4 pull-right">
+        <div class="panel panel-default">
+
+            <div class="row formWrapper overquestionsForm">
+
+                <form id="medixOnlineQuestionsForm" name="medixOnlineQuestionsForm" data-parsley-validate="" class="questionsForm" method="post" action="/MedixOnline/ContactMedixOnlineForm">
+                    <input type="hidden" name="ORGID" value="240" />
+                    <input type="hidden" name="MailListID" value="240001" />
+                    <h1 class="contentH1 text-center">
+                        <span class="glyphicon glyphicon-comment"></span>&nbsp; CONTACT MEDIX ONLINE
+                    </h1><hr class="hrpblue" />
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">First Name: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" name="FirstName" required="">
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left" for="formlastname">Last Name: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" name="Lastname" id="formlastname" />
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">Email: <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control pull-right" name="Email" required="">
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left" for="formtelephone">Telephone: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" required="" />
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">Program: <span class="text-danger">*</span></label>
+                        <select class="form-control pull-right" name="ProgramID" id="ProgramID">
+                            <option value="0">Select</option>
+                            <option value="38882">Anatomy &amp; Physiology</option>
+                            <option value="38885">Dental Assisting Level II Online Ebooks Incld.</option>
+                            <option value="40143">Dental Assisting Level II Online no Ebooks</option>
+                            <option value="38883">Dental Office Procedures (abel dent)</option>
+                            <option value="1170">Medical Terminology</option>
+                            <option value="39438">Medical Terminology and OHIP Package</option>
+                            <option value="39439">Medical Terminology and Transcription Package</option>
+                            <option value="38887">Medical Transcription</option>
+                            <option value="38884">Pre-Science Package (MedTerm, Bio and Chem)</option>
+                            <option value="1167">Principles of Nutrition</option>
+                            <option value="1171">Thought Patterns</option>
+
+                        </select>
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">Comments: </label>
+                        <textarea class="form-control pull-right" name="Comment2"></textarea>
+                    </div>
+                    <div class="small-text spacer-top text-center grayColor">
+                        Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                    </div>
+                    <div class="text-center">
+                        <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                    </div>
+                </form>
+
+
+            </div>
+
+
+        </div>

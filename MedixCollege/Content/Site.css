@@ -1590,8 +1590,8 @@ blockquote p {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: #0F3F6F;
     font-size: 16px;
-    line-height: 20px;
-    padding: 10px 0px 10px 0px;
+    line-height: 17.5px;
+    padding: 6px 0px 6px 0px;
     margin: 0px;
 }
 
@@ -1906,6 +1906,13 @@ background-color: #0F3F6F; color:white; font-family: "Helvetica W01 Roman", Aria
     margin-bottom: 8px;
     background-color: #0F3F6F;
     height: 1px;
+}
+
+.hrpbluethin {
+    margin-top: 1px;
+    margin-bottom: 3px;
+    background-color: #0F3F6F;
+    height: 2px;
 }
 
 .ul-none {

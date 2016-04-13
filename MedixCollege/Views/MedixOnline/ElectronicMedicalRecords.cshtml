@@ -1,0 +1,126 @@
+﻿
+@{
+    Layout = "~/Views/MedixOnline/_MedixOnlineLayout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Dental Terminology Training Program - Medix Online";
+    ViewBag.PageDescription = "Learn more about the Dental Terminology Training Program at Medix Online.";
+}
+
+<div class="col-sm-12 no-padding botMARG">
+    <h1 class="contentPageH1">ELECTRONIC MEDICAL RECORDS (EMR)</h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="contentp">@Html.ActionLink("About Medix Online", "Index", "MedixOnline")</li>
+        <li class="active contentp">Electronic Medical Records (EMR)</li>
+    </ol>
+</div>
+
+    <div class="col-sm-8 mid-padding">
+
+
+                <h2 class="contentH2">
+                    Course Overview
+                </h2>
+                <p class="contentp">
+                    An Electronic Medical Record (EMR) is a computer-based or digital version of a patient paper medical record used by physicians, nurses and administrative staff. EMR Administration for the Health Office Professional is designed to introduce you to the concepts, knowledge, and skills you will need to be successful as a Health Office Professional. Health Office Professionals play important roles in the patient flow of every health care office. As part of your role, a Health Office Professional must be familiar with the technology that is now used to provide better patient care and streamline the workflow of the office.
+                    <br /><br />
+                    Individuals who have a firm understanding of a Computerized Medical System (CMS) will find themselves well prepared to succeed in any challenge that is thrown at them. The more education the individual has, the more employment opportunities become available.
+                </p>
+ 
+
+
+ 
+                <h2 class="contentH2">Duration</h2>
+              
+        <p class="contentp">
+            50 hours/10 weeks maximum
+        </p>
+
+
+
+                <h2 class="contentH2">
+                    Cost:
+                </h2>
+                <p class="contentp">
+                    $450 (Includes access to Accuro ® Software and CMS Workflow for Health Office Professional Guide - PDF)
+                </p>
+
+
+        <br />
+        <p class="contentp">
+            *This program does not require approval under the Private Career College Act, 2005
+        </p>
+
+        <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-play-circle"></span>&nbsp;&nbsp;<a href="http://medixonline.ca/electronic_medical_record/?" target="_blank">Learn more about the Electronic Medical Records (EMR) program</a></button>
+
+
+
+
+
+    </div>
+
+
+    <div class="col-sm-4 pull-right">
+        <div class="panel panel-default">
+
+            <div class="row formWrapper overquestionsForm">
+
+                <form id="medixOnlineQuestionsForm" name="medixOnlineQuestionsForm" data-parsley-validate="" class="questionsForm" method="post" action="/MedixOnline/ContactMedixOnlineForm">
+                    <input type="hidden" name="ORGID" value="240" />
+                    <input type="hidden" name="MailListID" value="240001" />
+                    <h1 class="contentH1 text-center">
+                        <span class="glyphicon glyphicon-comment"></span>&nbsp; CONTACT MEDIX ONLINE
+                    </h1><hr class="hrpblue" />
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">First Name: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" name="FirstName" required="">
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left" for="formlastname">Last Name: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" name="Lastname" id="formlastname" />
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">Email: <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control pull-right" name="Email" required="">
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left" for="formtelephone">Telephone: <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" required="" />
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">Program: <span class="text-danger">*</span></label>
+                        <select class="form-control pull-right" name="ProgramID" id="ProgramID">
+                            <option value="0">Select</option>
+                            <option value="38882">Anatomy &amp; Physiology</option>
+                            <option value="38885">Dental Assisting Level II Online Ebooks Incld.</option>
+                            <option value="40143">Dental Assisting Level II Online no Ebooks</option>
+                            <option value="38883">Dental Office Procedures (abel dent)</option>
+                            <option value="1170">Medical Terminology</option>
+                            <option value="39438">Medical Terminology and OHIP Package</option>
+                            <option value="39439">Medical Terminology and Transcription Package</option>
+                            <option value="38887">Medical Transcription</option>
+                            <option value="38884">Pre-Science Package (MedTerm, Bio and Chem)</option>
+                            <option value="1167">Principles of Nutrition</option>
+                            <option value="1171">Thought Patterns</option>
+
+                        </select>
+                    </div>
+                    <div class="input-group spacer-top">
+                        <label class="pull-left">Comments: </label>
+                        <textarea class="form-control pull-right" name="Comment2"></textarea>
+                    </div>
+                    <div class="small-text spacer-top text-center grayColor">
+                        Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                    </div>
+                    <div class="text-center">
+                        <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                    </div>
+                </form>
+
+
+            </div>
+
+
+        </div>

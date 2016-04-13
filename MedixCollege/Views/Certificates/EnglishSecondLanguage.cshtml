@@ -2,19 +2,24 @@
     Layout = "~/Views/Certificates/_CertificatesLayout.cshtml";
 }
 
-<div class="col-sm-12">
+@{
+    ViewBag.Title = "English as a Second Language Certificate - Medix College";
+    ViewBag.PageDescription = "Learn more about the English as a Second Language Certificate at Medix College.";
+}
+
+<div class="col-sm-12 no-padding botMARG">
     <h1 class="contentPageH1">ENGLISH AS A SECOND LANGUAGE<small class="contentH1-small">&nbsp;CERTIFICATE</small></h1>
     <ol class="breadcrumb">
         <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
         <li class="contentp">@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
         <li class="active contentp">English as a Second Language (ESL)</li>
     </ol>
+    <img class="img-responsive" width="100%" src="~/Content/images/cert-esl.jpg" alt="person smiling holding books" />
+
 </div>
 
 <div class="col-sm-8 mid-padding">
-    <div class="panel panel-default">
-        <div class="panel-body">
-
+ 
             <h1 class="contentH1">Workshop Objective</h1><hr class="hrp" />
 
 
@@ -49,37 +54,62 @@
             <h2 class="contentH2">Oral communication skills for health care workers</h2>
 
             <p class="contentp">
-                Know how to gather, interpret and relay information, when working with patients and as part of a team:
+                <ul>
 
-                Ask questions, Use active listening skills, Seek clarification, Check information, Make suggestions and
-
-                recommendations, Give advice, Give explanations and justify opinions, Give short presentations, Show
-
-                an appreciation of the appropriate use of formal and informal language (including idiomatic
-
-                expressions), and jargon, Use appropriate telephone skills and etiquette
+                    <li>Gather interpret and relay information</li>
+                    <li>Use active listening skills</li>
+                    <li>Seek clarification and check information</li>
+                    <li>Make suggestions and recommendations</li>
+                    <li>Give advice, give explanations and justify opinions</li>
+                    <li>Show an appreciation of the appropriate use of formal and informal language (including idiomatic expressions)</li>
+                    <li>Give short presentations</li>
+                    <li> Use appropriate telephone skills and etiquette</li>
+</ul>
             </p>
 
 
             <h2 class="contentH2">Writing skills for health care workers</h2>
-            <p class="contentp">
-                Know how to write with accuracy, clarity and conciseness, Take biographical details and write case
+    <p class="contentp">
+        <ul>
 
-                histories, Describe symptoms, Complete forms, Compile medical reports: summarize, paraphrase and
-
-                synthesize, Use paragraphing, punctuation and layout effectively, Use appropriate style, tone and
-
-                register
-            </p>
+            <li>
+                Know how to write with accuracy, clarity and conciseness
+            </li>
+            <li>
+                Take biographical details and write case histories
+            </li>
+            <li>
+                Describe symptoms and complete forms
+            </li>
+            <li>
+                Compile medical reports: summarize, paraphrase and synthesize
+            </li>
+            <li>Use paragraphing, punctuation and layout effectively</li>
+            <li>
+                Use appropriate style and tone
+            </li>
+        </ul>
+    </p>
 
             <h2 class="contentH2">Reading, Listening and Discussion Skills</h2>
-            <p class="contentp">
-                Health care workers use articles relating to current medical issues taken from journals, newspapers,
+    <p class="contentp">
+        <ul>
 
-                radio and television programs: Read for gist and for detail, Express and defend opinions, Suggest ideas,
-
-                offering alternative interpretations, Obtain information from graphs and tables
-            </p>
+            <li>
+                Health care workers use articles relating to current medical issues taken from journals, newspapers, radio and television programs.
+            </li>
+            <li>
+                Read for gist and for detail
+            </li>
+            <li>
+                Express and defend opinions
+            </li>
+            <li>
+                Suggest ideas and offer alternative interpretations
+            </li>
+            <li>Obtain information from graphs and tables</li>
+        </ul>
+    </p>
             <br />
 
             <p class="contentp">
@@ -96,8 +126,7 @@
            
 
 
-        </div>
-    </div>
+    <br />
     <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CERTIFICATES DIRECTORY", "AllCertificates", "Certificates")</button>
     <br />
     <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
@@ -189,30 +218,4 @@
 
     </div>
 
-    <div class="panel panel-default">
-        <div class="panel-body panelBG">
-            <h1 class="contentH1 text-center"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;CAMPUSES</h1>
-            <hr class="hrpblue" />
-            <p class="contentp">
-                @Html.ActionLink("Brampton", "Brampton", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-                @Html.ActionLink("Brantford", "Brantford", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-
-                @Html.ActionLink("Kitchener", "Kitchener", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-                @Html.ActionLink("London", "London", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-                @Html.ActionLink("Scarborough", "Scarborough", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-                @Html.ActionLink("Toronto", "Toronto", "Campuses")
-            </p>
-        </div>
-
-
-</div>
+    

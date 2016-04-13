@@ -315,8 +315,23 @@
     <Content Include="Content\images\campus-scar.jpg" />
     <Content Include="Content\images\campus-toronto.jpg" />
     <Content Include="Content\images\CCGLogo.png" />
+    <Content Include="Content\images\cert-abeldent.jpg" />
     <Content Include="Content\images\cert-all.jpg" />
+    <Content Include="Content\images\cert-backinjury.jpg" />
+    <Content Include="Content\images\cert-basicwoundtreatment.jpg" />
+    <Content Include="Content\images\cert-developmentaldisabilities.jpg" />
+    <Content Include="Content\images\cert-ecg.jpg" />
+    <Content Include="Content\images\cert-emotionalfirstaid.jpg" />
+    <Content Include="Content\images\cert-esl.jpg" />
+    <Content Include="Content\images\cert-eslhealthcareworker.jpg" />
+    <Content Include="Content\images\cert-foodhandler.jpg" />
+    <Content Include="Content\images\cert-homechildcaremgmt.jpg" />
+    <Content Include="Content\images\cert-intramuscularinjections.jpg" />
+    <Content Include="Content\images\cert-mentalhealth.jpg" />
     <Content Include="Content\images\cert-phle.jpg" />
+    <Content Include="Content\images\cert-phlebotomy.jpg" />
+    <Content Include="Content\images\cert-swedishmassage.jpg" />
+    <Content Include="Content\images\cert-urinalysis.jpg" />
     <Content Include="Content\images\certs-allcerts.jpg" />
     <Content Include="Content\images\cs-main.jpg" />
     <Content Include="Content\images\cs-medixadvantage.jpg" />
@@ -331,6 +346,7 @@
     <Content Include="Content\images\extra-smilingstudent.jpg" />
     <Content Include="Content\images\facebook-ic.gif" />
     <Content Include="Content\images\facebook.gif" />
+    <Content Include="Content\images\firstaid.jpg" />
     <Content Include="Content\images\Fran-Women-Of-Excellence.jpg" />
     <Content Include="Content\images\googleplus-ic-jpg.jpg" />
     <Content Include="Content\images\googleplus-ic.svg" />
@@ -555,6 +571,7 @@
     <Content Include="fonts\icomoon\icomoon.eot" />
     <Content Include="fonts\icomoon\icomoon.ttf" />
     <Content Include="fonts\icomoon\icomoon.woff" />
+    <Content Include="Content\images\medixonline.psd" />
     <None Include="Properties\PublishProfiles\demo.pubxml" />
     <None Include="Properties\PublishProfiles\ftp.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -701,7 +718,23 @@
     <Content Include="Views\DiscoverMedix\PartnerSchools.cshtml" />
     <Content Include="Views\DiscoverMedix\Testimonials.cshtml" />
     <Content Include="Views\MedixOnline\MedixOnlinePrograms.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Campuses\AskAQuestion.cshtml" />
+=======
+    <Content Include="Views\MedixOnline\DentalTerminology.cshtml" />
+    <Content Include="Views\MedixOnline\AnatomyPhysiology.cshtml" />
+    <Content Include="Views\MedixOnline\DentalOfficeProcedures.cshtml" />
+    <Content Include="Views\MedixOnline\DentalAssistingLevelIIUpgrade.cshtml" />
+    <Content Include="Views\MedixOnline\ElectronicMedicalRecords.cshtml" />
+    <Content Include="Views\MedixOnline\MedicalBilling.cshtml" />
+    <Content Include="Views\MedixOnline\MedicalTerminology.cshtml" />
+    <Content Include="Views\MedixOnline\PrinciplesOfNutrition.cshtml" />
+    <Content Include="Views\MedixOnline\ProfessionalExamReviews.cshtml" />
+    <Content Include="Views\MedixOnline\CareerDevelopmentAndCounselling.cshtml" />
+    <Content Include="Views\MedixOnline\MicrosoftOfficePackages.cshtml" />
+    <Content Include="Views\MedixOnline\SpecialPackages.cshtml" />
+    <Content Include="Views\Home\StudentsAlumni.cshtml" />
+>>>>>>> 205706702519b07b21802577922e8aec59b37060
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
