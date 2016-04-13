@@ -718,9 +718,7 @@
     <Content Include="Views\DiscoverMedix\PartnerSchools.cshtml" />
     <Content Include="Views\DiscoverMedix\Testimonials.cshtml" />
     <Content Include="Views\MedixOnline\MedixOnlinePrograms.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\Campuses\AskAQuestion.cshtml" />
-=======
     <Content Include="Views\MedixOnline\DentalTerminology.cshtml" />
     <Content Include="Views\MedixOnline\AnatomyPhysiology.cshtml" />
     <Content Include="Views\MedixOnline\DentalOfficeProcedures.cshtml" />
@@ -734,7 +732,6 @@
     <Content Include="Views\MedixOnline\MicrosoftOfficePackages.cshtml" />
     <Content Include="Views\MedixOnline\SpecialPackages.cshtml" />
     <Content Include="Views\Home\StudentsAlumni.cshtml" />
->>>>>>> 205706702519b07b21802577922e8aec59b37060
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
