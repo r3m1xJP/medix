@@ -1373,6 +1373,15 @@
             $('.form-overlay').slideUp(600);
         });
 
+        $('.popup-form-button').on("click", function (e) {
+            var form = $(this).parents('form:first');
+            if ($(form).parsley().validate()) {
+                $.blockUI({ overlayCSS: { backgroundColor: '#0F3F6F' }, message: 'Your Information Has Been Submitted, Please Wait While We Redirect You' });
+
+                setTimeout($.unblockUI, 10000);
+            }
+        });
+
         $('#applyNowCampusList, requestCatalogueCampusList, askQuestionCampusList, tourCampusCampusList').change(function () {
             var campusId = $('#applyNowCampusList option:selected').val();
 
