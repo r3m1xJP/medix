@@ -733,6 +733,7 @@
     <Content Include="Views\MedixOnline\SpecialPackages.cshtml" />
     <Content Include="Views\Home\StudentsAlumni.cshtml" />
     <Content Include="Views\Home\SearchEngineMarketingForm.cshtml" />
+    <Content Include="Views\Courses\PersonalSupportWorker.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
