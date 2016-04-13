@@ -91,7 +91,41 @@
             </a>
             <div class="collapse" id="collapseExample">
                 <div class="well">
-                    
+                    I'm Nathan and I'm studying the C.S.W. program at Medix College. My wife actually went there,
+
+                    she's actually graduating today from the Lab Tech course and she said it was a great place to go
+
+                    to school, so that's why I'm going. <br /><br />One of my favorite memory of Medix would be would be just
+
+                    every day going to class with my fellow classmates, my teacher, she's fantastic. There's a lot of
+
+                    people of there in our course that we help, or that we're going to be helping, it's a very humbling
+
+                    experience to know that they're out there. <br /><br />The thing I enjoyed most about the campus was that it
+
+                    was easily accessible and easy to get to and it's only got a twenty minute drive for me every day. I
+
+                    see myself in five years being a Community Service Worker or a Social Service Worker in the
+
+                    drug and alcohol field, that I'd like to go into, specializing in that. <br /><br />I have found it easy make friends
+
+                    on campus, everybody that's in my class I'm pretty friendly with right now so I'm really enjoying
+
+                    that. The thing I like best about my instructors is that they're easy to talk to, first and foremost.
+
+                    Easy to talk to, they are open to answer any questions I have. <br/><br/>My family feels great about me
+
+                    attending Medix, they're very happy, their very proud of me ­I didn't have a lot of success in high
+
+                    school so this is actually a great step up for me. I would probably tell somebody it's thinking about
+
+                    attending Medix to go, it's a very easy place to go to school. <br /><br />I know school is very daunting for a
+
+                    lot of people, a lot of people didn't do very well when they were in high school but coming from
+
+                    somebody with that experience, it's really easy to go there, the instructors are very helpful, very
+
+                    caring and they just wont let you fail.
                 </div>
             </div>
         </div>
@@ -201,9 +235,9 @@
             </a>
             <div class="collapse" id="collapseExample1">
                 <div class="well">
-                    "I chose Medix College because of the small classroom sizes. I liked best about the classes the fact that I was going to be helping people in the end, and I really enjoyed my instructor. My instructor brought knowledge as well as life experience to the classroom.<br /><br />
+                    I chose Medix College because of the small classroom sizes. I liked best about the classes the fact that I was going to be helping people in the end, and I really enjoyed my instructor. My instructor brought knowledge as well as life experience to the classroom.<br /><br />
 
-                    Medix College gave me a sense of accomplishment in my life, as well as demonstrating that to my children."
+                    Medix College gave me a sense of accomplishment in my life, as well as demonstrating that to my children.
                 </div>
             </div>
         </div>
@@ -239,7 +273,7 @@
                 </div>
                 <div class="input-group spacer-top">
                     <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
-                    <select class="form-control pull-right" name="CampusID">
+                    <select class="form-control pull-right" name="CampusID" id="askQuestionCampusList">
                         <option value="0">Select</option>
                         <option value="246">Brampton</option>
                         <option value="243">Brantford</option>
@@ -251,33 +285,33 @@
                 </div>
                 <div class="input-group spacer-top">
                     <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
-                    <select class="form-control pull-right" name="ProgramID">
-                        <option value="0">Select</option>
-                        <option value="38882">Anatomy &amp; Physiology</option>
-                        <option value="39877">Child and Youth Care with Addictions Support Worker</option>
-                        <option value="632">Community Service Worker</option>
-                        <option value="39478">CPR &amp; First Aid</option>
-                        <option value="818">Dental Level 2</option>
-                        <option value="38883">Dental Office Procedures (abel dent)</option>
-                        <option value="634">Developmental Service Worker</option>
-                        <option value="38526">Early Childcare Assistant</option>
-                        <option value="642">ECG</option>
-                        <option value="37255">Fitness &amp; Health Promotion</option>
-                        <option value="39162">Intramuscular Injection</option>
-                        <option value="627">Intra-Oral Dental Assistant </option>
-                        <option value="629">Massage Therapy</option>
-                        <option value="633">Medical Laboratory Assistant / Technician</option>
-                        <option value="630">Medical Office Administrator</option>
-                        <option value="1170">Medical Terminology</option>
-                        <option value="38887">Medical Transcription</option>
-                        <option value="39415">Mental Health &amp; Addictions</option>
-                        <option value="1169">OHIP Billing</option>
-                        <option value="631">Personal Support Worker</option>
-                        <option value="628">Pharmacy Assistant</option>
-                        <option value="636">Phlebotomy</option>
-                        <option value="1167">Principles of Nutrition</option>
-                        <option value="643">PSW Upgrading</option>
-                        <option value="1171">Thought Patterns</option>
+                    <select class="form-control pull-right" name="ProgramID" id="askQuestionProgramList">
+                        <option class="0 246 243 242 244 241 240" value="0">Select</option>
+                        <option class="0" value="38882">Anatomy &amp; Physiology</option>
+                        <option class="0 243 241" value="39877">Child and Youth Care with Addictions Support Worker</option>
+                        <option class="0 246 243 242 244 241 240" value="632">Community Service Worker</option>
+                        <option class="0 246 243 241 240" value="39478">CPR &amp; First Aid</option>
+                        <option class="0 246 243 242 244 241 240" value="818">Dental Level 2</option>
+                        <option class="0 246 243 242 244 241 240" value="38883">Dental Office Procedures (abel dent)</option>
+                        <option class="0 246 243 242 244 241 240" value="634">Developmental Service Worker</option>
+                        <option class="0 246 243 241 240" value="38526">Early Childcare Assistant</option>
+                        <option class="0 246 243 242 244 241 240" value="642">ECG</option>
+                        <option class="0 246 244 241 240" value="37255">Fitness &amp; Health Promotion</option>
+                        <option class="0 246 244 241 240" value="39162">Intramuscular Injection</option>
+                        <option class="0 246 243 242 244 241 240" value="627">Intra-Oral Dental Assistant </option>
+                        <option class="0 246 242 244 241 240" value="629">Massage Therapy</option>
+                        <option class="0 246 242 244 241 240" value="633">Medical Laboratory Assistant / Technician</option>
+                        <option class="0 246 243 242 244 241 240" value="630">Medical Office Administrator</option>
+                        <option class="0" value="1170">Medical Terminology</option>
+                        <option class="0" value="38887">Medical Transcription</option>
+                        <option class="0 246 243 242 244 241 240" value="39415">Mental Health &amp; Addictions</option>
+                        <option class="0" value="1169">OHIP Billing</option>
+                        <option class="0 246 243 242 244 241 240" value="631">Personal Support Worker</option>
+                        <option class="0 246 243 242 244 241 240" value="628">Pharmacy Assistant</option>
+                        <option class="0 246 243 242 244 241 240" value="636">Phlebotomy</option>
+                        <option class="0" value="1167">Principles of Nutrition</option>
+                        <option class="0 246 243 242 244 241 240" value="643">PSW Upgrading</option>
+                        <option class="0" value="1171">Thought Patterns</option>
 
                     </select>
                 </div>
