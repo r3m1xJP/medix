@@ -1604,7 +1604,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/13/2016 01:40:17</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/VirtualTour.cshtml">
-      <publishTime>04/13/2016 01:40:17</publishTime>
+      <publishTime>04/13/2016 12:42:37</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/_DiscoverMedixLayout.cshtml">
       <publishTime>04/13/2016 01:40:17</publishTime>
@@ -1757,7 +1757,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/13/2016 01:40:18</publishTime>
     </File>
     <File Include="Views/Programs/ChildYouthAddictionsWorker.cshtml">
-      <publishTime>04/13/2016 02:03:55</publishTime>
+      <publishTime>04/13/2016 14:59:01</publishTime>
     </File>
     <File Include="Views/Programs/CommunityServiceWorker.cshtml">
       <publishTime>04/13/2016 02:10:25</publishTime>
