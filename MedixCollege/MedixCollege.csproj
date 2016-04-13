@@ -584,6 +584,7 @@
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery-ui-1.11.3.js" />
     <Content Include="Scripts\jquery-ui-1.11.3.min.js" />
+    <Content Include="Scripts\jquery.blockUI.js" />
     <Content Include="Scripts\jquery.flexisel.js" />
     <Content Include="Scripts\jquery.mousewheel.min.js" />
     <Content Include="Scripts\jquery.smoothdivscroll-1.3-min.js" />
@@ -733,6 +734,7 @@
     <Content Include="Views\MedixOnline\SpecialPackages.cshtml" />
     <Content Include="Views\Home\StudentsAlumni.cshtml" />
     <Content Include="Views\Home\SearchEngineMarketingForm.cshtml" />
+    <Content Include="Views\Courses\PersonalSupportWorker.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
