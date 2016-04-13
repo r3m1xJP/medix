@@ -66,6 +66,7 @@ namespace MedixCollege.Controllers
             mediaGroups.Add(90825, "TRADE SHOWS");
             mediaGroups.Add(90084, "VENDOR");
 
+            mediaSources.Add(18913, "Rogers Digital - Kitchener Brantford");
             mediaSources.Add(14699, "High School");
             mediaSources.Add(974, "Bing");
             mediaSources.Add(17293, "careercollegegroup.com");
@@ -237,6 +238,7 @@ namespace MedixCollege.Controllers
             mediaSources.Add(1080, "Vantage Media");
             mediaSources.Add(14708, "webmechanix");
         }
+
         public ActionResult Index()
         {
             var newsArticle = new NewsArticle();
@@ -348,6 +350,16 @@ namespace MedixCollege.Controllers
                 ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
 
                 return View("ThankYou");
+            }
+
+            if (fc["MediaGroupID"] == null)
+            {
+                fc.Add("MediaGroupID", "90080");
+            }
+
+            if (fc["MediaID"] == null)
+            {
+                fc.Add("MediaID", "928");
             }
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
@@ -504,6 +516,16 @@ namespace MedixCollege.Controllers
                 ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
 
                 return View("ThankYou");
+            }
+
+            if (fc["MediaGroupID"] == null)
+            {
+                fc.Add("MediaGroupID", "90080");
+            }
+
+            if (fc["MediaID"] == null)
+            {
+                fc.Add("MediaID", "928");
             }
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
@@ -676,6 +698,16 @@ namespace MedixCollege.Controllers
                 return View("ThankYou");
             }
 
+            if (fc["MediaGroupID"] == null)
+            {
+                fc.Add("MediaGroupID", "90080");
+            }
+
+            if (fc["MediaID"] == null)
+            {
+                fc.Add("MediaID", "928");
+            }
+
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
             using (var client = new HttpClient())
@@ -844,6 +876,16 @@ namespace MedixCollege.Controllers
                 ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
 
                 return View("ThankYou");
+            }
+
+            if (fc["MediaGroupID"] == null)
+            {
+                fc.Add("MediaGroupID", "90080");
+            }
+
+            if (fc["MediaID"] == null)
+            {
+                fc.Add("MediaID", "928");
             }
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
@@ -1016,6 +1058,16 @@ namespace MedixCollege.Controllers
                 return View("ThankYou");
             }
 
+            if (fc["MediaGroupID"] == null)
+            {
+                fc.Add("MediaGroupID", "90080");
+            }
+
+            if (fc["MediaID"] == null)
+            {
+                fc.Add("MediaID", "928");
+            }
+
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
             using (var client = new HttpClient())
@@ -1184,6 +1236,16 @@ namespace MedixCollege.Controllers
                 ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
 
                 return View("ThankYou");
+            }
+
+            if (fc["MediaGroupID"] == null)
+            {
+                fc.Add("MediaGroupID", "90080");
+            }
+
+            if (fc["MediaID"] == null)
+            {
+                fc.Add("MediaID", "928");
             }
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
@@ -1356,6 +1418,16 @@ namespace MedixCollege.Controllers
                 return View("ThankYou");
             }
 
+            if (fc["MediaGroupID"] == null)
+            {
+                fc.Add("MediaGroupID", "90080");
+            }
+
+            if (fc["MediaID"] == null)
+            {
+                fc.Add("MediaID", "928");
+            }
+
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
             using (var client = new HttpClient())
@@ -1400,6 +1472,16 @@ namespace MedixCollege.Controllers
                 ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
 
                 return View("ThankYou");
+            }
+
+            if (fc["MediaGroupID"] == null)
+            {
+                fc.Add("MediaGroupID", "90080");
+            }
+
+            if (fc["MediaID"] == null)
+            {
+                fc.Add("MediaID", "928");
             }
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
