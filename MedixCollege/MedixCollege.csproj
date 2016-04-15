@@ -735,6 +735,9 @@
     <Content Include="Views\Home\StudentsAlumni.cshtml" />
     <Content Include="Views\Home\SearchEngineMarketingForm.cshtml" />
     <Content Include="Views\Courses\PersonalSupportWorker.cshtml" />
+    <Content Include="Views\Courses\AskAQuestion.cshtml" />
+    <Content Include="Views\Courses\SearchEngineMarketingForm.cshtml" />
+    <Content Include="Views\Courses\_CoursesLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
