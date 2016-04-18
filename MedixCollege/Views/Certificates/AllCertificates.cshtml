@@ -2,6 +2,11 @@
     Layout = "~/Views/Certificates/_CertificatesLayout.cshtml";
 }
 
+@{
+    ViewBag.Title = "Certificates";
+    ViewBag.PageDescription = "Learn more about the Certificate programs available at Medix College.";
+}
+
 <h1 class="contentPageH1">ALL CERTIFICATES</h1>
 <ol class="breadcrumb">
     <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
@@ -44,14 +49,7 @@
             staff information estimates and billing treatment.
         </td>
     </tr>
-    <tr>
-        <th class="contentH3-blue">@Html.ActionLink("Addictions & Special Populations", "Index", "Certificates")</th>
-        <td class="contentp">
-            This program is ideal for those who are already studying or
 
-            working in the health care or the social work field.
-        </td>
-    </tr>
     <tr>
         <th class="contentH3-blue">@Html.ActionLink("Basic World Treatment", "BasicWoundTreatment", "Certificates")</th>
         <td class="contentp">
