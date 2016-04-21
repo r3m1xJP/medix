@@ -642,7 +642,6 @@
     <Content Include="Views\Programs\MedicalOfficeAdministrator.cshtml" />
     <Content Include="Views\Certificates\FirstAidCPR.cshtml" />
     <Content Include="Views\Certificates\FoodHandlerSafety.cshtml" />
-    <Content Include="Views\Certificates\CertificatesContinuingEducation.cshtml" />
     <Content Include="Views\Certificates\AbelDent.cshtml" />
     <Content Include="Views\Certificates\MentalHealthAddictions.cshtml" />
     <Content Include="Views\Certificates\BasicWoundTreatment.cshtml" />

@@ -170,7 +170,7 @@
                 </div>
                 <div class="input-group spacer-top">
                     <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
-                    <select class="form-control pull-right" name="CampusID">
+                    <select class="form-control pull-right" name="CampusID" id="askQuestionCampusList">
                         <option value="0">Select</option>
                         <option value="246">Brampton</option>
                         <option value="243">Brantford</option>
@@ -182,33 +182,33 @@
                 </div>
                 <div class="input-group spacer-top">
                     <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
-                    <select class="form-control pull-right" name="ProgramID">
-                        <option value="0">Select</option>
-                        <option value="38882">Anatomy &amp; Physiology</option>
-                        <option value="39877">Child and Youth Care with Addictions Support Worker</option>
-                        <option value="632">Community Service Worker</option>
-                        <option value="39478">CPR &amp; First Aid</option>
-                        <option value="818">Dental Level 2</option>
-                        <option value="38883">Dental Office Procedures (abel dent)</option>
-                        <option value="634">Developmental Service Worker</option>
-                        <option value="38526">Early Childcare Assistant</option>
-                        <option value="642">ECG</option>
-                        <option value="37255">Fitness &amp; Health Promotion</option>
-                        <option value="39162">Intramuscular Injection</option>
-                        <option value="627">Intra-Oral Dental Assistant </option>
-                        <option value="629">Massage Therapy</option>
-                        <option value="633">Medical Laboratory Assistant / Technician</option>
-                        <option value="630">Medical Office Administrator</option>
-                        <option value="1170">Medical Terminology</option>
-                        <option value="38887">Medical Transcription</option>
-                        <option value="39415">Mental Health &amp; Addictions</option>
-                        <option value="1169">OHIP Billing</option>
-                        <option value="631">Personal Support Worker</option>
-                        <option value="628">Pharmacy Assistant</option>
-                        <option value="636">Phlebotomy</option>
-                        <option value="1167">Principles of Nutrition</option>
-                        <option value="643">PSW Upgrading</option>
-                        <option value="1171">Thought Patterns</option>
+                    <select class="form-control pull-right" name="ProgramID" id="askQuestionProgramList">
+                        <option class="0 246 243 242 244 241 240" value="0">Select</option>
+                        <option class="0" value="38882">Anatomy &amp; Physiology</option>
+                        <option class="0 243 241" value="39877">Child and Youth Care with Addictions Support Worker</option>
+                        <option class="0 246 243 242 244 241 240" value="632">Community Service Worker</option>
+                        <option class="0 246 243 241 240" value="39478">CPR &amp; First Aid</option>
+                        <option class="0 246 243 242 244 241 240" value="818">Dental Level 2</option>
+                        <option class="0 246 243 242 244 241 240" value="38883">Dental Office Procedures (abel dent)</option>
+                        <option class="0 246 243 242 244 241 240" value="634">Developmental Service Worker</option>
+                        <option class="0 246 243 241 240" value="38526">Early Childcare Assistant</option>
+                        <option class="0 246 243 242 244 241 240" value="642">ECG</option>
+                        <option class="0 246 244 241 240" value="37255">Fitness &amp; Health Promotion</option>
+                        <option class="0 246 244 241 240" value="39162">Intramuscular Injection</option>
+                        <option class="0 246 243 242 244 241 240" value="627">Intra-Oral Dental Assistant </option>
+                        <option class="0 246 242 244 241 240" value="629">Massage Therapy</option>
+                        <option class="0 246 242 244 241 240" value="633">Medical Laboratory Assistant / Technician</option>
+                        <option class="0 246 243 242 244 241 240" value="630">Medical Office Administrator</option>
+                        <option class="0" value="1170">Medical Terminology</option>
+                        <option class="0" value="38887">Medical Transcription</option>
+                        <option class="0 246 243 242 244 241 240" value="39415">Mental Health &amp; Addictions</option>
+                        <option class="0" value="1169">OHIP Billing</option>
+                        <option class="0 246 243 242 244 241 240" value="631">Personal Support Worker</option>
+                        <option class="0 246 243 242 244 241 240" value="628">Pharmacy Assistant</option>
+                        <option class="0 246 243 242 244 241 240" value="636">Phlebotomy</option>
+                        <option class="0" value="1167">Principles of Nutrition</option>
+                        <option class="0 246 243 242 244 241 240" value="643">PSW Upgrading</option>
+                        <option class="0" value="1171">Thought Patterns</option>
 
                     </select>
                 </div>
@@ -223,32 +223,6 @@
                     <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
                 </div>
             </form>
-        </div>
-
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-body panelBG">
-            <h1 class="contentH1 text-center"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;CAMPUSES</h1>
-            <hr class="hrpblue" />
-            <p class="contentp">
-                @Html.ActionLink("Brampton", "Brampton", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-                @Html.ActionLink("Brantford", "Brantford", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-
-                @Html.ActionLink("Kitchener", "Kitchener", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-                @Html.ActionLink("London", "London", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-                @Html.ActionLink("Scarborough", "Scarborough", "Campuses")
-            </p> <hr class="hrp" />
-            <p class="contentp">
-                @Html.ActionLink("Toronto", "Toronto", "Campuses")
-            </p>
         </div>
 
     </div>
