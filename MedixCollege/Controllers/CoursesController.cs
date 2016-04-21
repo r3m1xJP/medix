@@ -251,6 +251,62 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+
+        public ActionResult MedicalOfficeAdmin()
+        {
+            return View();
+        }
+
+        public ActionResult PersonalSupportWorker()
+        {
+            return View();
+        }
+
+        public ActionResult ChildYouthAddictionsWorker()
+        {
+            return View();
+        }
+
+        public ActionResult CommunityServiceWorker()
+        {
+            return View();
+        }
+
+        public ActionResult DevelopmentalServiceWorker()
+        {
+            return View();
+        }
+
+        public ActionResult EarlyChildcareAssistant()
+        {
+            return View();
+        }
+
+        public ActionResult FitnessHealthPromotion()
+        {
+            return View();
+        }
+
+        public ActionResult IntraOralDentalAssistant()
+        {
+            return View();
+        }
+
+        public ActionResult MassageTherapy()
+        {
+            return View();
+        }
+
+        public ActionResult MedicalLabAssistantTech()
+        {
+            return View();
+        }
+
+        public ActionResult PharmacyAssistant()
+        {
+            return View();
+        }
+
         [HttpPost]
         public async Task<ActionResult> AskQuestion(FormCollection fc)
         {

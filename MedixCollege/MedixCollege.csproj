@@ -403,6 +403,10 @@
     <Content Include="Content\images\medix-banner-mt.jpg" />
     <Content Include="Content\images\medix-banner-psw.jpg" />
     <Content Include="Content\images\Medix-Weekly-Hired-Logo.jpg" />
+    <Content Include="Content\images\medixcatalogue.gif" />
+    <Content Include="Content\images\medixCatalogue.jpg" />
+    <Content Include="Content\images\medixCatalogue2.jpg" />
+    <Content Include="Content\images\medixCatalogue3.jpg" />
     <Content Include="Content\images\medixCollegeHeader.gif" />
     <Content Include="Content\images\MedixIMG1.gif" />
     <Content Include="Content\images\MedixIMG2.gif" />
@@ -657,7 +661,6 @@
     <Content Include="Views\Certificates\SoftTissueBackInjuryPrevention.cshtml" />
     <Content Include="Views\Certificates\Urinalysis.cshtml" />
     <Content Include="Views\Programs\AllPrograms.cshtml" />
-    <Content Include="Views\Programs\MedixOnline.cshtml" />
     <Content Include="Views\Certificates\AllCertificates.cshtml" />
     <Content Include="Views\Certificates\MedixOnline.cshtml" />
     <Content Include="Views\Admissions\OSAP.cshtml" />
@@ -733,10 +736,13 @@
     <Content Include="Views\MedixOnline\SpecialPackages.cshtml" />
     <Content Include="Views\Home\StudentsAlumni.cshtml" />
     <Content Include="Views\Home\SearchEngineMarketingForm.cshtml" />
-    <Content Include="Views\Courses\PersonalSupportWorker.cshtml" />
     <Content Include="Views\Courses\AskAQuestion.cshtml" />
     <Content Include="Views\Courses\SearchEngineMarketingForm.cshtml" />
     <Content Include="Views\Courses\_CoursesLayout.cshtml" />
+    <Content Include="Views\Courses\MedicalOfficeAdmin.cshtml" />
+    <Content Include="Views\Courses\PersonalSupportWorker.cshtml" />
+    <Content Include="Views\Courses\ChildYouthAddictionsWorker.cshtml" />
+    <Content Include="Views\Courses\CommunityServiceWorker.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
