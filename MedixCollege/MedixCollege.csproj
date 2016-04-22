@@ -447,6 +447,7 @@
     <Content Include="Content\images\thanksimagemedix1.jpg" />
     <Content Include="Content\images\topDIVgold.jpg" />
     <Content Include="Content\images\twitter-ic.gif" />
+    <Content Include="Content\images\white-medix-logo.gif" />
     <Content Include="Content\images\youtube-ic.gif" />
     <Content Include="Content\PagedList.css" />
     <Content Include="Content\responsiveslides.css" />
@@ -743,6 +744,8 @@
     <Content Include="Views\Courses\PersonalSupportWorker.cshtml" />
     <Content Include="Views\Courses\ChildYouthAddictionsWorker.cshtml" />
     <Content Include="Views\Courses\CommunityServiceWorker.cshtml" />
+    <Content Include="Views\Courses\DevelopmentalServiceWorker.cshtml" />
+    <Content Include="Views\Courses\EarlyChildcareAssistant.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
