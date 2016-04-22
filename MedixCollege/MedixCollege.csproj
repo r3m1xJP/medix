@@ -748,6 +748,9 @@
     <Content Include="Views\Courses\EarlyChildcareAssistant.cshtml" />
     <Content Include="Views\Courses\FitnessHealthPromotion.cshtml" />
     <Content Include="Views\Courses\IntraOralDentalAssistant.cshtml" />
+    <Content Include="Views\Courses\MassageTherapy.cshtml" />
+    <Content Include="Views\Courses\MedicalLabAssistantTech.cshtml" />
+    <Content Include="Views\Courses\PharmacyAssistant.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
