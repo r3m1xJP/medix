@@ -320,6 +320,7 @@
     <Content Include="Content\images\cert-backinjury.jpg" />
     <Content Include="Content\images\cert-basicwoundtreatment.jpg" />
     <Content Include="Content\images\cert-developmentaldisabilities.jpg" />
+    <Content Include="Content\images\cert-doula.jpg" />
     <Content Include="Content\images\cert-ecg.jpg" />
     <Content Include="Content\images\cert-emotionalfirstaid.jpg" />
     <Content Include="Content\images\cert-esl.jpg" />
@@ -751,6 +752,7 @@
     <Content Include="Views\Courses\MassageTherapy.cshtml" />
     <Content Include="Views\Courses\MedicalLabAssistantTech.cshtml" />
     <Content Include="Views\Courses\PharmacyAssistant.cshtml" />
+    <Content Include="Views\Certificates\BirthDoulaWorkshop.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
