@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/13/2016 01:40:18</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>04/27/2016 16:16:36</publishTime>
+      <publishTime>04/29/2016 00:53:12</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>04/13/2016 01:40:18</publishTime>
@@ -1513,6 +1513,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Campuses/_CampusesLayout.cshtml">
       <publishTime>04/13/2016 01:40:17</publishTime>
     </File>
+    <File Include="Views/CareerServices/CanadaJobGrant.cshtml">
+      <publishTime>04/29/2016 00:50:43</publishTime>
+    </File>
     <File Include="Views/CareerServices/HireAGrad.cshtml">
       <publishTime>04/26/2016 16:24:43</publishTime>
     </File>
@@ -1525,6 +1528,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/CareerServices/JobSearchTips.cshtml">
       <publishTime>04/13/2016 01:40:17</publishTime>
     </File>
+    <File Include="Views/CareerServices/KPIandDefault.cshtml">
+      <publishTime>04/29/2016 00:43:20</publishTime>
+    </File>
     <File Include="Views/CareerServices/MedixAdvantage.cshtml">
       <publishTime>04/18/2016 08:34:41</publishTime>
     </File>
@@ -1535,7 +1541,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/13/2016 01:40:17</publishTime>
     </File>
     <File Include="Views/CareerServices/_CareerServicesLayout.cshtml">
-      <publishTime>04/13/2016 01:40:17</publishTime>
+      <publishTime>04/29/2016 00:45:10</publishTime>
     </File>
     <File Include="Views/Certificates/AbelDent.cshtml">
       <publishTime>04/27/2016 14:55:47</publishTime>
@@ -1874,7 +1880,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/13/2016 01:40:18</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>04/27/2016 14:55:25</publishTime>
+      <publishTime>04/29/2016 00:52:43</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>04/13/2016 01:40:18</publishTime>
