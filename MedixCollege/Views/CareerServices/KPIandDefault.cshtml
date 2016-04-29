@@ -1,0 +1,203 @@
+﻿@{
+    Layout = "~/Views/CareerServices/_CareerServicesLayout.cshtml";
+}
+@{
+    ViewBag.Title = "Resume Tips";
+}
+
+
+<div class="col-sm-12 no-padding botMARG">
+    <h1 class="contentPageH1">KEY PERFORMANCE INDICATOR and DEFAULT RATES</h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="active contentp">Key Performance Indicator and Default Rates </li>
+    </ol>
+
+
+</div>
+
+<div class="col-sm-8 mid-padding">
+
+
+
+
+    <h1 class="contentH1">Key Performance Indicator Survey for Graduates</h1><hr class="hrp" />
+    <p class="contentp">
+        As a Medix College graduate, your opinion is important to us.
+        <br /><br />
+        You will be contacted in a few months’ time regarding your participation in the Key Performance Indicator (KPI) Graduate Satisfaction Survey. You will be receiving a call in approximately 6 months' time from your graduation date from FORUM RESEARCH CANADA, a research firm contracted by the Ministry of Training, College & Universities.
+        <br /><br />
+        This firm will be collecting information for the Key Performance Indicator (KPI) Graduate Satisfaction Survey, to be followed by the KPI Employer Satisfaction Survey. The purpose of these provincial surveys is to measure Medix College's effectiveness in preparing you for the workplace. The results have an impact on both the college's level of provincial funding as well as determining future curriculum and program direction.
+        Forum Research Canada requires your consent to contact your employer for their input to the employer survey.
+        <br /><br />
+        If you missed the call, please call back at toll free number: 1-877-603-6786 ext. 2261  and leave a message at your earliest convenience.
+        <br /><br />
+
+        We encourage you and your employer to participate and make a difference to Medix's future!
+
+
+    </p>
+    <br /><br />
+
+    <h1 class="contentH1">Measuring Success after Graduation</h1><hr class="hrp" />
+    <p class="contentp">
+        How many students successfully graduate from private career colleges?  Do graduates find jobs
+
+        and are these jobs related to their training?  How many students pay back their student loans?<br /><br />
+
+        Since 2013, Ontario’s private career colleges – or PCCs – have worked with the ministry and its
+
+        partners to gather data to answer these questions. The data is used to develop measurable values
+
+        called key performance indicators – or KPIs.<br/><br/>
+
+        KPIs show how graduates have fared after graduating from PCC vocational programs. They help
+
+        future students make more informed decisions about their postsecondary education and help
+
+        institutions identify areas of strength and weakness and opportunities for improvement.
+
+
+    </p>
+    <br/><br/>
+    <h1 class="contentH1">The KPI Process</h1><hr class="hrp" />
+    <p class="contentp">
+        Under the authority of the Private Career Colleges Act, 2005, the Superintendent of Private
+
+        Career Colleges issued a policy directive setting out five PCC KPIs:
+
+
+    </p>
+    <p class="contentp">
+        <ul>
+            <li>Graduation Rate</li>
+            <li>Graduate Employment Rate</li>
+            <li>Graduate Employment Rate in Field of Study</li>
+            <li>Graduate Satisfaction Rate</li>
+            <li>Employer Satisfaction Rate</li>
+        </ul>
+
+    </p>
+    <p class="contentp">
+
+        Graduation rate is calculated from audited data submitted by PCCs three times per year. The
+
+        other four KPIs are calculated from surveys taken by graduates and their employers.
+
+        The ministry also calculates Ontario Student Assistance Program (OSAP) loan default rates for
+
+        PCCs approved to accept OSAP-assisted students, which are also considered a performance
+
+        indicator for the sector.<br /><br />
+
+        Published 2013 results include graduation rate, graduate employment rate, graduate employment
+
+        rate in field of study and loan default rates.  Graduate and employer satisfaction rates will also be
+
+        published, beginning with 2014 results.<br /><br />
+
+        For the 2013 and 2014 cycles, only PCCs with OSAP-approved programs were required to
+
+        participate in the KPI process. All PCCs are included in the 2015 cycle.
+        <br /><br />
+        Recent KPI Results
+        <br /><br />
+        <a href="http://www.tcu.gov.on.ca/pepg/audiences/pcc/2013/EFC_TRADE_INC_200249.pdf">http://www.tcu.gov.on.ca/pepg/audiences/pcc/2013/EFC_TRADE_INC_200249.pdf</a><br/>
+        <a href="http://www.tcu.gov.on.ca/pepg/audiences/pcc/2013/HEALTH_CARE_VOCATIONAL_CENTRES_inc_200240.pdf">http://www.tcu.gov.on.ca/pepg/audiences/pcc/2013/HEALTH_CARE_VOCATIONAL_CENTRES
+
+_INC_200240.pdf</a>
+    </p>
+
+
+        <br />
+        <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO PROGRAM DIRECTORY", "AllPrograms", "Programs")</button>
+        <br />
+        <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
+        <br />
+</div>
+
+<div class="col-sm-4 pull-right no-padding">
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+            <form id="programsQuestionsForm" name="programsQuestionsForm" data-parsley-validate="" method="post" class="questionsForm" action="/home/askquestionprogram">
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240001" />
+                <h1 class="contentH1 text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                </h1><hr class="hrpblue" />
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="FirstName" required="">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Telephone: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="Telephone" required="">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control pull-right" name="Email" required="">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="CampusID" id="askQuestionCampusList">
+                        <option value="0">Select</option>
+                        <option value="246">Brampton</option>
+                        <option value="243">Brantford</option>
+                        <option value="242">Kitchener</option>
+                        <option value="244">London</option>
+                        <option value="241">Scarborough</option>
+                        <option value="240">Toronto</option>
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="ProgramID" id="askQuestionProgramList">
+                        <option class="0 246 243 242 244 241 240" value="0">Select</option>
+                        <option class="0" value="38882">Anatomy &amp; Physiology</option>
+                        <option class="0 243 241" value="39877">Child and Youth Care with Addictions Support Worker</option>
+                        <option class="0 246 243 242 244 241 240" value="632">Community Service Worker</option>
+                        <option class="0 246 243 241 240" value="39478">CPR &amp; First Aid</option>
+                        <option class="0 246 243 242 244 241 240" value="818">Dental Level 2</option>
+                        <option class="0 246 243 242 244 241 240" value="38883">Dental Office Procedures (abel dent)</option>
+                        <option class="0 246 243 242 244 241 240" value="634">Developmental Service Worker</option>
+                        <option class="0 246 243 241 240" value="38526">Early Childcare Assistant</option>
+                        <option class="0 246 243 242 244 241 240" value="642">ECG</option>
+                        <option class="0 246 244 241 240" value="37255">Fitness &amp; Health Promotion</option>
+                        <option class="0 246 244 241 240" value="39162">Intramuscular Injection</option>
+                        <option class="0 246 243 242 244 241 240" value="627">Intra-Oral Dental Assistant </option>
+                        <option class="0 246 242 244 241 240" value="629">Massage Therapy</option>
+                        <option class="0 246 242 244 241 240" value="633">Medical Laboratory Assistant / Technician</option>
+                        <option class="0 246 243 242 244 241 240" value="630">Medical Office Administrator</option>
+                        <option class="0" value="1170">Medical Terminology</option>
+                        <option class="0" value="38887">Medical Transcription</option>
+                        <option class="0 246 243 242 244 241 240" value="39415">Mental Health &amp; Addictions</option>
+                        <option class="0" value="1169">OHIP Billing</option>
+                        <option class="0 246 243 242 244 241 240" value="631">Personal Support Worker</option>
+                        <option class="0 246 243 242 244 241 240" value="628">Pharmacy Assistant</option>
+                        <option class="0 246 243 242 244 241 240" value="636">Phlebotomy</option>
+                        <option class="0" value="1167">Principles of Nutrition</option>
+                        <option class="0 246 243 242 244 241 240" value="643">PSW Upgrading</option>
+                        <option class="0" value="1171">Thought Patterns</option>
+
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left contentp">Question: </label>
+                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                </div>
+                <div class="small-text spacer-top text-center grayColor">
+                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                </div>
+                <div class="text-center">
+                    <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+
