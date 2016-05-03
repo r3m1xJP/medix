@@ -56,10 +56,7 @@ namespace MedixCollege.Controllers
             return View();
         }
 
-        public ActionResult CanadaJobGrant()
-        {
-            return View();
-        }
+    
 
         public ActionResult HireAGrad()
         {
