@@ -52,6 +52,7 @@ namespace MedixCollege.Controllers
             programs.Add(1167, "Principles of Nutrition");
             programs.Add(643, "PSW Upgrading");
             programs.Add(1171, "Thought Patterns");
+            programs.Add(41065, "Birth Doula Workshop");
 
             mediaGroups.Add(91063, "HIGH SCHOOL");
             mediaGroups.Add(90080, "INTERNET");
