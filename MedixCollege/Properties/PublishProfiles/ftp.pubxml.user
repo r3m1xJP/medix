@@ -1670,7 +1670,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/21/2016 11:56:17</publishTime>
     </File>
     <File Include="Views/Courses/_CoursesLayout.cshtml">
-      <publishTime>05/05/2016 00:29:32</publishTime>
+      <publishTime>05/06/2016 10:27:36</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/CareersAtMedix.cshtml">
       <publishTime>04/18/2016 09:11:26</publishTime>
@@ -1769,7 +1769,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/13/2016 01:40:18</publishTime>
     </File>
     <File Include="Views/Home/ThankYou.cshtml">
-      <publishTime>04/13/2016 01:40:18</publishTime>
+      <publishTime>05/06/2016 10:24:53</publishTime>
     </File>
     <File Include="Views/Home/VirtualTours.cshtml">
       <publishTime>04/13/2016 01:40:18</publishTime>
@@ -1838,7 +1838,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/13/2016 01:40:18</publishTime>
     </File>
     <File Include="Views/MedixOnline/ThankYou.cshtml">
-      <publishTime>04/13/2016 01:40:18</publishTime>
+      <publishTime>05/06/2016 10:25:09</publishTime>
     </File>
     <File Include="Views/MedixOnline/_MedixOnlineLayout.cshtml">
       <publishTime>04/13/2016 01:40:18</publishTime>
