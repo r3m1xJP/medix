@@ -685,5 +685,12 @@ namespace MedixCollege.Controllers
                 return View("ThankYou");
             }
         }
+
+        public ActionResult ThankYou()
+        {
+            ViewBag.Success = true;
+
+            return View();
+        }
     }
 }

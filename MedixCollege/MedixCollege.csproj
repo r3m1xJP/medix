@@ -751,6 +751,7 @@
     <Content Include="Views\Courses\MassageTherapy.cshtml" />
     <Content Include="Views\Courses\MedicalLabAssistantTech.cshtml" />
     <Content Include="Views\Courses\PharmacyAssistant.cshtml" />
+    <Content Include="Views\Courses\ThankYou.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
