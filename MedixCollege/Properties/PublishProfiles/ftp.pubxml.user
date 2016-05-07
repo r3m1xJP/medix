@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/13/2016 01:40:18</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>05/02/2016 23:10:52</publishTime>
+      <publishTime>05/06/2016 22:27:06</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>04/13/2016 01:40:18</publishTime>
@@ -690,6 +690,21 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/160430-Hires-Medix-Toronto.jpg">
       <publishTime>04/29/2016 23:23:05</publishTime>
+    </File>
+    <File Include="Content/images/160507-Hires-Medix-Brantford.jpg">
+      <publishTime>05/06/2016 22:26:37</publishTime>
+    </File>
+    <File Include="Content/images/160507-Hires-Medix-Kitchener.jpg">
+      <publishTime>05/06/2016 22:26:37</publishTime>
+    </File>
+    <File Include="Content/images/160507-Hires-Medix-London.jpg">
+      <publishTime>05/06/2016 22:26:37</publishTime>
+    </File>
+    <File Include="Content/images/160507-Hires-Medix-Scarborough.jpg">
+      <publishTime>05/06/2016 22:26:37</publishTime>
+    </File>
+    <File Include="Content/images/160507-Hires-Medix-Toronto.jpg">
+      <publishTime>05/06/2016 22:26:37</publishTime>
     </File>
     <File Include="Content/images/admissions-eo.jpg">
       <publishTime>04/13/2016 01:40:15</publishTime>
@@ -1668,6 +1683,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/Courses/SearchEngineMarketingForm.cshtml">
       <publishTime>04/21/2016 11:56:17</publishTime>
+    </File>
+    <File Include="Views/Courses/ThankYou.cshtml">
+      <publishTime>05/06/2016 11:01:05</publishTime>
     </File>
     <File Include="Views/Courses/_CoursesLayout.cshtml">
       <publishTime>05/06/2016 10:27:36</publishTime>
