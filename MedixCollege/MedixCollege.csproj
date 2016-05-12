@@ -293,6 +293,11 @@
     <Content Include="Content\images\160430-Hires-Medix-London.jpg" />
     <Content Include="Content\images\160430-Hires-Medix-Scarborough.jpg" />
     <Content Include="Content\images\160430-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\160507-Hires-Medix-Brantford.jpg" />
+    <Content Include="Content\images\160507-Hires-Medix-Kitchener.jpg" />
+    <Content Include="Content\images\160507-Hires-Medix-London.jpg" />
+    <Content Include="Content\images\160507-Hires-Medix-Scarborough.jpg" />
+    <Content Include="Content\images\160507-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
@@ -701,10 +706,6 @@
     <Content Include="Views\Home\HireAMedixGrad.cshtml" />
     <Content Include="Views\Home\VirtualTours.cshtml" />
     <Content Include="Views\Home\SocialMedia.cshtml" />
-    <Content Include="Views\CareerServices\JobSearchTips.cshtml" />
-    <Content Include="Views\CareerServices\ResumeTips.cshtml" />
-    <Content Include="Views\CareerServices\InterviewTips.cshtml" />
-    <Content Include="Views\CareerServices\ProfessionalTips.cshtml" />
     <Content Include="Views\DiscoverMedix\VirtualTour.cshtml" />
     <Content Include="Views\DiscoverMedix\CareersAtMedix.cshtml" />
     <Content Include="Views\Home\ReferralProgram.cshtml" />
@@ -760,8 +761,8 @@
     <Content Include="Views\Courses\ThankYou.cshtml" />
     <Content Include="Views\Certificates\BirthDoulaWorkshop.cshtml" />
     <Content Include="Views\CareerServices\KPIandDefault.cshtml" />
-    <Content Include="Views\CareerServices\CanadaJobGrant.cshtml" />
     <Content Include="Views\Admissions\CanadaJobGrant.cshtml" />
+    <Content Include="Views\Courses\MedixCollege.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
