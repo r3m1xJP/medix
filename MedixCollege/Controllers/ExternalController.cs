@@ -270,7 +270,7 @@ namespace MedixCollege.Controllers
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
-            if (phoneNumber == 0)
+            if (phoneNumber == 0 || Helpers.Helpers.HasLetters(fc["Telephone"]))
             {
                 ViewBag.Success = false;
 
@@ -341,7 +341,7 @@ namespace MedixCollege.Controllers
 
                             var message = new MailMessage();
 
-                            message.From = new MailAddress("ccgactiveleads@gmail.com", "MedixCollege.net");
+                            message.From = new MailAddress("ccgactiveleads@gmail.com", "MedixCollege.ca");
 
                             message.To.Add(new MailAddress("activeleads@medixcollege.ca"));
 
