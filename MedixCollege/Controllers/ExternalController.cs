@@ -257,7 +257,7 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> ExternalPost(FormCollection fc)
         {
-            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
+            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://") || !fc["Comment2"].All(char.IsLetterOrDigit))
             {
                 ViewBag.Success = false;
 
