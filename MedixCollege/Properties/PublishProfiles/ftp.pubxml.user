@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/13/2016 01:40:18</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>05/14/2016 00:01:09</publishTime>
+      <publishTime>05/24/2016 19:38:36</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>04/13/2016 01:40:18</publishTime>
@@ -1201,6 +1201,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/topDIVgold.jpg">
       <publishTime>04/13/2016 01:40:16</publishTime>
     </File>
+    <File Include="Content/images/torontogradphoto.JPG">
+      <publishTime>05/24/2016 19:29:24</publishTime>
+    </File>
     <File Include="Content/images/twitter-ic.gif">
       <publishTime>04/13/2016 01:40:16</publishTime>
     </File>
@@ -1556,7 +1559,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/18/2016 09:03:38</publishTime>
     </File>
     <File Include="Views/Campuses/Toronto.cshtml">
-      <publishTime>04/18/2016 09:03:47</publishTime>
+      <publishTime>05/24/2016 19:37:28</publishTime>
     </File>
     <File Include="Views/Campuses/_CampusesLayout.cshtml">
       <publishTime>04/13/2016 01:40:17</publishTime>
