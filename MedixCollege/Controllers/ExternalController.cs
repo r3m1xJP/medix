@@ -257,7 +257,7 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> ExternalPost(FormCollection fc)
         {
-            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://") || !fc["Comment2"].All(char.IsLetterOrDigit))
+            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
             {
                 ViewBag.Success = false;
 
@@ -270,7 +270,7 @@ namespace MedixCollege.Controllers
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
-            if (phoneNumber == 0 || Helpers.Helpers.HasLetters(fc["Telephone"]))
+            if (phoneNumber == 0)
             {
                 ViewBag.Success = false;
 

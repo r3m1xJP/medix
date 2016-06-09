@@ -257,7 +257,8 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> SearchEngineMarketingPost(FormCollection fc)
         {
-            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://") || !fc["Comment2"].All(char.IsLetterOrDigit))
+            //|| !fc["Comment2"].All(char.IsLetterOrDigit)
+            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
             {
                 ViewBag.Success = false;
 
@@ -270,7 +271,9 @@ namespace MedixCollege.Controllers
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
-            if (phoneNumber == 0 || Helpers.Helpers.HasLetters(fc["Telephone"]))
+            // || Helpers.Helpers.HasLetters(fc["Telephone"])
+
+            if (phoneNumber == 0)
             {
                 ViewBag.Success = false;
 
@@ -533,7 +536,7 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> ApplyNow(FormCollection fc)
         {
-            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://") || !fc["Comment2"].All(char.IsLetterOrDigit))
+            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
             {
                 ViewBag.Success = false;
 
@@ -548,7 +551,7 @@ namespace MedixCollege.Controllers
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
-            if (phoneNumber == 0 || Helpers.Helpers.HasLetters(fc["Telephone"]))
+            if (phoneNumber == 0)
             {
                 ViewBag.Success = false;
 
@@ -701,7 +704,7 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> TourCampus(FormCollection fc)
         {
-            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://") || !fc["Comment2"].All(char.IsLetterOrDigit))
+            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
             {
                 ViewBag.Success = false;
 
@@ -714,7 +717,7 @@ namespace MedixCollege.Controllers
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
-            if (phoneNumber == 0 || Helpers.Helpers.HasLetters(fc["Telephone"]))
+            if (phoneNumber == 0)
             {
                 ViewBag.Success = false;
 
@@ -881,7 +884,7 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> AskQuestionProgram(FormCollection fc)
         {
-            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://") || !fc["Comment2"].All(char.IsLetterOrDigit))
+            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
             {
                 ViewBag.Success = false;
 
@@ -894,7 +897,7 @@ namespace MedixCollege.Controllers
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
-            if (phoneNumber == 0 || Helpers.Helpers.HasLetters(fc["Telephone"]))
+            if (phoneNumber == 0)
             {
                 ViewBag.Success = false;
 
@@ -1061,7 +1064,7 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> AskQuestionCertificate(FormCollection fc)
         {
-            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://") || !fc["Comment2"].All(char.IsLetterOrDigit))
+            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
             {
                 ViewBag.Success = false;
 
@@ -1074,7 +1077,7 @@ namespace MedixCollege.Controllers
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
-            if (phoneNumber == 0 || Helpers.Helpers.HasLetters(fc["Telephone"]))
+            if (phoneNumber == 0)
             {
                 ViewBag.Success = false;
 
@@ -1241,7 +1244,7 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> RequestCatalogue(FormCollection fc)
         {
-            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://") || !fc["Comment2"].All(char.IsLetterOrDigit))
+            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
             {
                 ViewBag.Success = false;
 
@@ -1254,7 +1257,7 @@ namespace MedixCollege.Controllers
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
-            if (phoneNumber == 0 || Helpers.Helpers.HasLetters(fc["Telephone"]))
+            if (phoneNumber == 0)
             {
                 ViewBag.Success = false;
 
@@ -1421,7 +1424,7 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> AskQuestion(FormCollection fc)
         {
-            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://") || !fc["Comment2"].All(char.IsLetterOrDigit))
+            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
             {
                 ViewBag.Success = false;
 
@@ -1434,7 +1437,7 @@ namespace MedixCollege.Controllers
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
-            if (phoneNumber == 0 || Helpers.Helpers.HasLetters(fc["Telephone"]))
+            if (phoneNumber == 0)
             {
                 ViewBag.Success = false;
 
@@ -1601,7 +1604,7 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> ReferralProgram(FormCollection fc)
         {
-            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://") || !fc["Comment2"].All(char.IsLetterOrDigit))
+            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
             {
                 ViewBag.Success = false;
 
@@ -1614,7 +1617,7 @@ namespace MedixCollege.Controllers
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
-            if (phoneNumber == 0 || Helpers.Helpers.HasLetters(fc["Telephone"]))
+            if (phoneNumber == 0)
             {
                 ViewBag.Success = false;
 
@@ -1657,7 +1660,7 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> HireAGrad(FormCollection fc)
         {
-            if (fc["Comment1"].Contains("www.") || fc["Comment1"].Contains("http://") || !fc["Comment2"].All(char.IsLetterOrDigit))
+            if (fc["Comment1"].Contains("www.") || fc["Comment1"].Contains("http://"))
             {
                 ViewBag.Success = false;
 
@@ -1670,7 +1673,7 @@ namespace MedixCollege.Controllers
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["PhoneNumber"]), out phoneNumber);
 
-            if (phoneNumber == 0 || Helpers.Helpers.HasLetters(fc["PhoneNumber"]))
+            if (phoneNumber == 0)
             {
                 ViewBag.Success = false;
 
