@@ -3,7 +3,6 @@ body {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     font-weight: 400;
     width: 100%;
-    
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -29,7 +28,17 @@ header {
     width: 100%;
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     font-weight: 400;
+}
 
+.bannerForm {
+    position: absolute !important;
+    z-index: 99999 !important;
+    right: 200px !important;
+    top: 110px !important;
+    -webkit-transform: scale(0.80) !important;
+    -moz-transform: scale(0.80) !important;
+    -ms-transform: scale(0.80) !important;
+    transform: scale(0.80) !important;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -266,7 +275,6 @@ textarea {
 
 footer {
     background-color: #f4f4f4;
-
 }
 
     footer ul {
@@ -367,10 +375,8 @@ footer {
 
 .whiteBG-GrayStrokeNews {
     background-color: white;
-        margin-top: 16px;
+    margin-top: 16px;
     margin-bottom: 16px;
-
-
 }
 
 .f70 {
@@ -715,10 +721,10 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-.mid-padding {
-    padding-left: 5px;
-    padding-right: 5px;
-}
+    .mid-padding {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 .mid-padding2 {
@@ -727,10 +733,10 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-.mid-padding2 {
-    padding-left: 5px;
-    padding-right: 5px;
-}
+    .mid-padding2 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 .link-unstyled a {
@@ -799,19 +805,17 @@ footer {
 
 .containervideoItem {
     background-color: #0F3F6F;
-
 }
 
 .containervideoItem2 {
     background-color: #686868;
-
 }
 
 .containervideoItem3 {
     background-color: #0F3F6F;
-    padding-bottom:12px;
-    text-align:center;
-    align-content:center;
+    padding-bottom: 12px;
+    text-align: center;
+    align-content: center;
 }
 
 
@@ -949,7 +953,6 @@ video {
 }
 
 .videoItem3 {
-
     padding: 0px 5px 15px 0px;
 }
 
@@ -1521,19 +1524,19 @@ blockquote p {
     line-height: 1.65em;
 }
 
-    .contentH1-mainW a {
+.contentH1-mainW a {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+    .contentH1-mainW a:hover {
         font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-        color: white;
+        color: #EDAA0F;
         font-size: 22px;
         line-height: 30px;
     }
-
-        .contentH1-mainW a:hover {
-            font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-            color: #EDAA0F;
-            font-size: 22px;
-            line-height: 30px;
-        }
 
 .contentH1-small {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
@@ -1615,21 +1618,21 @@ blockquote p {
     margin: 0px;
 }
 
-    .contentH2 a {
+.contentH2 a {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: #0F3F6F;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+    .contentH2 a:hover {
         font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
         color: #0F3F6F;
         font-size: 16px;
         line-height: 18px;
         text-decoration: none;
     }
-
-        .contentH2 a:hover {
-            font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
-            color: #0F3F6F;
-            font-size: 16px;
-            line-height: 18px;
-            text-decoration: none;
-        }
 
 .contentH3 {
     font-family: "HelveticaNeueW01-47LtCn_692686", Arial, Helvetica, sans-serif;
@@ -1951,44 +1954,43 @@ background-color: #0F3F6F; color:white; font-family: "Helvetica W01 Roman", Aria
 
 .programtableheader {
     background-color: #0F3F6F;
-    color:white;
-    font-size:1.2em;
+    color: white;
+    font-size: 1.2em;
     border-bottom: 2px solid #EDAA0F;
 }
 
-.programtableheader a {
-    background-color: #0F3F6F;
-    color:white;
-    font-size:1.2em;
-}
+    .programtableheader a {
+        background-color: #0F3F6F;
+        color: white;
+        font-size: 1.2em;
+    }
 
-.programtableheader a:hover {
-    background-color: #0F3F6F;
-    color:#EDAA0F;
-    font-size:1.2em;
-    text-decoration:none;
-}
+        .programtableheader a:hover {
+            background-color: #0F3F6F;
+            color: #EDAA0F;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
 
 .panelBG {
-background-color:#f8f8f8;
-
+    background-color: #f8f8f8;
 }
 
 .newsTable a {
 }
 
-.newsTable li table a:hover{
+.newsTable li table a:hover {
     text-decoration: underline;
 }
 
-.mainBLUEmoreNews a{
-color:#0F3F6F;
+.mainBLUEmoreNews a {
+    color: #0F3F6F;
 }
 
-.mainBLUEmoreNews a:hover {
-color:#0F3F6F;
-text-decoration:underline;
-}
+    .mainBLUEmoreNews a:hover {
+        color: #0F3F6F;
+        text-decoration: underline;
+    }
 
 .hrpNEWS {
     margin-top: 1px;
@@ -1998,25 +2000,23 @@ text-decoration:underline;
 }
 
 .imgPADDINGnews {
-margin-top:9px;
-margin-bottom:9px;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 .newsMARGINtop {
-    margin-top:5px;
+    margin-top: 5px;
 }
 
 
 .botMARG {
- margin-bottom:28px;
-
+    margin-bottom: 28px;
 }
 
 @media screen and (max-width: 480px) {
-.botMARG {
- margin-bottom:15px;
-
-}
+    .botMARG {
+        margin-bottom: 15px;
+    }
 }
 
 /* Parsley */
@@ -2048,24 +2048,21 @@ input.parsley-error, select.parsley-error, textarea.parsley-error {
 
 
 
-.landing-body{
-    margin-top:20px;
-
+.landing-body {
+    margin-top: 20px;
 }
 
 .landing-top-banner {
-        margin-bottom:20px;
+    margin-bottom: 20px;
     background-color: #0F3F6F;
     border-bottom: solid 3px #EDAA0F;
     overflow: auto;
     padding: 10px;
-
--webkit-box-shadow: 5px 5px 17px 2px rgba(171,171,171,1);
--moz-box-shadow: 5px 5px 17px 2px rgba(171,171,171,1);
-box-shadow: 5px 5px 17px 2px rgba(171,171,171,1);
+    -webkit-box-shadow: 5px 5px 17px 2px rgba(171,171,171,1);
+    -moz-box-shadow: 5px 5px 17px 2px rgba(171,171,171,1);
+    box-shadow: 5px 5px 17px 2px rgba(171,171,171,1);
 }
 
 .formBodyGray {
-background-color:#f5f5f5;
-
+    background-color: #f5f5f5;
 }
