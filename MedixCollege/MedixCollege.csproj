@@ -303,6 +303,15 @@
     <Content Include="Content\images\160514-Hires-Medix-Scarborough.jpg" />
     <Content Include="Content\images\160514-Hires-Medix-Scarborough2.jpg" />
     <Content Include="Content\images\160514-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\160521-Hires-Medix-Brantford.jpg" />
+    <Content Include="Content\images\160521-Hires-Medix-London.jpg" />
+    <Content Include="Content\images\160521-Hires-Medix-Scarborough.jpg" />
+    <Content Include="Content\images\160521-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\160530-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\160604-Hires-Medix-Brampton.jpg" />
+    <Content Include="Content\images\160604-Hires-Medix-Brantford.jpg" />
+    <Content Include="Content\images\160604-Hires-Medix-London.jpg" />
+    <Content Include="Content\images\160604-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
