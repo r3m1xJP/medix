@@ -33,12 +33,12 @@ header {
 .bannerForm {
     position: absolute !important;
     z-index: 99999 !important;
-    right: 200px !important;
-    top: 90px !important;
-    -webkit-transform: scale(0.80) !important;
-    -moz-transform: scale(0.80) !important;
-    -ms-transform: scale(0.80) !important;
-    transform: scale(0.80) !important;
+    right:5px;
+    -webkit-transform: scale(0.95) !important;
+    -moz-transform: scale(0.95) !important;
+    -ms-transform: scale(0.95) !important;
+    transform: scale(0.95) !important;
+
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
