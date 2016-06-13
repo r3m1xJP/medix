@@ -1718,7 +1718,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
     <File Include="Views/Courses/ChildYouthAddictionsWorker.cshtml">
-      <publishTime>06/10/2016 19:20:00</publishTime>
+      <publishTime>06/13/2016 12:57:38</publishTime>
     </File>
     <File Include="Views/Courses/CommunityServiceWorker.cshtml">
       <publishTime>06/10/2016 19:20:00</publishTime>
@@ -1751,7 +1751,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
     <File Include="Views/Courses/PersonalSupportWorker.cshtml">
-      <publishTime>06/10/2016 19:20:00</publishTime>
+      <publishTime>06/13/2016 12:30:18</publishTime>
     </File>
     <File Include="Views/Courses/PharmacyAssistant.cshtml">
       <publishTime>06/10/2016 19:20:00</publishTime>
@@ -1763,7 +1763,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
     <File Include="Views/Courses/_CoursesLayout.cshtml">
-      <publishTime>06/10/2016 19:20:00</publishTime>
+      <publishTime>06/13/2016 12:59:21</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/CareersAtMedix.cshtml">
       <publishTime>06/10/2016 19:20:00</publishTime>
