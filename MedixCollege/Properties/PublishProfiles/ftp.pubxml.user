@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>06/11/2016 10:20:17</publishTime>
+      <publishTime>06/13/2016 00:28:57</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/10/2016 19:20:00</publishTime>
@@ -808,6 +808,21 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/banner-solar.jpg">
       <publishTime>06/10/2016 19:19:58</publishTime>
     </File>
+    <File Include="Content/images/banner_dental.jpg">
+      <publishTime>06/12/2016 21:02:46</publishTime>
+    </File>
+    <File Include="Content/images/banner_mlat.jpg">
+      <publishTime>06/12/2016 21:02:47</publishTime>
+    </File>
+    <File Include="Content/images/banner_mlat2.jpg">
+      <publishTime>06/12/2016 21:02:47</publishTime>
+    </File>
+    <File Include="Content/images/banner_mt.jpg">
+      <publishTime>06/12/2016 21:02:47</publishTime>
+    </File>
+    <File Include="Content/images/banner_psw.jpg">
+      <publishTime>06/12/2016 21:02:47</publishTime>
+    </File>
     <File Include="Content/images/blur-extra-lab.jpg">
       <publishTime>06/10/2016 19:19:58</publishTime>
     </File>
@@ -1268,7 +1283,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 19:19:59</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>06/10/2016 19:53:14</publishTime>
+      <publishTime>06/12/2016 21:53:09</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
       <publishTime>06/10/2016 19:19:59</publishTime>
@@ -1580,7 +1595,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
     <File Include="Views/Campuses/Brampton.cshtml">
-      <publishTime>06/10/2016 19:20:00</publishTime>
+      <publishTime>06/12/2016 22:05:15</publishTime>
     </File>
     <File Include="Views/Campuses/Brantford.cshtml">
       <publishTime>06/10/2016 19:20:00</publishTime>
@@ -1601,7 +1616,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
     <File Include="Views/Campuses/_CampusesLayout.cshtml">
-      <publishTime>06/10/2016 19:20:00</publishTime>
+      <publishTime>06/12/2016 22:05:16</publishTime>
     </File>
     <File Include="Views/CareerServices/CanadaJobGrant.cshtml">
       <publishTime>05/06/2016 10:43:50</publishTime>
@@ -1643,7 +1658,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
     <File Include="Views/Certificates/BirthDoulaWorkshop.cshtml">
-      <publishTime>06/10/2016 19:20:00</publishTime>
+      <publishTime>06/12/2016 21:57:11</publishTime>
     </File>
     <File Include="Views/Certificates/CertificatesContinuingEducation.cshtml">
       <publishTime>04/13/2016 01:40:17</publishTime>
@@ -1814,7 +1829,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>06/11/2016 10:18:23</publishTime>
+      <publishTime>06/12/2016 22:40:34</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
       <publishTime>06/10/2016 19:20:00</publishTime>
