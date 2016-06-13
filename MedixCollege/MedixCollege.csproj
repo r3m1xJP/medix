@@ -332,6 +332,11 @@
     <Content Include="Content\images\Banner-Programs-Medical-Office-Administrator.jpg" />
     <Content Include="Content\images\Banner-Programs-Pharmacy-Assistant.jpg" />
     <Content Include="Content\images\banner-solar.jpg" />
+    <Content Include="Content\images\banner_dental.jpg" />
+    <Content Include="Content\images\banner_mlat.jpg" />
+    <Content Include="Content\images\banner_mlat2.jpg" />
+    <Content Include="Content\images\banner_mt.jpg" />
+    <Content Include="Content\images\banner_psw.jpg" />
     <Content Include="Content\images\blur-extra-lab.jpg" />
     <Content Include="Content\images\button-next.png" />
     <Content Include="Content\images\button-previous.png" />

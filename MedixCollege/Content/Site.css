@@ -33,13 +33,16 @@ header {
 .bannerForm {
     position: absolute !important;
     z-index: 99999 !important;
-    right:5px;
+    right:350px;
     -webkit-transform: scale(0.95) !important;
     -moz-transform: scale(0.95) !important;
     -ms-transform: scale(0.95) !important;
     transform: scale(0.95) !important;
-
+    min-width:350px;
+    max-width:350px;
 }
+
+
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
