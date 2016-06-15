@@ -1763,7 +1763,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
     <File Include="Views/Courses/_CoursesLayout.cshtml">
-      <publishTime>06/13/2016 12:59:21</publishTime>
+      <publishTime>06/14/2016 09:49:45</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/CareersAtMedix.cshtml">
       <publishTime>06/10/2016 19:20:00</publishTime>
