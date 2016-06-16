@@ -247,69 +247,95 @@ namespace MedixCollege.Controllers
         }
 
         // GET: Ask A Question
-        public ActionResult AskAQuestion()
+        public ActionResult AskAQuestion(string form_variable = "")
         {
+            ViewBag.form_variable = form_variable;
+
             return View();
         }
 
 
-        public ActionResult MedicalOfficeAdmin()
+        public ActionResult MedicalOfficeAdmin(string form_variable = "")
         {
+            ViewBag.form_variable = form_variable;
+
             return View();
         }
 
-        public ActionResult PersonalSupportWorker()
+        public ActionResult PersonalSupportWorker(string form_variable = "")
         {
+            ViewBag.form_variable = form_variable;
+
             return View();
         }
 
-        public ActionResult ChildYouthAddictionsWorker()
+        public ActionResult ChildYouthAddictionsWorker(string form_variable = "")
         {
+            ViewBag.form_variable = form_variable;
+
             return View();
         }
 
-        public ActionResult CommunityServiceWorker()
+        public ActionResult CommunityServiceWorker(string form_variable = "")
         {
+            ViewBag.form_variable = form_variable;
+
             return View();
         }
 
-        public ActionResult DevelopmentalServiceWorker()
+        public ActionResult DevelopmentalServiceWorker(string form_variable = "")
         {
+            ViewBag.form_variable = form_variable;
+
             return View();
         }
 
-        public ActionResult EarlyChildcareAssistant()
+        public ActionResult EarlyChildcareAssistant(string form_variable = "")
         {
+            ViewBag.form_variable = form_variable;
+
             return View();
         }
 
-        public ActionResult FitnessHealthPromotion()
+        public ActionResult FitnessHealthPromotion(string form_variable = "")
         {
+            ViewBag.form_variable = form_variable;
+
             return View();
         }
 
-        public ActionResult IntraOralDentalAssistant()
+        public ActionResult IntraOralDentalAssistant(string form_variable = "")
         {
+            ViewBag.form_variable = form_variable;
+
             return View();
         }
 
-        public ActionResult MassageTherapy()
+        public ActionResult MassageTherapy(string form_variable = "")
         {
+            ViewBag.form_variable = form_variable;
+
             return View();
         }
 
-        public ActionResult MedicalLabAssistantTech()
+        public ActionResult MedicalLabAssistantTech(string form_variable = "")
         {
+            ViewBag.form_variable = form_variable;
+
             return View();
         }
 
-        public ActionResult PharmacyAssistant()
+        public ActionResult PharmacyAssistant(string form_variable = "")
         {
+            ViewBag.form_variable = form_variable;
+
             return View();
         }
 
-        public ActionResult MedixCollege()
+        public ActionResult MedixCollege(string form_variable = "")
         {
+            ViewBag.form_variable = form_variable;
+
             return View();
         }
 
@@ -493,8 +519,10 @@ namespace MedixCollege.Controllers
             }
         }
 
-        public ActionResult SearchEngineMarketingForm()
+        public ActionResult SearchEngineMarketingForm(string form_variable = "")
         {
+            ViewBag.form_variable = form_variable;
+
             return View();
         }
 
