@@ -1,8 +1,211 @@
-﻿
-@{
-    ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+﻿@{
+    Layout = "~/Views/Courses/_CoursesLayout.cshtml";
 }
 
-<h2>Index</h2>
+@{
+    ViewBag.Title = "Medix College of Healthcare";
+    ViewBag.PageDescription = "Learn more about getting a career in the healthcare sector.";
+}
 
+<div class="container-fluid">
+
+    <div class="col-lg-12 col-md-12 col-sm-12 landing-top-banner">
+        <div class="container col-lg-12 col-md-12 col-sm-12">
+            <br />
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <a href="/home"><img src="~/Content/images/white-medix-logo.gif" class="mainLogo img-responsive" alt="Medix College Logo" /></a>
+                <br />
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8">
+                <div class="pull-right hidden-xs"> <h1 class="contentPageH1-white"><span class="glyphicon glyphicon-earphone"></span>&nbsp;1(866) 962-7685</h1></div>
+
+            </div>
+        </div>
+    </div>
+    <!--Start Div-->
+    <div class="container col-lg-12 col-md-12 col-sm-12">
+
+        <div class="landing-body col-lg-12 col-md-12 col-sm-12">
+            <h1 class="contentPageH1">GET TRAINED IN <span class="landingH1">THE HEALTHCARE FIELD</span></h1><hr class="hrpbluethin" />
+        </div>
+
+
+        <div class="clearfix">    </div>
+
+        <div class="landing-body col-lg-12 col-md-12 col-sm-12">
+            <div class="col-lg-4 col-md-4 col-sm-4 pull-right ">
+
+
+                <div class="panel panel-default landingFormBG">
+
+                    <div class="panel-body">
+                        <form id="questionsForm" name="questionsForm" method="post" data-parsley-validate="" class="questionsForm" action="/home/SearchEngineMarketingPost">
+                            <input type="hidden" name="ORGID" value="240" />
+                            <input type="hidden" name="MailListID" value="240001" />
+                            <h1 class="contentH1 text-center">
+                                FILL OUT FORM, GET FREE INFO!
+                            </h1><hr class="hrpblue" />
+                            <div class="input-group spacer-top">
+                                <label class="pull-left contentp">Full Name: <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control pull-right" name="FirstName" required="" />
+                            </div>
+                            <div class="input-group spacer-top">
+                                <label class="pull-left contentp">Telephone: <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control pull-right" name="Telephone" required="" />
+                            </div>
+                            <div class="input-group spacer-top">
+                                <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                                <input type="email" class="form-control pull-right" name="Email" required="" />
+                            </div>
+                            <div class="input-group spacer-top">
+                                <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
+                                <select class="form-control pull-right" name="CampusID" id="askQuestionCampusList">
+                                    <option value="0">Select</option>
+                                    <option value="246">Brampton</option>
+                                    <option value="243">Brantford</option>
+                                    <option value="242">Kitchener</option>
+                                    <option value="244">London</option>
+                                    <option value="241">Scarborough</option>
+                                    <option value="240">Toronto</option>
+                                </select>
+                            </div>
+                            <div class="input-group spacer-top">
+                                <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
+                                <select class="form-control pull-right" name="ProgramID" id="askQuestionCampusList">
+                                    <option value="0">Select</option>
+                                    <option value="39877">Child and Youth Care with Addictions Support Worker</option>
+                                    <option value="632">Community Service Worker</option>
+                                    <option value="634">Developmental Service Worker</option>
+                                    <option value="38526">Early Childcare Assistant</option>
+                                    <option value="37255">Fitness &amp; Health Promotion</option>
+                                    <option value="627">Intra-Oral Dental Assistant </option>
+                                    <option value="629">Massage Therapy</option>
+                                    <option value="633">Medical Laboratory Assistant / Technician</option>
+                                    <option value="630">Medical Office Administrator</option>
+                                    <option value="631">Personal Support Worker</option>
+                                    <option value="628">Pharmacy Assistant</option>
+                                </select>
+                            </div>
+
+                            <div class="small-text spacer-top text-center grayColor">
+                                Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                            </div>
+                            <div class="text-center">
+                                <input id="askQuestionSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block btn-landingFormButton" />
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8">
+
+
+
+
+
+                <div class="col-lg-8">
+
+
+                    <h2 class="contentH2-landing">
+                        ABOUT MEDIX COLLEGE
+                    </h2>
+
+                    <p class="contentp">
+                        For over 40 years Medix College has been providing industry leading Health Care career training for those looking to become medical professionals. Currently Medix College has six campuses across Ontario with each of the featuring state-of-the-art facilities. Medix college believes in helping students to achieve quality education quickly.
+                        <br/><br/>
+                        Every year hundreds of Medix graduates are added to the Canadian healthcare workforce. Medix is the clear choice for those looking to change their life today.
+
+                    </p>
+
+                    <br />
+
+                    <div class="well well-sm">
+                        <h2 class="contentH2-landing">
+                            DPLOMA PROGRAMS
+                        </h2>
+
+                        <table class="table">
+
+                            <tbody>
+                                <tr>
+                                    <td>Community Service Worker</td>
+                                    <td>Child & Youth Addictions</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Developmental Service Worker</td>
+                                    <td>Early Childcare Assistant</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Intra-Oral Dental Assistant</td>
+                                    <td>Massage Therapy</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Medical Lab Assistant/Tech</td>
+                                    <td>Medical Office Administrator</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Personal Support Worker</td>
+                                    <td>Pharmacy Assistant</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Fitness and Health Promotion</td>
+                                    <td>Certificate Programs</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class="col-lg-4">
+                    <img class="img-responsive" width="100%" src="~/Content/images/medixCatalogue3.jpg" alt="medix medical office students working on a computer" />
+                    <h2 class="contentH2 pull-right hidden-xs">
+                        REQUEST FREE INFO <span class="glyphicon glyphicon-arrow-right"></span>
+                    </h2>
+                </div>
+                <div class="clearfix"></div>
+
+
+
+
+                <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs">
+                    <br />
+                    <h1 class="contentPageH1">
+                        GRADUATES FROM MEDIX COLLEGE HAVE BEEN HIRED AT:
+                    </h1>
+                    <hr class="hrpbluethin" />
+
+                    <img src="/Content/images/hiredCO.jpg" class="img-responsive" alt="companies that have hired Medix graduates" />
+                </div>
+
+            </div>
+
+            
+            <!--End-->
+        </div>
+
+
+
+        <!--PAGEend-->
+    </div>
+    <div class="footer-banner col-lg-12">
+
+        <div class="container">
+            <img class="center-block" src="~/Content/images/CCGLogo.png" alt="The Career College Group logo." />
+        </div>
+    </div>
+</div>

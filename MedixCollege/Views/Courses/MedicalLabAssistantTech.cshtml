@@ -25,14 +25,84 @@
         <!--Start Div-->
         <div class="container col-lg-12 col-md-12 col-sm-12">
 
+            <div class="landing-body col-lg-12 col-md-12 col-sm-12">
+                <h1 class="contentPageH1">BECOME A <span class="landingH1">MEDICAL LAB ASSISTANT / TECHNICIAN</span></h1><hr class="hrpbluethin" />
+            </div>
 
 
             <div class="clearfix">    </div>
 
             <div class="landing-body col-lg-12 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-4 pull-right ">
+
+
+                    <div class="panel panel-default landingFormBG">
+
+                        <div class="panel-body">
+                            <form id="questionsForm" name="questionsForm" method="post" data-parsley-validate="" class="questionsForm" action="/home/SearchEngineMarketingPost">
+                                <input type="hidden" name="ORGID" value="240" />
+                                <input type="hidden" name="MailListID" value="240001" />
+                                <input type="hidden" name="form_variable" value="@ViewBag.form_variable" />
+                                <h1 class="contentH1 text-center">
+                                    FILL OUT FORM, GET FREE INFO!
+                                </h1><hr class="hrpblue" />
+                                <div class="input-group spacer-top">
+                                    <label class="pull-left contentp">Full Name: <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control pull-right" name="FirstName" required="" />
+                                </div>
+                                <div class="input-group spacer-top">
+                                    <label class="pull-left contentp">Telephone: <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control pull-right" name="Telephone" required="" />
+                                </div>
+                                <div class="input-group spacer-top">
+                                    <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control pull-right" name="Email" required="" />
+                                </div>
+                                <div class="input-group spacer-top">
+                                    <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
+                                    <select class="form-control pull-right" name="CampusID" id="askQuestionCampusList">
+                                        <option value="0">Select</option>
+                                        <option value="246">Brampton</option>
+                                        <option value="243">Brantford</option>
+                                        <option value="242">Kitchener</option>
+                                        <option value="244">London</option>
+                                        <option value="241">Scarborough</option>
+                                        <option value="240">Toronto</option>
+                                    </select>
+                                </div>
+                                <div class="input-group spacer-top">
+                                    <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
+                                    <select class="form-control pull-right" name="ProgramID" id="askQuestionCampusList">
+                                        <option value="0">Select</option>
+                                        <option value="39877">Child and Youth Care with Addictions Support Worker</option>
+                                        <option value="632">Community Service Worker</option>
+                                        <option value="634">Developmental Service Worker</option>
+                                        <option value="38526">Early Childcare Assistant</option>
+                                        <option value="37255">Fitness &amp; Health Promotion</option>
+                                        <option value="627">Intra-Oral Dental Assistant </option>
+                                        <option value="629">Massage Therapy</option>
+                                        <option value="633">Medical Laboratory Assistant / Technician</option>
+                                        <option value="630">Medical Office Administrator</option>
+                                        <option value="631">Personal Support Worker</option>
+                                        <option value="628">Pharmacy Assistant</option>
+                                    </select>
+                                </div>
+
+                                <div class="small-text spacer-top text-center grayColor">
+                                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                                </div>
+                                <div class="text-center">
+                                    <input id="askQuestionSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block btn-landingFormButton" />
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+
+                </div>
                 <div class="col-lg-8 col-md-8 col-sm-8">
 
-                    <h1 class="contentPageH1">GET THE SKILLS TO BE A MEDICAL LAB ASSISTANT / TECHNICIAN</h1><hr class="hrpbluethin" />
 
 
 
@@ -66,9 +136,16 @@ ABOUT THE PROGRAM                            </h2>
                             examinations are at the option and expense of the graduate and Medix encourages students to become
 
                             certified.
-
-
                         </p>
+                            <h2 class="contentH2-landing">
+                                Salary Information: Average/High Wage ($/hr) $22.00-$39.25
+                            </h2>
+                        <p class="contentp">
+                            Source: jobbank.gc.ca, NOC code: 3212
+                        </p><br />
+
+
+                 
                         
                         <br/>
 
@@ -109,43 +186,13 @@ CAREER OPPORTUNITIES                                </h2>
                     <div class="col-lg-4">
                         <img class="img-responsive" width="100%" src="~/Content/images/medixCatalogue3.jpg" alt="medix medical office students working on a computer" />
                         <h2 class="contentH2 pull-right hidden-xs">
-                            REQUEST A CATALOGUE <span class="glyphicon glyphicon-arrow-right"></span>
+                            REQUEST FREE INFO<span class="glyphicon glyphicon-arrow-right"></span>
                         </h2>
                     </div>
                     <div class="clearfix"></div>
 
 
 
-
-                    <div class="panel-body">
-                        <div class="videoWrapperProgram">
-                            <iframe width="560" height="349" src="https://www.youtube.com/embed/Gf7y5DdUfPI?rel=0" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                        <br />
-
-                        <a class="btn btn-small btn-default" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-                            <h2 class="contentH2">
-                                <span class="glyphicon glyphicon-film CgoldBlueBorder"></span>    See Transcript
-                            </h2>
-                        </a>
-                        <div class="collapse" id="collapseExample1">
-                            <div class="well">
-                                "I wanted to have a career in the medical field, and the campus was quite close to home, so it just was a right fit.<br /><br />
-
-                                What I like best about the campus is the class size. I'm in the afternoon program, it's small, it's more intimate, so you get to know your classmates a bit better.<br /><br />
-
-                                My instructor is extremely knowledgeable. I like that she can take that knowledge and relay it back to us. She has a lot of experience in the workforce, and she's able to bring it back to the classroom setting, which is really valuable for us.<br /><br />
-
-                                I have school aged children, so it's a bit of a health competition when Momma brings home a 98% or something on her exam, then we kind of compare that with each other, it's a great supportive atmosphere.<br /><br />
-
-                                To me, when I think of Medix College I think of success.<br /><br />
-
-                                I know I'm going to do well, I'm going to graduate, and I'm going to get that perfect job.”
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="clearfix"></div>
 
                     <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs">
                         <br />
@@ -159,92 +206,7 @@ CAREER OPPORTUNITIES                                </h2>
 
                 </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-4">
-
-
-                    <div class="panel panel-default">
-
-                        <div class="panel-body formBodyGray">
-                            <form id="questionsForm" name="questionsForm" method="post" data-parsley-validate="" class="questionsForm" action="/home/SearchEngineMarketingPost">
-                                <input type="hidden" name="ORGID" value="240" />
-                                <input type="hidden" name="MailListID" value="240001" />
-                                <input type="hidden" name="form_variable" value="@ViewBag.form_variable" />
-                                <h1 class="contentH1 text-center">
-                                    ASK A QUESTION or <br /> REQUEST A CATALOGUE
-                                </h1><hr class="hrpblue" />
-                                <div class="input-group spacer-top">
-                                    <label class="pull-left contentp">First Name: <span class="text-danger">*</span></label>
-                                    <input type="text" class="form-control pull-right" name="FirstName" required="" />
-                                </div>
-                                <div class="input-group spacer-top">
-                                    <label class="pull-left contentp">Telephone: <span class="text-danger">*</span></label>
-                                    <input type="text" class="form-control pull-right" name="Telephone" required="" />
-                                </div>
-                                <div class="input-group spacer-top">
-                                    <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
-                                    <input type="email" class="form-control pull-right" name="Email" required="" />
-                                </div>
-                                <div class="input-group spacer-top">
-                                    <label class="pull-left contentp">Location: <span class="text-danger">*</span></label>
-                                    <select class="form-control pull-right" name="CampusID" id="askQuestionCampusList">
-                                        <option value="0">Select</option>
-                                        <option value="246">Brampton</option>
-                                        <option value="243">Brantford</option>
-                                        <option value="242">Kitchener</option>
-                                        <option value="244">London</option>
-                                        <option value="241">Scarborough</option>
-                                        <option value="240">Toronto</option>
-                                    </select>
-                                </div>
-                                <div class="input-group spacer-top">
-                                    <label class="pull-left contentp">Program: <span class="text-danger">*</span></label>
-                                    <select class="form-control pull-right" name="ProgramID" id="askQuestionCampusList">
-                                        <option value="0">Select</option>
-                                        <option value="38882">Anatomy &amp; Physiology</option>
-                                        <option value="39877">Child and Youth Care with Addictions Support Worker</option>
-                                        <option value="632">Community Service Worker</option>
-                                        <option value="39478">CPR &amp; First Aid</option>
-                                        <option value="818">Dental Level 2</option>
-                                        <option value="38883">Dental Office Procedures (abel dent)</option>
-                                        <option value="634">Developmental Service Worker</option>
-                                        <option value="38526">Early Childcare Assistant</option>
-                                        <option value="642">ECG</option>
-                                        <option value="37255">Fitness &amp; Health Promotion</option>
-                                        <option value="39162">Intramuscular Injection</option>
-                                        <option value="627">Intra-Oral Dental Assistant </option>
-                                        <option value="629">Massage Therapy</option>
-                                        <option value="633">Medical Laboratory Assistant / Technician</option>
-                                        <option value="630">Medical Office Administrator</option>
-                                        <option value="1170">Medical Terminology</option>
-                                        <option value="38887">Medical Transcription</option>
-                                        <option value="39415">Mental Health &amp; Addictions</option>
-                                        <option value="1169">OHIP Billing</option>
-                                        <option value="631">Personal Support Worker</option>
-                                        <option value="628">Pharmacy Assistant</option>
-                                        <option value="636">Phlebotomy</option>
-                                        <option value="1167">Principles of Nutrition</option>
-                                        <option value="643">PSW Upgrading</option>
-                                        <option value="1171">Thought Patterns</option>
-
-                                    </select>
-                                </div>
-                                <div class="input-group spacer-top">
-                                    <label class="pull-left contentp">Question: </label>
-                                    <textarea class="form-control pull-right" name="Comment2"></textarea>
-                                </div>
-                                <div class="small-text spacer-top text-center grayColor">
-                                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
-                                </div>
-                                <div class="text-center">
-                                    <input id="askQuestionSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
-                                </div>
-                            </form>
-                        </div>
-
-                    </div>
-
-
-                </div>
+                
                 <!--End-->
             </div>
 

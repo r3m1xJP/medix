@@ -312,6 +312,10 @@
     <Content Include="Content\images\160604-Hires-Medix-Brantford.jpg" />
     <Content Include="Content\images\160604-Hires-Medix-London.jpg" />
     <Content Include="Content\images\160604-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\160611-Hires-Medix-Brantford.jpg" />
+    <Content Include="Content\images\160611-Hires-Medix-London.jpg" />
+    <Content Include="Content\images\160611-Hires-Medix-Scarborough.jpg" />
+    <Content Include="Content\images\160611-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
@@ -328,6 +332,11 @@
     <Content Include="Content\images\Banner-Programs-Medical-Office-Administrator.jpg" />
     <Content Include="Content\images\Banner-Programs-Pharmacy-Assistant.jpg" />
     <Content Include="Content\images\banner-solar.jpg" />
+    <Content Include="Content\images\banner_dental.jpg" />
+    <Content Include="Content\images\banner_mlat.jpg" />
+    <Content Include="Content\images\banner_mlat2.jpg" />
+    <Content Include="Content\images\banner_mt.jpg" />
+    <Content Include="Content\images\banner_psw.jpg" />
     <Content Include="Content\images\blur-extra-lab.jpg" />
     <Content Include="Content\images\button-next.png" />
     <Content Include="Content\images\button-previous.png" />
@@ -777,7 +786,6 @@
     <Content Include="Views\Certificates\BirthDoulaWorkshop.cshtml" />
     <Content Include="Views\CareerServices\KPIandDefault.cshtml" />
     <Content Include="Views\Admissions\CanadaJobGrant.cshtml" />
-    <Content Include="Views\Courses\MedixCollege.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
