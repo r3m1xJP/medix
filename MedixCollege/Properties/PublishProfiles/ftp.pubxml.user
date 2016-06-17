@@ -1718,43 +1718,43 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/15/2016 23:58:14</publishTime>
     </File>
     <File Include="Views/Courses/ChildYouthAddictionsWorker.cshtml">
-      <publishTime>06/15/2016 23:58:14</publishTime>
+      <publishTime>06/16/2016 10:58:44</publishTime>
     </File>
     <File Include="Views/Courses/CommunityServiceWorker.cshtml">
-      <publishTime>06/15/2016 23:58:14</publishTime>
+      <publishTime>06/16/2016 10:58:38</publishTime>
     </File>
     <File Include="Views/Courses/DevelopmentalServiceWorker.cshtml">
-      <publishTime>06/15/2016 23:58:14</publishTime>
+      <publishTime>06/16/2016 10:58:32</publishTime>
     </File>
     <File Include="Views/Courses/EarlyChildcareAssistant.cshtml">
-      <publishTime>06/15/2016 23:58:14</publishTime>
+      <publishTime>06/16/2016 10:58:24</publishTime>
     </File>
     <File Include="Views/Courses/FitnessHealthPromotion.cshtml">
-      <publishTime>06/15/2016 23:58:14</publishTime>
+      <publishTime>06/16/2016 10:58:17</publishTime>
     </File>
     <File Include="Views/Courses/Index.cshtml">
       <publishTime>06/13/2016 13:14:53</publishTime>
     </File>
     <File Include="Views/Courses/IntraOralDentalAssistant.cshtml">
-      <publishTime>06/15/2016 23:58:14</publishTime>
+      <publishTime>06/16/2016 10:58:09</publishTime>
     </File>
     <File Include="Views/Courses/MassageTherapy.cshtml">
-      <publishTime>06/15/2016 23:58:14</publishTime>
+      <publishTime>06/16/2016 10:58:01</publishTime>
     </File>
     <File Include="Views/Courses/MedicalLabAssistantTech.cshtml">
-      <publishTime>06/15/2016 23:58:14</publishTime>
+      <publishTime>06/16/2016 10:57:53</publishTime>
     </File>
     <File Include="Views/Courses/MedicalOfficeAdmin.cshtml">
-      <publishTime>06/15/2016 23:58:14</publishTime>
+      <publishTime>06/16/2016 10:57:44</publishTime>
     </File>
     <File Include="Views/Courses/MedixCollege.cshtml">
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
     <File Include="Views/Courses/PersonalSupportWorker.cshtml">
-      <publishTime>06/15/2016 23:58:14</publishTime>
+      <publishTime>06/16/2016 10:57:12</publishTime>
     </File>
     <File Include="Views/Courses/PharmacyAssistant.cshtml">
-      <publishTime>06/15/2016 23:58:14</publishTime>
+      <publishTime>06/16/2016 10:57:32</publishTime>
     </File>
     <File Include="Views/Courses/SearchEngineMarketingForm.cshtml">
       <publishTime>06/15/2016 23:58:14</publishTime>

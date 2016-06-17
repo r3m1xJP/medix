@@ -42,7 +42,7 @@
                         <form id="questionsForm" name="questionsForm" method="post" data-parsley-validate="" class="questionsForm" action="/home/SearchEngineMarketingPost">
                             <input type="hidden" name="ORGID" value="240" />
                             <input type="hidden" name="MailListID" value="240001" />
-                            <h1 class="contentH1 text-center">
+                            <h1 class="contentH1 text-center">@ViewBag.form_variable<br />
                                 FILL OUT FORM, GET FREE INFO!
                             </h1><hr class="hrpblue" />
                             <div class="input-group spacer-top">
@@ -85,6 +85,10 @@
                                     <option value="631">Personal Support Worker</option>
                                     <option value="628">Pharmacy Assistant</option>
                                 </select>
+                            </div>
+                            <div class="input-group spacer-top hidden">
+                                <label class="pull-left contentp">Question: </label>
+                                <textarea class="form-control pull-right" name="Comment2"></textarea>
                             </div>
 
                             <div class="small-text spacer-top text-center grayColor">
