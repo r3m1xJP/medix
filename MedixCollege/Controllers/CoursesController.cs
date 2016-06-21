@@ -339,6 +339,20 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult Index(string form_variable = "")
+        {
+            ViewBag.form_variable = form_variable;
+
+            return View();
+        }
+
+        public ActionResult HealthcareTraining(string form_variable = "")
+        {
+            ViewBag.form_variable = form_variable;
+
+            return View();
+        }
+
         [HttpPost]
         public async Task<ActionResult> AskQuestion(FormCollection fc)
         {

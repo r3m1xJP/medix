@@ -790,6 +790,7 @@
     <Content Include="Views\Certificates\BirthDoulaWorkshop.cshtml" />
     <Content Include="Views\CareerServices\KPIandDefault.cshtml" />
     <Content Include="Views\Admissions\CanadaJobGrant.cshtml" />
+    <Content Include="Views\Courses\HealthcareTraining.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
