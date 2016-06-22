@@ -131,6 +131,7 @@
     <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\DiscoverMedixController.cs" />
     <Compile Include="Controllers\ExternalController.cs" />
+    <Compile Include="Controllers\FBController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LeadsController.cs" />
     <Compile Include="Controllers\MedixOnlineController.cs" />
@@ -791,6 +792,9 @@
     <Content Include="Views\CareerServices\KPIandDefault.cshtml" />
     <Content Include="Views\Admissions\CanadaJobGrant.cshtml" />
     <Content Include="Views\Courses\HealthcareTraining.cshtml" />
+    <Content Include="Views\FB\ThankYou.cshtml" />
+    <Content Include="Views\FB\_FBLayout.cshtml" />
+    <Content Include="Views\FB\AskAQuestion.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
