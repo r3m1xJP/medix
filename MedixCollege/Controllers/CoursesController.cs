@@ -483,7 +483,7 @@ namespace MedixCollege.Controllers
                                 message.To.Add(new MailAddress("chris@medixcollege.ca"));
                             }
 
-                            message.Subject = "New Lead - Medix - Program Question";
+                            message.Subject = "New Lead - Medix - Adwords";
 
                             fc["CampusID"] = campus ?? fc["CampusID"];
                             fc["ProgramID"] = program ?? fc["ProgramID"];

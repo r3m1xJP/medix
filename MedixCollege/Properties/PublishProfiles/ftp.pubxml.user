@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>06/18/2016 16:39:26</publishTime>
+      <publishTime>06/22/2016 12:38:44</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/10/2016 19:20:00</publishTime>
@@ -1295,7 +1295,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 19:19:59</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>06/15/2016 13:13:06</publishTime>
+      <publishTime>06/22/2016 12:37:01</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
       <publishTime>06/10/2016 19:19:59</publishTime>
@@ -1744,6 +1744,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Courses/FitnessHealthPromotion.cshtml">
       <publishTime>06/17/2016 00:37:52</publishTime>
     </File>
+    <File Include="Views/Courses/HealthcareTraining.cshtml">
+      <publishTime>06/21/2016 19:23:18</publishTime>
+    </File>
     <File Include="Views/Courses/Index.cshtml">
       <publishTime>06/17/2016 00:38:47</publishTime>
     </File>
@@ -1828,6 +1831,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/External/ThankYou.cshtml">
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
+    <File Include="Views/FB/AskAQuestion.cshtml">
+      <publishTime>06/22/2016 12:37:01</publishTime>
+    </File>
+    <File Include="Views/FB/ThankYou.cshtml">
+      <publishTime>06/22/2016 12:37:01</publishTime>
+    </File>
+    <File Include="Views/FB/_FBLayout.cshtml">
+      <publishTime>06/22/2016 12:37:01</publishTime>
+    </File>
     <File Include="Views/Home/AccessibilityPolicy.cshtml">
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
@@ -1841,7 +1853,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>06/12/2016 22:40:34</publishTime>
+      <publishTime>06/22/2016 12:37:01</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
       <publishTime>06/10/2016 19:20:00</publishTime>
@@ -1949,7 +1961,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/10/2016 19:20:00</publishTime>
     </File>
     <File Include="Views/Programs/AllPrograms.cshtml">
-      <publishTime>06/10/2016 19:20:00</publishTime>
+      <publishTime>06/22/2016 12:37:01</publishTime>
     </File>
     <File Include="Views/Programs/ChildYouthAddictionsWorker.cshtml">
       <publishTime>06/10/2016 19:20:00</publishTime>
