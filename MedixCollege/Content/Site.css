@@ -31,15 +31,16 @@ header {
 }
 
 .bannerForm {
-    position: absolute !important;
-    z-index: 99999 !important;
-    right:350px;
-    -webkit-transform: scale(0.95) !important;
-    -moz-transform: scale(0.95) !important;
-    -ms-transform: scale(0.95) !important;
-    transform: scale(0.95) !important;
-    min-width:350px;
-    max-width:350px;
+    position: absolute;
+    z-index: 500 !important;
+    -webkit-transform: scale(0.80) !important;
+    -moz-transform: scale(0.80) !important;
+    -ms-transform: scale(0.80) !important;
+    transform: scale(0.80) !important;
+    left: auto;
+    background-position: right top;
+    right: 0;
+    top: 20%;
 }
 
 
@@ -2075,8 +2076,8 @@ input.parsley-error, select.parsley-error, textarea.parsley-error {
 .landingFormBG {
     background-color: #EDAA0F;
     -webkit-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
--moz-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
+    -moz-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
+    box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
 }
 
 .landingFormButton {
@@ -2100,35 +2101,38 @@ box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
     }
 
 .landingH1 {
-    font-size:1.8em;
+    font-size: 1.8em;
 }
+
 @media (max-width: 1024px) {
     .landingH1 {
-    font-size:1.5em;
+        font-size: 1.5em;
+    }
 }
-}
+
 @media (max-width: 768px) {
     .landingH1 {
-    font-size:1.2em;
+        font-size: 1.2em;
+    }
 }
-}
+
 @media (max-width: 480px) {
     .landingH1 {
-    font-size:1.1em;
-}
+        font-size: 1.1em;
+    }
 }
 
 .bluePANEL {
-border: 1px solid #0F3F6F;
--webkit-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
--moz-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
+    border: 1px solid #0F3F6F;
+    -webkit-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
+    -moz-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
+    box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
 }
 
 .bluePANEL2 {
-border: 1px solid #0F3F6F;
-background-color: #0F3F6F;
--webkit-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
--moz-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
+    border: 1px solid #0F3F6F;
+    background-color: #0F3F6F;
+    -webkit-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
+    -moz-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
+    box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
 }
