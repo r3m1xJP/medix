@@ -356,27 +356,27 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> AskQuestion(FormCollection fc)
         {
-            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
-            {
-                ViewBag.Success = false;
+            //if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
+            //{
+            //    ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request!";
+            //    ViewBag.ErrorMessage = "Error submitting your request!";
 
-                return RedirectToRoute("ThankYou");
-            }
+            //    return RedirectToRoute("ThankYou");
+            //}
 
             Int64 phoneNumber = 0;
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
-            if (phoneNumber == 0)
-            {
-                ViewBag.Success = false;
+            //if (phoneNumber == 0)
+            //{
+            //    ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
+            //    ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
 
-                return View("ThankYou");
-            }
+            //    return View("ThankYou");
+            //}
 
             if (fc["MediaGroupID"] == null)
             {
@@ -543,27 +543,27 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> SearchEngineMarketingPost(FormCollection fc)
         {
-            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
-            {
-                ViewBag.Success = false;
+            //if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
+            //{
+            //    ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
+            //    ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
-                return RedirectToRoute("ThankYou");
-            }
+            //    return RedirectToRoute("ThankYou");
+            //}
 
             Int64 phoneNumber = 0;
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
-            if (phoneNumber == 0)
-            {
-                ViewBag.Success = false;
+            //if (phoneNumber == 0)
+            //{
+            //    ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
+            //    ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
-                return View("ThankYou");
-            }
+            //    return View("ThankYou");
+            //}
 
             fc.Add("MediaGroupID", "91051");
 
