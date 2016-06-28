@@ -87,3 +87,34 @@ D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixColleg
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.pdb
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\MedixCollege.dll.config
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\MedixCollege.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\MedixCollege.pdb
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\MySql.Data.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\PagedList.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\PagedList.Mvc.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\System.Web.Helpers.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\System.Web.Mvc.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\System.Web.Optimization.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\System.Web.Razor.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\System.Web.WebPages.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\WebGrease.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\PagedList.xml
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\PagedList.Mvc.xml
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\System.Web.Helpers.xml
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\System.Web.Mvc.xml
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\System.Web.Optimization.xml
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\System.Web.Razor.xml
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\System.Web.WebPages.xml
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.dll
+C:\Users\Admin\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.pdb
