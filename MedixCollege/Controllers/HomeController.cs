@@ -1660,27 +1660,27 @@ namespace MedixCollege.Controllers
         [HttpPost]
         public async Task<ActionResult> HireAGrad(FormCollection fc)
         {
-            if (fc["Comment1"].Contains("www.") || fc["Comment1"].Contains("http://"))
-            {
-                ViewBag.Success = false;
+            //if (fc["Comment1"].Contains("www.") || fc["Comment1"].Contains("http://"))
+            //{
+            //    ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry. Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
+            //    ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry. Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
-                return RedirectToRoute("ThankYou");
-            }
+            //    return RedirectToRoute("ThankYou");
+            //}
 
             Int64 phoneNumber = 0;
 
-            Int64.TryParse(Helpers.Helpers.GetNumbers(fc["PhoneNumber"]), out phoneNumber);
+            Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
 
-            if (phoneNumber == 0)
-            {
-                ViewBag.Success = false;
+            //if (phoneNumber == 0)
+            //{
+            //    ViewBag.Success = false;
 
-                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
+            //    ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
-                return View("ThankYou");
-            }
+            //    return View("ThankYou");
+            //}
 
             if (fc["MediaGroupID"] == null)
             {

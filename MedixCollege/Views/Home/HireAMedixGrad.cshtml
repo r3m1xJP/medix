@@ -107,7 +107,11 @@
     <div class="panel panel-default">
 
         <div class="panel-body">
-            <form id="hireAGradForm" name="hireAGradForm" method="post" action="/home/hireAGrad">
+            <form id="hireAGradForm" name="hireAGradForm" method="post" action="/home/hireAGrad" onsubmit="return validateMyForm();">
+                <div style="display:none;">
+                    <label>Keep this field blank</label>
+                    <input type="text" name="honeypot" id="honeypot" />
+                </div>
                 <input type="hidden" name="ORGID" value="240" />
                 <input type="hidden" name="MailListID" value="240011" />
                 <div class="input-group spacer-top">
@@ -151,3 +155,16 @@
 
     </div>
 </div>
+
+<script type="text/javascript">
+    function validateMyForm() {
+        // The field is empty, submit the form.
+        if (!document.getElementById("honeypot").value) {
+            return true;
+        }
+            // the field has a value it's a spam bot
+        else {
+            return false;
+        }
+    }
+</script>
