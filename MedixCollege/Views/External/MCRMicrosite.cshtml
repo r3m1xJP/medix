@@ -1,0 +1,80 @@
+﻿@{
+    Layout = null;
+}
+
+<div class="panel panel-default landingFormBG">
+
+    <div class="panel-body">
+        <form id="questionsForm" name="questionsForm" method="post" data-parsley-validate="" class="questionsForm" action="http://medixcollege.ca/External/PostMCR">
+            <input type="hidden" name="ORGID" value="240" />
+            <input type="hidden" name="MailListID" value="240001" />
+            <input type="hidden" name="form_variable" id="form_variable" value="" />
+            <h1 class="contentH1 text-center" id="form_variable_title"></h1><h1 class="contentH1 text-center">
+                FILL OUT FORM, GET FREE INFO!
+            </h1><hr class="hrpblue" />
+            <div class="input-group spacer-top">
+                <label class="pull-left contentp">Full Name: <span class="text-danger">*</span></label>
+                <input type="text" class="form-control pull-right" name="FirstName" required="" />
+            </div>
+            <div class="input-group spacer-top">
+                <label class="pull-left contentp">Telephone: <span class="text-danger">*</span></label>
+                <input type="text" class="form-control pull-right" name="Telephone" required="" />
+            </div>
+            <div class="input-group spacer-top">
+                <label class="pull-left contentp">Email: <span class="text-danger">*</span></label>
+                <input type="email" class="form-control pull-right" name="Email" required="" />
+            </div>
+            <div class="input-group spacer-top">
+                <label class="pull-left contentpw">Location: <span class="text-danger" required="">*</span></label>
+                <select class="form-control pull-right" name="CampusID">
+                    <option value="0">Select</option>
+                    <option value="24004">Brampton-NATS</option>
+                    <option value="24001">London-NATS</option>
+                    <option value="240">Toronto</option>
+                </select>
+            </div>
+            <div class="input-group spacer-top">
+                <label class="pull-left contentpw">Program: <span class="text-danger">*</span></label>
+                <select class="form-control pull-right" name="ProgramID">
+                    <option class="0 24004 24001 240" value="0">Select</option>
+                    <option class="0 24001" value="39064">Cabinetmaking</option>
+                    <option class="0 24004 24001" value="40332">Construction Maintenance Electrician Pre-Apprenticeship</option>
+                    <option class="0 24004 24001" value="39061">Electrical Technology</option>
+                    <option class="0 24001" value="39060">Home Renovation Technician</option>
+                    <option class="0 24004 24001" value="39062">HVAC Technician</option>
+                    <option class="0 24001" value="40294">Motorcycle & Small Engine Repair</option>
+                    <option class="0 24004 24001 240" value="39737">Solar Energy Technician</option>
+                    <option class="0 24004 24001" value="39063">Welding Technology</option>
+                </select>
+            </div>
+            <div class="input-group spacer-top hidden-lg hidden-md hidden-sm hidden-xs">
+                <label class="pull-left contentpw">Comments: </label>
+                <textarea class="form-control pull-right" name="Comment2"></textarea>
+            </div>
+            <div class="small-text spacer-top text-center grayColor">
+                Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+            </div>
+            <div class="text-center">
+                <input id="askQuestionSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block btn-landingFormButton" />
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<script>
+    function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    var form_variable = getParameterByName('form_variable');
+
+    document.getElementById('form_variable').value = form_variable;
+    document.getElementById('form_variable_title').innerHTML = form_variable;
+</script>

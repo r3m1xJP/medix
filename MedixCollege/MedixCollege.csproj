@@ -799,6 +799,8 @@
     <Content Include="Views\FB\ThankYou.cshtml" />
     <Content Include="Views\FB\_FBLayout.cshtml" />
     <Content Include="Views\FB\AskAQuestion.cshtml" />
+    <Content Include="Views\External\MCRMicrosite.cshtml" />
+    <Content Include="Views\External\RBMarketing.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

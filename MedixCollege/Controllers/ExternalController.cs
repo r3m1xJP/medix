@@ -46,6 +46,8 @@ namespace MedixCollege.Controllers
             mediaGroups.Add(90825, "TRADE SHOWS");
             mediaGroups.Add(90084, "VENDOR");
 
+            mediaSources.Add(18918, "MCR Microsite");
+            mediaSources.Add(18917, "RB Marketing");
             mediaSources.Add(18913, "Rogers Digital - Kitchener Brantford");
             mediaSources.Add(14699, "High School");
             mediaSources.Add(974, "Bing");
@@ -254,6 +256,16 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult MCRMicrosite()
+        {
+            return View();
+        }
+
+        public ActionResult RBMarketing()
+        {
+            return View();
+        }
+
         [HttpPost]
         public async Task<ActionResult> ExternalPost(FormCollection fc)
         {
@@ -287,6 +299,320 @@ namespace MedixCollege.Controllers
             if (fc["MediaID"] == null)
             {
                 fc.Add("MediaID", "928");
+            }
+
+            var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
+
+            LeadsType leadsType = LeadsType.Leads;
+
+            using (var client = new HttpClient())
+            {
+                var response = await client.PostAsync("http://www1.campuslogin.com/Contacts/Web/ImportContactData.aspx", formData);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    ViewBag.Success = true;
+
+                    var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
+                    var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
+                    var mediaGroup = mediaGroups.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
+                    var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaID"])).Value;
+
+                    var lead = new LeadsDTO
+                    {
+                        Date = DateTime.Now,
+                        FirstName = fc["FirstName"],
+                        LastName = fc["LastName"],
+                        Email = fc["Email"],
+                        Telephone = phoneNumber,
+                        Location = campus,
+                        Program = program,
+                        HearAbout = mediaSource,
+                        Comments = fc["Comment2"]
+                    };
+
+                    if (campus == "Baltimore")
+                    {
+                        leadsType = LeadsType.LeadsBaltimore;
+                    }
+                    else
+                    {
+                        leadsType = LeadsType.LeadsNewCastle;
+                    }
+
+                    var leads = new Leads(leadsType);
+
+                    leads.Insert(lead);
+
+                    try
+                    {
+                        using (var mailClient = new SmtpClient("smtp.gmail.com"))
+                        {
+                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Medixcollege1");
+                            mailClient.Port = 587;
+
+                            var message = new MailMessage();
+
+                            message.From = new MailAddress("ccgactiveleads@gmail.com", "MedixCollege.ca");
+
+                            message.To.Add(new MailAddress("activeleads@medixcollege.ca"));
+
+                            //if (fc["CampusID"].ToString() == "246")
+                            //{
+                            //    message.To.Add(new MailAddress("cbrandt@medixcollege.ca"));
+                            //}
+
+                            message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
+
+                            if (leadsType == LeadsType.LeadsBaltimore)
+                            {
+                                message.Bcc.Add(new MailAddress("mdaly@natradeschools.edu"));
+                            }
+                            else if (leadsType == LeadsType.LeadsNewCastle)
+                            {
+                                message.Bcc.Add(new MailAddress("jblazak@ncstrades.edu"));
+                            }
+
+                            message.Subject = "New Lead - External";
+
+                            fc["CampusID"] = campus ?? fc["CampusID"];
+                            fc["ProgramID"] = program ?? fc["ProgramID"];
+                            fc["MediaGroupID"] = mediaGroup ?? fc["MedaGroupID"];
+                            fc["MediaID"] = mediaSource ?? fc["MediaID"];
+
+                            var stringArray = (from key in fc.AllKeys
+                                               from value in fc.GetValues(key)
+                                               where key != "ORGID" && key != "MailListID"
+                                               select string.Format("{0}: {1}" + Environment.NewLine, HttpUtility.UrlEncode(key), value)).ToArray();
+
+                            var body = "New Lead - External" + Environment.NewLine +
+                                       Environment.NewLine;
+
+                            var data = string.Join(",", stringArray).Replace(",", "");
+
+                            data = data.Replace("CampusID", "Location");
+                            data = data.Replace("FirstName", "First Name");
+                            data = data.Replace("Lastname", "Last Name");
+                            data = data.Replace("MediaGroupID", "Media Group");
+                            data = data.Replace("MediaID", "Media");
+                            data = data.Replace("ProgramID", "Program");
+                            data = data.Replace("Comment2", "Comments");
+
+                            message.Body = body + data;
+                            message.IsBodyHtml = false;
+
+                            mailClient.EnableSsl = true;
+                            mailClient.Send(message);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        ViewBag.Success = false;
+
+                        ViewBag.ErrorMessage = ex.Message.ToString();
+                    }
+                }
+                else
+                {
+                    ViewBag.Success = false;
+
+                    ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
+                }
+            }
+
+            return View("ThankYou");
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> PostMCR(FormCollection fc)
+        {
+            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
+            {
+                ViewBag.Success = false;
+
+                ViewBag.ErrorMessage = "Error submitting your request!";
+
+                return RedirectToRoute("ThankYou");
+            }
+
+            Int64 phoneNumber = 0;
+
+            Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
+
+            if (phoneNumber == 0)
+            {
+                ViewBag.Success = false;
+
+                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
+
+                return RedirectToRoute("ThankYou");
+            }
+
+            if (fc["MediaGroupID"] == null)
+            {
+                fc.Add("MediaGroupID", "90080");
+            }
+
+            if (fc["MediaID"] == null)
+            {
+                fc.Add("MediaID", "18918");
+            }
+
+            var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
+
+            LeadsType leadsType = LeadsType.Leads;
+
+            using (var client = new HttpClient())
+            {
+                var response = await client.PostAsync("http://www1.campuslogin.com/Contacts/Web/ImportContactData.aspx", formData);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    ViewBag.Success = true;
+
+                    var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
+                    var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
+                    var mediaGroup = mediaGroups.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
+                    var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaID"])).Value;
+
+                    var lead = new LeadsDTO
+                    {
+                        Date = DateTime.Now,
+                        FirstName = fc["FirstName"],
+                        LastName = fc["LastName"],
+                        Email = fc["Email"],
+                        Telephone = phoneNumber,
+                        Location = campus,
+                        Program = program,
+                        HearAbout = mediaSource,
+                        Comments = fc["Comment2"]
+                    };
+
+                    if (campus == "Baltimore")
+                    {
+                        leadsType = LeadsType.LeadsBaltimore;
+                    }
+                    else
+                    {
+                        leadsType = LeadsType.LeadsNewCastle;
+                    }
+
+                    var leads = new Leads(leadsType);
+
+                    leads.Insert(lead);
+
+                    try
+                    {
+                        using (var mailClient = new SmtpClient("smtp.gmail.com"))
+                        {
+                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Medixcollege1");
+                            mailClient.Port = 587;
+
+                            var message = new MailMessage();
+
+                            message.From = new MailAddress("ccgactiveleads@gmail.com", "MedixCollege.ca");
+
+                            message.To.Add(new MailAddress("activeleads@medixcollege.ca"));
+
+                            //if (fc["CampusID"].ToString() == "246")
+                            //{
+                            //    message.To.Add(new MailAddress("cbrandt@medixcollege.ca"));
+                            //}
+
+                            message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
+
+                            if (leadsType == LeadsType.LeadsBaltimore)
+                            {
+                                message.Bcc.Add(new MailAddress("mdaly@natradeschools.edu"));
+                            }
+                            else if (leadsType == LeadsType.LeadsNewCastle)
+                            {
+                                message.Bcc.Add(new MailAddress("jblazak@ncstrades.edu"));
+                            }
+
+                            message.Subject = "New Lead - External";
+
+                            fc["CampusID"] = campus ?? fc["CampusID"];
+                            fc["ProgramID"] = program ?? fc["ProgramID"];
+                            fc["MediaGroupID"] = mediaGroup ?? fc["MedaGroupID"];
+                            fc["MediaID"] = mediaSource ?? fc["MediaID"];
+
+                            var stringArray = (from key in fc.AllKeys
+                                               from value in fc.GetValues(key)
+                                               where key != "ORGID" && key != "MailListID"
+                                               select string.Format("{0}: {1}" + Environment.NewLine, HttpUtility.UrlEncode(key), value)).ToArray();
+
+                            var body = "New Lead - External" + Environment.NewLine +
+                                       Environment.NewLine;
+
+                            var data = string.Join(",", stringArray).Replace(",", "");
+
+                            data = data.Replace("CampusID", "Location");
+                            data = data.Replace("FirstName", "First Name");
+                            data = data.Replace("Lastname", "Last Name");
+                            data = data.Replace("MediaGroupID", "Media Group");
+                            data = data.Replace("MediaID", "Media");
+                            data = data.Replace("ProgramID", "Program");
+                            data = data.Replace("Comment2", "Comments");
+
+                            message.Body = body + data;
+                            message.IsBodyHtml = false;
+
+                            mailClient.EnableSsl = true;
+                            mailClient.Send(message);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        ViewBag.Success = false;
+
+                        ViewBag.ErrorMessage = ex.Message.ToString();
+                    }
+                }
+                else
+                {
+                    ViewBag.Success = false;
+
+                    ViewBag.ErrorMessage = "There was an error with your request. Please try again.";
+                }
+            }
+
+            return View("ThankYou");
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> PostRB(FormCollection fc)
+        {
+            if (fc["Comment2"].Contains("www.") || fc["Comment2"].Contains("http://"))
+            {
+                ViewBag.Success = false;
+
+                ViewBag.ErrorMessage = "Error submitting your request!";
+
+                return RedirectToRoute("ThankYou");
+            }
+
+            Int64 phoneNumber = 0;
+
+            Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
+
+            if (phoneNumber == 0)
+            {
+                ViewBag.Success = false;
+
+                ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number!";
+
+                return RedirectToRoute("ThankYou");
+            }
+
+            if (fc["MediaGroupID"] == null)
+            {
+                fc.Add("MediaGroupID", "90080");
+            }
+
+            if (fc["MediaID"] == null)
+            {
+                fc.Add("MediaID", "18917");
             }
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
