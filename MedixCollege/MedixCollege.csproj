@@ -490,6 +490,8 @@
     <Content Include="Content\images\program-pa2.jpg" />
     <Content Include="Content\images\program-psw.jpg" />
     <Content Include="Content\images\program-psw2.jpg" />
+    <Content Include="Content\images\programs_mlat.jpg" />
+    <Content Include="Content\images\programs_mlat1.jpg" />
     <Content Include="Content\images\PSD.jpg" />
     <Content Include="Content\images\PSD2.jpg" />
     <Content Include="Content\images\PSD3.jpg" />
@@ -808,6 +810,7 @@
     <Content Include="Views\FB\AskAQuestion.cshtml" />
     <Content Include="Views\External\MCRMicrosite.cshtml" />
     <Content Include="Views\External\RBMarketing.cshtml" />
+    <Content Include="Views\Programs\MedicalLabTechnicianAssistant.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

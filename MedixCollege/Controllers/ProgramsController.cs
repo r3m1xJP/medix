@@ -85,6 +85,12 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        // GET: Medical Lab Assistant Technician
+        public ActionResult MedicalLabTechnicianAssistant()
+        {
+            return View();
+        }
+
         // GET: Medical Office Administrator
         public ActionResult MedicalOfficeAdministrator()
         {
