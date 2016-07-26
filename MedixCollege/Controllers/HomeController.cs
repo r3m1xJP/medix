@@ -508,6 +508,11 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult GraduationSubmit()
+        {
+            return View();
+        }
+
         public ActionResult NewsDirectory()
         {
             var newsArticle = new NewsArticle();

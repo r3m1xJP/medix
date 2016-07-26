@@ -496,6 +496,7 @@
     <Content Include="Content\images\PSD2.jpg" />
     <Content Include="Content\images\PSD3.jpg" />
     <Content Include="Content\images\thanksimagemedix1.jpg" />
+    <Content Include="Content\images\thankyou-grad.jpg" />
     <Content Include="Content\images\topDIVgold.jpg" />
     <Content Include="Content\images\torontogradphoto.JPG" />
     <Content Include="Content\images\twitter-ic.gif" />
@@ -811,6 +812,7 @@
     <Content Include="Views\External\MCRMicrosite.cshtml" />
     <Content Include="Views\External\RBMarketing.cshtml" />
     <Content Include="Views\Programs\MedicalLabTechnicianAssistant.cshtml" />
+    <Content Include="Views\Home\GraduationSubmit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
