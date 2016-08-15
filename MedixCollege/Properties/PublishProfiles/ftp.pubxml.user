@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>07/16/2016 01:49:49</publishTime>
+      <publishTime>07/26/2016 10:20:41</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1282,6 +1282,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/program-psw2.jpg">
       <publishTime>06/28/2016 13:07:34</publishTime>
     </File>
+    <File Include="Content/images/programs_mlat.jpg">
+      <publishTime>07/21/2016 13:50:24</publishTime>
+    </File>
+    <File Include="Content/images/programs_mlat1.jpg">
+      <publishTime>07/21/2016 13:55:45</publishTime>
+    </File>
     <File Include="Content/images/PSD.jpg">
       <publishTime>06/28/2016 13:07:24</publishTime>
     </File>
@@ -1293,6 +1299,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/thanksimagemedix1.jpg">
       <publishTime>06/28/2016 13:07:34</publishTime>
+    </File>
+    <File Include="Content/images/thankyou-grad.jpg">
+      <publishTime>07/26/2016 10:12:19</publishTime>
     </File>
     <File Include="Content/images/topDIVgold.jpg">
       <publishTime>06/28/2016 13:07:34</publishTime>
@@ -1658,7 +1667,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:41</publishTime>
     </File>
     <File Include="Views/Campuses/Toronto.cshtml">
-      <publishTime>07/08/2016 21:52:57</publishTime>
+      <publishTime>08/02/2016 02:07:28</publishTime>
     </File>
     <File Include="Views/Campuses/_CampusesLayout.cshtml">
       <publishTime>07/08/2016 21:52:57</publishTime>
@@ -1694,7 +1703,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/08/2016 21:52:57</publishTime>
     </File>
     <File Include="Views/Certificates/AbelDent.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>08/02/2016 02:07:35</publishTime>
     </File>
     <File Include="Views/Certificates/AllCertificates.cshtml">
       <publishTime>06/28/2016 13:07:42</publishTime>
@@ -1888,6 +1897,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Home/CareersAtMedix.cshtml">
       <publishTime>08/18/2015 12:19:36</publishTime>
     </File>
+    <File Include="Views/Home/GraduationSubmit.cshtml">
+      <publishTime>08/02/2016 02:10:38</publishTime>
+    </File>
     <File Include="Views/Home/HireAMedixGrad.cshtml">
       <publishTime>06/28/2016 13:07:44</publishTime>
     </File>
@@ -2018,7 +2030,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:46</publishTime>
     </File>
     <File Include="Views/Programs/FitnessHealthPromotion.cshtml">
-      <publishTime>06/28/2016 13:07:46</publishTime>
+      <publishTime>07/26/2016 10:56:49</publishTime>
     </File>
     <File Include="Views/Programs/Index.cshtml">
       <publishTime>06/28/2016 13:07:46</publishTime>
@@ -2035,6 +2047,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Programs/MedicalLabAssistantTechnician.cshtml">
       <publishTime>06/28/2016 13:07:47</publishTime>
     </File>
+    <File Include="Views/Programs/MedicalLabTechnicianAssistant.cshtml">
+      <publishTime>07/21/2016 13:56:25</publishTime>
+    </File>
     <File Include="Views/Programs/MedicalOfficeAdministrator.cshtml">
       <publishTime>06/28/2016 13:07:47</publishTime>
     </File>
@@ -2042,7 +2057,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/13/2016 01:40:18</publishTime>
     </File>
     <File Include="Views/Programs/PersonalSupportWorker.cshtml">
-      <publishTime>06/28/2016 13:07:47</publishTime>
+      <publishTime>08/02/2016 02:08:56</publishTime>
     </File>
     <File Include="Views/Programs/PharmacyAssistant.cshtml">
       <publishTime>06/28/2016 13:07:47</publishTime>
@@ -2054,7 +2069,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:47</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>07/08/2016 21:52:57</publishTime>
+      <publishTime>07/21/2016 13:34:16</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>06/28/2016 13:07:47</publishTime>

@@ -363,6 +363,8 @@ namespace MedixCollege.Controllers
                             //}
 
                             message.Bcc.Add(new MailAddress("toppyv@careercollegegroup.com"));
+                            message.Bcc.Add(new MailAddress("pdykstra@medixcollege.ca"));
+
 
                             if (leadsType == LeadsType.LeadsBaltimore)
                             {
