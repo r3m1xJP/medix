@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>07/26/2016 10:20:41</publishTime>
+      <publishTime>08/19/2016 10:52:45</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -798,6 +798,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/160716-Hires-Medix-Toronto.jpg">
       <publishTime>07/16/2016 00:58:42</publishTime>
+    </File>
+    <File Include="Content/images/160819 - London CPR - ReCert.jpg">
+      <publishTime>08/19/2016 10:52:19</publishTime>
     </File>
     <File Include="Content/images/admissions-eo.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
@@ -2012,7 +2015,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/08/2016 21:52:57</publishTime>
     </File>
     <File Include="Views/Programs/AllPrograms.cshtml">
-      <publishTime>06/28/2016 13:07:46</publishTime>
+      <publishTime>08/15/2016 12:41:37</publishTime>
     </File>
     <File Include="Views/Programs/ChildYouthAddictionsWorker.cshtml">
       <publishTime>06/28/2016 13:07:46</publishTime>
@@ -2030,7 +2033,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:46</publishTime>
     </File>
     <File Include="Views/Programs/FitnessHealthPromotion.cshtml">
-      <publishTime>07/26/2016 10:56:49</publishTime>
+      <publishTime>08/15/2016 12:42:07</publishTime>
     </File>
     <File Include="Views/Programs/Index.cshtml">
       <publishTime>06/28/2016 13:07:46</publishTime>
@@ -2042,13 +2045,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:46</publishTime>
     </File>
     <File Include="Views/Programs/MassageTherapyAdvancedStanding.cshtml">
-      <publishTime>06/28/2016 13:07:47</publishTime>
+      <publishTime>08/15/2016 12:44:46</publishTime>
     </File>
     <File Include="Views/Programs/MedicalLabAssistantTechnician.cshtml">
-      <publishTime>06/28/2016 13:07:47</publishTime>
+      <publishTime>08/15/2016 12:47:22</publishTime>
     </File>
     <File Include="Views/Programs/MedicalLabTechnicianAssistant.cshtml">
-      <publishTime>07/21/2016 13:56:25</publishTime>
+      <publishTime>08/15/2016 12:42:48</publishTime>
     </File>
     <File Include="Views/Programs/MedicalOfficeAdministrator.cshtml">
       <publishTime>06/28/2016 13:07:47</publishTime>
