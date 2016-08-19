@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>08/19/2016 10:52:45</publishTime>
+      <publishTime>08/19/2016 11:00:58</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -800,6 +800,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/16/2016 00:58:42</publishTime>
     </File>
     <File Include="Content/images/160819 - London CPR - ReCert.jpg">
+      <publishTime>08/19/2016 10:52:19</publishTime>
+    </File>
+    <File Include="Content/images/160819-LondonCPR-ReCert.jpg">
       <publishTime>08/19/2016 10:52:19</publishTime>
     </File>
     <File Include="Content/images/admissions-eo.jpg">
