@@ -331,6 +331,10 @@
     <Content Include="Content\images\160716-Hires-Medix-Scarborough.jpg" />
     <Content Include="Content\images\160716-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\160819-LondonCPR-ReCert.jpg" />
+    <Content Include="Content\images\160820-Hires-Medix-London.jpg" />
+    <Content Include="Content\images\160820-Hires-Medix-London2.jpg" />
+    <Content Include="Content\images\160820-Hires-Medix-Scarborough.jpg" />
+    <Content Include="Content\images\160820-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
