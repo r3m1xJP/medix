@@ -1685,7 +1685,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:41</publishTime>
     </File>
     <File Include="Views/Campuses/Toronto.cshtml">
-      <publishTime>08/02/2016 02:07:28</publishTime>
+      <publishTime>08/24/2016 15:37:36</publishTime>
     </File>
     <File Include="Views/Campuses/_CampusesLayout.cshtml">
       <publishTime>07/08/2016 21:52:57</publishTime>
