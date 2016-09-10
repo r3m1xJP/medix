@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>09/02/2016 08:54:09</publishTime>
+      <publishTime>09/10/2016 16:29:23</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -828,6 +828,18 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/160820-Hires-Medix-Toronto.jpg">
       <publishTime>08/20/2016 00:22:51</publishTime>
+    </File>
+    <File Include="Content/images/160910-Hires-Medix-Brampton.jpg">
+      <publishTime>09/10/2016 16:28:59</publishTime>
+    </File>
+    <File Include="Content/images/160910-Hires-Medix-London.jpg">
+      <publishTime>09/10/2016 16:28:59</publishTime>
+    </File>
+    <File Include="Content/images/160910-Hires-Medix-Scarborough.jpg">
+      <publishTime>09/10/2016 16:28:59</publishTime>
+    </File>
+    <File Include="Content/images/160910-Hires-Medix-Toronto.jpg">
+      <publishTime>09/10/2016 16:28:59</publishTime>
     </File>
     <File Include="Content/images/admissions-eo.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
@@ -1907,7 +1919,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:44</publishTime>
     </File>
     <File Include="Views/External/ThankYou.cshtml">
-      <publishTime>06/28/2016 13:07:44</publishTime>
+      <publishTime>09/06/2016 12:00:13</publishTime>
     </File>
     <File Include="Views/FB/AskAQuestion.cshtml">
       <publishTime>06/28/2016 13:07:44</publishTime>
@@ -2099,7 +2111,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:47</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>07/21/2016 13:34:16</publishTime>
+      <publishTime>09/06/2016 12:42:21</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>06/28/2016 13:07:47</publishTime>
