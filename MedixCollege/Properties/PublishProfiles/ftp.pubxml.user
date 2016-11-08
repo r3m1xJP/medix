@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>09/10/2016 16:29:23</publishTime>
+      <publishTime>10/15/2016 10:54:44</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -840,6 +840,48 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/160910-Hires-Medix-Toronto.jpg">
       <publishTime>09/10/2016 16:28:59</publishTime>
+    </File>
+    <File Include="Content/images/160924-Hires-Medix-Brantford.jpg">
+      <publishTime>09/24/2016 08:29:38</publishTime>
+    </File>
+    <File Include="Content/images/160924-Hires-Medix-London.jpg">
+      <publishTime>09/24/2016 08:29:38</publishTime>
+    </File>
+    <File Include="Content/images/160924-Hires-Medix-Scarborough.jpg">
+      <publishTime>09/24/2016 08:29:38</publishTime>
+    </File>
+    <File Include="Content/images/160924-Hires-Medix-Toronto.jpg">
+      <publishTime>09/24/2016 08:29:38</publishTime>
+    </File>
+    <File Include="Content/images/161001-Hires-Medix-Kitchener.jpg">
+      <publishTime>10/02/2016 14:00:35</publishTime>
+    </File>
+    <File Include="Content/images/161001-Hires-Medix-London.jpg">
+      <publishTime>10/02/2016 14:00:35</publishTime>
+    </File>
+    <File Include="Content/images/161001-Hires-Medix-Scarborough.jpg">
+      <publishTime>10/02/2016 14:00:35</publishTime>
+    </File>
+    <File Include="Content/images/161001-Hires-Medix-Toronto.jpg">
+      <publishTime>10/02/2016 14:00:35</publishTime>
+    </File>
+    <File Include="Content/images/161015-Hires-Medix-Brampton.jpg">
+      <publishTime>10/15/2016 10:29:12</publishTime>
+    </File>
+    <File Include="Content/images/161015-Hires-Medix-Brantford.jpg">
+      <publishTime>10/15/2016 10:29:12</publishTime>
+    </File>
+    <File Include="Content/images/161015-Hires-Medix-Kitchener.jpg">
+      <publishTime>10/15/2016 10:29:12</publishTime>
+    </File>
+    <File Include="Content/images/161015-Hires-Medix-London.jpg">
+      <publishTime>10/15/2016 10:29:12</publishTime>
+    </File>
+    <File Include="Content/images/161015-Hires-Medix-Scarborough.jpg">
+      <publishTime>10/15/2016 10:29:12</publishTime>
+    </File>
+    <File Include="Content/images/161015-Hires-Medix-Toronto.jpg">
+      <publishTime>10/15/2016 10:29:12</publishTime>
     </File>
     <File Include="Content/images/admissions-eo.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
@@ -1694,7 +1736,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/02/2016 08:53:23</publishTime>
     </File>
     <File Include="Views/Campuses/Brantford.cshtml">
-      <publishTime>06/28/2016 13:07:41</publishTime>
+      <publishTime>09/14/2016 11:15:45</publishTime>
     </File>
     <File Include="Views/Campuses/Index.cshtml">
       <publishTime>06/28/2016 13:07:41</publishTime>
@@ -1748,7 +1790,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/02/2016 02:07:35</publishTime>
     </File>
     <File Include="Views/Certificates/AllCertificates.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>09/28/2016 16:27:15</publishTime>
     </File>
     <File Include="Views/Certificates/BasicWoundTreatment.cshtml">
       <publishTime>06/28/2016 13:07:42</publishTime>
@@ -2099,7 +2141,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/13/2016 01:40:18</publishTime>
     </File>
     <File Include="Views/Programs/PersonalSupportWorker.cshtml">
-      <publishTime>08/02/2016 02:08:56</publishTime>
+      <publishTime>10/27/2016 16:28:14</publishTime>
     </File>
     <File Include="Views/Programs/PharmacyAssistant.cshtml">
       <publishTime>06/28/2016 13:07:47</publishTime>
