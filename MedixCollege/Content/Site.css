@@ -1710,6 +1710,13 @@ blockquote p {
     font-weight: 400;
 }
 
+.contentp-light {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
 .contentpheight {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: #222222;
@@ -1720,7 +1727,7 @@ blockquote p {
     border-bottom: solid 1px lightgray;
 }
 
-.contentp-light {
+.contentpgrayColor {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -1937,6 +1944,13 @@ background-color: #0F3F6F; color:white; font-family: "Helvetica W01 Roman", Aria
     height: 1px;
 }
 
+.hrpgold {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #EDAA0F;
+    border-bottom; solid 3px #EDAA0F;
+}
+
 .hrpbluethin {
     margin-top: 1px;
     margin-bottom: 3px;
@@ -2123,16 +2137,22 @@ input.parsley-error, select.parsley-error, textarea.parsley-error {
 }
 
 .bluePANEL {
-    border: 1px solid #0F3F6F;
+
+    border-style: solid;
+    border-color: #EDAA0F;
+    background-color: #0F3F6F;
     -webkit-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
     -moz-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
     box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
 }
 
 .bluePANEL2 {
-    border: 1px solid #0F3F6F;
+    border-style: solid;
+    border-color: #EDAA0F;
     background-color: #0F3F6F;
     -webkit-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
     -moz-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
     box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
+    color: white;
 }
+
