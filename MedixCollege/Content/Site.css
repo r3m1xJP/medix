@@ -2140,6 +2140,7 @@ input.parsley-error, select.parsley-error, textarea.parsley-error {
 
     border-style: solid;
     border-color: #EDAA0F;
+    border-width: 1px;
     background-color: #0F3F6F;
     -webkit-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
     -moz-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
@@ -2149,6 +2150,7 @@ input.parsley-error, select.parsley-error, textarea.parsley-error {
 .bluePANEL2 {
     border-style: solid;
     border-color: #EDAA0F;
+    border-width: 1px;
     background-color: #0F3F6F;
     -webkit-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
     -moz-box-shadow: 10px 10px 3px -8px rgba(179,179,179,1);
