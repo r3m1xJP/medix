@@ -1487,7 +1487,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:34</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>06/28/2016 13:07:09</publishTime>
+      <publishTime>12/12/2016 14:47:47</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
       <publishTime>06/28/2016 13:07:34</publishTime>
@@ -1919,7 +1919,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/08/2016 21:52:57</publishTime>
     </File>
     <File Include="Views/Courses/AskAQuestion.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>12/12/2016 14:08:13</publishTime>
     </File>
     <File Include="Views/Courses/ChildYouthAddictionsWorker.cshtml">
       <publishTime>06/28/2016 13:07:42</publishTime>
@@ -2165,52 +2165,52 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/12/2016 13:53:41</publishTime>
     </File>
     <File Include="Views/Programs/ChildYouthAddictionsWorker.cshtml">
-      <publishTime>12/12/2016 12:36:50</publishTime>
+      <publishTime>12/12/2016 17:14:35</publishTime>
     </File>
     <File Include="Views/Programs/CommunityServiceWorker.cshtml">
-      <publishTime>12/12/2016 12:36:24</publishTime>
+      <publishTime>12/12/2016 17:17:44</publishTime>
     </File>
     <File Include="Views/Programs/DentalAssistantII.cshtml">
       <publishTime>06/28/2016 13:07:46</publishTime>
     </File>
     <File Include="Views/Programs/DevelopmentalServiceWorker.cshtml">
-      <publishTime>12/12/2016 12:38:16</publishTime>
+      <publishTime>12/12/2016 17:21:52</publishTime>
     </File>
     <File Include="Views/Programs/EarlyChildCareAssistant.cshtml">
-      <publishTime>12/12/2016 12:38:34</publishTime>
+      <publishTime>12/12/2016 17:24:53</publishTime>
     </File>
     <File Include="Views/Programs/FitnessHealthPromotion.cshtml">
-      <publishTime>12/12/2016 12:38:52</publishTime>
+      <publishTime>12/12/2016 17:28:45</publishTime>
     </File>
     <File Include="Views/Programs/Index.cshtml">
       <publishTime>06/28/2016 13:07:46</publishTime>
     </File>
     <File Include="Views/Programs/IntraOralDentalAssistant.cshtml">
-      <publishTime>12/12/2016 12:39:15</publishTime>
+      <publishTime>12/12/2016 17:31:32</publishTime>
     </File>
     <File Include="Views/Programs/MassageTherapy.cshtml">
-      <publishTime>12/12/2016 12:39:36</publishTime>
+      <publishTime>12/12/2016 17:53:27</publishTime>
     </File>
     <File Include="Views/Programs/MassageTherapyAdvancedStanding.cshtml">
-      <publishTime>08/15/2016 12:44:46</publishTime>
+      <publishTime>12/12/2016 17:54:14</publishTime>
     </File>
     <File Include="Views/Programs/MedicalLabAssistantTechnician.cshtml">
       <publishTime>12/12/2016 12:37:41</publishTime>
     </File>
     <File Include="Views/Programs/MedicalLabTechnicianAssistant.cshtml">
-      <publishTime>12/12/2016 13:51:55</publishTime>
+      <publishTime>12/12/2016 18:34:46</publishTime>
     </File>
     <File Include="Views/Programs/MedicalOfficeAdministrator.cshtml">
-      <publishTime>12/12/2016 12:40:32</publishTime>
+      <publishTime>12/12/2016 17:55:39</publishTime>
     </File>
     <File Include="Views/Programs/MedixOnline.cshtml">
       <publishTime>04/13/2016 01:40:18</publishTime>
     </File>
     <File Include="Views/Programs/PersonalSupportWorker.cshtml">
-      <publishTime>12/12/2016 12:40:56</publishTime>
+      <publishTime>12/12/2016 17:59:02</publishTime>
     </File>
     <File Include="Views/Programs/PharmacyAssistant.cshtml">
-      <publishTime>12/12/2016 12:41:16</publishTime>
+      <publishTime>12/12/2016 17:57:59</publishTime>
     </File>
     <File Include="Views/Programs/_ProgramsLayout.cshtml">
       <publishTime>12/12/2016 13:53:56</publishTime>
