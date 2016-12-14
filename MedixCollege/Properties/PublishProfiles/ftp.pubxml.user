@@ -1862,7 +1862,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:42</publishTime>
     </File>
     <File Include="Views/Certificates/BirthDoulaWorkshop.cshtml">
-      <publishTime>12/12/2016 12:31:01</publishTime>
+      <publishTime>12/13/2016 17:52:55</publishTime>
     </File>
     <File Include="Views/Certificates/CertificatesContinuingEducation.cshtml">
       <publishTime>04/13/2016 01:40:17</publishTime>
