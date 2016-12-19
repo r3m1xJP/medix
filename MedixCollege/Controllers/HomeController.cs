@@ -1617,7 +1617,7 @@ namespace MedixCollege.Controllers
 
                 ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
-                return RedirectToRoute("ThankYou");
+                return RedirectToRoute("ThankYouReferral");
             }
 
             Int64 phoneNumber = 0;
@@ -1630,7 +1630,7 @@ namespace MedixCollege.Controllers
 
                 ViewBag.ErrorMessage = "Error submitting your request! Invalid Phone Number! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
-                return View("ThankYou");
+                return View("ThankYouReferral");
             }
 
             if (fc["MediaGroupID"] == null)
@@ -1716,7 +1716,7 @@ namespace MedixCollege.Controllers
                     ViewBag.ErrorMessage = "There was an error with your request. Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
                 }
 
-                return View("ThankYou");
+                return View("ThankYouReferral");
             }
         }
     }
