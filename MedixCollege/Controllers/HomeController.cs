@@ -1660,7 +1660,7 @@ namespace MedixCollege.Controllers
                     ViewBag.ErrorMessage = "There was an error with your request. Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
                 }
 
-                return View("ThankYou");
+                return View("ThankYouReferral");
             }
         }
 
