@@ -544,6 +544,8 @@
     <Content Include="Content\images\PSD.jpg" />
     <Content Include="Content\images\PSD2.jpg" />
     <Content Include="Content\images\PSD3.jpg" />
+    <Content Include="Content\images\thanksimagemedix-friend.jpg" />
+    <Content Include="Content\images\thanksimagemedix-medix.jpg" />
     <Content Include="Content\images\thanksimagemedix1.jpg" />
     <Content Include="Content\images\thankyou-grad.jpg" />
     <Content Include="Content\images\topDIVgold.jpg" />
@@ -862,6 +864,7 @@
     <Content Include="Views\External\RBMarketing.cshtml" />
     <Content Include="Views\Programs\MedicalLabTechnicianAssistant.cshtml" />
     <Content Include="Views\Home\GraduationSubmit.cshtml" />
+    <Content Include="Views\Home\ThankYouReferral.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

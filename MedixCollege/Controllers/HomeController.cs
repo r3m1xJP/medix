@@ -254,6 +254,8 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+
+
         [HttpPost]
         public async Task<ActionResult> SearchEngineMarketingPost(FormCollection fc)
         {
