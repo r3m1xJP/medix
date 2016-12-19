@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>12/12/2016 12:43:36</publishTime>
+      <publishTime>12/19/2016 00:55:26</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1447,6 +1447,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/PSD3.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
     </File>
+    <File Include="Content/images/thanksimagemedix-friend.jpg">
+      <publishTime>12/15/2016 14:38:52</publishTime>
+    </File>
+    <File Include="Content/images/thanksimagemedix-medix.jpg">
+      <publishTime>12/15/2016 14:39:32</publishTime>
+    </File>
     <File Include="Content/images/thanksimagemedix1.jpg">
       <publishTime>06/28/2016 13:07:34</publishTime>
     </File>
@@ -1862,7 +1868,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:42</publishTime>
     </File>
     <File Include="Views/Certificates/BirthDoulaWorkshop.cshtml">
-      <publishTime>12/13/2016 17:52:55</publishTime>
+      <publishTime>12/19/2016 12:13:18</publishTime>
     </File>
     <File Include="Views/Certificates/CertificatesContinuingEducation.cshtml">
       <publishTime>04/13/2016 01:40:17</publishTime>
@@ -2088,6 +2094,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/Home/ThankYou.cshtml">
       <publishTime>06/28/2016 13:07:45</publishTime>
+    </File>
+    <File Include="Views/Home/ThankYouReferral.cshtml">
+      <publishTime>12/15/2016 14:40:45</publishTime>
     </File>
     <File Include="Views/Home/VirtualTours.cshtml">
       <publishTime>06/28/2016 13:07:45</publishTime>
