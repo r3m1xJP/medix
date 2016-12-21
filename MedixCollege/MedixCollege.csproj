@@ -378,6 +378,10 @@
     <Content Include="Content\images\161210-Hires-Medix-Kitchener.jpg" />
     <Content Include="Content\images\161210-Hires-Medix-London.jpg" />
     <Content Include="Content\images\161210-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\161217-Hires-Medix-Brantford.jpg" />
+    <Content Include="Content\images\161217-Hires-Medix-Kitchener.jpg" />
+    <Content Include="Content\images\161217-Hires-Medix-London.jpg" />
+    <Content Include="Content\images\161217-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
@@ -400,6 +404,8 @@
     <Content Include="Content\images\banner_mt.jpg" />
     <Content Include="Content\images\banner_psw.jpg" />
     <Content Include="Content\images\blur-extra-lab.jpg" />
+    <Content Include="Content\images\Brampton -Holiday Schedule.jpg" />
+    <Content Include="Content\images\Brantford -Holiday Schedule.jpg" />
     <Content Include="Content\images\button-next.png" />
     <Content Include="Content\images\button-previous.png" />
     <Content Include="Content\images\campus-brampton.jpg" />
@@ -486,7 +492,9 @@
     <Content Include="Content\images\home-referral.jpg" />
     <Content Include="Content\images\instagram-ic.gif" />
     <Content Include="Content\images\instagram.gif" />
+    <Content Include="Content\images\Kitchener-Holiday Schedule.jpg" />
     <Content Include="Content\images\linkedin-ic.gif" />
+    <Content Include="Content\images\London-Holiday Schedule.jpg" />
     <Content Include="Content\images\mainBANNER-1-ECA.jpg" />
     <Content Include="Content\images\mainBANNER-2-IODA.jpg" />
     <Content Include="Content\images\mainBANNER-3-MLAT.jpg" />
@@ -544,11 +552,13 @@
     <Content Include="Content\images\PSD.jpg" />
     <Content Include="Content\images\PSD2.jpg" />
     <Content Include="Content\images\PSD3.jpg" />
+    <Content Include="Content\images\Scar -Holiday Schedule.jpg" />
     <Content Include="Content\images\thanksimagemedix-friend.jpg" />
     <Content Include="Content\images\thanksimagemedix-medix.jpg" />
     <Content Include="Content\images\thanksimagemedix1.jpg" />
     <Content Include="Content\images\thankyou-grad.jpg" />
     <Content Include="Content\images\topDIVgold.jpg" />
+    <Content Include="Content\images\Toronto -Holiday Schedule.jpg" />
     <Content Include="Content\images\torontogradphoto.JPG" />
     <Content Include="Content\images\twitter-ic.gif" />
     <Content Include="Content\images\vaa.png" />

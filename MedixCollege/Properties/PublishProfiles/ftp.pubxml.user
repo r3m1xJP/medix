@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>12/19/2016 00:55:26</publishTime>
+      <publishTime>12/20/2016 19:03:35</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -935,7 +935,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/12/2016 12:24:31</publishTime>
     </File>
     <File Include="Content/images/161210-Hires-Medix-Brantford.jpg">
-      <publishTime>12/12/2016 12:24:21</publishTime>
+      <publishTime>12/20/2016 17:38:17</publishTime>
     </File>
     <File Include="Content/images/161210-Hires-Medix-Kitchener.jpg">
       <publishTime>12/12/2016 12:24:21</publishTime>
@@ -945,6 +945,18 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/161210-Hires-Medix-Toronto.jpg">
       <publishTime>12/12/2016 12:24:21</publishTime>
+    </File>
+    <File Include="Content/images/161217-Hires-Medix-Brantford.jpg">
+      <publishTime>12/20/2016 17:38:07</publishTime>
+    </File>
+    <File Include="Content/images/161217-Hires-Medix-Kitchener.jpg">
+      <publishTime>12/20/2016 17:38:07</publishTime>
+    </File>
+    <File Include="Content/images/161217-Hires-Medix-London.jpg">
+      <publishTime>12/20/2016 17:38:07</publishTime>
+    </File>
+    <File Include="Content/images/161217-Hires-Medix-Toronto.jpg">
+      <publishTime>12/20/2016 17:38:07</publishTime>
     </File>
     <File Include="Content/images/admissions-eo.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
@@ -1011,6 +1023,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/blur-extra-lab.jpg">
       <publishTime>06/28/2016 13:07:26</publishTime>
+    </File>
+    <File Include="Content/images/Brampton -Holiday Schedule.jpg">
+      <publishTime>12/20/2016 19:01:46</publishTime>
+    </File>
+    <File Include="Content/images/Brantford -Holiday Schedule.jpg">
+      <publishTime>12/20/2016 19:01:46</publishTime>
     </File>
     <File Include="Content/images/button-next.png">
       <publishTime>06/28/2016 13:07:26</publishTime>
@@ -1270,8 +1288,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/instagram.gif">
       <publishTime>06/28/2016 13:07:29</publishTime>
     </File>
+    <File Include="Content/images/Kitchener-Holiday Schedule.jpg">
+      <publishTime>12/20/2016 19:01:46</publishTime>
+    </File>
     <File Include="Content/images/linkedin-ic.gif">
       <publishTime>06/28/2016 13:07:29</publishTime>
+    </File>
+    <File Include="Content/images/London-Holiday Schedule.jpg">
+      <publishTime>12/20/2016 19:01:46</publishTime>
     </File>
     <File Include="Content/images/mainBANNER-1-ECA.jpg">
       <publishTime>06/28/2016 13:07:30</publishTime>
@@ -1447,6 +1471,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/PSD3.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
     </File>
+    <File Include="Content/images/Scar -Holiday Schedule.jpg">
+      <publishTime>12/20/2016 19:01:46</publishTime>
+    </File>
     <File Include="Content/images/thanksimagemedix-friend.jpg">
       <publishTime>12/15/2016 14:38:52</publishTime>
     </File>
@@ -1461,6 +1488,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/topDIVgold.jpg">
       <publishTime>06/28/2016 13:07:34</publishTime>
+    </File>
+    <File Include="Content/images/Toronto -Holiday Schedule.jpg">
+      <publishTime>12/20/2016 19:01:46</publishTime>
     </File>
     <File Include="Content/images/torontogradphoto.JPG">
       <publishTime>06/28/2016 13:07:34</publishTime>
