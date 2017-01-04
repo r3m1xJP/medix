@@ -41,6 +41,7 @@ namespace MedixCollege.Controllers
             programs.Add(627, "Intra-Oral Dental Assistant ");
             programs.Add(629, "Massage Therapy");
             programs.Add(633, "Medical Laboratory Assistant / Technician");
+            programs.Add(41068, "Medical Laboratory Technician Assistant");
             programs.Add(630, "Medical Office Administrator");
             programs.Add(1170, "Medical Terminology");
             programs.Add(38887, "Medical Transcription");
