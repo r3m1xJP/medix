@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>01/05/2017 12:23:34</publishTime>
+      <publishTime>01/09/2017 00:25:51</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -958,6 +958,33 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/161217-Hires-Medix-Toronto.jpg">
       <publishTime>12/20/2016 17:38:07</publishTime>
     </File>
+    <File Include="Content/images/161224-Hires-Medix-Kitchener.jpg">
+      <publishTime>01/08/2017 23:40:50</publishTime>
+    </File>
+    <File Include="Content/images/161224-Hires-Medix-London.jpg">
+      <publishTime>01/08/2017 23:40:50</publishTime>
+    </File>
+    <File Include="Content/images/161224-Hires-Medix-Scarborough.jpg">
+      <publishTime>01/08/2017 23:40:50</publishTime>
+    </File>
+    <File Include="Content/images/161224-Hires-Medix-Toronto.jpg">
+      <publishTime>01/08/2017 23:40:50</publishTime>
+    </File>
+    <File Include="Content/images/161231-Hires-Medix-London.jpg">
+      <publishTime>01/08/2017 23:41:03</publishTime>
+    </File>
+    <File Include="Content/images/170107-Hires-Medix-Kitchener.jpg">
+      <publishTime>01/08/2017 23:43:32</publishTime>
+    </File>
+    <File Include="Content/images/170107-Hires-Medix-London.jpg">
+      <publishTime>01/08/2017 23:41:17</publishTime>
+    </File>
+    <File Include="Content/images/170107-Hires-Medix-Scarborough.jpg">
+      <publishTime>01/08/2017 23:41:17</publishTime>
+    </File>
+    <File Include="Content/images/170107-Hires-Medix-Toronto.jpg">
+      <publishTime>01/08/2017 23:41:17</publishTime>
+    </File>
     <File Include="Content/images/admissions-eo.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
     </File>
@@ -1796,34 +1823,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:41</publishTime>
     </File>
     <File Include="Views/Admissions/EmploymentOntario.cshtml">
-      <publishTime>06/28/2016 13:07:41</publishTime>
+      <publishTime>01/09/2017 00:15:52</publishTime>
     </File>
     <File Include="Views/Admissions/FinancialOptions.cshtml">
-      <publishTime>06/28/2016 13:07:41</publishTime>
+      <publishTime>01/09/2017 00:16:04</publishTime>
     </File>
     <File Include="Views/Admissions/Index.cshtml">
-      <publishTime>06/28/2016 13:07:41</publishTime>
+      <publishTime>01/09/2017 00:16:15</publishTime>
     </File>
     <File Include="Views/Admissions/LifelongLearningPlan.cshtml">
-      <publishTime>06/28/2016 13:07:41</publishTime>
+      <publishTime>01/09/2017 00:16:26</publishTime>
     </File>
     <File Include="Views/Admissions/MonthlyPaymentPlan.cshtml">
-      <publishTime>06/28/2016 13:07:41</publishTime>
+      <publishTime>01/09/2017 00:16:37</publishTime>
     </File>
     <File Include="Views/Admissions/OSAP.cshtml">
-      <publishTime>06/28/2016 13:07:41</publishTime>
+      <publishTime>01/09/2017 00:16:47</publishTime>
     </File>
     <File Include="Views/Admissions/OutOfProvinceStudents.cshtml">
-      <publishTime>06/28/2016 13:07:41</publishTime>
+      <publishTime>01/09/2017 00:17:02</publishTime>
     </File>
     <File Include="Views/Admissions/RegisteredEducationSavingsPlans.cshtml">
-      <publishTime>06/28/2016 13:07:41</publishTime>
+      <publishTime>01/09/2017 00:17:16</publishTime>
     </File>
     <File Include="Views/Admissions/SecondCareers.cshtml">
-      <publishTime>06/28/2016 13:07:41</publishTime>
+      <publishTime>01/09/2017 00:17:26</publishTime>
     </File>
     <File Include="Views/Admissions/StudentLinesOfCredit.cshtml">
-      <publishTime>06/28/2016 13:07:41</publishTime>
+      <publishTime>01/09/2017 00:17:37</publishTime>
     </File>
     <File Include="Views/Admissions/_AdmissionsLayout.cshtml">
       <publishTime>07/08/2016 21:52:57</publishTime>
@@ -1889,67 +1916,67 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/08/2016 21:52:57</publishTime>
     </File>
     <File Include="Views/Certificates/AbelDent.cshtml">
-      <publishTime>08/02/2016 02:07:35</publishTime>
+      <publishTime>01/09/2017 00:18:37</publishTime>
     </File>
     <File Include="Views/Certificates/AllCertificates.cshtml">
       <publishTime>09/28/2016 16:27:15</publishTime>
     </File>
     <File Include="Views/Certificates/BasicWoundTreatment.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:18:51</publishTime>
     </File>
     <File Include="Views/Certificates/BirthDoulaWorkshop.cshtml">
-      <publishTime>01/06/2017 09:06:43</publishTime>
+      <publishTime>01/09/2017 00:19:25</publishTime>
     </File>
     <File Include="Views/Certificates/CertificatesContinuingEducation.cshtml">
       <publishTime>04/13/2016 01:40:17</publishTime>
     </File>
     <File Include="Views/Certificates/Electrocardiogram.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:20:20</publishTime>
     </File>
     <File Include="Views/Certificates/EmotionalFirstAid.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:20:41</publishTime>
     </File>
     <File Include="Views/Certificates/EnglishSecondLanguage.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:21:33</publishTime>
     </File>
     <File Include="Views/Certificates/EnglishSkillsHealthcareWorkers.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:21:22</publishTime>
     </File>
     <File Include="Views/Certificates/FirstAidCPR.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:21:13</publishTime>
     </File>
     <File Include="Views/Certificates/FoodHandlerSafety.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:22:12</publishTime>
     </File>
     <File Include="Views/Certificates/HomeChildCareManagement.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:22:19</publishTime>
     </File>
     <File Include="Views/Certificates/Index.cshtml">
       <publishTime>06/28/2016 13:07:42</publishTime>
     </File>
     <File Include="Views/Certificates/IntramuscularInjections.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:22:28</publishTime>
     </File>
     <File Include="Views/Certificates/IntroductionDevelopmentalDisabilitiesServices.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:22:35</publishTime>
     </File>
     <File Include="Views/Certificates/IntroductionSwedishMassage.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:22:44</publishTime>
     </File>
     <File Include="Views/Certificates/MedixOnline.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:23:51</publishTime>
     </File>
     <File Include="Views/Certificates/MentalHealthAddictions.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:22:53</publishTime>
     </File>
     <File Include="Views/Certificates/Phlebotomy.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:23:43</publishTime>
     </File>
     <File Include="Views/Certificates/SoftTissueBackInjuryPrevention.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:23:09</publishTime>
     </File>
     <File Include="Views/Certificates/Urinalysis.cshtml">
-      <publishTime>06/28/2016 13:07:42</publishTime>
+      <publishTime>01/09/2017 00:23:20</publishTime>
     </File>
     <File Include="Views/Certificates/_CertificatesLayout.cshtml">
       <publishTime>07/08/2016 21:52:57</publishTime>
@@ -2009,28 +2036,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:43</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/CareersAtMedix.cshtml">
-      <publishTime>01/05/2017 01:06:29</publishTime>
+      <publishTime>01/09/2017 00:13:03</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/History.cshtml">
-      <publishTime>06/28/2016 13:07:43</publishTime>
+      <publishTime>01/09/2017 00:13:12</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/Index.cshtml">
-      <publishTime>06/28/2016 13:07:43</publishTime>
+      <publishTime>01/09/2017 00:13:24</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/LaptopInitiative.cshtml">
-      <publishTime>06/28/2016 13:07:43</publishTime>
+      <publishTime>01/09/2017 00:13:36</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/PartnerSchools.cshtml">
-      <publishTime>06/28/2016 13:07:44</publishTime>
+      <publishTime>01/09/2017 00:13:50</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/Testimonials.cshtml">
-      <publishTime>06/28/2016 13:07:44</publishTime>
+      <publishTime>01/09/2017 00:14:03</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/TranscriptRequest.cshtml">
-      <publishTime>06/28/2016 13:07:44</publishTime>
+      <publishTime>01/09/2017 00:14:17</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/VirtualTour.cshtml">
-      <publishTime>06/28/2016 13:07:44</publishTime>
+      <publishTime>01/09/2017 00:14:30</publishTime>
     </File>
     <File Include="Views/DiscoverMedix/_DiscoverMedixLayout.cshtml">
       <publishTime>07/08/2016 21:52:57</publishTime>
