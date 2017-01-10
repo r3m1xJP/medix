@@ -481,6 +481,16 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult GuelphAnatomyWorkshop()
+        {
+            return View();
+        }
+
+        public ActionResult ThankYouGuelphAnatomyWorkshop()
+        {
+            return View();
+        }
+
         public ActionResult CareersAtMedix()
         {
             return View();

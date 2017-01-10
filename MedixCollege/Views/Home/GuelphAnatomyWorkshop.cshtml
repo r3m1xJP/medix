@@ -1,0 +1,126 @@
+﻿@{
+    Layout = "~/Views/Home/_HomeLayout.cshtml";
+}
+@{
+    ViewBag.Title = "Hire A Medix Grad";
+}
+
+<div class="col-sm-12 no-padding botMARG">
+    <h1 class="contentPageH1">GUELPH ANATOMY WORKSHOP</h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="active contentp">Guelph Anatomy Workshop</li>
+    </ol>
+</div>
+
+<div class="col-sm-8 mid-padding">
+    <img class="img-responsive" width="100%" src="/Content/images/ga2.jpg" alt="medix students working with client in dental lab" />
+    <br/>
+    <br/>
+    <div class="panel panel-default">
+        <div class="panel-body">
+
+            <p class="contentp">
+                Specialized Human Anatomy Workshop For Medix College of Healthcare Intra-oral Dental Assistant Program
+            </br></br>
+                *Attendees will receive a Certificate of Participation from the Universtiy of Guelph Human Anatomy Program
+            </p>
+
+
+</div>
+    </div>
+
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+
+            <table class="table table-striped table table-responsive">
+                <tr class="info">
+                    <td class="info">
+                        University of Guelph, Human Anatomy Laboratory
+                        <br/>Friday March 17, 2017
+                        <br/>10:00 AM - 1:30 PM
+                        <br/>$150.00/ Participant
+                    </td>
+
+                </tr>
+            <tr>
+                <td>
+                    Program includes:
+                    <ul>
+                        <li>Human cadaver-based hands-on learning</li>
+                        <li>Review osteology and general anatomy </li>
+                        <li>Special focus on head and neck anatomy</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+            </table>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="col-sm-4 pull-right no-padding">
+    <div class="panel panel-default bluePANEL2">
+
+        <div class="panel-body">
+            <form id="hireAGradForm" name="hireAGradForm" method="post" action="/home/hireAGrad" onsubmit="return validateMyForm();">
+                <div style="display:none;">
+                    <label>Keep this field blank</label>
+                    <input type="text" name="honeypot" id="honeypot" />
+                </div>
+                <h1 class="contentH1whitemain text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; REGISTER NOW
+                </h1><hr class="hrpgold" />
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240011" />
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">FIRST NAME: <span class="text-danger">*</span></p>
+                    <input type="text" class="form-control pull-right" name="FirstName">
+                </div>
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">LAST NAME: <span class="text-danger">*</span></p>
+                    <input type="text" class="form-control pull-right" name="LastName">
+                </div>
+
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">EMAIL: <span class="text-danger">*</span></p>
+                    <input type="text" class="form-control pull-right" name="EmailAddress">
+                </div>
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">TELEPHONE: <span class="text-danger">*</span></p>
+                    <input type="text" class="form-control pull-right" name="Telephone">
+                </div>
+
+
+                <div class="text-center">
+                    <input id="hireAGradSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    function validateMyForm() {
+        // The field is empty, submit the form.
+        if (!document.getElementById("honeypot").value) {
+            return true;
+        }
+            // the field has a value it's a spam bot
+        else {
+            return false;
+        }
+    }
+</script>
