@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>01/09/2017 00:25:51</publishTime>
+      <publishTime>01/13/2017 09:26:37</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1048,6 +1048,24 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/banner_psw.jpg">
       <publishTime>06/28/2016 13:07:26</publishTime>
     </File>
+    <File Include="Content/images/blog2_dental.jpg">
+      <publishTime>01/11/2017 09:52:47</publishTime>
+    </File>
+    <File Include="Content/images/blog2_dentalpatient.jpg">
+      <publishTime>01/11/2017 09:52:47</publishTime>
+    </File>
+    <File Include="Content/images/blog2_desk.jpg">
+      <publishTime>01/11/2017 09:52:47</publishTime>
+    </File>
+    <File Include="Content/images/blog_admin1.jpg">
+      <publishTime>01/11/2017 09:27:53</publishTime>
+    </File>
+    <File Include="Content/images/blog_desk1.jpg">
+      <publishTime>01/11/2017 09:27:53</publishTime>
+    </File>
+    <File Include="Content/images/blog_psw1.jpg">
+      <publishTime>01/11/2017 09:27:53</publishTime>
+    </File>
     <File Include="Content/images/blur-extra-lab.jpg">
       <publishTime>06/28/2016 13:07:26</publishTime>
     </File>
@@ -1191,6 +1209,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/Fran-Women-Of-Excellence.jpg">
       <publishTime>06/28/2016 13:07:24</publishTime>
+    </File>
+    <File Include="Content/images/GA.JPG">
+      <publishTime>01/09/2017 21:41:18</publishTime>
+    </File>
+    <File Include="Content/images/ga2.JPG">
+      <publishTime>01/09/2017 21:43:57</publishTime>
     </File>
     <File Include="Content/images/googleplus-ic-jpg.jpg">
       <publishTime>06/28/2016 13:07:28</publishTime>
@@ -1510,6 +1534,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/thanksimagemedix1.jpg">
       <publishTime>06/28/2016 13:07:34</publishTime>
     </File>
+    <File Include="Content/images/thankyou-ga.jpg">
+      <publishTime>01/09/2017 21:53:57</publishTime>
+    </File>
     <File Include="Content/images/thankyou-grad.jpg">
       <publishTime>07/26/2016 10:12:19</publishTime>
     </File>
@@ -1550,7 +1577,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:34</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>12/12/2016 14:47:47</publishTime>
+      <publishTime>01/11/2017 09:39:53</publishTime>
     </File>
     <File Include="Content/smoothDivScroll.css">
       <publishTime>06/28/2016 13:07:34</publishTime>
@@ -2113,6 +2140,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Home/GraduationSubmit.cshtml">
       <publishTime>08/02/2016 02:10:38</publishTime>
     </File>
+    <File Include="Views/Home/GuelphAnatomyWorkshop.cshtml">
+      <publishTime>01/10/2017 14:09:06</publishTime>
+    </File>
     <File Include="Views/Home/HireAMedixGrad.cshtml">
       <publishTime>06/28/2016 13:07:44</publishTime>
     </File>
@@ -2151,6 +2181,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/Home/ThankYou.cshtml">
       <publishTime>06/28/2016 13:07:45</publishTime>
+    </File>
+    <File Include="Views/Home/ThankYouGuelphAnatomyWorkshop.cshtml">
+      <publishTime>01/09/2017 21:54:02</publishTime>
     </File>
     <File Include="Views/Home/ThankYouReferral.cshtml">
       <publishTime>12/15/2016 14:40:45</publishTime>

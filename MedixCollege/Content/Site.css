@@ -1710,6 +1710,13 @@ blockquote p {
     font-weight: 400;
 }
 
+.contentpitalic {
+    font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
+    color: #222222;
+    font-weight: 300;
+    font-style: italic;
+}
+
 .contentp-light {
     font-family: "HelveticaNeueW01-67MdCn_692710", Arial, Helvetica, sans-serif;
     color: white;

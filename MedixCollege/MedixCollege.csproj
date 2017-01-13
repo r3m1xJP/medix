@@ -412,6 +412,12 @@
     <Content Include="Content\images\banner_mlat2.jpg" />
     <Content Include="Content\images\banner_mt.jpg" />
     <Content Include="Content\images\banner_psw.jpg" />
+    <Content Include="Content\images\blog2_dental.jpg" />
+    <Content Include="Content\images\blog2_dentalpatient.jpg" />
+    <Content Include="Content\images\blog2_desk.jpg" />
+    <Content Include="Content\images\blog_admin1.jpg" />
+    <Content Include="Content\images\blog_desk1.jpg" />
+    <Content Include="Content\images\blog_psw1.jpg" />
     <Content Include="Content\images\blur-extra-lab.jpg" />
     <Content Include="Content\images\Brampton -Holiday Schedule.jpg" />
     <Content Include="Content\images\Brantford -Holiday Schedule.jpg" />
