@@ -23,7 +23,7 @@
             <ul class="list-unstyled newsList newsTable">
                 @foreach (var article in Model)
                 {
-                    <li class="newsListItem contentp whiteBG-GrayStrokeNews" id="@article.Id">
+                    <li class="newsListItem contentp whiteBG-GrayStrokeNews" id="@article.GenerateSlug()">
 
                         <table>
                             <tr>
@@ -138,7 +138,7 @@
 <script>
     $(document).ready(function () {
         $('.newsListItem').click(function () {
-            window.location = "/Home/NewsArticle?id=" + $(this).attr("id");
+            window.location = "/Home/NewsArticle/" + $(this).attr("id");
         });
     });
 </script>

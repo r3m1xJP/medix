@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace MedixCollege.Models
@@ -49,6 +50,16 @@ namespace MedixCollege.Models
                             NewsArticleDTO.Body = reader.GetString(3);
                         else
                             NewsArticleDTO.Body = null;
+
+                        if (reader.IsDBNull(4) == false)
+                            NewsArticleDTO.Meta = reader.GetString(4);
+                        else
+                            NewsArticleDTO.Meta = null;
+
+                        if (reader.IsDBNull(5) == false)
+                            NewsArticleDTO.Slug = reader.GetString(5);
+                        else
+                            NewsArticleDTO.Slug = null;
 
                         reader.Close();
                     }
@@ -98,6 +109,16 @@ namespace MedixCollege.Models
                             else
                                 newsArticle.Body = null;
 
+                            if (reader.IsDBNull(4) == false)
+                                newsArticle.Meta = reader.GetString(4);
+                            else
+                                newsArticle.Meta = null;
+
+                            if (reader.IsDBNull(5) == false)
+                                newsArticle.Slug = reader.GetString(5);
+                            else
+                                newsArticle.Slug = null;
+
                             newsArticles.Add(newsArticle);
                         }
                     }
@@ -144,6 +165,29 @@ namespace MedixCollege.Models
         public DateTime Date { get; set; }
         public string Title { get; set; }
         public string Body { get; set; }
+        public string Meta { get; set; }
+        public string Slug { get; set; }
+
+        public string GenerateSlug()
+        {
+            string phrase = string.Format("{0}-{1}", Id, Slug);
+
+            string str = RemoveAccent(phrase).ToLower();
+            // invalid chars           
+            str = Regex.Replace(str, @"[^a-z0-9\s-]", "");
+            // convert multiple spaces into one space   
+            str = Regex.Replace(str, @"\s+", " ").Trim();
+            // cut and trim 
+            str = str.Substring(0, str.Length <= 45 ? str.Length : 45).Trim();
+            str = Regex.Replace(str, @"\s", "-"); // hyphens   
+            return str;
+        }
+
+        private string RemoveAccent(string text)
+        {
+            byte[] bytes = System.Text.Encoding.GetEncoding("Cyrillic").GetBytes(text);
+            return System.Text.Encoding.ASCII.GetString(bytes);
+        }
     }
 }
 

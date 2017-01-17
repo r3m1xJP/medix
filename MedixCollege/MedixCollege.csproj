@@ -141,6 +141,7 @@
     </Compile>
     <Compile Include="Helpers\Helpers.cs" />
     <Compile Include="Helpers\LeadsType.cs" />
+    <Compile Include="Helpers\SeoFriendlyRoute.cs" />
     <Compile Include="Models\Leads.cs" />
     <Compile Include="Models\NewsArticle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

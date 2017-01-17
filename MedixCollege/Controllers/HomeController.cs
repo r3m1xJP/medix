@@ -546,6 +546,8 @@ namespace MedixCollege.Controllers
                 ViewBag.NewsDate = newsArticle.NewsArticleDTO.Date;
 
                 ViewBag.NewsBody = newsArticle.NewsArticleDTO.Body;
+
+                ViewBag.PageDescription = newsArticle.NewsArticleDTO.Meta;
             }
 
             return View();

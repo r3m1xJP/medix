@@ -272,7 +272,7 @@
                 <ul class="list-unstyled newsList">
                     @foreach (MedixCollege.Models.NewsArticleDTO article in ViewBag.NewsArticles)
                     {
-                        <li class="newsListItem contentp whiteBG-GrayStroke" id="@article.Id">
+                        <li class="newsListItem contentp whiteBG-GrayStroke" id="@article.GenerateSlug()">
 
                             <table>
                                 <tr>
@@ -448,7 +448,7 @@
         });
 
         $('.newsListItem').click(function () {
-            window.location = "/Home/NewsArticle?id=" + $(this).attr("id");
+            window.location = "/Home/NewsArticle/" + $(this).attr("id");
         });
 
         $('.videoScrollerNav.next').click(function () {
