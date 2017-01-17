@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>01/13/2017 09:26:37</publishTime>
+      <publishTime>01/17/2017 01:27:34</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -2327,7 +2327,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:48</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/11/2016 02:41:36</publishTime>
+      <publishTime>01/17/2017 01:27:48</publishTime>
     </File>
   </ItemGroup>
 </Project>

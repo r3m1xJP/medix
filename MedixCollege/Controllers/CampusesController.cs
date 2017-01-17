@@ -333,7 +333,7 @@ namespace MedixCollege.Controllers
                     {
                         using (var mailClient = new SmtpClient("smtp.gmail.com"))
                         {
-                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Medixcollege1");
+                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson11");
                             mailClient.Port = 587;
 
                             var message = new MailMessage();
