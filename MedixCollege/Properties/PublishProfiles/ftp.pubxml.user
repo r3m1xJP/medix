@@ -1907,7 +1907,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2017 01:09:37</publishTime>
     </File>
     <File Include="Views/Campuses/Toronto.cshtml">
-      <publishTime>01/05/2017 01:09:25</publishTime>
+      <publishTime>01/17/2017 16:55:25</publishTime>
     </File>
     <File Include="Views/Campuses/_CampusesLayout.cshtml">
       <publishTime>07/08/2016 21:52:57</publishTime>
