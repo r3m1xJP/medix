@@ -178,7 +178,7 @@ namespace MedixCollege.Models
             // convert multiple spaces into one space   
             str = Regex.Replace(str, @"\s+", " ").Trim();
             // cut and trim 
-            str = str.Substring(0, str.Length <= 45 ? str.Length : 45).Trim();
+            str = str.Substring(0, str.Length <= 145 ? str.Length : 145).Trim();
             str = Regex.Replace(str, @"\s", "-"); // hyphens   
             return str;
         }
