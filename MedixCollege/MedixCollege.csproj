@@ -460,6 +460,9 @@
     <Content Include="Content\images\discover-main.jpg" />
     <Content Include="Content\images\discover-transcript.jpg" />
     <Content Include="Content\images\discover-virtualtours.jpg" />
+    <Content Include="Content\images\dsw-office.jpg" />
+    <Content Include="Content\images\dsw-outdoors.jpg" />
+    <Content Include="Content\images\dsw1.jpg" />
     <Content Include="Content\images\extra-classroom shot.jpg" />
     <Content Include="Content\images\extra-smiling award.jpg" />
     <Content Include="Content\images\extra-smilingstudent.jpg" />

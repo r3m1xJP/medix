@@ -115,6 +115,6 @@ C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\System.Web.WebPages.Deplo
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\System.Web.WebPages.Razor.xml
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\Antlr3.Runtime.pdb
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\Newtonsoft.Json.xml
-C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.dll
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.pdb
+C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache

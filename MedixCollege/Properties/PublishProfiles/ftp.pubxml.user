@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>01/18/2017 11:00:00</publishTime>
+      <publishTime>01/19/2017 00:10:40</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1189,6 +1189,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/discover-virtualtours.jpg">
       <publishTime>06/28/2016 13:07:28</publishTime>
     </File>
+    <File Include="Content/images/dsw-office.jpg">
+      <publishTime>01/19/2017 00:09:43</publishTime>
+    </File>
+    <File Include="Content/images/dsw-outdoors.jpg">
+      <publishTime>01/19/2017 00:09:43</publishTime>
+    </File>
+    <File Include="Content/images/dsw1.jpg">
+      <publishTime>01/19/2017 00:09:43</publishTime>
+    </File>
     <File Include="Content/images/extra-classroom shot.jpg">
       <publishTime>06/28/2016 13:07:28</publishTime>
     </File>
@@ -2150,7 +2159,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/18/2017 10:55:13</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
-      <publishTime>01/04/2017 16:49:49</publishTime>
+      <publishTime>01/18/2017 21:49:45</publishTime>
     </File>
     <File Include="Views/Home/NewsDirectory.cshtml">
       <publishTime>01/18/2017 10:55:13</publishTime>
@@ -2192,7 +2201,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:45</publishTime>
     </File>
     <File Include="Views/Home/_HomeLayout.cshtml">
-      <publishTime>07/08/2016 21:52:57</publishTime>
+      <publishTime>01/18/2017 21:53:17</publishTime>
     </File>
     <File Include="Views/Leads/Index.cshtml">
       <publishTime>06/28/2016 13:07:45</publishTime>
