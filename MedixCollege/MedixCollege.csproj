@@ -151,6 +151,11 @@
     <Content Include="Content\160827-Hires-Medix-London2.jpg" />
     <Content Include="Content\160827-Hires-Medix-Scarborough.jpg" />
     <Content Include="Content\160827-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\170121-Hires-Medix-Brantford.jpg" />
+    <Content Include="Content\170121-Hires-Medix-Kitchener.jpg" />
+    <Content Include="Content\170121-Hires-Medix-London.jpg" />
+    <Content Include="Content\170121-Hires-Medix-Scarborough.jpg" />
+    <Content Include="Content\170121-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\bigplay.svg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
