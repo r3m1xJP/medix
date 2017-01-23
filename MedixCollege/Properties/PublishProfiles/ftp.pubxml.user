@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>01/20/2017 16:53:09</publishTime>
+      <publishTime>01/22/2017 23:48:59</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1008,6 +1008,21 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/170114-Hires-Medix-Toronto.jpg">
       <publishTime>01/19/2017 09:35:36</publishTime>
+    </File>
+    <File Include="Content/images/170121-Hires-Medix-Brantford.jpg">
+      <publishTime>01/22/2017 23:48:26</publishTime>
+    </File>
+    <File Include="Content/images/170121-Hires-Medix-Kitchener.jpg">
+      <publishTime>01/22/2017 23:48:26</publishTime>
+    </File>
+    <File Include="Content/images/170121-Hires-Medix-London.jpg">
+      <publishTime>01/22/2017 23:48:26</publishTime>
+    </File>
+    <File Include="Content/images/170121-Hires-Medix-Scarborough.jpg">
+      <publishTime>01/22/2017 23:48:26</publishTime>
+    </File>
+    <File Include="Content/images/170121-Hires-Medix-Toronto.jpg">
+      <publishTime>01/22/2017 23:48:26</publishTime>
     </File>
     <File Include="Content/images/admissions-eo.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
