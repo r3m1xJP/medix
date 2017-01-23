@@ -533,6 +533,9 @@
     <Content Include="Content\images\mainBANNER-2-IODA.jpg" />
     <Content Include="Content\images\mainBANNER-3-MLAT.jpg" />
     <Content Include="Content\images\mainBANNER-4-PSW.jpg" />
+    <Content Include="Content\images\massage1.jpg" />
+    <Content Include="Content\images\massage2.jpg" />
+    <Content Include="Content\images\massage3.jpg" />
     <Content Include="Content\images\mcHIRED.jpg" />
     <Content Include="Content\images\medix-banner-cpu.jpg" />
     <Content Include="Content\images\medix-banner-dental.jpg" />
