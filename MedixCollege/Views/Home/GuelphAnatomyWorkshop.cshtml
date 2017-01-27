@@ -77,7 +77,7 @@
     <div class="panel panel-default bluePANEL2">
 
         <div class="panel-body">
-            <form id="hireAGradForm" name="hireAGradForm" method="post" action="/home/hireAGrad" onsubmit="return validateMyForm();">
+            <form id="guelphAnatomyWorkshopForm" name="guelphAnatomyWorkshopForm" method="post" action="/home/GuelphAnatomyWorkshop" onsubmit="return validateMyForm();">
                 <div style="display:none;">
                     <label>Keep this field blank</label>
                     <input type="text" name="honeypot" id="honeypot" />
@@ -85,10 +85,29 @@
                 <h1 class="contentH1whitemain text-center">
                     <span class="glyphicon glyphicon-comment"></span>&nbsp; REGISTER NOW
                 </h1><hr class="hrpgold" />
-                <br/><br/>
-                <p class="pull-left contentp-light">Please send an email with your Name, Telephone Number and Campus to workshop.haop@gmail.com with the subject line: Medix College & University of Guelph, Human Anatomy Laboratory. <span class="text-danger"></span></p>
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240011" />
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">FIRST NAME: <span class="text-danger">*</span></p>
+                    <input type="text" class="form-control pull-right" name="FirstName">
+                </div>
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">LAST NAME: <span class="text-danger">*</span></p>
+                    <input type="text" class="form-control pull-right" name="Lastname">
+                </div>
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">EMAIL: <span class="text-danger">*</span></p>
+                    <input type="text" class="form-control pull-right" name="EmailAddress">
+                </div>
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">TELEPHONE: <span class="text-danger">*</span></p>
+                    <input type="text" class="form-control pull-right" name="Telephone">
+                </div>
 
-              
+
+                <div class="text-center">
+                    <input id="guelphAnatomyWorkshopSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
             </form>
         </div>
 

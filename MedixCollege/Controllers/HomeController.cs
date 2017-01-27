@@ -461,6 +461,13 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult ThankYouGuelphAnatomyWorkshop()
+        {
+            ViewBag.Success = true;
+
+            return View();
+        }
+
         public ActionResult Search()
         {
             return View();
@@ -482,11 +489,6 @@ namespace MedixCollege.Controllers
         }
 
         public ActionResult GuelphAnatomyWorkshop()
-        {
-            return View();
-        }
-
-        public ActionResult ThankYouGuelphAnatomyWorkshop()
         {
             return View();
         }
@@ -1731,6 +1733,86 @@ namespace MedixCollege.Controllers
 
                 return View("ThankYouReferral");
             }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> GuelphAnatomyWorkshop(FormCollection fc)
+        {
+            Int64 phoneNumber = 0;
+
+            Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
+
+            if (fc["MediaGroupID"] == null)
+            {
+                fc.Add("MediaGroupID", "90080");
+            }
+
+            if (fc["MediaID"] == null)
+            {
+                fc.Add("MediaID", "928");
+            }
+
+            var campus = campuses.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["CampusID"])).Value;
+            var program = programs.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["ProgramID"])).Value;
+            var mediaGroup = mediaGroups.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaGroupID"])).Value;
+            var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaID"])).Value;
+
+            var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
+
+            ViewBag.Success = true;
+
+            try
+            {
+                using (var mailClient = new SmtpClient("smtp.gmail.com"))
+                {
+                    mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson11");
+                    mailClient.Port = 587;
+
+                    var message = new MailMessage();
+
+                    message.From = new MailAddress("ccgactiveleads@gmail.com", "MedixCollege.ca");
+
+                    message.To.Add(new MailAddress("toppyv@careercollegegroup.com"));
+                    message.To.Add(new MailAddress("workshop.haop@gmail.com"));
+
+                    message.Subject = "New Lead - Medix - Ask a Question";
+
+                    fc["CampusID"] = campus ?? fc["CampusID"];
+                    fc["ProgramID"] = program ?? fc["ProgramID"];
+                    fc["MediaGroupID"] = mediaSource ?? fc["MediaGroupID"];
+                    fc["MediaID"] = mediaGroup ?? fc["MediaID"];
+
+                    var stringArray = (from key in fc.AllKeys
+                                       from value in fc.GetValues(key)
+                                       where key != "ORGID" && key != "MailListID"
+                                       select string.Format("{0}: {1}" + Environment.NewLine, HttpUtility.UrlEncode(key), value)).ToArray();
+
+                    var body = "Guelph Anatomy Workshop" + Environment.NewLine +
+                               Environment.NewLine;
+
+                    var data = string.Join(",", stringArray).Replace(",", "");
+
+                    data = data.Replace("CampusID", "Location");
+                    data = data.Replace("FirstName", "First Name");
+                    data = data.Replace("LastName", "Last Name");
+                    data = data.Replace("MediaGroupID", "Media Group");
+                    data = data.Replace("MediaID", "Media");
+                    data = data.Replace("ProgramID", "Program");
+                    data = data.Replace("Comment2", "Comments");
+
+                    message.Body = body + data;
+                    message.IsBodyHtml = false;
+
+                    mailClient.EnableSsl = true;
+                    mailClient.Send(message);
+                }
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Success = false;
+            }
+
+            return View("ThankYouGuelphAnatomyWorkshop");
         }
     }
 }
