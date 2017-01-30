@@ -1774,8 +1774,11 @@ namespace MedixCollege.Controllers
 
                     message.To.Add(new MailAddress("toppyv@careercollegegroup.com"));
                     message.To.Add(new MailAddress("workshop.haop@gmail.com"));
+                    message.To.Add(new MailAddress("pdykstra@medixcollege.ca"));
+                    message.To.Add(new MailAddress("hmoreno@medixcollege.ca"));
 
-                    message.Subject = "New Lead - Medix - Ask a Question";
+
+                    message.Subject = "Guelph Anatomy Workshop - Inquiry";
 
                     fc["CampusID"] = campus ?? fc["CampusID"];
                     fc["ProgramID"] = program ?? fc["ProgramID"];
