@@ -278,6 +278,15 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
+            if (fc["Email"].Contains("yandex.com") || fc["Email"].Contains("mail.ru"))
+            {
+                ViewBag.Success = false;
+
+                ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
+
+                return RedirectToRoute("ThankYou");
+            }
+
             Int64 phoneNumber = 0;
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
@@ -437,6 +446,15 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
+            if (fc["Email"].Contains("yandex.com") || fc["Email"].Contains("mail.ru"))
+            {
+                ViewBag.Success = false;
+
+                ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
+
+                return RedirectToRoute("ThankYou");
+            }
+
             Int64 phoneNumber = 0;
 
             Int64.TryParse(Helpers.Helpers.GetNumbers(fc["Telephone"]), out phoneNumber);
@@ -590,6 +608,15 @@ namespace MedixCollege.Controllers
                 ViewBag.Success = false;
 
                 ViewBag.ErrorMessage = "Error submitting your request!";
+
+                return RedirectToRoute("ThankYou");
+            }
+
+            if (fc["Email"].Contains("yandex.com") || fc["Email"].Contains("mail.ru"))
+            {
+                ViewBag.Success = false;
+
+                ViewBag.ErrorMessage = "Error submitting your request! Please contact us at websupport@medixcollege.ca and we will forward your inquiry.";
 
                 return RedirectToRoute("ThankYou");
             }
