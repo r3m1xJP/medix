@@ -520,6 +520,7 @@
     <Content Include="Content\images\graduates\UT - Scar.jpg" />
     <Content Include="Content\images\graduates\VHA Home Healthcare.jpg" />
     <Content Include="Content\images\graduates\VON.jpg" />
+    <Content Include="Content\images\healthy-diets.jpg" />
     <Content Include="Content\images\hiredCO.jpg" />
     <Content Include="Content\images\home-hiregrad.jpg" />
     <Content Include="Content\images\home-news.jpg" />
@@ -529,6 +530,7 @@
     <Content Include="Content\images\Kitchener-Holiday Schedule.jpg" />
     <Content Include="Content\images\linkedin-ic.gif" />
     <Content Include="Content\images\London-Holiday Schedule.jpg" />
+    <Content Include="Content\images\main-1.jpg" />
     <Content Include="Content\images\mainBANNER-1-ECA.jpg" />
     <Content Include="Content\images\mainBANNER-2-IODA.jpg" />
     <Content Include="Content\images\mainBANNER-3-MLAT.jpg" />
@@ -564,6 +566,7 @@
     <Content Include="Content\images\MedixOnlineLogo.PNG" />
     <Content Include="Content\images\nats-logo-main.png" />
     <Content Include="Content\images\nauimg.jpg" />
+    <Content Include="Content\images\nutrition.jpg" />
     <Content Include="Content\images\payments.jpg" />
     <Content Include="Content\images\pinterest-ic.gif" />
     <Content Include="Content\images\pinterest.gif" />
