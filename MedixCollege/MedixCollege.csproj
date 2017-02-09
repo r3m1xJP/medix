@@ -405,6 +405,10 @@
     <Content Include="Content\images\170121-Hires-Medix-London.jpg" />
     <Content Include="Content\images\170121-Hires-Medix-Scarborough.jpg" />
     <Content Include="Content\images\170121-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\170128-Hires-Medix-London.jpg" />
+    <Content Include="Content\images\170128-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\170204-Hires-Medix-Brantford.jpg" />
+    <Content Include="Content\images\170204-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
@@ -602,6 +606,8 @@
     <Content Include="Content\images\Toronto -Holiday Schedule.jpg" />
     <Content Include="Content\images\torontogradphoto.JPG" />
     <Content Include="Content\images\twitter-ic.gif" />
+    <Content Include="Content\images\UofG-1.jpg" />
+    <Content Include="Content\images\UofG-2.jpg" />
     <Content Include="Content\images\vaa.png" />
     <Content Include="Content\images\white-medix-logo.gif" />
     <Content Include="Content\images\youtube-ic.gif" />
