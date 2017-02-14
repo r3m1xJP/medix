@@ -480,6 +480,9 @@
     <Content Include="Content\images\dsw-office.jpg" />
     <Content Include="Content\images\dsw-outdoors.jpg" />
     <Content Include="Content\images\dsw1.jpg" />
+    <Content Include="Content\images\eca-kids-eating.jpg" />
+    <Content Include="Content\images\eca-kids-happy.jpg" />
+    <Content Include="Content\images\eca-kids-learning.jpg" />
     <Content Include="Content\images\extra-classroom shot.jpg" />
     <Content Include="Content\images\extra-smiling award.jpg" />
     <Content Include="Content\images\extra-smilingstudent.jpg" />
@@ -572,6 +575,7 @@
     <Content Include="Content\images\nauimg.jpg" />
     <Content Include="Content\images\nutrition.jpg" />
     <Content Include="Content\images\payments.jpg" />
+    <Content Include="Content\images\pha-program.jpg" />
     <Content Include="Content\images\pinterest-ic.gif" />
     <Content Include="Content\images\pinterest.gif" />
     <Content Include="Content\images\program-csw.jpg" />
@@ -597,6 +601,8 @@
     <Content Include="Content\images\PSD2.jpg" />
     <Content Include="Content\images\PSD3.jpg" />
     <Content Include="Content\images\Scar -Holiday Schedule.jpg" />
+    <Content Include="Content\images\study-life-balance.jpg" />
+    <Content Include="Content\images\study-schedule.jpg" />
     <Content Include="Content\images\thanksimagemedix-friend.jpg" />
     <Content Include="Content\images\thanksimagemedix-medix.jpg" />
     <Content Include="Content\images\thanksimagemedix1.jpg" />
