@@ -278,7 +278,7 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
-            if (fc["Email"].Contains("yandex.com") || fc["Email"].Contains("mail.ru") || fc["Email"].Contains("seem.uz"))
+            if (fc["Email"].Contains("yandex.com") || fc["Email"].Contains("mail.ru") || fc["Email"].Contains("seem.uz") || fc["Email"].Contains("rambler.ru"))
             {
                 ViewBag.Success = false;
 
@@ -446,7 +446,7 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
-            if (fc["Email"].Contains("yandex.com") || fc["Email"].Contains("mail.ru") || fc["Email"].Contains("seem.uz"))
+            if (fc["Email"].Contains("yandex.com") || fc["Email"].Contains("mail.ru") || fc["Email"].Contains("seem.uz") || fc["Email"].Contains("rambler.ru"))
             {
                 ViewBag.Success = false;
 
@@ -612,7 +612,7 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
-            if (fc["Email"].Contains("yandex.com") || fc["Email"].Contains("mail.ru") || fc["Email"].Contains("seem.uz"))
+            if (fc["Email"].Contains("yandex.com") || fc["Email"].Contains("mail.ru") || fc["Email"].Contains("seem.uz") || fc["Email"].Contains("rambler.ru"))
             {
                 ViewBag.Success = false;
 
