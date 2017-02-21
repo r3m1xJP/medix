@@ -419,6 +419,7 @@
     <Content Include="Content\images\admissions-resp.jpg" />
     <Content Include="Content\images\admissions-sc.jpg" />
     <Content Include="Content\images\admissions-sloc.jpg" />
+    <Content Include="Content\images\back-massage.jpg" />
     <Content Include="Content\images\Banner-Certificates-Main.jpg" />
     <Content Include="Content\images\Banner-Discover-Medix-History.jpg" />
     <Content Include="Content\images\Banner-Discover-Medix-Index.jpg" />
@@ -439,6 +440,7 @@
     <Content Include="Content\images\blur-extra-lab.jpg" />
     <Content Include="Content\images\Brampton -Holiday Schedule.jpg" />
     <Content Include="Content\images\Brantford -Holiday Schedule.jpg" />
+    <Content Include="Content\images\brushing-teeth.jpg" />
     <Content Include="Content\images\button-next.png" />
     <Content Include="Content\images\button-previous.png" />
     <Content Include="Content\images\campus-brampton.jpg" />
@@ -470,6 +472,7 @@
     <Content Include="Content\images\certs-allcerts.jpg" />
     <Content Include="Content\images\cs-main.jpg" />
     <Content Include="Content\images\cs-medixadvantage.jpg" />
+    <Content Include="Content\images\dental-assisant.jpg" />
     <Content Include="Content\images\DentalAwarenessDay-WEB.jpg" />
     <Content Include="Content\images\discover-careers.jpg" />
     <Content Include="Content\images\discover-history.jpg" />
@@ -546,6 +549,7 @@
     <Content Include="Content\images\massage2.jpg" />
     <Content Include="Content\images\massage3.jpg" />
     <Content Include="Content\images\mcHIRED.jpg" />
+    <Content Include="Content\images\medical-office.jpg" />
     <Content Include="Content\images\medix-banner-cpu.jpg" />
     <Content Include="Content\images\medix-banner-dental.jpg" />
     <Content Include="Content\images\medix-banner-doa2.jpg" />
@@ -571,11 +575,13 @@
     <Content Include="Content\images\medixonline-main.jpg" />
     <Content Include="Content\images\medixonline-programs.jpg" />
     <Content Include="Content\images\MedixOnlineLogo.PNG" />
+    <Content Include="Content\images\mouth-exam.jpg" />
     <Content Include="Content\images\nats-logo-main.png" />
     <Content Include="Content\images\nauimg.jpg" />
     <Content Include="Content\images\nutrition.jpg" />
     <Content Include="Content\images\payments.jpg" />
     <Content Include="Content\images\pha-program.jpg" />
+    <Content Include="Content\images\phone-call.jpg" />
     <Content Include="Content\images\pinterest-ic.gif" />
     <Content Include="Content\images\pinterest.gif" />
     <Content Include="Content\images\program-csw.jpg" />
@@ -601,6 +607,7 @@
     <Content Include="Content\images\PSD2.jpg" />
     <Content Include="Content\images\PSD3.jpg" />
     <Content Include="Content\images\Scar -Holiday Schedule.jpg" />
+    <Content Include="Content\images\shoulder-massage.jpg" />
     <Content Include="Content\images\study-life-balance.jpg" />
     <Content Include="Content\images\study-schedule.jpg" />
     <Content Include="Content\images\thanksimagemedix-friend.jpg" />

@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>02/21/2017 09:53:04</publishTime>
+      <publishTime>02/21/2017 10:45:32</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1066,6 +1066,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/admissions-sloc.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
     </File>
+    <File Include="Content/images/back-massage.jpg">
+      <publishTime>02/21/2017 10:44:56</publishTime>
+    </File>
     <File Include="Content/images/Banner-Certificates-Main.jpg">
       <publishTime>06/28/2016 13:07:23</publishTime>
     </File>
@@ -1125,6 +1128,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/Brantford -Holiday Schedule.jpg">
       <publishTime>12/20/2016 19:01:46</publishTime>
+    </File>
+    <File Include="Content/images/brushing-teeth.jpg">
+      <publishTime>02/21/2017 10:45:14</publishTime>
     </File>
     <File Include="Content/images/button-next.png">
       <publishTime>06/28/2016 13:07:26</publishTime>
@@ -1218,6 +1224,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/cs-medixadvantage.jpg">
       <publishTime>06/28/2016 13:07:28</publishTime>
+    </File>
+    <File Include="Content/images/dental-assisant.jpg">
+      <publishTime>02/21/2017 10:45:14</publishTime>
     </File>
     <File Include="Content/images/DentalAwarenessDay-WEB.jpg">
       <publishTime>07/12/2016 15:12:14</publishTime>
@@ -1447,6 +1456,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/mcHIRED.jpg">
       <publishTime>06/28/2016 13:07:30</publishTime>
     </File>
+    <File Include="Content/images/medical-office.jpg">
+      <publishTime>02/21/2017 10:45:05</publishTime>
+    </File>
     <File Include="Content/images/medix-banner-cpu.jpg">
       <publishTime>06/28/2016 13:07:30</publishTime>
     </File>
@@ -1525,6 +1537,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/MedixOnlineLogo.PNG">
       <publishTime>06/28/2016 13:07:24</publishTime>
     </File>
+    <File Include="Content/images/mouth-exam.jpg">
+      <publishTime>02/21/2017 10:45:14</publishTime>
+    </File>
     <File Include="Content/images/nats-logo-main.png">
       <publishTime>06/28/2016 13:07:33</publishTime>
     </File>
@@ -1539,6 +1554,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/pha-program.jpg">
       <publishTime>02/14/2017 15:00:33</publishTime>
+    </File>
+    <File Include="Content/images/phone-call.jpg">
+      <publishTime>02/21/2017 10:45:05</publishTime>
     </File>
     <File Include="Content/images/pinterest-ic.gif">
       <publishTime>06/28/2016 13:07:33</publishTime>
@@ -1614,6 +1632,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/Scar -Holiday Schedule.jpg">
       <publishTime>12/20/2016 19:01:46</publishTime>
+    </File>
+    <File Include="Content/images/shoulder-massage.jpg">
+      <publishTime>02/21/2017 10:44:56</publishTime>
     </File>
     <File Include="Content/images/study-life-balance.jpg">
       <publishTime>02/14/2017 15:00:33</publishTime>
