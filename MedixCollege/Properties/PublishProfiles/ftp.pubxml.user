@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>02/21/2017 10:45:32</publishTime>
+      <publishTime>02/21/2017 22:42:14</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1156,6 +1156,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/campus-toronto.jpg">
       <publishTime>06/28/2016 13:07:26</publishTime>
     </File>
+    <File Include="Content/images/campus-toronto2.jpg">
+      <publishTime>02/21/2017 22:40:53</publishTime>
+    </File>
     <File Include="Content/images/canadajobgrant.jpg">
       <publishTime>06/28/2016 13:07:26</publishTime>
     </File>
@@ -2015,22 +2018,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2017 01:10:12</publishTime>
     </File>
     <File Include="Views/Campuses/Brantford.cshtml">
-      <publishTime>01/05/2017 01:10:05</publishTime>
+      <publishTime>02/21/2017 22:40:59</publishTime>
     </File>
     <File Include="Views/Campuses/Index.cshtml">
       <publishTime>01/05/2017 01:10:25</publishTime>
     </File>
     <File Include="Views/Campuses/Kitchener.cshtml">
-      <publishTime>01/05/2017 01:09:52</publishTime>
+      <publishTime>02/21/2017 22:34:57</publishTime>
     </File>
     <File Include="Views/Campuses/London.cshtml">
-      <publishTime>01/05/2017 01:09:45</publishTime>
+      <publishTime>02/21/2017 22:34:10</publishTime>
     </File>
     <File Include="Views/Campuses/Scarborough.cshtml">
       <publishTime>01/05/2017 01:09:37</publishTime>
     </File>
     <File Include="Views/Campuses/Toronto.cshtml">
-      <publishTime>01/05/2017 01:09:25</publishTime>
+      <publishTime>02/21/2017 22:40:59</publishTime>
     </File>
     <File Include="Views/Campuses/_CampusesLayout.cshtml">
       <publishTime>07/08/2016 21:52:57</publishTime>
@@ -2384,7 +2387,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/08/2016 21:52:57</publishTime>
     </File>
     <File Include="Views/Programs/AllPrograms.cshtml">
-      <publishTime>12/12/2016 13:53:41</publishTime>
+      <publishTime>02/21/2017 22:31:54</publishTime>
     </File>
     <File Include="Views/Programs/ChildYouthAddictionsWorker.cshtml">
       <publishTime>01/05/2017 01:07:02</publishTime>
@@ -2423,7 +2426,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2017 01:08:44</publishTime>
     </File>
     <File Include="Views/Programs/MedicalOfficeAdministrator.cshtml">
-      <publishTime>01/05/2017 01:08:52</publishTime>
+      <publishTime>02/21/2017 22:30:46</publishTime>
     </File>
     <File Include="Views/Programs/MedixOnline.cshtml">
       <publishTime>04/13/2016 01:40:18</publishTime>
