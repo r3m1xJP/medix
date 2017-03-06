@@ -127,8 +127,14 @@ namespace MedixCollege.Controllers
             return View();
         }
 
-        // GET: Emotional First Aid
+        // GET: Birth Doula Workshop
         public ActionResult BirthDoulaWorkshop()
+        {
+            return View();
+        }
+
+        // GET: Emotional First Aid
+        public ActionResult PostpartumDoulaWorkshop()
         {
             return View();
         }

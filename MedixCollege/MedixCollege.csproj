@@ -951,6 +951,7 @@
     <Content Include="Views\Home\ThankYouReferral.cshtml" />
     <Content Include="Views\Home\GuelphAnatomyWorkshop.cshtml" />
     <Content Include="Views\Home\ThankYouGuelphAnatomyWorkshop.cshtml" />
+    <Content Include="Views\Certificates\PostpartumDoulaWorkshop.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
