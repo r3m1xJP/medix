@@ -271,7 +271,7 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
-            if (fc["Email"].Contains("yandex.com") || fc["Email"].Contains("mail.ru") || fc["Email"].Contains("seem.uz") || fc["Email"].Contains("rambler.ru"))
+            if (fc["Email"].Contains("yandex.com") || fc["Email"].Contains("mail.ru") || fc["Email"].Contains("best-dish.com") || fc["Email"].Contains("seem.uz") || fc["Email"].Contains("rambler.ru"))
             {
                 ViewBag.Success = false;
 
