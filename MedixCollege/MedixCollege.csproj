@@ -505,6 +505,8 @@
     <Content Include="Content\images\extra-smilingstudent.jpg" />
     <Content Include="Content\images\facebook-ic.gif" />
     <Content Include="Content\images\facebook.gif" />
+    <Content Include="Content\images\female-happy.jpg" />
+    <Content Include="Content\images\female-laptop.jpg" />
     <Content Include="Content\images\firstaid.jpg" />
     <Content Include="Content\images\Fran-Women-Of-Excellence.jpg" />
     <Content Include="Content\images\GA.JPG" />
@@ -597,6 +599,7 @@
     <Content Include="Content\images\payments.jpg" />
     <Content Include="Content\images\pha-program.jpg" />
     <Content Include="Content\images\phone-call.jpg" />
+    <Content Include="Content\images\piggy-bank.jpg" />
     <Content Include="Content\images\pinterest-ic.gif" />
     <Content Include="Content\images\pinterest.gif" />
     <Content Include="Content\images\program-csw.jpg" />
