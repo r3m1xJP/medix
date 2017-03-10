@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>03/07/2017 10:40:51</publishTime>
+      <publishTime>03/07/2017 11:20:22</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1591,6 +1591,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/nutrition.jpg">
       <publishTime>02/03/2017 10:56:35</publishTime>
     </File>
+    <File Include="Content/images/ocmt.jpg">
+      <publishTime>03/07/2017 11:15:26</publishTime>
+    </File>
     <File Include="Content/images/payments.jpg">
       <publishTime>06/28/2016 13:07:33</publishTime>
     </File>
@@ -2456,7 +2459,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2017 01:08:06</publishTime>
     </File>
     <File Include="Views/Programs/MassageTherapy.cshtml">
-      <publishTime>01/05/2017 01:08:17</publishTime>
+      <publishTime>03/07/2017 11:17:53</publishTime>
     </File>
     <File Include="Views/Programs/MassageTherapyAdvancedStanding.cshtml">
       <publishTime>12/12/2016 17:54:14</publishTime>
