@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>03/14/2017 23:46:02</publishTime>
+      <publishTime>03/15/2017 17:27:01</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1141,6 +1141,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/banner_psw.jpg">
       <publishTime>06/28/2016 13:07:26</publishTime>
     </File>
+    <File Include="Content/images/bicepcurl.jpg">
+      <publishTime>03/15/2017 17:26:27</publishTime>
+    </File>
     <File Include="Content/images/blog2_dental.jpg">
       <publishTime>01/11/2017 09:52:47</publishTime>
     </File>
@@ -1699,6 +1702,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/shoulder-massage.jpg">
       <publishTime>02/21/2017 10:44:56</publishTime>
     </File>
+    <File Include="Content/images/sidesquat.jpg">
+      <publishTime>03/15/2017 17:26:27</publishTime>
+    </File>
     <File Include="Content/images/study-life-balance.jpg">
       <publishTime>02/14/2017 15:00:33</publishTime>
     </File>
@@ -1728,6 +1734,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/torontogradphoto.JPG">
       <publishTime>06/28/2016 13:07:34</publishTime>
+    </File>
+    <File Include="Content/images/tricep.jpg">
+      <publishTime>03/15/2017 17:26:27</publishTime>
     </File>
     <File Include="Content/images/twitter-ic.gif">
       <publishTime>06/28/2016 13:07:34</publishTime>

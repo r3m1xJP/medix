@@ -444,6 +444,7 @@
     <Content Include="Content\images\banner_mlat2.jpg" />
     <Content Include="Content\images\banner_mt.jpg" />
     <Content Include="Content\images\banner_psw.jpg" />
+    <Content Include="Content\images\bicepcurl.jpg" />
     <Content Include="Content\images\blog2_dental.jpg" />
     <Content Include="Content\images\blog2_dentalpatient.jpg" />
     <Content Include="Content\images\blog2_desk.jpg" />
@@ -629,6 +630,7 @@
     <Content Include="Content\images\PSD3.jpg" />
     <Content Include="Content\images\Scar -Holiday Schedule.jpg" />
     <Content Include="Content\images\shoulder-massage.jpg" />
+    <Content Include="Content\images\sidesquat.jpg" />
     <Content Include="Content\images\study-life-balance.jpg" />
     <Content Include="Content\images\study-schedule.jpg" />
     <Content Include="Content\images\thanksimagemedix-friend.jpg" />
@@ -639,6 +641,7 @@
     <Content Include="Content\images\topDIVgold.jpg" />
     <Content Include="Content\images\Toronto -Holiday Schedule.jpg" />
     <Content Include="Content\images\torontogradphoto.JPG" />
+    <Content Include="Content\images\tricep.jpg" />
     <Content Include="Content\images\twitter-ic.gif" />
     <Content Include="Content\images\UofG-1.jpg" />
     <Content Include="Content\images\UofG-2.jpg" />
