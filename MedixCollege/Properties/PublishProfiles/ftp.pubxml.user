@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>03/13/2017 15:03:42</publishTime>
+      <publishTime>03/14/2017 23:46:02</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -2248,6 +2248,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Courses/ThankYou.cshtml">
       <publishTime>06/28/2016 13:07:43</publishTime>
     </File>
+    <File Include="Views/Courses/TTC.cshtml">
+      <publishTime>03/14/2017 23:05:00</publishTime>
+    </File>
     <File Include="Views/Courses/_CoursesLayout.cshtml">
       <publishTime>06/28/2016 13:07:43</publishTime>
     </File>
@@ -2450,7 +2453,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/28/2017 10:45:45</publishTime>
     </File>
     <File Include="Views/Programs/AllPrograms.cshtml">
-      <publishTime>03/10/2017 10:08:11</publishTime>
+      <publishTime>03/14/2017 23:08:59</publishTime>
     </File>
     <File Include="Views/Programs/ChildYouthAddictionsWorker.cshtml">
       <publishTime>01/05/2017 01:07:02</publishTime>

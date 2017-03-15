@@ -304,6 +304,13 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult TTC(string form_variable = "")
+        {
+            ViewBag.form_variable = form_variable;
+
+            return View();
+        }
+
         public ActionResult IntraOralDentalAssistant(string form_variable = "")
         {
             ViewBag.form_variable = form_variable;

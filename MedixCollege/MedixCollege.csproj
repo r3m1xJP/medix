@@ -959,6 +959,7 @@
     <Content Include="Views\Home\GuelphAnatomyWorkshop.cshtml" />
     <Content Include="Views\Home\ThankYouGuelphAnatomyWorkshop.cshtml" />
     <Content Include="Views\Certificates\PostpartumDoulaWorkshop.cshtml" />
+    <Content Include="Views\Courses\TTC.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
