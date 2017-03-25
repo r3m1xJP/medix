@@ -422,6 +422,10 @@
     <Content Include="Content\images\170311-Hires-Medix-Brantford.jpg" />
     <Content Include="Content\images\170311-Hires-Medix-Scarborough.jpg" />
     <Content Include="Content\images\170311-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\170325-Hires-Medix-Brantford.jpg" />
+    <Content Include="Content\images\170325-Hires-Medix-London.jpg" />
+    <Content Include="Content\images\170325-Hires-Medix-Scarborough.jpg" />
+    <Content Include="Content\images\170325-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
@@ -485,6 +489,7 @@
     <Content Include="Content\images\cert-swedishmassage.jpg" />
     <Content Include="Content\images\cert-urinalysis.jpg" />
     <Content Include="Content\images\certs-allcerts.jpg" />
+    <Content Include="Content\images\counsellor.jpg" />
     <Content Include="Content\images\cs-main.jpg" />
     <Content Include="Content\images\cs-medixadvantage.jpg" />
     <Content Include="Content\images\dental-assisant.jpg" />
@@ -504,6 +509,7 @@
     <Content Include="Content\images\eca-kids-happy.jpg" />
     <Content Include="Content\images\eca-kids-learning.jpg" />
     <Content Include="Content\images\eca-teacher.jpg" />
+    <Content Include="Content\images\experiencethemedixcollegedifference.JPG" />
     <Content Include="Content\images\extra-classroom shot.jpg" />
     <Content Include="Content\images\extra-smiling award.jpg" />
     <Content Include="Content\images\extra-smilingstudent.jpg" />
@@ -565,6 +571,7 @@
     <Content Include="Content\images\mainBANNER-2-IODA.jpg" />
     <Content Include="Content\images\mainBANNER-3-MLAT.jpg" />
     <Content Include="Content\images\mainBANNER-4-PSW.jpg" />
+    <Content Include="Content\images\man-crying.jpg" />
     <Content Include="Content\images\massage1.jpg" />
     <Content Include="Content\images\massage2.jpg" />
     <Content Include="Content\images\massage3.jpg" />
@@ -647,6 +654,7 @@
     <Content Include="Content\images\UofG-2.jpg" />
     <Content Include="Content\images\vaa.png" />
     <Content Include="Content\images\white-medix-logo.gif" />
+    <Content Include="Content\images\womentalking.jpg" />
     <Content Include="Content\images\youtube-ic.gif" />
     <Content Include="Content\PagedList.css" />
     <Content Include="Content\responsiveslides.css" />

@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 23:51:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>03/17/2017 12:56:24</publishTime>
+      <publishTime>03/25/2017 09:32:29</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1075,6 +1075,18 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/170311-Hires-Medix-Toronto.jpg">
       <publishTime>03/13/2017 14:43:06</publishTime>
     </File>
+    <File Include="Content/images/170325-Hires-Medix-Brantford.jpg">
+      <publishTime>03/25/2017 09:32:06</publishTime>
+    </File>
+    <File Include="Content/images/170325-Hires-Medix-London.jpg">
+      <publishTime>03/25/2017 09:32:06</publishTime>
+    </File>
+    <File Include="Content/images/170325-Hires-Medix-Scarborough.jpg">
+      <publishTime>03/25/2017 09:32:06</publishTime>
+    </File>
+    <File Include="Content/images/170325-Hires-Medix-Toronto.jpg">
+      <publishTime>03/25/2017 09:32:06</publishTime>
+    </File>
     <File Include="Content/images/admissions-eo.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
     </File>
@@ -1264,6 +1276,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/certs-allcerts.jpg">
       <publishTime>06/28/2016 13:07:28</publishTime>
     </File>
+    <File Include="Content/images/counsellor.jpg">
+      <publishTime>03/21/2017 11:06:27</publishTime>
+    </File>
     <File Include="Content/images/cs-main.jpg">
       <publishTime>06/28/2016 13:07:28</publishTime>
     </File>
@@ -1320,6 +1335,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/eca-teacher.jpg">
       <publishTime>03/03/2017 11:14:30</publishTime>
+    </File>
+    <File Include="Content/images/experiencethemedixcollegedifference.JPG">
+      <publishTime>03/22/2017 11:50:06</publishTime>
     </File>
     <File Include="Content/images/extra-classroom shot.jpg">
       <publishTime>06/28/2016 13:07:28</publishTime>
@@ -1503,6 +1521,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/mainBANNER-4-PSW.jpg">
       <publishTime>06/28/2016 13:07:30</publishTime>
+    </File>
+    <File Include="Content/images/man-crying.jpg">
+      <publishTime>03/21/2017 11:06:27</publishTime>
     </File>
     <File Include="Content/images/massage1.jpg">
       <publishTime>01/23/2017 00:14:29</publishTime>
@@ -1755,6 +1776,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/white-medix-logo.gif">
       <publishTime>06/28/2016 13:07:34</publishTime>
+    </File>
+    <File Include="Content/images/womentalking.jpg">
+      <publishTime>03/22/2017 11:50:06</publishTime>
     </File>
     <File Include="Content/images/youtube-ic.gif">
       <publishTime>06/28/2016 13:07:34</publishTime>
