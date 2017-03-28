@@ -502,6 +502,7 @@
     <Content Include="Content\images\discover-virtualtours.jpg" />
     <Content Include="Content\images\dsw-office.jpg" />
     <Content Include="Content\images\dsw-outdoors.jpg" />
+    <Content Include="Content\images\dsw-working-with-child.jpg" />
     <Content Include="Content\images\dsw1.jpg" />
     <Content Include="Content\images\early-childcare-educator.jpg" />
     <Content Include="Content\images\eca-calendar.jpg" />
@@ -603,6 +604,7 @@
     <Content Include="Content\images\medixonline-programs.jpg" />
     <Content Include="Content\images\MedixOnlineLogo.PNG" />
     <Content Include="Content\images\mouth-exam.jpg" />
+    <Content Include="Content\images\MT-OH.JPG" />
     <Content Include="Content\images\nats-logo-main.png" />
     <Content Include="Content\images\nauimg.jpg" />
     <Content Include="Content\images\nutrition.jpg" />
