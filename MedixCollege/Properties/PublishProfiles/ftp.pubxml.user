@@ -7,11 +7,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV/ilqoZ43UqwgfjcT74ejwAAAAACAAAAAAAQZgAAAAEAACAAAAD/nB3rK3TrOHRgEj81y/lY9gU4kSt7hungNouYjh9VBQAAAAAOgAAAAAIAACAAAABeHMV3fujZ0mPt+NkGK5tfZ/fONvFrx2dMx99BRvH7uhAAAAC4DxXxl0hkLZYV2Z/8uNLXQAAAAILRjgrnY1cddSna3ZheGZS3aukzPmgIh0g3VGcSqEbnsXCcmE9yj2SLHBYuo7jRd3TLFES81jEcxMtQ3UYgKbQ=</EncryptedPassword>
-    <_PublishTargetUrl>ftp://ftp.medixcollege.ca/public</_PublishTargetUrl>
+    <_PublishTargetUrl>ftp://ftp.medixcollege.net/public</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>06/27/2016 23:51:49</publishTime>
+      <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
       <publishTime>03/28/2017 15:03:40</publishTime>
@@ -35,7 +35,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:51</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>06/27/2016 23:51:49</publishTime>
+      <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
       <publishTime>06/28/2016 13:07:50</publishTime>
@@ -1970,25 +1970,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:48</publishTime>
     </File>
     <File Include="fonts/icomoon/icomoon.dev.svg">
-      <publishTime>06/27/2016 23:51:49</publishTime>
+      <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="fonts/icomoon/icomoon.eot">
-      <publishTime>06/27/2016 23:51:49</publishTime>
+      <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="fonts/icomoon/icomoon.svg">
-      <publishTime>06/27/2016 23:51:49</publishTime>
+      <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="fonts/icomoon/icomoon.ttf">
-      <publishTime>06/27/2016 23:51:49</publishTime>
+      <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="fonts/icomoon/icomoon.woff">
-      <publishTime>06/27/2016 23:51:49</publishTime>
+      <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="fonts/icomoon/license.txt">
-      <publishTime>06/27/2016 23:51:49</publishTime>
+      <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="fonts/icomoon/Read Me.txt">
-      <publishTime>06/27/2016 23:51:49</publishTime>
+      <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>06/28/2016 13:07:37</publishTime>
@@ -1997,7 +1997,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:37</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>06/27/2016 23:51:49</publishTime>
+      <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>06/28/2016 13:07:38</publishTime>
@@ -2072,7 +2072,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:38</publishTime>
     </File>
     <File Include="Views/Admissions/CanadaJobGrant.cshtml">
-      <publishTime>06/28/2016 13:07:41</publishTime>
+      <publishTime>01/09/2017 00:15:41</publishTime>
     </File>
     <File Include="Views/Admissions/EmploymentOntario.cshtml">
       <publishTime>03/10/2017 09:59:06</publishTime>
@@ -2540,7 +2540,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2017 01:09:03</publishTime>
     </File>
     <File Include="Views/Programs/PharmacyAssistant.cshtml">
-      <publishTime>01/05/2017 01:09:12</publishTime>
+      <publishTime>02/21/2017 22:32:12</publishTime>
     </File>
     <File Include="Views/Programs/_ProgramsLayout.cshtml">
       <publishTime>02/28/2017 10:45:54</publishTime>
