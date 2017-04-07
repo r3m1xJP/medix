@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV/ilqoZ43UqwgfjcT74ejwAAAAACAAAAAAAQZgAAAAEAACAAAAD/nB3rK3TrOHRgEj81y/lY9gU4kSt7hungNouYjh9VBQAAAAAOgAAAAAIAACAAAABeHMV3fujZ0mPt+NkGK5tfZ/fONvFrx2dMx99BRvH7uhAAAAC4DxXxl0hkLZYV2Z/8uNLXQAAAAILRjgrnY1cddSna3ZheGZS3aukzPmgIh0g3VGcSqEbnsXCcmE9yj2SLHBYuo7jRd3TLFES81jEcxMtQ3UYgKbQ=</EncryptedPassword>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8KK40sNRxk6ygbriu05juwAAAAACAAAAAAAQZgAAAAEAACAAAAC97bYRwFnna/8MA5tvGyyPc7rm1t8yuupRCRpx2eeaaAAAAAAOgAAAAAIAACAAAAA29H6id1Kfyi0+ezdfc2m1OPHXTtXjyv6bfMB+0D+0KRAAAACNaPrqBb0wPSRCFa6ZgapZQAAAAEgZjzsFWQ/JtZh1xJ6vRKR+eRgbwH/V23m1EHdGO6OjR1p1ChCeAGMVbnzNxLgPKz9f5gQuzMBjdrTVe69z0E4=</EncryptedPassword>
     <_PublishTargetUrl>ftp://ftp.medixcollege.net/public</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>

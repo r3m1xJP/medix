@@ -461,6 +461,7 @@
     <Content Include="Content\images\brushing-teeth.jpg" />
     <Content Include="Content\images\button-next.png" />
     <Content Include="Content\images\button-previous.png" />
+    <Content Include="Content\images\calf-massage.jpg" />
     <Content Include="Content\images\campus-brampton.jpg" />
     <Content Include="Content\images\campus-brantford.jpg" />
     <Content Include="Content\images\campus-kitchener.jpg" />
@@ -516,6 +517,7 @@
     <Content Include="Content\images\extra-smilingstudent.jpg" />
     <Content Include="Content\images\facebook-ic.gif" />
     <Content Include="Content\images\facebook.gif" />
+    <Content Include="Content\images\female-getting-massage.jpg" />
     <Content Include="Content\images\female-happy.jpg" />
     <Content Include="Content\images\female-laptop.jpg" />
     <Content Include="Content\images\firstaid.jpg" />
@@ -573,6 +575,7 @@
     <Content Include="Content\images\mainBANNER-3-MLAT.jpg" />
     <Content Include="Content\images\mainBANNER-4-PSW.jpg" />
     <Content Include="Content\images\man-crying.jpg" />
+    <Content Include="Content\images\massage-teaching.jpg" />
     <Content Include="Content\images\massage1.jpg" />
     <Content Include="Content\images\massage2.jpg" />
     <Content Include="Content\images\massage3.jpg" />
