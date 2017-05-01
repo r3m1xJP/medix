@@ -274,7 +274,7 @@ namespace MedixCollege.Controllers
                 return RedirectToRoute("ThankYou");
             }
 
-            if (fc["Email"].Contains("yandex.com") || fc["Email"].Contains("grazadarmo.pl") || fc["Email"].Contains("uhd.net.ua") || fc["Email"].Contains("3vad.com") || fc["Email"].Contains("3vad.com") || fc["Email"].Contains("startsims.com") || fc["Email"].Contains("turbomail.ovh") || fc["Email"].Contains("3vad.com") || fc["Email"].Contains("toysearch.info") || fc["Email"].Contains("plus11.waw.pl") || fc["Email"].Contains("hdfhgdfhtyuryrehgf.xyz") || fc["Email"].Contains("mail.ru") || fc["Email"].Contains("seem.uz") || fc["Email"].Contains("teletec.net.ua") || fc["Email"].Contains("yandex.ru") || fc["Email"].Contains("rambler.ru"))
+            if (fc["Email"].Contains("yandex.com") || fc["Email"].Contains("grazadarmo.pl") || fc["Email"].Contains("uhd.net.ua") || fc["Email"].Contains("gmaills.eu") || fc["Email"].Contains("3vad.com") || fc["Email"].Contains("3vad.com") || fc["Email"].Contains("startsims.com") || fc["Email"].Contains("turbomail.ovh") || fc["Email"].Contains("3vad.com") || fc["Email"].Contains("toysearch.info") || fc["Email"].Contains("plus11.waw.pl") || fc["Email"].Contains("hdfhgdfhtyuryrehgf.xyz") || fc["Email"].Contains("mail.ru") || fc["Email"].Contains("seem.uz") || fc["Email"].Contains("teletec.net.ua") || fc["Email"].Contains("yandex.ru") || fc["Email"].Contains("rambler.ru"))
             {
                 ViewBag.Success = false;
 

@@ -490,10 +490,13 @@
     <Content Include="Content\images\cert-swedishmassage.jpg" />
     <Content Include="Content\images\cert-urinalysis.jpg" />
     <Content Include="Content\images\certs-allcerts.jpg" />
+    <Content Include="Content\images\child-dental-patient-laughing.jpg" />
     <Content Include="Content\images\counsellor.jpg" />
     <Content Include="Content\images\cs-main.jpg" />
     <Content Include="Content\images\cs-medixadvantage.jpg" />
     <Content Include="Content\images\dental-assisant.jpg" />
+    <Content Include="Content\images\dental-patient-holding-mouth.jpg" />
+    <Content Include="Content\images\dental-patient-talking-to-assistant.jpg" />
     <Content Include="Content\images\DentalAwarenessDay-WEB.jpg" />
     <Content Include="Content\images\discover-careers.jpg" />
     <Content Include="Content\images\discover-history.jpg" />
@@ -501,6 +504,7 @@
     <Content Include="Content\images\discover-main.jpg" />
     <Content Include="Content\images\discover-transcript.jpg" />
     <Content Include="Content\images\discover-virtualtours.jpg" />
+    <Content Include="Content\images\drugs.jpg" />
     <Content Include="Content\images\dsw-office.jpg" />
     <Content Include="Content\images\dsw-outdoors.jpg" />
     <Content Include="Content\images\dsw-working-with-child.jpg" />
@@ -616,6 +620,7 @@
     <Content Include="Content\images\office-assistant.jpg" />
     <Content Include="Content\images\payments.jpg" />
     <Content Include="Content\images\pha-program.jpg" />
+    <Content Include="Content\images\pha.jpg" />
     <Content Include="Content\images\phone-call.jpg" />
     <Content Include="Content\images\piggy-bank.jpg" />
     <Content Include="Content\images\pinterest-ic.gif" />
