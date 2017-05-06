@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>05/06/2017 10:31:10</publishTime>
+      <publishTime>05/06/2017 11:02:51</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1372,6 +1372,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/eca-calendar.jpg">
       <publishTime>03/03/2017 11:14:30</publishTime>
     </File>
+    <File Include="Content/images/eca-instructors.jpg">
+      <publishTime>05/06/2017 11:02:28</publishTime>
+    </File>
     <File Include="Content/images/eca-kids-eating.jpg">
       <publishTime>02/14/2017 15:00:21</publishTime>
     </File>
@@ -1380,6 +1383,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/eca-kids-learning.jpg">
       <publishTime>02/14/2017 15:00:21</publishTime>
+    </File>
+    <File Include="Content/images/eca-reading.jpg">
+      <publishTime>05/06/2017 11:02:28</publishTime>
+    </File>
+    <File Include="Content/images/eca-talking-to-children.jpg">
+      <publishTime>05/06/2017 11:02:28</publishTime>
     </File>
     <File Include="Content/images/eca-teacher.jpg">
       <publishTime>03/03/2017 11:14:30</publishTime>

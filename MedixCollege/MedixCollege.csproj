@@ -521,9 +521,12 @@
     <Content Include="Content\images\dsw1.jpg" />
     <Content Include="Content\images\early-childcare-educator.jpg" />
     <Content Include="Content\images\eca-calendar.jpg" />
+    <Content Include="Content\images\eca-instructors.jpg" />
     <Content Include="Content\images\eca-kids-eating.jpg" />
     <Content Include="Content\images\eca-kids-happy.jpg" />
     <Content Include="Content\images\eca-kids-learning.jpg" />
+    <Content Include="Content\images\eca-reading.jpg" />
+    <Content Include="Content\images\eca-talking-to-children.jpg" />
     <Content Include="Content\images\eca-teacher.jpg" />
     <Content Include="Content\images\experiencethemedixcollegedifference.JPG" />
     <Content Include="Content\images\extra-classroom shot.jpg" />
