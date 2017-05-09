@@ -625,6 +625,8 @@
     <Content Include="Content\images\medixonline-main.jpg" />
     <Content Include="Content\images\medixonline-programs.jpg" />
     <Content Include="Content\images\MedixOnlineLogo.PNG" />
+    <Content Include="Content\images\mlta_content.jpg" />
+    <Content Include="Content\images\mlta_date.jpg" />
     <Content Include="Content\images\mouth-exam.jpg" />
     <Content Include="Content\images\MT-OH.JPG" />
     <Content Include="Content\images\nats-logo-main.png" />
