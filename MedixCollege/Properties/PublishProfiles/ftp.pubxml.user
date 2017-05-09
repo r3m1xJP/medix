@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>05/09/2017 11:49:57</publishTime>
+      <publishTime>05/09/2017 12:27:21</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1176,6 +1176,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/banner_mlat2.jpg">
       <publishTime>06/28/2016 13:07:26</publishTime>
+    </File>
+    <File Include="Content/images/banner_mlat_openhouse.jpg">
+      <publishTime>05/09/2017 12:26:23</publishTime>
     </File>
     <File Include="Content/images/banner_mlat_toronto.jpg">
       <publishTime>05/09/2017 11:35:13</publishTime>
@@ -2450,7 +2453,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/10/2017 10:04:01</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>05/09/2017 11:48:24</publishTime>
+      <publishTime>05/09/2017 12:39:37</publishTime>
     </File>
     <File Include="Views/Home/NewsArticle.cshtml">
       <publishTime>01/18/2017 21:49:45</publishTime>
