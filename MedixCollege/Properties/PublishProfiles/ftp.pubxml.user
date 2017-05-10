@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>05/09/2017 13:00:06</publishTime>
+      <publishTime>05/10/2017 15:18:53</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1104,6 +1104,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/170428-Hires-Medix-Toronto.jpg">
       <publishTime>05/06/2017 10:29:57</publishTime>
+    </File>
+    <File Include="Content/images/170503-RelayforLife.jpg">
+      <publishTime>05/10/2017 15:18:25</publishTime>
     </File>
     <File Include="Content/images/170506-Hires-Medix-Brantford.jpg">
       <publishTime>05/06/2017 10:29:45</publishTime>
