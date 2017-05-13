@@ -437,6 +437,9 @@
     <Content Include="Content\images\170506-Hires-Medix-London.jpg" />
     <Content Include="Content\images\170506-Hires-Medix-Scarborough.jpg" />
     <Content Include="Content\images\170506-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\170513-Hires-Medix-London.jpg" />
+    <Content Include="Content\images\170513-Hires-Medix-Scarborough.jpg" />
+    <Content Include="Content\images\170513-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
@@ -596,6 +599,8 @@
     <Content Include="Content\images\mainBANNER-4-PSW.jpg" />
     <Content Include="Content\images\man-crying.jpg" />
     <Content Include="Content\images\massage-teaching.jpg" />
+    <Content Include="Content\images\massage-therapist-working-with-client.jpg" />
+    <Content Include="Content\images\massage-therapist.jpg" />
     <Content Include="Content\images\massage1.jpg" />
     <Content Include="Content\images\massage2.jpg" />
     <Content Include="Content\images\massage3.jpg" />

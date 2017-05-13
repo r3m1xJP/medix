@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>05/10/2017 15:18:53</publishTime>
+      <publishTime>05/13/2017 09:16:05</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1120,6 +1120,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/170506-Hires-Medix-Toronto.jpg">
       <publishTime>05/06/2017 10:29:45</publishTime>
     </File>
+    <File Include="Content/images/170513-Hires-Medix-London.jpg">
+      <publishTime>05/13/2017 09:15:48</publishTime>
+    </File>
+    <File Include="Content/images/170513-Hires-Medix-Scarborough.jpg">
+      <publishTime>05/13/2017 09:15:48</publishTime>
+    </File>
+    <File Include="Content/images/170513-Hires-Medix-Toronto.jpg">
+      <publishTime>05/13/2017 09:15:48</publishTime>
+    </File>
     <File Include="Content/images/admissions-eo.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
     </File>
@@ -1596,6 +1605,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/massage-teaching.jpg">
       <publishTime>04/07/2017 00:31:57</publishTime>
+    </File>
+    <File Include="Content/images/massage-therapist-working-with-client.jpg">
+      <publishTime>05/13/2017 09:15:29</publishTime>
+    </File>
+    <File Include="Content/images/massage-therapist.jpg">
+      <publishTime>05/13/2017 09:15:29</publishTime>
     </File>
     <File Include="Content/images/massage1.jpg">
       <publishTime>01/23/2017 00:14:29</publishTime>
