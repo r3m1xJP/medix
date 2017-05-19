@@ -514,6 +514,7 @@
     <Content Include="Content\images\dental-patient-holding-mouth.jpg" />
     <Content Include="Content\images\dental-patient-talking-to-assistant.jpg" />
     <Content Include="Content\images\DentalAwarenessDay-WEB.jpg" />
+    <Content Include="Content\images\dental_assistant_smiling.jpg" />
     <Content Include="Content\images\discover-careers.jpg" />
     <Content Include="Content\images\discover-history.jpg" />
     <Content Include="Content\images\discover-laptop.jpg" />
@@ -641,6 +642,7 @@
     <Content Include="Content\images\ocmt.jpg" />
     <Content Include="Content\images\office-assistant-phone.jpg" />
     <Content Include="Content\images\office-assistant.jpg" />
+    <Content Include="Content\images\patient_smiling.jpg" />
     <Content Include="Content\images\payments.jpg" />
     <Content Include="Content\images\pha-program.jpg" />
     <Content Include="Content\images\pha.jpg" />
@@ -671,6 +673,7 @@
     <Content Include="Content\images\PSD.jpg" />
     <Content Include="Content\images\PSD2.jpg" />
     <Content Include="Content\images\PSD3.jpg" />
+    <Content Include="Content\images\recruiting_dental.jpg" />
     <Content Include="Content\images\Scar -Holiday Schedule.jpg" />
     <Content Include="Content\images\shoulder-massage.jpg" />
     <Content Include="Content\images\sidesquat.jpg" />
