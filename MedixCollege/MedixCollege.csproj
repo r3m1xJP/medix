@@ -674,6 +674,7 @@
     <Content Include="Content\images\PSD2.jpg" />
     <Content Include="Content\images\PSD3.jpg" />
     <Content Include="Content\images\recruiting_dental.jpg" />
+    <Content Include="Content\images\reflexology.jpg" />
     <Content Include="Content\images\Scar -Holiday Schedule.jpg" />
     <Content Include="Content\images\shoulder-massage.jpg" />
     <Content Include="Content\images\sidesquat.jpg" />
@@ -1012,6 +1013,7 @@
     <Content Include="Views\Home\ThankYouGuelphAnatomyWorkshop.cshtml" />
     <Content Include="Views\Certificates\PostpartumDoulaWorkshop.cshtml" />
     <Content Include="Views\Courses\TTC.cshtml" />
+    <Content Include="Views\Certificates\Reflexology.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

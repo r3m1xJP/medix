@@ -1,0 +1,242 @@
+﻿@{
+    Layout = "~/Views/Certificates/_CertificatesLayout.cshtml";
+}
+@{
+    ViewBag.Title = "Phlebotomy Certificate - Medix College";
+    ViewBag.PageDescription = "Learn more about the Phlebotomy Certificate at Medix College.";
+}
+
+<div class="col-sm-12 no-padding botMARG">
+    <h1 class="contentPageH1">REFLEXOLOGY<small class="contentH1-small">&nbsp;CERTIFICATE</small></h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="contentp">@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
+        <li class="active contentp">Reflexology</li>
+    </ol>
+    <img class="img-responsive" width="100%" src="~/Content/images/reflexology.jpg" alt="lab technician working with blood sample" />
+
+</div>
+
+<div class="col-sm-8 mid-padding">
+
+    <h1 class="contentH1">Program Objective</h1><hr class="hrp" />
+
+
+    <p class="contentp">
+        The Reflexology course is designed for both professional and personal use and would benefit those currently working as a Massage Therapist, Aromatherapist, Nurse Assistant, Personal Support Worker, Doula, Acupuncturist or for general knowledge and personal interest.
+
+    </p>
+    <br /><br />
+
+
+    <h1 class="contentH1">Program Schedule</h1><hr class="hrp" />
+
+
+        4 Saturdays<br />
+        9:00AM-5:00PM (Onsite) 
+        <br/><br/>
+        50 practical case studies (Independent)<br />
+        3-hr review & exam (Onsite)
+        <br />
+        <br />
+        50 CEU’s as recognized by the CMTO
+        <br />
+    <br /><br />
+
+    <h1 class="contentH1">Textbooks</h1><hr class="hrp" />
+
+    
+    1. A Complete Guide to Foot Reflexology: by Kevin and Barbara Kunz - $20.88 (amazon.ca)<br />
+    2. Feet First: by Laura Norman - $27.24 (amazon.ca)<br />
+    3. Netter's Anatomy Coloring Book: with Student Consult Access: by John T. Hansen (for students who are new to anatomy) $25.37 (amazon.ca)<br />
+    Total books: $73.49<br />
+
+    <br /><br />
+
+    <h1 class="contentH1">Location</h1><hr class="hrp" />
+
+    <p class="contentp">
+        Medix College Scarborough Campus<br />
+        2130 Lawrence Ave E. #205<br />
+        Scarborough<br />
+        (416) 701-1201
+    </p>
+    <br />
+    <br />
+
+    <h1 class="contentH1">Tuition</h1><hr class="hrp" />
+
+    <p class="contentp">
+        $299.00 
+    </p>
+    <br />
+
+    <br />
+    <h1 class="contentH1">Program Content</h1><hr class="hrp" />
+    <ul class="contentp">
+
+        <li>
+            Head & Foot Reflexology – Definition & Benefits
+        </li>
+
+        <li>
+            Humanitarian pressure
+        </li>
+
+        <li>
+            10 Zones of the Body Reflexes on the Toes
+        </li>
+
+        <li>
+            Respiratory System
+        </li>
+
+        <li>
+            Urinary System
+        </li>
+
+        <li>
+            Digestive System
+        </li>
+
+        <li>
+            Foot Care
+        </li>
+
+        <li>
+            Reproductive System
+        </li>
+
+        <li>
+            Lymphatic System
+        </li>
+
+        <li>
+            Circulatory System
+        </li>
+
+        <li>
+            Possible Reactions
+        </li>
+
+        <li>
+            Nervous System Reflexology & Health Records
+        </li>
+
+        <li>
+            Hand Reflexology
+        </li>
+
+        <li>
+            Endocrine System
+        </li>
+
+        <li>
+            Reflex Review
+        </li>
+
+        <li>
+            Professionalism & Business Ethics
+        </li>
+
+        <li>
+            Reflexology Treatment: Head, Feet & Hands
+        </li>
+    </ul>
+    <br />
+
+
+
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CERTIFICATES DIRECTORY", "AllCertificates", "Certificates")</button>
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
+
+    <br />
+</div>
+
+<div class="col-sm-4 pull-right no-padding">
+    <div class="panel panel-default bluePANEL2">
+
+        <div class="panel-body">
+            <form id="programsQuestionsForm" name="programsQuestionsForm" data-parsley-validate="" method="post" class="questionsForm" action="/home/askquestionprogram">
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240001" />
+                <h1 class="contentH1whitemain text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                </h1><hr class="hrpgold" />
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">FIRST NAME: <span class="text-danger">*</span></p>
+                    <input type="text" class="form-control pull-right" name="FirstName" required="">
+                </div>
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">TELEPHONE: <span class="text-danger">*</span></p>
+                    <input type="text" class="form-control pull-right" name="Telephone" required="">
+                </div>
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">EMAIL: <span class="text-danger">*</span></p>
+                    <input type="email" class="form-control pull-right" name="Email" required="">
+                </div>
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">LOCATION: <span class="text-danger">*</span></p>
+                    <select class="form-control pull-right" name="CampusID" id="askQuestionCampusList">
+                        <option value="0">Select</option>
+                        <option value="246">Brampton</option>
+                        <option value="243">Brantford</option>
+                        <option value="242">Kitchener</option>
+                        <option value="244">London</option>
+                        <option value="241">Scarborough</option>
+                        <option value="240">Toronto</option>
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">PROGRAM: <span class="text-danger">*</span></p>
+                    <select class="form-control pull-right" name="ProgramID" id="askQuestionProgramList">
+                        <option class="0 246 243 242 244 241 240" value="636">Phlebotomy</option>
+
+                        <option class="0 246 243 242 244 241 240" value="0">Other Programs</option>
+                        <option class="0 243 241" value="39877">Child and Youth Care with Addictions Support Worker</option>
+                        <option class="0 246 243 242 244 241 240" value="632">Community Service Worker</option>
+                        <option class="0 246 243 242 244 241 240" value="634">Developmental Service Worker</option>
+                        <option class="0 246 243 241 240" value="38526">Early Childcare Assistant</option>
+                        <option class="0 246 244 241 240" value="37255">Fitness &amp; Health Promotion</option>
+                        <option class="0 246 243 242 244 241 240" value="627">Intra-Oral Dental Assistant </option>
+                        <option class="0 246 242 244 241 240" value="629">Massage Therapy</option>
+                        <option class="0 246 242 244 241 240" value="633">Medical Laboratory Assistant / Technician</option>
+                        <option class="0 246 243 242 244 241 240" value="630">Medical Office Administrator</option>
+                        <option class="0 246 243 242 244 241 240" value="631">Personal Support Worker</option>
+                        <option class="0 246 243 242 244 241 240" value="628">Pharmacy Assistant</option>
+                        <option class="0 246 243 242 244 241 240" value="0">--- Certificate Programs</option>
+                        <option class="0" value="38882">Anatomy &amp; Physiology</option>
+                        <option class="0 246 243 241 240" value="39478">CPR &amp; First Aid</option>
+                        <option class="0 246 243 242 244 241 240" value="818">Dental Level 2</option>
+                        <option class="0 246 243 242 244 241 240" value="38883">Dental Office Procedures (abel dent)</option>
+                        <option class="0 246 243 242 244 241 240" value="642">ECG</option>
+                        <option class="0 246 244 241 240" value="39162">Intramuscular Injection</option>
+                        <option class="0" value="1170">Medical Terminology</option>
+                        <option class="0" value="38887">Medical Transcription</option>
+                        <option class="0 246 243 242 244 241 240" value="39415">Mental Health &amp; Addictions</option>
+                        <option class="0" value="1169">OHIP Billing</option>
+                        <option class="0 246 243 242 244 241 240" value="636">Phlebotomy</option>
+                        <option class="0" value="1167">Principles of Nutrition</option>
+                        <option class="0 246 243 242 244 241 240" value="643">PSW Upgrading</option>
+                        <option class="0" value="1171">Thought Patterns</option>
+                        <option class="0" value="41065">Birth Doula Workshop</option>
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">QUESTION: </p>
+                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                </div>
+                <div class="small-text spacer-top text-center contentp-light">
+                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                </div>
+                <div class="text-center">
+                    <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</div>

@@ -63,23 +63,31 @@ namespace MedixCollege.Controllers
             mediaSources.Add(90825, "TRADE SHOWS");
         }
 
-        // GET: MedixOnline
+        // GET: Schedules And Fees
         public ActionResult Index()
         {
             ViewBag.MedixOnline = true;
-            ViewBag.HeroText = "";
-            ViewBag.BodyHeaderText = "";
-
-            ViewBag.SideHeader = "";
-            ViewBag.SideSubHeader1 = "";
-            ViewBag.SideSubText1 = "";
-            ViewBag.SideSubHeader2 = "";
-            ViewBag.SideSubText2 = "";
-            ViewBag.SideSubHeader3 = "";
-            ViewBag.SideSubText3 = "";
 
             return View();
         }
+
+        // GET: MedixOnline
+        //public ActionResult Index()
+        //{
+           // ViewBag.MedixOnline = true;
+            //ViewBag.HeroText = "";
+            //ViewBag.BodyHeaderText = "";
+
+           // ViewBag.SideHeader = "";
+           // ViewBag.SideSubHeader1 = "";
+          //  ViewBag.SideSubText1 = "";
+           // ViewBag.SideSubHeader2 = "";
+            //ViewBag.SideSubText2 = "";
+           // ViewBag.SideSubHeader3 = "";
+           // ViewBag.SideSubText3 = "";
+
+           // return View();
+      //  }
 
         // GET: Schedules And Fees
         public ActionResult SchedulesAndFees()

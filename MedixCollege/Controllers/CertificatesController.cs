@@ -127,6 +127,12 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        // GET: Reflexology
+        public ActionResult Reflexology()
+        {
+            return View();
+        }
+
         // GET: Birth Doula Workshop
         public ActionResult BirthDoulaWorkshop()
         {
