@@ -526,6 +526,8 @@
     <Content Include="Content\images\dsw-outdoors.jpg" />
     <Content Include="Content\images\dsw-working-with-child.jpg" />
     <Content Include="Content\images\dsw1.jpg" />
+    <Content Include="Content\images\dsw_tour.jpg" />
+    <Content Include="Content\images\dsw_training.jpg" />
     <Content Include="Content\images\early-childcare-educator.jpg" />
     <Content Include="Content\images\eca-calendar.jpg" />
     <Content Include="Content\images\eca-instructors.jpg" />
@@ -1014,6 +1016,7 @@
     <Content Include="Views\Certificates\PostpartumDoulaWorkshop.cshtml" />
     <Content Include="Views\Courses\TTC.cshtml" />
     <Content Include="Views\Certificates\Reflexology.cshtml" />
+    <Content Include="Views\MedixOnline\AboutOnline.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -130,6 +130,13 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult AboutOnline()
+        {
+            ViewBag.MedixOnline = true;
+
+            return View();
+        }
+
         public ActionResult DentalTerminology()
         {
             ViewBag.MedixOnline = true;

@@ -1,0 +1,125 @@
+﻿@{
+    Layout = "~/Views/MedixOnline/_MedixOnlineLayout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Medix Online - Home";
+    ViewBag.PageDescription = "Learn more about Medix Online and it's program offerings.";
+}
+
+<div class="col-sm-12 no-padding botMARG">
+    <h1 class="contentPageH1">MEDIX ONLINE</h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="contentp">@Html.ActionLink("Medix Online", "Index", "MedixOnline")</li>
+        <li class="active contentp">Medix Online</li>
+    </ol>
+    <img class="img-responsive" width="100%" src="~/Content/images/medixonline-main.jpg" alt="hand typing on keyboard" />
+</div>
+
+<div class="col-sm-8 mid-padding">
+
+
+
+            <h2 class="contentH1">About Medix Online</h2>
+    <br/>
+
+
+            <div class="videoWrapperProgram">
+                <iframe width="560" height="349" src="https://www.youtube.com/embed/6HB-NV3cVts?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <br/>
+            <p class="contentp">
+                Medix College has been dedicated to Healthcare Training for over 40 years. Through this
+
+                dedication and experience; Medix Online is the clear choice for Advancement and Education
+
+                in the Healthcare Industry.
+
+                <br /><br />
+
+                Medix Online was specifically designed to help people acquire knowledge in the health care
+
+                industry for both personal and professional development. Many people have chosen Medix
+
+                Online Certificates to provide them with the qualifications needed to advance their current
+
+                healthcare careers.
+
+                <br /><br />
+
+                Medix Online is interested in helping healthcare organizations keep their staff educated and
+
+                motivated by offering customized courses and certificates in healthcare.
+            </p>
+
+
+
+
+   <br />
+</div>
+
+
+
+<div class="col-sm-4 pull-right">
+    <div class="panel panel-default">
+
+        <div class="row formWrapper overquestionsForm">
+
+            <form id="medixOnlineQuestionsForm" name="medixOnlineQuestionsForm" data-parsley-validate="" class="questionsForm" method="post" action="/MedixOnline/ContactMedixOnlineForm">
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240001" />
+                <h1 class="contentH1 text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; CONTACT MEDIX ONLINE
+                </h1><hr class="hrpblue" />
+                <div class="input-group spacer-top">
+                    <label class="pull-left">First Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="FirstName" required="">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left" for="formlastname">Last Name: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="Lastname" id="formlastname" />
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left">Email: <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control pull-right" name="Email" required="">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left" for="formtelephone">Telephone: <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control pull-right" name="Telephone" for="formtelephone" required="" />
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left">Program: <span class="text-danger">*</span></label>
+                    <select class="form-control pull-right" name="ProgramID" id="ProgramID">
+                        <option value="0">Select</option>
+                        <option value="38882">Anatomy &amp; Physiology</option>
+                        <option value="38885">Dental Assisting Level II Online Ebooks Incld.</option>
+                        <option value="40143">Dental Assisting Level II Online no Ebooks</option>
+                        <option value="38883">Dental Office Procedures (abel dent)</option>
+                        <option value="1170">Medical Terminology</option>
+                        <option value="39438">Medical Terminology and OHIP Package</option>
+                        <option value="39439">Medical Terminology and Transcription Package</option>
+                        <option value="38887">Medical Transcription</option>
+                        <option value="38884">Pre-Science Package (MedTerm, Bio and Chem)</option>
+                        <option value="1167">Principles of Nutrition</option>
+                        <option value="1171">Thought Patterns</option>
+
+                    </select>
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left">Comments: </label>
+                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                </div>
+                <div class="small-text spacer-top text-center grayColor">
+                    Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                </div>
+                <div class="text-center">
+                    <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+
+
+        </div>
+
+    
+</div>
