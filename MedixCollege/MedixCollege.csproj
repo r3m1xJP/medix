@@ -670,6 +670,7 @@
     <Content Include="Content\images\program-psw.jpg" />
     <Content Include="Content\images\program-psw2.jpg" />
     <Content Include="Content\images\programs-mlat2.jpg" />
+    <Content Include="Content\images\programs-rbphy.jpg" />
     <Content Include="Content\images\programs_mlat.jpg" />
     <Content Include="Content\images\programs_mlat1.jpg" />
     <Content Include="Content\images\PSD.jpg" />
@@ -1017,6 +1018,8 @@
     <Content Include="Views\Courses\TTC.cshtml" />
     <Content Include="Views\Certificates\Reflexology.cshtml" />
     <Content Include="Views\MedixOnline\AboutOnline.cshtml" />
+    <Content Include="Views\Certificates\RehabilitationPhysiotherapy.cshtml" />
+    <Content Include="Views\Programs\RehabilitationPhysiotherapy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

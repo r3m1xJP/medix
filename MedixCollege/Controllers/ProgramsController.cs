@@ -109,6 +109,12 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        // GET: RehabilitationPhysiotherapy
+        public ActionResult RehabilitationPhysiotherapy()
+        {
+            return View();
+        }
+
         // GET: All Programs
         public ActionResult AllPrograms()
         {
