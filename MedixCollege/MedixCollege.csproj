@@ -513,6 +513,7 @@
     <Content Include="Content\images\dental-assisant.jpg" />
     <Content Include="Content\images\dental-patient-holding-mouth.jpg" />
     <Content Include="Content\images\dental-patient-talking-to-assistant.jpg" />
+    <Content Include="Content\images\dentalassistant.jpg" />
     <Content Include="Content\images\DentalAwarenessDay-WEB.jpg" />
     <Content Include="Content\images\dental_assistant_smiling.jpg" />
     <Content Include="Content\images\discover-careers.jpg" />
@@ -636,6 +637,9 @@
     <Content Include="Content\images\MedixOnlineLogo.PNG" />
     <Content Include="Content\images\mlta_content.jpg" />
     <Content Include="Content\images\mlta_date.jpg" />
+    <Content Include="Content\images\MLTA_helping_student.jpg" />
+    <Content Include="Content\images\mlta_smiling.jpg" />
+    <Content Include="Content\images\mlta_working_machine.jpg" />
     <Content Include="Content\images\mouth-exam.jpg" />
     <Content Include="Content\images\MT-OH.JPG" />
     <Content Include="Content\images\nats-logo-main.png" />
@@ -683,6 +687,8 @@
     <Content Include="Content\images\sidesquat.jpg" />
     <Content Include="Content\images\study-life-balance.jpg" />
     <Content Include="Content\images\study-schedule.jpg" />
+    <Content Include="Content\images\studyinginclass.jpg" />
+    <Content Include="Content\images\studyinginlibrary.jpg" />
     <Content Include="Content\images\thanksimagemedix-friend.jpg" />
     <Content Include="Content\images\thanksimagemedix-medix.jpg" />
     <Content Include="Content\images\thanksimagemedix1.jpg" />
