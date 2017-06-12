@@ -2309,7 +2309,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/09/2017 09:29:59</publishTime>
     </File>
     <File Include="Views/Certificates/AbelDent.cshtml">
-      <publishTime>01/09/2017 00:18:37</publishTime>
+      <publishTime>06/12/2017 00:44:13</publishTime>
     </File>
     <File Include="Views/Certificates/AllCertificates.cshtml">
       <publishTime>09/28/2016 16:27:15</publishTime>
@@ -2318,22 +2318,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/09/2017 00:18:51</publishTime>
     </File>
     <File Include="Views/Certificates/BirthDoulaWorkshop.cshtml">
-      <publishTime>03/10/2017 10:32:31</publishTime>
+      <publishTime>06/12/2017 00:44:44</publishTime>
     </File>
     <File Include="Views/Certificates/CertificatesContinuingEducation.cshtml">
       <publishTime>04/13/2016 01:40:17</publishTime>
     </File>
     <File Include="Views/Certificates/Electrocardiogram.cshtml">
-      <publishTime>01/09/2017 00:20:20</publishTime>
+      <publishTime>06/12/2017 00:44:51</publishTime>
     </File>
     <File Include="Views/Certificates/EmotionalFirstAid.cshtml">
-      <publishTime>01/09/2017 00:20:41</publishTime>
+      <publishTime>06/12/2017 00:44:59</publishTime>
     </File>
     <File Include="Views/Certificates/EnglishSecondLanguage.cshtml">
-      <publishTime>01/09/2017 00:21:33</publishTime>
+      <publishTime>06/12/2017 00:45:06</publishTime>
     </File>
     <File Include="Views/Certificates/EnglishSkillsHealthcareWorkers.cshtml">
-      <publishTime>01/09/2017 00:21:22</publishTime>
+      <publishTime>06/12/2017 00:45:15</publishTime>
     </File>
     <File Include="Views/Certificates/FirstAidCPR.cshtml">
       <publishTime>01/09/2017 00:21:13</publishTime>
@@ -2348,13 +2348,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:42</publishTime>
     </File>
     <File Include="Views/Certificates/IntramuscularInjections.cshtml">
-      <publishTime>01/09/2017 00:22:28</publishTime>
+      <publishTime>06/12/2017 00:45:40</publishTime>
     </File>
     <File Include="Views/Certificates/IntroductionDevelopmentalDisabilitiesServices.cshtml">
       <publishTime>01/09/2017 00:22:35</publishTime>
     </File>
     <File Include="Views/Certificates/IntroductionSwedishMassage.cshtml">
-      <publishTime>01/09/2017 00:22:44</publishTime>
+      <publishTime>06/12/2017 00:45:37</publishTime>
     </File>
     <File Include="Views/Certificates/MedixOnline.cshtml">
       <publishTime>01/09/2017 00:23:51</publishTime>
@@ -2363,13 +2363,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/09/2017 00:22:53</publishTime>
     </File>
     <File Include="Views/Certificates/Phlebotomy.cshtml">
-      <publishTime>05/29/2017 17:32:50</publishTime>
+      <publishTime>06/12/2017 00:45:59</publishTime>
     </File>
     <File Include="Views/Certificates/PostpartumDoulaWorkshop.cshtml">
-      <publishTime>03/10/2017 10:02:34</publishTime>
+      <publishTime>06/12/2017 00:46:10</publishTime>
     </File>
     <File Include="Views/Certificates/Reflexology.cshtml">
-      <publishTime>05/29/2017 17:23:00</publishTime>
+      <publishTime>06/12/2017 00:46:22</publishTime>
     </File>
     <File Include="Views/Certificates/RehabilitationPhysiotherapy.cshtml">
       <publishTime>05/29/2017 17:32:18</publishTime>
@@ -2378,7 +2378,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/09/2017 00:23:09</publishTime>
     </File>
     <File Include="Views/Certificates/Urinalysis.cshtml">
-      <publishTime>01/09/2017 00:23:20</publishTime>
+      <publishTime>06/12/2017 00:46:31</publishTime>
     </File>
     <File Include="Views/Certificates/_CertificatesLayout.cshtml">
       <publishTime>06/09/2017 11:11:24</publishTime>
