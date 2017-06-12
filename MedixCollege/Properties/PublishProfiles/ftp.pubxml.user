@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>06/02/2017 13:02:34</publishTime>
+      <publishTime>06/12/2017 12:08:41</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1810,6 +1810,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/program-mlat2.jpg">
       <publishTime>05/16/2017 13:55:37</publishTime>
     </File>
+    <File Include="Content/images/program-mlta.jpg">
+      <publishTime>06/12/2017 12:08:18</publishTime>
+    </File>
     <File Include="Content/images/program-moad.jpg">
       <publishTime>06/28/2016 13:07:34</publishTime>
     </File>
@@ -2678,7 +2681,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/30/2017 13:47:18</publishTime>
     </File>
     <File Include="Views/Programs/MedicalLabTechnicianAssistant.cshtml">
-      <publishTime>05/30/2017 13:47:30</publishTime>
+      <publishTime>06/12/2017 12:10:41</publishTime>
     </File>
     <File Include="Views/Programs/MedicalOfficeAdministrator.cshtml">
       <publishTime>05/30/2017 13:47:37</publishTime>
