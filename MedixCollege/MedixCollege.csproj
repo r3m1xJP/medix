@@ -463,6 +463,7 @@
     <Content Include="Content\images\banner_mlat_openhouse.jpg" />
     <Content Include="Content\images\banner_mlat_toronto.jpg" />
     <Content Include="Content\images\banner_mt.jpg" />
+    <Content Include="Content\images\banner_mt_brantford.jpg" />
     <Content Include="Content\images\banner_psw.jpg" />
     <Content Include="Content\images\bicepcurl.jpg" />
     <Content Include="Content\images\blog2_dental.jpg" />
@@ -609,6 +610,8 @@
     <Content Include="Content\images\massage2.jpg" />
     <Content Include="Content\images\massage3.jpg" />
     <Content Include="Content\images\mcHIRED.jpg" />
+    <Content Include="Content\images\medical-lab-worker.jpg" />
+    <Content Include="Content\images\medical-lab.jpg" />
     <Content Include="Content\images\medical-office.jpg" />
     <Content Include="Content\images\medix-banner-cpu.jpg" />
     <Content Include="Content\images\medix-banner-dental.jpg" />
