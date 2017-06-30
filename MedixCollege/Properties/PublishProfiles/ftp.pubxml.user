@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>06/30/2017 12:41:04</publishTime>
+      <publishTime>06/30/2017 14:27:12</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1333,6 +1333,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/child-dental-patient-laughing.jpg">
       <publishTime>05/01/2017 11:42:11</publishTime>
     </File>
+    <File Include="Content/images/child_smiling.jpg">
+      <publishTime>06/30/2017 14:24:59</publishTime>
+    </File>
     <File Include="Content/images/counsellor.jpg">
       <publishTime>03/21/2017 11:06:27</publishTime>
     </File>
@@ -1359,6 +1362,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/dental_assistant_smiling.jpg">
       <publishTime>05/19/2017 09:14:29</publishTime>
+    </File>
+    <File Include="Content/images/developmental_support.jpg">
+      <publishTime>06/30/2017 14:24:59</publishTime>
     </File>
     <File Include="Content/images/discover-careers.jpg">
       <publishTime>06/28/2016 13:07:28</publishTime>
@@ -1398,6 +1404,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/dsw_training.jpg">
       <publishTime>05/26/2017 10:32:23</publishTime>
+    </File>
+    <File Include="Content/images/dsw_working.jpg">
+      <publishTime>06/30/2017 14:24:59</publishTime>
     </File>
     <File Include="Content/images/early-childcare-educator.jpg">
       <publishTime>03/03/2017 11:14:30</publishTime>
@@ -1863,6 +1872,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/PSD3.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
+    </File>
+    <File Include="Content/images/psw_helping.jpg">
+      <publishTime>06/30/2017 14:24:48</publishTime>
+    </File>
+    <File Include="Content/images/psw_smiling.jpg">
+      <publishTime>06/30/2017 14:24:49</publishTime>
     </File>
     <File Include="Content/images/recruiting_dental.jpg">
       <publishTime>05/19/2017 09:14:29</publishTime>

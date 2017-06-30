@@ -508,6 +508,7 @@
     <Content Include="Content\images\cert-urinalysis.jpg" />
     <Content Include="Content\images\certs-allcerts.jpg" />
     <Content Include="Content\images\child-dental-patient-laughing.jpg" />
+    <Content Include="Content\images\child_smiling.jpg" />
     <Content Include="Content\images\counsellor.jpg" />
     <Content Include="Content\images\cs-main.jpg" />
     <Content Include="Content\images\cs-medixadvantage.jpg" />
@@ -517,6 +518,7 @@
     <Content Include="Content\images\dentalassistant.jpg" />
     <Content Include="Content\images\DentalAwarenessDay-WEB.jpg" />
     <Content Include="Content\images\dental_assistant_smiling.jpg" />
+    <Content Include="Content\images\developmental_support.jpg" />
     <Content Include="Content\images\discover-careers.jpg" />
     <Content Include="Content\images\discover-history.jpg" />
     <Content Include="Content\images\discover-laptop.jpg" />
@@ -530,6 +532,7 @@
     <Content Include="Content\images\dsw1.jpg" />
     <Content Include="Content\images\dsw_tour.jpg" />
     <Content Include="Content\images\dsw_training.jpg" />
+    <Content Include="Content\images\dsw_working.jpg" />
     <Content Include="Content\images\early-childcare-educator.jpg" />
     <Content Include="Content\images\eca-calendar.jpg" />
     <Content Include="Content\images\eca-instructors.jpg" />
@@ -684,6 +687,8 @@
     <Content Include="Content\images\PSD.jpg" />
     <Content Include="Content\images\PSD2.jpg" />
     <Content Include="Content\images\PSD3.jpg" />
+    <Content Include="Content\images\psw_helping.jpg" />
+    <Content Include="Content\images\psw_smiling.jpg" />
     <Content Include="Content\images\recruiting_dental.jpg" />
     <Content Include="Content\images\reflexology.jpg" />
     <Content Include="Content\images\Scar -Holiday Schedule.jpg" />
