@@ -440,6 +440,12 @@
     <Content Include="Content\images\170513-Hires-Medix-London.jpg" />
     <Content Include="Content\images\170513-Hires-Medix-Scarborough.jpg" />
     <Content Include="Content\images\170513-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\170624-Hires-Medix-Brampton.jpg" />
+    <Content Include="Content\images\170624-Hires-Medix-London.jpg" />
+    <Content Include="Content\images\170624-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\170708-Hires-Medix-Brampton.jpg" />
+    <Content Include="Content\images\170708-Hires-Medix-Scarborough.jpg" />
+    <Content Include="Content\images\170708-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
@@ -656,12 +662,16 @@
     <Content Include="Content\images\office-assistant.jpg" />
     <Content Include="Content\images\patient_smiling.jpg" />
     <Content Include="Content\images\payments.jpg" />
+    <Content Include="Content\images\pha-computer.jpg" />
     <Content Include="Content\images\pha-program.jpg" />
     <Content Include="Content\images\pha.jpg" />
+    <Content Include="Content\images\pharmacy-assistant-working.jpg" />
+    <Content Include="Content\images\pharmacy-assistant.jpg" />
     <Content Include="Content\images\phone-call.jpg" />
     <Content Include="Content\images\piggy-bank.jpg" />
     <Content Include="Content\images\pinterest-ic.gif" />
     <Content Include="Content\images\pinterest.gif" />
+    <Content Include="Content\images\premedical.jpg" />
     <Content Include="Content\images\program-csw.jpg" />
     <Content Include="Content\images\program-cyw.jpg" />
     <Content Include="Content\images\program-dsw.jpg" />
@@ -1016,7 +1026,7 @@
     <Content Include="Views\Courses\MedicalLabAssistantTech.cshtml" />
     <Content Include="Views\Courses\PharmacyAssistant.cshtml" />
     <Content Include="Views\Courses\ThankYou.cshtml" />
-    <Content Include="Views\Certificates\BirthDoulaWorkshop.cshtml" />
+    <Content Include="Views\Certificates\Premedical.cshtml" />
     <Content Include="Views\CareerServices\KPIandDefault.cshtml" />
     <Content Include="Views\Admissions\CanadaJobGrant.cshtml" />
     <Content Include="Views\Courses\HealthcareTraining.cshtml" />
@@ -1036,6 +1046,7 @@
     <Content Include="Views\MedixOnline\AboutOnline.cshtml" />
     <Content Include="Views\Certificates\RehabilitationPhysiotherapy.cshtml" />
     <Content Include="Views\Programs\RehabilitationPhysiotherapy.cshtml" />
+    <Content Include="Views\Certificates\BirthDoulaWorkshop.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -56,6 +56,7 @@ namespace MedixCollege.Controllers
             programs.Add(41065, "Birth Doula Workshop");
             programs.Add(41070, "Postpartum Doula Training");
             programs.Add(41071, "Physiotherapy Assistant");
+            programs.Add(41072, "Pre-Medical");
 
             mediaGroups.Add(91063, "HIGH SCHOOL");
             mediaGroups.Add(90080, "INTERNET");

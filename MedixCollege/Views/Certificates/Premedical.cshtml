@@ -1,0 +1,143 @@
+﻿@{
+    Layout = "~/Views/Certificates/_CertificatesLayout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Pre-Medical - Medix College";
+    ViewBag.PageDescription = "Learn more about the Pre-Medical Program at Medix College.";
+}
+
+
+<div class="col-sm-12 no-padding botMARG">
+    <h1 class="contentPageH1">PRE-MEDICAL<small class="contentH1-small">&nbsp;PROGRAM</small></h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="contentp">@Html.ActionLink("All Certificates", "AllCertificates", "Certificates")</li>
+        <li class="active contentp">Pre-Medical</li>
+    </ol>
+    <img class="img-responsive" width="100%" src="~/Content/images/premedical.jpg" alt="healthcare workings posing" />
+
+</div>
+
+<div class="col-sm-8 mid-padding">
+
+
+
+
+
+            <h1 class="contentH1">Objective</h1><hr class="hrp" />
+
+
+            <p class="contentp">
+                The Medix College Pre-Medical Program is a well-established, Pre-Health Sciences program providing aspiring students with in-depth knowledge and requirements for medical school. It plays an important, intermediary role in a student's educational path.
+                <br/><br/>Students will undergo a three semester Pre-Health Sciences program to earn the credits and experience needed for their chosen career path. During the Pre-Health Sciences program students can also gain credits towards meeting the requirements of the Basic Sciences program at various medical schools. The Pre-Health Sciences program consists of three semesters (50 weeks total) and earn a total of 90 credits. This allows students to be well prepared for their path in healthcare.
+                <br /><br />Canadian students are able to stay close to home and study in the comfort of their own environment. Our knowledgeable and professional instructors not only educate, but tutor and advise students through out the course of their study. Students are instructed based on a rigorous curriculum, which will set a strong foundation for students to build upon in their future careers.
+                <br /><br />The Pre-Health Sciences program also allows those who are looking for a career change but do not have the prerequisites to apply to various programs and jobs in the health care field. Upon completion of the Pre-Health Sciences program, graduates will have the knowledge base and criteria needed to apply their credits towards a career in health care of their choosing and various university and college programs.
+
+            </p>
+
+           
+            <br />
+
+
+            <h1 class="contentH1">Course Prerequisite</h1><hr class="hrp" />
+    <p>The Pre-Medical Sciences program at Medix College is designed for someone who is highly motivated to become a medical doctor. It is intensive, and exhaustive, which we believe training should be, to properly prepare someone for medical school. This course provides students with a firm pre-med foundation, so when they arrive at one of our affiliated universities, they are ready to succeed.</p>
+
+            <ul class="contentp">
+                <li>
+                    Completion f Grade 12, OSSD, or Mature Student Status
+                </li>
+                <li>
+                    Successful completion of entrance evaluation
+                </li>
+                <li>
+                    Admissions Interview
+                </li>
+                <li>
+                    Criminal Reference Check – Vulnerable Sector
+                </li>
+                <li>
+                    Medix College of Healthcare Medical Check Form (completed within 30 days of program start date)
+                </li>
+                <li>Screening (Clear or have pardon prior to starting class)</li>
+
+
+</ul>
+            <br />
+
+            <h1 class="contentH1">Course Duration and Schedule</h1><hr class="hrp" />
+
+
+            <ul class="contentp">
+                <li>50 Week Program</li>
+                <li>90 Credit Hours</li>
+            </ul>
+            <br />
+
+
+
+    <br />
+
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CERTIFICATES DIRECTORY", "AllCertificates", "Certificates")</button>
+    <br />
+    <button type="button" class="btn btn-default btn-lg btn-block contentH2"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;@Html.ActionLink("GO TO CAMPUS DIRECTORY", "Index", "Campuses")</button>
+
+    <br />
+    </div>
+
+    <div class="col-sm-4 pull-right no-padding">
+        <div class="panel panel-default bluePANEL2">
+
+            <div class="panel-body">
+                <form id="programsQuestionsForm" name="programsQuestionsForm" data-parsley-validate="" method="post" class="questionsForm" action="/home/askquestionprogram">
+                    <input type="hidden" name="ORGID" value="240" />
+                    <input type="hidden" name="MailListID" value="240001" />
+                    <h1 class="contentH1whitemain text-center">
+                        <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                    </h1><hr class="hrpgold" />
+                    <div class="input-group spacer-top">
+                        <p class="pull-left contentp-light">FIRST NAME: <span class="text-danger">*</span></p>
+                        <input type="text" class="form-control pull-right" name="FirstName" required="">
+                    </div>
+                    <div class="input-group spacer-top">
+                        <p class="pull-left contentp-light">TELEPHONE: <span class="text-danger">*</span></p>
+                        <input type="text" class="form-control pull-right" name="Telephone" required="">
+                    </div>
+                    <div class="input-group spacer-top">
+                        <p class="pull-left contentp-light">EMAIL: <span class="text-danger">*</span></p>
+                        <input type="email" class="form-control pull-right" name="Email" required="">
+                    </div>
+                    <div class="input-group spacer-top">
+                        <p class="pull-left contentp-light">LOCATION: <span class="text-danger">*</span></p>
+                        <select class="form-control pull-right" name="CampusID" id="askQuestionCampusList">
+                            <option value="0">Select</option>
+                            <option value="246">Brampton</option>
+                            <option value="241">Scarborough</option>
+                            <option value="240">Toronto</option>
+ 
+                        </select>
+                    </div>
+                    <div class="input-group spacer-top">
+                        <p class="pull-left contentp-light">PROGRAM: <span class="text-danger">*</span></p>
+                        <select class="form-control pull-right" name="ProgramID" id="askQuestionProgramList">
+                            <option class="0" value="41072">Pre-Medical</option>
+
+                           
+                        </select>
+                    </div>
+                    <div class="input-group spacer-top">
+                        <p class="pull-left contentp-light">QUESTION: </p>
+                        <textarea class="form-control pull-right" name="Comment2"></textarea>
+                    </div>
+                    <div class="small-text spacer-top text-center contentp-light">
+                        Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
+                    </div>
+                    <div class="text-center">
+                        <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+</div>

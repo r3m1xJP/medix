@@ -115,6 +115,12 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        // GET: Premedical
+        public ActionResult Premedical()
+        {
+            return View();
+        }
+
         // GET: Soft Tissue Back Injury Prevention
         public ActionResult SoftTissueBackInjuryPrevention()
         {

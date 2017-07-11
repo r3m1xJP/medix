@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>06/30/2017 14:27:12</publishTime>
+      <publishTime>07/08/2017 16:06:24</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1129,6 +1129,24 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/170513-Hires-Medix-Toronto.jpg">
       <publishTime>05/13/2017 09:15:48</publishTime>
     </File>
+    <File Include="Content/images/170624-Hires-Medix-Brampton.jpg">
+      <publishTime>07/08/2017 16:05:38</publishTime>
+    </File>
+    <File Include="Content/images/170624-Hires-Medix-London.jpg">
+      <publishTime>07/08/2017 16:05:38</publishTime>
+    </File>
+    <File Include="Content/images/170624-Hires-Medix-Toronto.jpg">
+      <publishTime>07/08/2017 16:05:38</publishTime>
+    </File>
+    <File Include="Content/images/170708-Hires-Medix-Brampton.jpg">
+      <publishTime>07/08/2017 16:05:49</publishTime>
+    </File>
+    <File Include="Content/images/170708-Hires-Medix-Scarborough.jpg">
+      <publishTime>07/08/2017 16:05:49</publishTime>
+    </File>
+    <File Include="Content/images/170708-Hires-Medix-Toronto.jpg">
+      <publishTime>07/08/2017 16:05:49</publishTime>
+    </File>
     <File Include="Content/images/admissions-eo.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
     </File>
@@ -1780,11 +1798,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/payments.jpg">
       <publishTime>06/28/2016 13:07:33</publishTime>
     </File>
+    <File Include="Content/images/pha-computer.jpg">
+      <publishTime>07/08/2017 16:05:22</publishTime>
+    </File>
     <File Include="Content/images/pha-program.jpg">
       <publishTime>02/14/2017 15:00:33</publishTime>
     </File>
     <File Include="Content/images/pha.jpg">
       <publishTime>04/24/2017 10:13:05</publishTime>
+    </File>
+    <File Include="Content/images/pharmacy-assistant-working.jpg">
+      <publishTime>07/08/2017 16:05:22</publishTime>
+    </File>
+    <File Include="Content/images/pharmacy-assistant.jpg">
+      <publishTime>07/08/2017 16:05:22</publishTime>
     </File>
     <File Include="Content/images/phone-call.jpg">
       <publishTime>02/21/2017 10:45:05</publishTime>
