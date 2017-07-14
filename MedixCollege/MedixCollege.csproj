@@ -672,6 +672,7 @@
     <Content Include="Content\images\pinterest-ic.gif" />
     <Content Include="Content\images\pinterest.gif" />
     <Content Include="Content\images\premedical.jpg" />
+    <Content Include="Content\images\premed_1.jpg" />
     <Content Include="Content\images\program-csw.jpg" />
     <Content Include="Content\images\program-cyw.jpg" />
     <Content Include="Content\images\program-dsw.jpg" />
@@ -1047,6 +1048,7 @@
     <Content Include="Views\Certificates\RehabilitationPhysiotherapy.cshtml" />
     <Content Include="Views\Programs\RehabilitationPhysiotherapy.cshtml" />
     <Content Include="Views\Certificates\BirthDoulaWorkshop.cshtml" />
+    <Content Include="Views\Courses\Premedical.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

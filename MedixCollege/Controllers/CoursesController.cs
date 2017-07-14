@@ -290,6 +290,13 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult Premedical(string form_variable = "")
+        {
+            ViewBag.form_variable = form_variable;
+
+            return View();
+        }
+
         public ActionResult EarlyChildcareAssistant(string form_variable = "")
         {
             ViewBag.form_variable = form_variable;
