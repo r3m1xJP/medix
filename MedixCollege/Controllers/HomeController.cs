@@ -357,7 +357,7 @@ namespace MedixCollege.Controllers
                     {
                         using (var mailClient = new SmtpClient("smtp.gmail.com"))
                         {
-                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson11");
+                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson3");
                             mailClient.Port = 587;
 
                             var message = new MailMessage();
@@ -649,7 +649,7 @@ namespace MedixCollege.Controllers
                     {
                         using (var mailClient = new SmtpClient("smtp.gmail.com"))
                         {
-                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson11");
+                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson3");
                             mailClient.Port = 587;
 
                             var message = new MailMessage();
@@ -824,7 +824,7 @@ namespace MedixCollege.Controllers
                     {
                         using (var mailClient = new SmtpClient("smtp.gmail.com"))
                         {
-                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson11");
+                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson3");
                             mailClient.Port = 587;
 
                             var message = new MailMessage();
@@ -1013,7 +1013,7 @@ namespace MedixCollege.Controllers
                     {
                         using (var mailClient = new SmtpClient("smtp.gmail.com"))
                         {
-                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson11");
+                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson3");
                             mailClient.Port = 587;
 
                             var message = new MailMessage();
@@ -1202,7 +1202,7 @@ namespace MedixCollege.Controllers
                     {
                         using (var mailClient = new SmtpClient("smtp.gmail.com"))
                         {
-                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson11");
+                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson3");
                             mailClient.Port = 587;
 
                             var message = new MailMessage();
@@ -1391,7 +1391,7 @@ namespace MedixCollege.Controllers
                     {
                         using (var mailClient = new SmtpClient("smtp.gmail.com"))
                         {
-                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson11");
+                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson3");
                             mailClient.Port = 587;
 
                             var message = new MailMessage();
@@ -1580,7 +1580,7 @@ namespace MedixCollege.Controllers
                     {
                         using (var mailClient = new SmtpClient("smtp.gmail.com"))
                         {
-                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson11");
+                            mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson3");
                             mailClient.Port = 587;
 
                             var message = new MailMessage();
@@ -1840,7 +1840,7 @@ namespace MedixCollege.Controllers
             {
                 using (var mailClient = new SmtpClient("smtp.gmail.com"))
                 {
-                    mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson11");
+                    mailClient.Credentials = new NetworkCredential("ccgactiveleads", "Homersimpson3");
                     mailClient.Port = 587;
 
                     var message = new MailMessage();
