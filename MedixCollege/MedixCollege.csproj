@@ -481,6 +481,7 @@
     <Content Include="Content\images\blur-extra-lab.jpg" />
     <Content Include="Content\images\Brampton -Holiday Schedule.jpg" />
     <Content Include="Content\images\Brantford -Holiday Schedule.jpg" />
+    <Content Include="Content\images\bread.jpg" />
     <Content Include="Content\images\brushing-teeth.jpg" />
     <Content Include="Content\images\button-next.png" />
     <Content Include="Content\images\button-previous.png" />
@@ -604,6 +605,7 @@
     <Content Include="Content\images\instagram-ic.gif" />
     <Content Include="Content\images\instagram.gif" />
     <Content Include="Content\images\Kitchener-Holiday Schedule.jpg" />
+    <Content Include="Content\images\lemon.jpg" />
     <Content Include="Content\images\linkedin-ic.gif" />
     <Content Include="Content\images\London-Holiday Schedule.jpg" />
     <Content Include="Content\images\main-1.jpg" />
@@ -705,6 +707,8 @@
     <Content Include="Content\images\Scar -Holiday Schedule.jpg" />
     <Content Include="Content\images\shoulder-massage.jpg" />
     <Content Include="Content\images\sidesquat.jpg" />
+    <Content Include="Content\images\smiling.jpg" />
+    <Content Include="Content\images\sportsdrink.jpg" />
     <Content Include="Content\images\study-life-balance.jpg" />
     <Content Include="Content\images\study-schedule.jpg" />
     <Content Include="Content\images\studyinginclass.jpg" />
