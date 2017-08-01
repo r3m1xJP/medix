@@ -2330,7 +2330,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:41</publishTime>
     </File>
     <File Include="Views/Campuses/Brampton.cshtml">
-      <publishTime>07/14/2017 18:56:35</publishTime>
+      <publishTime>07/31/2017 22:59:02</publishTime>
     </File>
     <File Include="Views/Campuses/Brantford.cshtml">
       <publishTime>07/14/2017 18:56:43</publishTime>
