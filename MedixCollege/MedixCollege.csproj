@@ -519,6 +519,7 @@
     <Content Include="Content\images\counsellor.jpg" />
     <Content Include="Content\images\cs-main.jpg" />
     <Content Include="Content\images\cs-medixadvantage.jpg" />
+    <Content Include="Content\images\csw-talking.jpg" />
     <Content Include="Content\images\dental-assisant.jpg" />
     <Content Include="Content\images\dental-patient-holding-mouth.jpg" />
     <Content Include="Content\images\dental-patient-talking-to-assistant.jpg" />
@@ -654,7 +655,11 @@
     <Content Include="Content\images\MLTA_helping_student.jpg" />
     <Content Include="Content\images\mlta_smiling.jpg" />
     <Content Include="Content\images\mlta_working_machine.jpg" />
+    <Content Include="Content\images\moad-calendar.jpg" />
+    <Content Include="Content\images\mom-moad.jpg" />
     <Content Include="Content\images\mouth-exam.jpg" />
+    <Content Include="Content\images\mt-calves.jpg" />
+    <Content Include="Content\images\mt-legs.jpg" />
     <Content Include="Content\images\MT-OH.JPG" />
     <Content Include="Content\images\nats-logo-main.png" />
     <Content Include="Content\images\nauimg.jpg" />

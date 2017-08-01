@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>07/19/2017 12:01:36</publishTime>
+      <publishTime>08/01/2017 09:58:28</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1366,6 +1366,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/cs-medixadvantage.jpg">
       <publishTime>06/28/2016 13:07:28</publishTime>
     </File>
+    <File Include="Content/images/csw-talking.jpg">
+      <publishTime>08/01/2017 09:57:52</publishTime>
+    </File>
     <File Include="Content/images/dental-assisant.jpg">
       <publishTime>02/21/2017 10:45:14</publishTime>
     </File>
@@ -1774,8 +1777,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/mlta_working_machine.jpg">
       <publishTime>06/02/2017 13:02:09</publishTime>
     </File>
+    <File Include="Content/images/moad-calendar.jpg">
+      <publishTime>08/01/2017 09:58:03</publishTime>
+    </File>
+    <File Include="Content/images/mom-moad.jpg">
+      <publishTime>08/01/2017 09:58:03</publishTime>
+    </File>
     <File Include="Content/images/mouth-exam.jpg">
       <publishTime>02/21/2017 10:45:14</publishTime>
+    </File>
+    <File Include="Content/images/mt-calves.jpg">
+      <publishTime>08/01/2017 09:58:12</publishTime>
+    </File>
+    <File Include="Content/images/mt-legs.jpg">
+      <publishTime>08/01/2017 09:58:12</publishTime>
     </File>
     <File Include="Content/images/MT-OH.JPG">
       <publishTime>03/26/2017 19:20:39</publishTime>
