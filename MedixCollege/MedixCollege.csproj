@@ -1058,6 +1058,7 @@
     <Content Include="Views\Programs\RehabilitationPhysiotherapy.cshtml" />
     <Content Include="Views\Certificates\BirthDoulaWorkshop.cshtml" />
     <Content Include="Views\Courses\Premedical.cshtml" />
+    <Content Include="Views\Home\SexualViolencePolicy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

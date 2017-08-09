@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>08/01/2017 09:58:28</publishTime>
+      <publishTime>08/09/2017 15:00:53</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -2640,6 +2640,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/Home/SearchEngineMarketingForm.cshtml">
       <publishTime>06/28/2016 13:07:45</publishTime>
+    </File>
+    <File Include="Views/Home/SexualViolencePolicy.cshtml">
+      <publishTime>08/09/2017 14:59:42</publishTime>
     </File>
     <File Include="Views/Home/SiteMap.cshtml">
       <publishTime>06/28/2016 13:07:45</publishTime>
