@@ -495,6 +495,11 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult AllPolicies()
+        {
+            return View();
+        }
+
         public ActionResult SexualViolencePolicy()
         {
             return View();

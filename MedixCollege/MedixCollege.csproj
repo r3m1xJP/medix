@@ -1059,6 +1059,7 @@
     <Content Include="Views\Certificates\BirthDoulaWorkshop.cshtml" />
     <Content Include="Views\Courses\Premedical.cshtml" />
     <Content Include="Views\Home\SexualViolencePolicy.cshtml" />
+    <Content Include="Views\Home\AllPolicies.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
