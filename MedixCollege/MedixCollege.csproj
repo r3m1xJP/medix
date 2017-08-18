@@ -521,6 +521,7 @@
     <Content Include="Content\images\cs-medixadvantage.jpg" />
     <Content Include="Content\images\csw-talking.jpg" />
     <Content Include="Content\images\dental-assisant.jpg" />
+    <Content Include="Content\images\dental-assistant.jpg" />
     <Content Include="Content\images\dental-patient-holding-mouth.jpg" />
     <Content Include="Content\images\dental-patient-talking-to-assistant.jpg" />
     <Content Include="Content\images\dentalassistant.jpg" />
@@ -558,6 +559,7 @@
     <Content Include="Content\images\facebook.gif" />
     <Content Include="Content\images\female-getting-massage.jpg" />
     <Content Include="Content\images\female-happy.jpg" />
+    <Content Include="Content\images\female-ioda.jpg" />
     <Content Include="Content\images\female-laptop.jpg" />
     <Content Include="Content\images\firstaid.jpg" />
     <Content Include="Content\images\Fran-Women-Of-Excellence.jpg" />
@@ -624,6 +626,7 @@
     <Content Include="Content\images\mcHIRED.jpg" />
     <Content Include="Content\images\medical-lab-worker.jpg" />
     <Content Include="Content\images\medical-lab.jpg" />
+    <Content Include="Content\images\medical-office-with-patient.jpg" />
     <Content Include="Content\images\medical-office.jpg" />
     <Content Include="Content\images\medix-banner-cpu.jpg" />
     <Content Include="Content\images\medix-banner-dental.jpg" />
@@ -665,6 +668,7 @@
     <Content Include="Content\images\nauimg.jpg" />
     <Content Include="Content\images\nutrition.jpg" />
     <Content Include="Content\images\ocmt.jpg" />
+    <Content Include="Content\images\office-admin.jpg" />
     <Content Include="Content\images\office-assistant-phone.jpg" />
     <Content Include="Content\images\office-assistant.jpg" />
     <Content Include="Content\images\patient_smiling.jpg" />
@@ -719,6 +723,7 @@
     <Content Include="Content\images\studyinginclass.jpg" />
     <Content Include="Content\images\studyinginlibrary.jpg" />
     <Content Include="Content\images\summerad.jpg" />
+    <Content Include="Content\images\talking-to-doctor.jpg" />
     <Content Include="Content\images\thanksimagemedix-friend.jpg" />
     <Content Include="Content\images\thanksimagemedix-medix.jpg" />
     <Content Include="Content\images\thanksimagemedix1.jpg" />
