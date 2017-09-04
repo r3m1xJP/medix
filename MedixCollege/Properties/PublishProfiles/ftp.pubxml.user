@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>08/18/2017 10:58:38</publishTime>
+      <publishTime>09/04/2017 13:25:48</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1147,6 +1147,42 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/170708-Hires-Medix-Toronto.jpg">
       <publishTime>07/08/2017 16:05:49</publishTime>
     </File>
+    <File Include="Content/images/170902-Hires-Medix-Brampton.jpg">
+      <publishTime>09/04/2017 13:24:19</publishTime>
+    </File>
+    <File Include="Content/images/170902-Hires-Medix-Scarborough.jpg">
+      <publishTime>09/04/2017 13:24:19</publishTime>
+    </File>
+    <File Include="Content/images/170902-Hires-Medix-Toronto.jpg">
+      <publishTime>09/04/2017 13:24:19</publishTime>
+    </File>
+    <File Include="Content/images/170902-Hires-NATS-Brampton.jpg">
+      <publishTime>09/04/2017 13:24:19</publishTime>
+    </File>
+    <File Include="Content/images/170909-Hires-Medix-Brampton.jpg">
+      <publishTime>09/04/2017 13:24:33</publishTime>
+    </File>
+    <File Include="Content/images/170909-Hires-Medix-Scarborough.jpg">
+      <publishTime>09/04/2017 13:24:33</publishTime>
+    </File>
+    <File Include="Content/images/170909-Hires-Medix-Toronto.jpg">
+      <publishTime>09/04/2017 13:24:33</publishTime>
+    </File>
+    <File Include="Content/images/170909-Hires-NATS-Brampton.jpg">
+      <publishTime>09/04/2017 13:24:33</publishTime>
+    </File>
+    <File Include="Content/images/170916-Hires-Medix-Brampton.jpg">
+      <publishTime>09/04/2017 13:24:45</publishTime>
+    </File>
+    <File Include="Content/images/170916-Hires-Medix-Toronto.jpg">
+      <publishTime>09/04/2017 13:24:45</publishTime>
+    </File>
+    <File Include="Content/images/170916-Hires-NATS-Brampton.jpg">
+      <publishTime>09/04/2017 13:24:45</publishTime>
+    </File>
+    <File Include="Content/images/170923-Hires-Medix-Brampton.jpg">
+      <publishTime>09/04/2017 13:24:56</publishTime>
+    </File>
     <File Include="Content/images/admissions-eo.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
     </File>
@@ -1461,6 +1497,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/eca-teacher.jpg">
       <publishTime>03/03/2017 11:14:30</publishTime>
+    </File>
+    <File Include="Content/images/eca_high_five.jpg">
+      <publishTime>09/02/2017 13:25:38</publishTime>
+    </File>
+    <File Include="Content/images/eca_kids.jpg">
+      <publishTime>09/02/2017 13:25:38</publishTime>
+    </File>
+    <File Include="Content/images/eca_teach.jpg">
+      <publishTime>09/02/2017 13:25:38</publishTime>
     </File>
     <File Include="Content/images/experiencethemedixcollegedifference.JPG">
       <publishTime>03/22/2017 11:50:06</publishTime>
@@ -1939,11 +1984,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/PSD3.jpg">
       <publishTime>06/28/2016 13:07:25</publishTime>
     </File>
+    <File Include="Content/images/psw_bed.jpg">
+      <publishTime>09/02/2017 13:25:27</publishTime>
+    </File>
+    <File Include="Content/images/psw_help.jpg">
+      <publishTime>09/02/2017 13:25:27</publishTime>
+    </File>
     <File Include="Content/images/psw_helping.jpg">
       <publishTime>06/30/2017 14:24:48</publishTime>
     </File>
     <File Include="Content/images/psw_smiling.jpg">
       <publishTime>06/30/2017 14:24:49</publishTime>
+    </File>
+    <File Include="Content/images/psw_stand.jpg">
+      <publishTime>09/02/2017 13:25:27</publishTime>
     </File>
     <File Include="Content/images/recruiting_dental.jpg">
       <publishTime>05/19/2017 09:14:29</publishTime>
