@@ -446,7 +446,11 @@
     <Content Include="Content\images\170708-Hires-Medix-Brampton.jpg" />
     <Content Include="Content\images\170708-Hires-Medix-Scarborough.jpg" />
     <Content Include="Content\images\170708-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\170826-Hires-Medix-Brampton.jpg" />
+    <Content Include="Content\images\170826-Hires-Medix-London.jpg" />
+    <Content Include="Content\images\170826-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\170902-Hires-Medix-Brampton.jpg" />
+    <Content Include="Content\images\170902-Hires-Medix-London.jpg" />
     <Content Include="Content\images\170902-Hires-Medix-Scarborough.jpg" />
     <Content Include="Content\images\170902-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\170902-Hires-NATS-Brampton.jpg" />
