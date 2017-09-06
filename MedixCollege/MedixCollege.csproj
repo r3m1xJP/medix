@@ -472,6 +472,7 @@
     <Content Include="Content\images\admissions-resp.jpg" />
     <Content Include="Content\images\admissions-sc.jpg" />
     <Content Include="Content\images\admissions-sloc.jpg" />
+    <Content Include="Content\images\arrow_Revised_8.5x5.5-Front-London-2017.jpg" />
     <Content Include="Content\images\back-massage.jpg" />
     <Content Include="Content\images\Banner-Certificates-Main.jpg" />
     <Content Include="Content\images\Banner-Discover-Medix-History.jpg" />
@@ -735,6 +736,7 @@
     <Content Include="Content\images\psw_stand.jpg" />
     <Content Include="Content\images\recruiting_dental.jpg" />
     <Content Include="Content\images\reflexology.jpg" />
+    <Content Include="Content\images\Revised_8.5x5.png" />
     <Content Include="Content\images\Scar -Holiday Schedule.jpg" />
     <Content Include="Content\images\shoulder-massage.jpg" />
     <Content Include="Content\images\sidesquat.jpg" />
