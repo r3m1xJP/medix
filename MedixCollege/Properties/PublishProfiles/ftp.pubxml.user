@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 13:07:49</publishTime>
     </File>
     <File Include="bin/MedixCollege.dll">
-      <publishTime>09/06/2017 10:23:03</publishTime>
+      <publishTime>09/12/2017 12:24:40</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>06/28/2016 13:07:51</publishTime>
@@ -1315,6 +1315,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/button-previous.png">
       <publishTime>06/28/2016 13:07:26</publishTime>
     </File>
+    <File Include="Content/images/calendar.jpg">
+      <publishTime>09/12/2017 12:20:58</publishTime>
+    </File>
     <File Include="Content/images/calf-massage.jpg">
       <publishTime>04/07/2017 00:31:57</publishTime>
     </File>
@@ -1423,8 +1426,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/images/dental-assisant.jpg">
       <publishTime>02/21/2017 10:45:14</publishTime>
     </File>
+    <File Include="Content/images/dental-assistant-computer.jpg">
+      <publishTime>09/12/2017 12:20:47</publishTime>
+    </File>
+    <File Include="Content/images/dental-assistant-handshake.jpg">
+      <publishTime>09/12/2017 12:20:47</publishTime>
+    </File>
+    <File Include="Content/images/dental-assistant-smiling.jpg">
+      <publishTime>09/12/2017 12:20:47</publishTime>
+    </File>
     <File Include="Content/images/dental-assistant.jpg">
       <publishTime>08/18/2017 10:56:31</publishTime>
+    </File>
+    <File Include="Content/images/dental-assistants.jpg">
+      <publishTime>09/12/2017 12:20:58</publishTime>
     </File>
     <File Include="Content/images/dental-patient-holding-mouth.jpg">
       <publishTime>05/01/2017 11:42:11</publishTime>
@@ -2055,6 +2070,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/images/talking-to-doctor.jpg">
       <publishTime>08/18/2017 10:56:56</publishTime>
+    </File>
+    <File Include="Content/images/teaching.jpg">
+      <publishTime>09/12/2017 12:20:58</publishTime>
     </File>
     <File Include="Content/images/thanksimagemedix-friend.jpg">
       <publishTime>12/15/2016 14:38:52</publishTime>

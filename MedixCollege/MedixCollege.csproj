@@ -502,6 +502,7 @@
     <Content Include="Content\images\brushing-teeth.jpg" />
     <Content Include="Content\images\button-next.png" />
     <Content Include="Content\images\button-previous.png" />
+    <Content Include="Content\images\calendar.jpg" />
     <Content Include="Content\images\calf-massage.jpg" />
     <Content Include="Content\images\campus-brampton.jpg" />
     <Content Include="Content\images\campus-brantford.jpg" />
@@ -538,7 +539,11 @@
     <Content Include="Content\images\cs-medixadvantage.jpg" />
     <Content Include="Content\images\csw-talking.jpg" />
     <Content Include="Content\images\dental-assisant.jpg" />
+    <Content Include="Content\images\dental-assistant-computer.jpg" />
+    <Content Include="Content\images\dental-assistant-handshake.jpg" />
+    <Content Include="Content\images\dental-assistant-smiling.jpg" />
     <Content Include="Content\images\dental-assistant.jpg" />
+    <Content Include="Content\images\dental-assistants.jpg" />
     <Content Include="Content\images\dental-patient-holding-mouth.jpg" />
     <Content Include="Content\images\dental-patient-talking-to-assistant.jpg" />
     <Content Include="Content\images\dentalassistant.jpg" />
@@ -748,6 +753,7 @@
     <Content Include="Content\images\studyinginlibrary.jpg" />
     <Content Include="Content\images\summerad.jpg" />
     <Content Include="Content\images\talking-to-doctor.jpg" />
+    <Content Include="Content\images\teaching.jpg" />
     <Content Include="Content\images\thanksimagemedix-friend.jpg" />
     <Content Include="Content\images\thanksimagemedix-medix.jpg" />
     <Content Include="Content\images\thanksimagemedix1.jpg" />
