@@ -306,6 +306,9 @@ namespace MedixCollege.Controllers
                 fc.Add("MediaID", "18913");
             }
 
+            fc.Add("Opt_Out", "N");
+            fc.Add("IMessageOpt_In", "y");
+
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
             using (var client = new HttpClient())

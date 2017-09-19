@@ -22,6 +22,8 @@
     <IISExpressUseClassicPipelineMode />
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -462,6 +464,13 @@
     <Content Include="Content\images\170916-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\170916-Hires-NATS-Brampton.jpg" />
     <Content Include="Content\images\170923-Hires-Medix-Brampton.jpg" />
+    <Content Include="Content\images\39-calendar.jpg" />
+    <Content Include="Content\images\39-dental-assistants.jpg" />
+    <Content Include="Content\images\39-teaching.jpg" />
+    <Content Include="Content\images\39calendar.jpg" />
+    <Content Include="Content\images\40-dental-assistant-computer.jpg" />
+    <Content Include="Content\images\40-dental-assistant-handshake.jpg" />
+    <Content Include="Content\images\40-dental-smiling.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
