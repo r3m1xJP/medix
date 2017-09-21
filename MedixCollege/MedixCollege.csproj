@@ -496,7 +496,9 @@
     <Content Include="Content\images\banner_mlat_toronto.jpg" />
     <Content Include="Content\images\banner_mt.jpg" />
     <Content Include="Content\images\banner_mt_brantford.jpg" />
+    <Content Include="Content\images\banner_mt_tor.jpg" />
     <Content Include="Content\images\banner_psw.jpg" />
+    <Content Include="Content\images\banner_reflex.jpg" />
     <Content Include="Content\images\bicepcurl.jpg" />
     <Content Include="Content\images\blog2_dental.jpg" />
     <Content Include="Content\images\blog2_dentalpatient.jpg" />

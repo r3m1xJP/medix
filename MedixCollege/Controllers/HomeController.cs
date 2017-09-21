@@ -57,6 +57,7 @@ namespace MedixCollege.Controllers
             programs.Add(41070, "Postpartum Doula Training");
             programs.Add(41071, "Physiotherapy Assistant");
             programs.Add(41072, "Pre-Medical");
+            programs.Add(41075, "Reflexology");
 
             mediaGroups.Add(91063, "HIGH SCHOOL");
             mediaGroups.Add(90080, "INTERNET");
@@ -986,6 +987,9 @@ namespace MedixCollege.Controllers
             {
                 fc.Add("MediaID", "928");
             }
+
+            fc.Add("Opt_Out", "N");
+            fc.Add("IMessageOpt_In", "y");
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 

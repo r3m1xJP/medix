@@ -117,5 +117,3 @@ C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\Newtonsoft.Json.xml
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.dll
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.pdb
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
-C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
-C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.csproj.CoreCompileInputs.cache
