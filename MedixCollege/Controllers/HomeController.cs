@@ -624,6 +624,9 @@ namespace MedixCollege.Controllers
                 fc.Add("MediaID", "928");
             }
 
+            fc.Add("Opt_Out", "N");
+            fc.Add("IMessageOpt_In", "y");
+
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
             using (var client = new HttpClient())
@@ -798,6 +801,9 @@ namespace MedixCollege.Controllers
             {
                 fc.Add("MediaID", "928");
             }
+
+            fc.Add("Opt_Out", "N");
+            fc.Add("IMessageOpt_In", "y");
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
@@ -1180,6 +1186,9 @@ namespace MedixCollege.Controllers
                 fc.Add("MediaID", "928");
             }
 
+            fc.Add("Opt_Out", "N");
+            fc.Add("IMessageOpt_In", "y");
+
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
             using (var client = new HttpClient())
@@ -1369,6 +1378,9 @@ namespace MedixCollege.Controllers
                 fc.Add("MediaID", "928");
             }
 
+            fc.Add("Opt_Out", "N");
+            fc.Add("IMessageOpt_In", "y");
+
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
             using (var client = new HttpClient())
@@ -1557,6 +1569,9 @@ namespace MedixCollege.Controllers
             {
                 fc.Add("MediaID", "928");
             }
+
+            fc.Add("Opt_Out", "N");
+            fc.Add("IMessageOpt_In", "y");
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
@@ -1802,6 +1817,9 @@ namespace MedixCollege.Controllers
             {
                 fc.Add("MediaID", "928");
             }
+
+            fc.Add("Opt_Out", "N");
+            fc.Add("IMessageOpt_In", "y");
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
