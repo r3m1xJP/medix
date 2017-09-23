@@ -471,6 +471,8 @@
     <Content Include="Content\images\40-dental-assistant-computer.jpg" />
     <Content Include="Content\images\40-dental-assistant-handshake.jpg" />
     <Content Include="Content\images\40-dental-smiling.jpg" />
+    <Content Include="Content\images\40-massage-back.jpg" />
+    <Content Include="Content\images\40-massage-student.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
