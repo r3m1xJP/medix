@@ -574,8 +574,10 @@
     <Content Include="Content\images\dsw-outdoors.jpg" />
     <Content Include="Content\images\dsw-working-with-child.jpg" />
     <Content Include="Content\images\dsw1.jpg" />
+    <Content Include="Content\images\dsw_friends.jpg" />
     <Content Include="Content\images\dsw_tour.jpg" />
     <Content Include="Content\images\dsw_training.jpg" />
+    <Content Include="Content\images\dsw_wheelchair.jpg" />
     <Content Include="Content\images\dsw_working.jpg" />
     <Content Include="Content\images\early-childcare-educator.jpg" />
     <Content Include="Content\images\eca-calendar.jpg" />
