@@ -238,6 +238,7 @@ namespace MedixCollege.Controllers
             mediaSources.Add(17298, "UC Education Marketing");
             mediaSources.Add(1080, "Vantage Media");
             mediaSources.Add(14708, "webmechanix");
+            mediaSources.Add(18961, "Email Marketing");
         }
 
         // GET: Courses
@@ -340,6 +341,20 @@ namespace MedixCollege.Controllers
         }
 
         public ActionResult PharmacyAssistant(string form_variable = "")
+        {
+            ViewBag.form_variable = form_variable;
+
+            return View();
+        }
+
+        public ActionResult EmailPhysioAssistant(string form_variable = "")
+        {
+            ViewBag.form_variable = form_variable;
+
+            return View();
+        }
+
+        public ActionResult PhysioAssistant(string form_variable = "")
         {
             ViewBag.form_variable = form_variable;
 

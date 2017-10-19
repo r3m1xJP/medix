@@ -1110,6 +1110,8 @@
     <Content Include="Views\Courses\Premedical.cshtml" />
     <Content Include="Views\Home\SexualViolencePolicy.cshtml" />
     <Content Include="Views\Home\AllPolicies.cshtml" />
+    <Content Include="Views\Courses\PhysioAssistant.cshtml" />
+    <Content Include="Views\Courses\EmailPhysioAssistant.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

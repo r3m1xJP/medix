@@ -243,6 +243,7 @@ namespace MedixCollege.Controllers
             mediaSources.Add(17298, "UC Education Marketing");
             mediaSources.Add(1080, "Vantage Media");
             mediaSources.Add(14708, "webmechanix");
+            mediaSources.Add(18961, "Email Marketing");
         }
 
         public ActionResult Index()
