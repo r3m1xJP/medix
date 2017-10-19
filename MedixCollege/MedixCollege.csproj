@@ -502,6 +502,14 @@
     <Content Include="Content\images\banner_psw.jpg" />
     <Content Include="Content\images\banner_reflex.jpg" />
     <Content Include="Content\images\bicepcurl.jpg" />
+    <Content Include="Content\images\blog-42-dental-assistant-with-kid.jpg" />
+    <Content Include="Content\images\blog-42-dental-assistant.jpg" />
+    <Content Include="Content\images\blog-43-early-childcare-assistant-laughing.jpg" />
+    <Content Include="Content\images\blog-43-early-childcare-assistant.jpg" />
+    <Content Include="Content\images\blog-43-kids-playing.jpg" />
+    <Content Include="Content\images\blog-44-mlat-studying.jpg" />
+    <Content Include="Content\images\blog-44-mlat-talking.jpg" />
+    <Content Include="Content\images\blog-44-mlat-working.jpg" />
     <Content Include="Content\images\blog2_dental.jpg" />
     <Content Include="Content\images\blog2_dentalpatient.jpg" />
     <Content Include="Content\images\blog2_desk.jpg" />
