@@ -239,6 +239,7 @@ namespace MedixCollege.Controllers
             mediaSources.Add(1080, "Vantage Media");
             mediaSources.Add(14708, "webmechanix");
             mediaSources.Add(18961, "Email Marketing");
+            mediaSources.Add(18962, "Email Marketing PTA Scarborough");
         }
 
         // GET: Courses
@@ -348,6 +349,14 @@ namespace MedixCollege.Controllers
         }
 
         public ActionResult EmailPhysioAssistant(string form_variable = "")
+        {
+            ViewBag.form_variable = form_variable;
+
+            return View();
+        }
+
+
+        public ActionResult ReferralPhysioAssistant(string form_variable = "")
         {
             ViewBag.form_variable = form_variable;
 
