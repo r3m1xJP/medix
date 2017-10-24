@@ -4,7 +4,7 @@
 
 @{
     ViewBag.Title = "Rehabilitation Physiotherapist Assistant Diploma Program - Medix College";
-    ViewBag.PageDescription = "Learn more about Rehabilitation Physiotherapist Assistant Diploma Training Program at Medix College.";
+    ViewBag.PageDescription = "Learn more about the Rehabilitation Physiotherapist Assistant Diploma Program Training Program at Medix College.";
 }
 
 <div class="container-fluid">
@@ -25,7 +25,7 @@
     <!--Start Div-->
     <div class="container col-lg-12 col-md-12 col-sm-12">
         <div class="landing-body col-lg-12 col-md-12 col-sm-12">
-            <h1 class="contentPageH1">BECOME A <span class="landingH1">PHYSIOTHERAPY ASSISTANT</span></h1><hr class="hrpbluethin" />
+            <h1 class="contentPageH1">REFER A FRIEND<span class="landingH1">WIN A REFERRAL BONUS</span></h1><hr class="hrpbluethin" />
             
 </p>
         </div>
@@ -38,58 +38,68 @@
             <div class="col-lg-4 col-md-4 col-sm-4 pull-right ">
 
 
-                <div class="panel panel-default landingFormBG">
+                <div class="panel panel-default bluePANEL2">
 
                     <div class="panel-body">
-                        <form id="questionsForm" name="questionsForm" method="post" data-parsley-validate="" class="questionsForm" action="/home/SearchEngineMarketingPost">
+                        <form id="programsQuestionsForm" name="programsQuestionsForm" data-parsley-validate="" method="post" class="questionsForm" action="/home/askquestionprogram">
                             <input type="hidden" name="ORGID" value="240" />
                             <input type="hidden" name="MailListID" value="240001" />
-                            <input type="hidden" name="form_variable" value="@ViewBag.form_variable" />
-                            <h1 class="contentH1 text-center">
-                                @ViewBag.form_variable
-                            </h1><h1 class="contentH1 text-center">
-                                FILL OUT FORM TO GET INFO!
-                            </h1><hr class="hrpblue" />
+                            <h1 class="contentH1whitemain text-center">
+                                <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
+                            </h1><hr class="hrpgold" />
                             <div class="input-group spacer-top">
-                                <label class="pull-left contentp">First Name: </label>
-                                <input type="text" class="form-control pull-right" name="FirstName" />
+                                <p class="pull-left contentp-light">YOUR NAME: </p>
+                                <textarea class="form-control pull-right" name="Comment2"></textarea>
                             </div>
                             <div class="input-group spacer-top">
-                                <label class="pull-left contentp">Last Name: </label>
+                                <p class="pull-left contentp-light">REFERRAL FIRST NAME: <span class="text-danger">*</span></p>
+                                <input type="text" class="form-control pull-right" name="FirstName" required="">
+                            </div>
+                            <div class="input-group spacer-top">
+                                <label class="pull-left contentp-light">REFERRAL LAST NAME: <span class="text-danger">*</span></label>
                                 <input type="text" class="form-control pull-right" name="Lastname" id="formlastname" />
                             </div>
                             <div class="input-group spacer-top">
-                                <label class="pull-left contentp">Telephone: </label>
-                                <input type="text" class="form-control pull-right" name="Telephone" />
+                                <p class="pull-left contentp-light">REFERRAL TELEPHONE: <span class="text-danger">*</span></p>
+                                <input type="text" class="form-control pull-right" name="Telephone" required="">
                             </div>
                             <div class="input-group spacer-top">
-                                <label class="pull-left contentp">Email: </label>
-                                <input type="email" class="form-control pull-right" name="Email" />
+                                <p class="pull-left contentp-light">REFERRAL EMAIL: <span class="text-danger">*</span></p>
+                                <input type="email" class="form-control pull-right" name="Email" required="">
                             </div>
                             <div class="input-group spacer-top">
-                                <label class="pull-left contentp">Location: </label>
+                                <p class="pull-left contentp-light">LOCATION: <span class="text-danger">*</span></p>
                                 <select class="form-control pull-right" name="CampusID" id="askQuestionCampusList">
-                                    
+
                                     <option value="241">Scarborough</option>
-                                    
-                                </select>
-                            </div>
-                            <div class="input-group spacer-top">
-                                <label class="pull-left contentp">Program: </label>
-                                <select class="form-control pull-right" name="ProgramID" id="askQuestionCampusList">
-                                    <option value="41071">Physiotherapist Assistant</option>
 
                                 </select>
                             </div>
-                            <div class="input-group spacer-top hidden">
-                                <label class="pull-left contentp">Question: </label>
-                                <textarea class="form-control pull-right" name="Comment2"></textarea>
+                            <div class="input-group spacer-top">
+                                <p class="pull-left contentp-light">PROGRAM: <span class="text-danger">*</span></p>
+                                <select class="form-control pull-right" name="ProgramID" id="askQuestionProgramList">
+                                    <option class="0 246 243 242 244 241 240" value="41071">Physiotherapy Assistant</option>
+                                   
+                                </select>
                             </div>
-                            <div class="small-text spacer-top text-center grayColor">
+                            <div class="input-group spacer-top hidden">
+                                <label class="pull-left">How did you hear about us?: <span class="text-danger">*</span></label>
+                                <select class="form-control pull-right" name="MediaGroupID" id="applyNowMediaGroupList" required="">
+                                    <option value="90080">REFERRAL</option>
+                                </select>
+                            </div>
+                            <div class="input-group spacer-top hidden">
+                                <label class="pull-left">Specify: <span class="text-danger">*</span></label>
+                                <select class="form-control pull-right" name="MediaID" id="applyNowMediaList" required="">
+                                    <option value="18962">Email Marketing PTA Scarborough</option>
+                                </select>
+                            </div>
+                            
+                            <div class="small-text spacer-top text-center contentp-light">
                                 Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
                             </div>
                             <div class="text-center">
-                                <input id="askQuestionSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block btn-landingFormButton" />
+                                <input id="applyNowSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
                             </div>
                         </form>
                     </div>
@@ -104,7 +114,20 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" width="100%" src="~/Content/images/programs-rbphy.jpg" alt="Rehabilitation Physiotherapist working with client" />
 
+                    <h2 class="contentH2-landing">
+                        ABOUT THE REWARD
+                    </h2>
+
                     <p class="contentp">
+                        
+                        Refer your friend and win a $250 cash prize during our next draw on January 2018. 
+
+
+                    </p>
+<p class="contentp">
+
+
+
                         <h2 class="contentH2-landing">
                             ABOUT THE PROGRAM
                         </h2>

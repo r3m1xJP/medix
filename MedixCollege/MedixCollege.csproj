@@ -132,6 +132,7 @@
     <Compile Include="Controllers\CertificatesController.cs" />
     <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\DiscoverMedixController.cs" />
+    <Compile Include="Controllers\EmailController.cs" />
     <Compile Include="Controllers\ExternalController.cs" />
     <Compile Include="Controllers\FBController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -1121,6 +1122,10 @@
     <Content Include="Views\Courses\PhysioAssistant.cshtml" />
     <Content Include="Views\Courses\EmailPhysioAssistant.cshtml" />
     <Content Include="Views\Courses\ReferralPhysioAssistant.cshtml" />
+    <Content Include="Views\Email\_FBLayout.cshtml" />
+    <Content Include="Views\Email\AskAQuestion.cshtml" />
+    <Content Include="Views\Email\ThankYou.cshtml" />
+    <Content Include="Views\Email\EmailPhysioAssistant.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
