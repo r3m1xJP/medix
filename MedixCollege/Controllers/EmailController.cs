@@ -11,14 +11,14 @@ using System.Web.Mvc;
 
 namespace MedixCollege.Controllers
 {
-    public class FBController : Controller
+    public class EmailController : Controller
     {
         public Dictionary<int, string> campuses = new Dictionary<int, string>();
         public Dictionary<int, string> programs = new Dictionary<int, string>();
         public Dictionary<int, string> mediaGroups = new Dictionary<int, string>();
         public Dictionary<int, string> mediaSources = new Dictionary<int, string>();
 
-        public FBController()
+        public EmailController()
         {
             campuses.Add(246, "Brampton");
             campuses.Add(243, "Brantford");
@@ -245,6 +245,12 @@ namespace MedixCollege.Controllers
 
         // GET: FB
         public ActionResult Index()
+        {
+            return View();
+        }
+
+        // GET: FB
+        public ActionResult EmailPhysioAssistant()
         {
             return View();
         }
