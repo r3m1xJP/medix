@@ -86,6 +86,7 @@ D:\Development\Phanyasaeng Technologies\medix\MedixCollege\bin\Antlr3.Runtime.pd
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\bin\Newtonsoft.Json.xml
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.dll
 D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.pdb
+D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\MedixCollege.dll.config
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\MedixCollege.dll
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\MedixCollege.pdb
@@ -114,7 +115,7 @@ C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\System.Web.WebPages.Deplo
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\System.Web.WebPages.Razor.xml
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\Antlr3.Runtime.pdb
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\bin\Newtonsoft.Json.xml
+C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
+C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.csproj.CoreCompileInputs.cache
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.dll
 C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.pdb
-D:\Development\Phanyasaeng Technologies\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
-C:\Users\Toppy\Documents\GitHub\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache

@@ -474,6 +474,9 @@
     <Content Include="Content\images\40-dental-smiling.jpg" />
     <Content Include="Content\images\40-massage-back.jpg" />
     <Content Include="Content\images\40-massage-student.jpg" />
+    <Content Include="Content\images\46-psw-bed.jpg" />
+    <Content Include="Content\images\46-psw-helping.jpg" />
+    <Content Include="Content\images\46=psw-talking.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
