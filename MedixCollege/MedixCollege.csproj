@@ -477,12 +477,6 @@
     <Content Include="Content\images\46-psw-bed.jpg" />
     <Content Include="Content\images\46-psw-helping.jpg" />
     <Content Include="Content\images\46=psw-talking.jpg" />
-    <Content Include="Content\images\47-pha-interview.jpg" />
-    <Content Include="Content\images\47-pha-talking.jpg" />
-    <Content Include="Content\images\47-pha-working.jpg" />
-    <Content Include="Content\images\48-mt-happy.jpg" />
-    <Content Include="Content\images\48-mt-tool.jpg" />
-    <Content Include="Content\images\48-mt-working.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
