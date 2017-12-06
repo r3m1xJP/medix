@@ -23,7 +23,7 @@
             <input type="hidden" value="@ViewBag.PageValid" id="pageValid" name="pageValid" />
             <div class="col-sm-2">
                 <label class="form-control">Date Filter:</label>
-                <select name="dateTimeFilter" class="form-control" onchange="this.form.submit();">
+                <select required="" name="dateTimeFilter" class="form-control" onchange="this.form.submit();">
                     <option selected="@(@ViewBag.DateTimeFilterText == "All")" value="All">All</option>
                     <option selected="@(@ViewBag.DateTimeFilterText == "Today")" value="Today">Today</option>
                     <option selected="@(@ViewBag.DateTimeFilterText == "Yesterday")" value="Yesterday">Yesterday</option>
@@ -34,7 +34,7 @@
             </div>
             <div class="col-sm-2">
                 <label class="form-control">Campus Filter:</label>
-                <select name="campusFilter" class="form-control" onchange="this.form.submit();">
+                <select required="" name="campusFilter" class="form-control" onchange="this.form.submit();">
                     <option selected="@(@ViewBag.CampusFilterText == "All")" value="All">All</option>
                     <option selected="@(@ViewBag.CampusFilterText == "Brampton")" value="Brampton">Brampton</option>
                     <option selected="@(@ViewBag.CampusFilterText == "Brantford")" value="Brantford">Brantford</option>
@@ -47,7 +47,7 @@
             </div>
             <div class="col-sm-2">
                 <label class="form-control">Program Filter:</label>
-                <select name="programFilter" class="form-control" onchange="this.form.submit();">
+                <select required="" name="programFilter" class="form-control" onchange="this.form.submit();">
                     <option selected="@(@ViewBag.ProgramFilter == "All")" value="All">All</option>
                     <option selected="@(@ViewBag.ProgramFilter == "38882")" value="38882">Anatomy &amp; Physiology</option>
                     <option selected="@(@ViewBag.ProgramFilter == "39877")" value="39877">Child and Youth Care with Addictions Support Worker</option>
@@ -78,7 +78,7 @@
             </div>
             <div class="col-sm-2">
                 <label class="form-control">Media Source Filter:</label>
-                <select name="mediaSourceFilter" class="form-control" onchange="this.form.submit();">
+                <select required="" name="mediaSourceFilter" class="form-control" onchange="this.form.submit();">
                     <option selected="@(@ViewBag.MediaSourceFilter == "All")" value="All">All</option>
                     <option selected="@(@ViewBag.MediaSourceFilter == "91063")" value="91063">HIGH SCHOOL</option>
                     <option selected="@(@ViewBag.MediaSourceFilter == "90080")" value="90080">INTERNET</option>
