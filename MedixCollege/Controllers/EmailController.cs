@@ -371,6 +371,7 @@ namespace MedixCollege.Controllers
                             {
                                 message.To.Add(new MailAddress("toppyv@careercollegegroup.com"));
                                 message.To.Add(new MailAddress("pdykstra@medixcollege.ca"));
+                                message.To.Add(new MailAddress("jking@careercollegegroup.com"));
 
                                 message.To.Add(new MailAddress("dgabrielli@medixcollege.ca"));
                             }
@@ -379,6 +380,7 @@ namespace MedixCollege.Controllers
                             {
                                 message.To.Add(new MailAddress("toppyv@careercollegegroup.com"));
                                 message.To.Add(new MailAddress("pdykstra@medixcollege.ca"));
+                                message.To.Add(new MailAddress("jking@careercollegegroup.com"));
 
                                 message.To.Add(new MailAddress("jlaird@medixcollege.ca"));
                                 message.To.Add(new MailAddress("kharris@medixcollege.ca"));
@@ -388,6 +390,7 @@ namespace MedixCollege.Controllers
                             {
                                 message.To.Add(new MailAddress("toppyv@careercollegegroup.com"));
                                 message.To.Add(new MailAddress("pdykstra@medixcollege.ca"));
+                                message.To.Add(new MailAddress("jking@careercollegegroup.com"));
 
                                 message.To.Add(new MailAddress("kharris@medixcollege.ca"));
                             }
@@ -396,6 +399,7 @@ namespace MedixCollege.Controllers
                             {
                                 message.To.Add(new MailAddress("toppyv@careercollegegroup.com"));
                                 message.To.Add(new MailAddress("pdykstra@medixcollege.ca"));
+                                message.To.Add(new MailAddress("jking@careercollegegroup.com"));
 
                                 message.To.Add(new MailAddress("ngauvin@medixschool.ca"));
                                 message.To.Add(new MailAddress("nicole@medixschool.ca"));
@@ -405,6 +409,7 @@ namespace MedixCollege.Controllers
                             {
                                 message.To.Add(new MailAddress("toppyv@careercollegegroup.com"));
                                 message.To.Add(new MailAddress("pdykstra@medixcollege.ca"));
+                                message.To.Add(new MailAddress("jking@careercollegegroup.com"));
 
                                 message.To.Add(new MailAddress("dickson@medixcollege.ca"));
                             }
@@ -413,6 +418,7 @@ namespace MedixCollege.Controllers
                             {
                                 message.To.Add(new MailAddress("toppyv@careercollegegroup.com"));
                                 message.To.Add(new MailAddress("pdykstra@medixcollege.ca"));
+                                message.To.Add(new MailAddress("jking@careercollegegroup.com"));
 
                                 message.To.Add(new MailAddress("chris@medixcollege.ca"));
                             }
@@ -429,7 +435,7 @@ namespace MedixCollege.Controllers
                                                where key != "ORGID" && key != "MailListID"
                                                select string.Format("{0}: {1}" + Environment.NewLine, HttpUtility.UrlEncode(key), value)).ToArray();
 
-                            var body = "New Lead - Medix" + Environment.NewLine +
+                            var body = "New Lead - Medix - Email Marketing" + Environment.NewLine +
                                        Environment.NewLine;
 
                             var data = string.Join(",", stringArray).Replace(",", "");

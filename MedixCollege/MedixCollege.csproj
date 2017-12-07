@@ -159,6 +159,9 @@
     <Content Include="Content\170121-Hires-Medix-London.jpg" />
     <Content Include="Content\170121-Hires-Medix-Scarborough.jpg" />
     <Content Include="Content\170121-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\50-moa-phone.jpg" />
+    <Content Include="Content\50-moa-talking.jpg" />
+    <Content Include="Content\50-moa-writing.jpg" />
     <Content Include="Content\bigplay.svg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -483,6 +486,9 @@
     <Content Include="Content\images\48-mt-happy.jpg" />
     <Content Include="Content\images\48-mt-tool.jpg" />
     <Content Include="Content\images\48-mt-working.jpg" />
+    <Content Include="Content\images\50-moa-phone.jpg" />
+    <Content Include="Content\images\50-moa-talking.jpg" />
+    <Content Include="Content\images\50-moa-writing.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
