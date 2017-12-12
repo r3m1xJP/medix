@@ -5,23 +5,23 @@
         <span class="glyphicon glyphicon-comment"></span>&nbsp; ASK A QUESTION
     </h1><hr class="hrpgold" />
     <div class="input-group spacer-top">
-        <p class="pull-left contentp-light">FIRST NAME: <span class="text-danger">*</span></p>
-        <input type="text" class="form-control pull-right" name="FirstName" required="">
+        <p class="pull-left contentp-light" for="formfirstname">FIRST NAME: <span class="text-danger">*</span></p>
+        <input type="text" class="form-control pull-right" name="FirstName" id="formfirstname" required="">
     </div>
     <div class="input-group spacer-top">
-        <label class="pull-left contentp-light">LAST NAME: <span class="text-danger">*</span></label>
+        <label class="pull-left contentp-light" for="formlastname">LAST NAME: <span class="text-danger">*</span></label>
         <input type="text" class="form-control pull-right" name="Lastname" id="formlastname" />
     </div>
     <div class="input-group spacer-top">
-        <p class="pull-left contentp-light">TELEPHONE: <span class="text-danger">*</span></p>
-        <input type="text" class="form-control pull-right" name="Telephone" required="">
+        <p class="pull-left contentp-light" for="formtelephone">TELEPHONE: <span class="text-danger">*</span></p>
+        <input type="text" class="form-control pull-right" name="Telephone" id="formtelephone" required="">
     </div>
     <div class="input-group spacer-top">
-        <p class="pull-left contentp-light">EMAIL: <span class="text-danger">*</span></p>
-        <input type="email" class="form-control pull-right" name="Email" required="">
+        <p class="pull-left contentp-light" for="formemail">EMAIL: <span class="text-danger">*</span></p>
+        <input type="email" class="form-control pull-right" name="Email" id="formemail" required="">
     </div>
     <div class="input-group spacer-top">
-        <p class="pull-left contentp-light">LOCATION: <span class="text-danger">*</span></p>
+        <p class="pull-left contentp-light" for="askQuestionCampusList">LOCATION: <span class="text-danger">*</span></p>
         <select required="" class="form-control pull-right" name="CampusID" id="askQuestionCampusList">
             <option value="">Select</option>
             <option value="246">Brampton</option>
@@ -33,7 +33,7 @@
         </select>
     </div>
     <div class="input-group spacer-top">
-        <p class="pull-left contentp-light">PROGRAM: <span class="text-danger">*</span></p>
+        <p class="pull-left contentp-light" for="askQuestionProgramList">PROGRAM: <span class="text-danger">*</span></p>
         <select required="" class="form-control pull-right" name="ProgramID" id="askQuestionProgramList">
 
             <option class="0 246 243 242 244 241 240" value="">Select</option>
@@ -69,8 +69,8 @@
         </select>
     </div>
     <div class="input-group spacer-top">
-        <p class="pull-left contentp-light">QUESTION: </p>
-        <textarea class="form-control pull-right" name="Comment2"></textarea>
+        <p class="pull-left contentp-light" for="comment2">QUESTION: </p>
+        <textarea class="form-control pull-right" name="Comment2" id="comment2"></textarea>
     </div>
     <div class="small-text spacer-top text-center contentp-light">
         Please contact me with more information relating to the school and program(s). I understand I may cancel my consent at anytime.
