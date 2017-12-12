@@ -1145,6 +1145,7 @@
     <Content Include="Views\Email\AskAQuestion.cshtml" />
     <Content Include="Views\Email\ThankYou.cshtml" />
     <Content Include="Views\Email\EmailPhysioAssistant.cshtml" />
+    <Content Include="Views\Shared\_AskAQuestionForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
