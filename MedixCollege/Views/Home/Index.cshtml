@@ -87,23 +87,23 @@
         <hr class="hrpblue" />
         <div class="linkOptionsWrapper">
             <div class="linkOptions allPrograms visible-md visible-sm visible-xs linkOptionsFP" id="allPrograms">
-                <i class="fa fa-search goldColour"></i>
+                <span class="fa fa-search goldColour"></span>
                 <label class="contentH3-white">FIND PROGRAMS</label>
             </div>
             <div class="linkOptions linkOptionsRC home col-md-3 hidden-xs" id="requestCatalogue">
-                <i class="fa fa-book blueColor"></i>
+                <span class="fa fa-book blueColor"></span>
                 <label class="contentH3-blue">REQUEST CATALOGUE</label>
             </div>
             <div class="linkOptions linkOptionsAQ home col-md-3 hidden-xs" id="askQuestion">
-                <i class="fa fa-comment blueColor"></i>
+                <span class="fa fa-comment blueColor"></span>
                 <label class="contentH3-blue">ASK A QUESTION</label>
             </div>
             <div class="linkOptions linkOptionsTC home col-md-3 hidden-xs" id="tourCampus">
-                <i class="fa fa-home blueColor"></i>
+                <span class="fa fa-home blueColor"></span>
                 <label class="contentH3-blue">TOUR A CAMPUS</label>
             </div>
             <div class="linkOptions linkOptionsAN home col-md-3 hidden-xs" id="apply">
-                <i class="fa fa-bookmark blueColor"></i>
+                <span class="fa fa-bookmark blueColor"></span>
                 <label class="contentH3-blue">APPLY NOW</label>
             </div>
             <div class="clearfix"></div>
@@ -116,7 +116,7 @@
     <div class="panel panel-default">
 
         <div class="panel-body">
-            @Html.Partial("_AskAQuestionForm")
+            @Html.Partial("_AskAQuestionForm", new ViewDataDictionary { { "postAction", "/home/askquestionprogram" } })
         </div>
 
     </div>
@@ -149,8 +149,8 @@
 
                             STUDENT REVIEWS
                             <span class="pull-right">
-                                <i class="fa fa-caret-left videoScrollerNav prev"></i>
-                                <i class="fa fa-caret-right videoScrollerNav next"></i>
+                                <span class="fa fa-caret-left videoScrollerNav prev"></span>
+                                <span class="fa fa-caret-right videoScrollerNav next"></span>
                             </span>
                         </h3>
                     </div>
@@ -171,8 +171,8 @@
                         <h3 class="contentH1-mainW">
                             MEDIX VIDEOS
                             <span class="pull-right">
-                                <i class="fa fa-caret-left videoScrollerNav prev"></i>
-                                <i class="fa fa-caret-right videoScrollerNav next"></i>
+                                <span class="fa fa-caret-left videoScrollerNav prev"></span>
+                                <span class="fa fa-caret-right videoScrollerNav next"></span>
                             </span>
                         </h3>
                     </div>
