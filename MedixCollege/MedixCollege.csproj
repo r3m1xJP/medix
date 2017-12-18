@@ -730,6 +730,8 @@
     <Content Include="Content\images\mt-calves.jpg" />
     <Content Include="Content\images\mt-legs.jpg" />
     <Content Include="Content\images\MT-OH.JPG" />
+    <Content Include="Content\images\mt-shoulder.jpg" />
+    <Content Include="Content\images\mt-working-upper-back.jpg" />
     <Content Include="Content\images\nats-logo-main.png" />
     <Content Include="Content\images\nauimg.jpg" />
     <Content Include="Content\images\nutrition.jpg" />
@@ -780,7 +782,9 @@
     <Content Include="Content\images\psw_helping.jpg" />
     <Content Include="Content\images\psw_smiling.jpg" />
     <Content Include="Content\images\psw_stand.jpg" />
+    <Content Include="Content\images\pta-back.jpg" />
     <Content Include="Content\images\pta-help.jpg" />
+    <Content Include="Content\images\pta-helping.jpg" />
     <Content Include="Content\images\pta-stretch.jpg" />
     <Content Include="Content\images\recruiting_dental.jpg" />
     <Content Include="Content\images\reflexology.jpg" />
