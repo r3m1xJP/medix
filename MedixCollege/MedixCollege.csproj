@@ -489,6 +489,12 @@
     <Content Include="Content\images\50-moa-phone.jpg" />
     <Content Include="Content\images\50-moa-talking.jpg" />
     <Content Include="Content\images\50-moa-writing.jpg" />
+    <Content Include="Content\images\53-psw-helping.jpg" />
+    <Content Include="Content\images\53-psw-smiling.jpg" />
+    <Content Include="Content\images\54-mlta-measuring.jpg" />
+    <Content Include="Content\images\54-mlta-working.jpg" />
+    <Content Include="Content\images\55-mt-arms.jpg" />
+    <Content Include="Content\images\55-mt-legs.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
