@@ -468,6 +468,12 @@
     <Content Include="Content\images\170916-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\170916-Hires-NATS-Brampton.jpg" />
     <Content Include="Content\images\170923-Hires-Medix-Brampton.jpg" />
+    <Content Include="Content\images\171202-Hires-Medix-Brampton.jpg" />
+    <Content Include="Content\images\171202-Hires-Medix-Scarborough.jpg" />
+    <Content Include="Content\images\171202-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\171223-Hires-Medix-Brampton.jpg" />
+    <Content Include="Content\images\171223-Hires-Medix-Scarborough.jpg" />
+    <Content Include="Content\images\171223-Hires-Medix-Toronto.jpg" />
     <Content Include="Content\images\39-calendar.jpg" />
     <Content Include="Content\images\39-dental-assistants.jpg" />
     <Content Include="Content\images\39-teaching.jpg" />
@@ -582,6 +588,7 @@
     <Content Include="Content\images\cs-main.jpg" />
     <Content Include="Content\images\cs-medixadvantage.jpg" />
     <Content Include="Content\images\csw-talking.jpg" />
+    <Content Include="Content\images\Dawn.JPG" />
     <Content Include="Content\images\dental-assisant.jpg" />
     <Content Include="Content\images\dental-assistant-computer.jpg" />
     <Content Include="Content\images\dental-assistant-handshake.jpg" />
@@ -640,6 +647,7 @@
     <Content Include="Content\images\googleplus-ic-jpg.jpg" />
     <Content Include="Content\images\googleplus-ic.svg" />
     <Content Include="Content\images\googleplus.gif" />
+    <Content Include="Content\images\gradphotos.jpg" />
     <Content Include="Content\images\graduates\Bayshore.jpg" />
     <Content Include="Content\images\graduates\Canes.jpg" />
     <Content Include="Content\images\graduates\Crest.jpg" />
@@ -725,10 +733,12 @@
     <Content Include="Content\images\medixonline-main.jpg" />
     <Content Include="Content\images\medixonline-programs.jpg" />
     <Content Include="Content\images\MedixOnlineLogo.PNG" />
+    <Content Include="Content\images\medixva.jpg" />
     <Content Include="Content\images\mlta-tech.jpg" />
     <Content Include="Content\images\mlta_content.jpg" />
     <Content Include="Content\images\mlta_date.jpg" />
     <Content Include="Content\images\MLTA_helping_student.jpg" />
+    <Content Include="Content\images\mlta_new_accred.jpg" />
     <Content Include="Content\images\mlta_smiling.jpg" />
     <Content Include="Content\images\mlta_working_machine.jpg" />
     <Content Include="Content\images\moad-calendar.jpg" />
@@ -770,6 +780,7 @@
     <Content Include="Content\images\program-mlat.jpg" />
     <Content Include="Content\images\program-mlat2.jpg" />
     <Content Include="Content\images\program-mlta.jpg" />
+    <Content Include="Content\images\program-mlta2.jpg" />
     <Content Include="Content\images\program-moad.jpg" />
     <Content Include="Content\images\program-mt.jpg" />
     <Content Include="Content\images\program-mt2.jpg" />
