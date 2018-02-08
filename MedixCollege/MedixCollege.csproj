@@ -501,6 +501,15 @@
     <Content Include="Content\images\54-mlta-working.jpg" />
     <Content Include="Content\images\55-mt-arms.jpg" />
     <Content Include="Content\images\55-mt-legs.jpg" />
+    <Content Include="Content\images\57-psw-bed.jpg" />
+    <Content Include="Content\images\57-psw-helping.jpg" />
+    <Content Include="Content\images\57-psw-walking.jpg" />
+    <Content Include="Content\images\58-pta-knee-beach.jpg" />
+    <Content Include="Content\images\58-pta-knee-bend.jpg" />
+    <Content Include="Content\images\58-pta-knee.jpg" />
+    <Content Include="Content\images\59-ioda-fluoride.jpg" />
+    <Content Include="Content\images\59-ioda-teeth.jpg" />
+    <Content Include="Content\images\59-ioda-water.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
