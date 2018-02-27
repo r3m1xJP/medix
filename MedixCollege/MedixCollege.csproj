@@ -548,6 +548,13 @@
     <Content Include="Content\images\blog-44-mlat-studying.jpg" />
     <Content Include="Content\images\blog-44-mlat-talking.jpg" />
     <Content Include="Content\images\blog-44-mlat-working.jpg" />
+    <Content Include="Content\images\blog-60-psw-helping.jpg" />
+    <Content Include="Content\images\blog-60-psw-smile.jpg" />
+    <Content Include="Content\images\blog-61-phle-2.jpg" />
+    <Content Include="Content\images\blog-61-phle.jpg" />
+    <Content Include="Content\images\blog-62-moad-meeting.jpg" />
+    <Content Include="Content\images\blog-62-moad-resume.jpg" />
+    <Content Include="Content\images\blog-62-moad-smiling.jpg" />
     <Content Include="Content\images\blog2_dental.jpg" />
     <Content Include="Content\images\blog2_dentalpatient.jpg" />
     <Content Include="Content\images\blog2_desk.jpg" />

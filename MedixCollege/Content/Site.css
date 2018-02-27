@@ -23,6 +23,8 @@ header {
     padding-right: 0px;
 }
 
+
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     width: 100%;
@@ -2165,3 +2167,15 @@ input.parsley-error, select.parsley-error, textarea.parsley-error {
     color: white;
 }
 
+.announcementheader {
+    background-color: #edaa0f;
+    color: #0f3f6f;
+    text-align: center;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.newannouncementbanner {
+background-color: #EDAA0F;
+
+}
