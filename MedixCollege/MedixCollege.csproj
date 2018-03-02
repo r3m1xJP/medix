@@ -474,6 +474,7 @@
     <Content Include="Content\images\171223-Hires-Medix-Brampton.jpg" />
     <Content Include="Content\images\171223-Hires-Medix-Scarborough.jpg" />
     <Content Include="Content\images\171223-Hires-Medix-Toronto.jpg" />
+    <Content Include="Content\images\180301-OpenHouseMedix.jpg" />
     <Content Include="Content\images\39-calendar.jpg" />
     <Content Include="Content\images\39-dental-assistants.jpg" />
     <Content Include="Content\images\39-teaching.jpg" />
@@ -847,6 +848,7 @@
     <Content Include="Content\images\twitter-ic.gif" />
     <Content Include="Content\images\UofG-1.jpg" />
     <Content Include="Content\images\UofG-2.jpg" />
+    <Content Include="Content\images\V4 - Open House - MEDIX.jpg" />
     <Content Include="Content\images\vaa.png" />
     <Content Include="Content\images\white-medix-logo.gif" />
     <Content Include="Content\images\womentalking.jpg" />
