@@ -511,6 +511,11 @@
     <Content Include="Content\images\59-ioda-fluoride.jpg" />
     <Content Include="Content\images\59-ioda-teeth.jpg" />
     <Content Include="Content\images\59-ioda-water.jpg" />
+    <Content Include="Content\images\63-psw-helping.jpg" />
+    <Content Include="Content\images\63-psw-laugh.jpg" />
+    <Content Include="Content\images\64-mlta-blood.jpg" />
+    <Content Include="Content\images\64-mlta-hands.jpg" />
+    <Content Include="Content\images\64-mlta-patient.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
