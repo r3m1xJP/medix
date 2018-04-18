@@ -255,6 +255,48 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        // GET: FB
+        public ActionResult EmailPhysioAssistant1()
+        {
+            return View();
+        }
+
+        // GET: FB
+        public ActionResult ECAScarborough()
+        {
+            return View();
+        }
+
+        // GET: FB
+        public ActionResult MOADScarborough()
+        {
+            return View();
+        }
+
+        // GET: FB
+        public ActionResult PHAScarborough()
+        {
+            return View();
+        }
+
+        // GET: FB
+        public ActionResult SCAECA()
+        {
+            return View();
+        }
+
+        // GET: FB
+        public ActionResult SCAPHA()
+        {
+            return View();
+        }
+
+        // GET: FB
+        public ActionResult SCAMOAD()
+        {
+            return View();
+        }
+
         // GET: Ask A Question
         public ActionResult AskAQuestion(string form_variable = "")
         {
@@ -298,7 +340,7 @@ namespace MedixCollege.Controllers
             }
 
             fc.Add("MediaGroupID", "90080");
-            fc.Add("MediaID", "18962");
+            fc.Add("MediaID", "11450");
 
             //switch (fc["CampusID"])
             //{

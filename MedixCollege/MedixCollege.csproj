@@ -516,6 +516,11 @@
     <Content Include="Content\images\64-mlta-blood.jpg" />
     <Content Include="Content\images\64-mlta-hands.jpg" />
     <Content Include="Content\images\64-mlta-patient.jpg" />
+    <Content Include="Content\images\66-happy.jpg" />
+    <Content Include="Content\images\66-toy.jpg" />
+    <Content Include="Content\images\67-fingers.jpg" />
+    <Content Include="Content\images\67-headphones.jpg" />
+    <Content Include="Content\images\67-wrist.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
@@ -987,7 +992,9 @@
     <Content Include="fonts\icomoon\icomoon.ttf" />
     <Content Include="fonts\icomoon\icomoon.woff" />
     <Content Include="Content\images\medixonline.psd" />
-    <None Include="Properties\PublishProfiles\demo.pubxml" />
+    <None Include="Properties\PublishProfiles\demo.pubxml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\PublishProfiles\ftp.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Icon.png" />
@@ -1192,6 +1199,9 @@
     <Content Include="Views\Email\ThankYou.cshtml" />
     <Content Include="Views\Email\EmailPhysioAssistant.cshtml" />
     <Content Include="Views\Shared\_AskAQuestionForm.cshtml" />
+    <Content Include="Views\Email\ECAScarborough.cshtml" />
+    <Content Include="Views\Email\MOADScarborough.cshtml" />
+    <Content Include="Views\Email\PHAScarborough.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
