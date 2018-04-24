@@ -312,6 +312,15 @@ namespace MedixCollege.Controllers
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
+            Helpers.Helpers.SendToNova(
+                fc["FirstName"],
+                fc["LastName"],
+                fc["Email"],
+                (int)phoneNumber,
+                Convert.ToInt32(fc["CampusID"]),
+                Convert.ToInt32(fc["ProgramID"])
+            );
+
             LeadsType leadsType = LeadsType.Leads;
 
             using (var client = new HttpClient())
@@ -480,6 +489,15 @@ namespace MedixCollege.Controllers
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
+            Helpers.Helpers.SendToNova(
+                fc["FirstName"],
+                fc["LastName"],
+                fc["Email"],
+                (int)phoneNumber,
+                Convert.ToInt32(fc["CampusID"]),
+                Convert.ToInt32(fc["ProgramID"])
+            );
+
             LeadsType leadsType = LeadsType.Leads;
 
             using (var client = new HttpClient())
@@ -645,6 +663,15 @@ namespace MedixCollege.Controllers
             }
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
+
+            Helpers.Helpers.SendToNova(
+                fc["FirstName"],
+                fc["LastName"],
+                fc["Email"],
+                (int)phoneNumber,
+                Convert.ToInt32(fc["CampusID"]),
+                Convert.ToInt32(fc["ProgramID"])
+            );
 
             LeadsType leadsType = LeadsType.Leads;
 

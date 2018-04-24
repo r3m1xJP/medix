@@ -325,6 +325,15 @@ namespace MedixCollege.Controllers
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
+            Helpers.Helpers.SendToNova(
+                fc["FirstName"],
+                fc["LastName"],
+                fc["Email"],
+                (int)phoneNumber,
+                Convert.ToInt32(fc["CampusID"]),
+                Convert.ToInt32(fc["ProgramID"])
+            );
+
             using (var client = new HttpClient())
             {
                 var response = await client.PostAsync("http://www1.campuslogin.com/Contacts/Web/ImportContactData.aspx", formData);
@@ -636,6 +645,15 @@ namespace MedixCollege.Controllers
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
+            Helpers.Helpers.SendToNova(
+                fc["FirstName"],
+                fc["LastName"],
+                fc["Email"],
+                (int)phoneNumber,
+                Convert.ToInt32(fc["CampusID"]),
+                Convert.ToInt32(fc["ProgramID"])
+            );
+
             using (var client = new HttpClient())
             {
                 var response = await client.PostAsync("http://www1.campuslogin.com/Contacts/Web/ImportContactData.aspx", formData);
@@ -813,6 +831,15 @@ namespace MedixCollege.Controllers
             fc.Add("IMessageOpt_In", "y");
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
+
+            Helpers.Helpers.SendToNova(
+                fc["FirstName"],
+                fc["LastName"],
+                fc["Email"],
+                (int)phoneNumber,
+                Convert.ToInt32(fc["CampusID"]),
+                Convert.ToInt32(fc["ProgramID"])
+            );
 
             using (var client = new HttpClient())
             {
@@ -1012,6 +1039,15 @@ namespace MedixCollege.Controllers
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
+            Helpers.Helpers.SendToNova(
+                fc["FirstName"],
+                fc["LastName"],
+                fc["Email"],
+                (int)phoneNumber,
+                Convert.ToInt32(fc["CampusID"]),
+                Convert.ToInt32(fc["ProgramID"])
+            );
+
             using (var client = new HttpClient())
             {
                 var response = await client.PostAsync("http://www1.campuslogin.com/Contacts/Web/ImportContactData.aspx", formData);
@@ -1209,6 +1245,15 @@ namespace MedixCollege.Controllers
             fc.Add("IMessageOpt_In", "y");
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
+
+            Helpers.Helpers.SendToNova(
+                fc["FirstName"],
+                fc["LastName"],
+                fc["Email"],
+                (int)phoneNumber,
+                Convert.ToInt32(fc["CampusID"]),
+                Convert.ToInt32(fc["ProgramID"])
+            );
 
             using (var client = new HttpClient())
             {
@@ -1408,6 +1453,15 @@ namespace MedixCollege.Controllers
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
+            Helpers.Helpers.SendToNova(
+                fc["FirstName"],
+                fc["LastName"],
+                fc["Email"],
+                (int)phoneNumber,
+                Convert.ToInt32(fc["CampusID"]),
+                Convert.ToInt32(fc["ProgramID"])
+            );
+
             using (var client = new HttpClient())
             {
                 var response = await client.PostAsync("http://www1.campuslogin.com/Contacts/Web/ImportContactData.aspx", formData);
@@ -1606,6 +1660,15 @@ namespace MedixCollege.Controllers
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
+            Helpers.Helpers.SendToNova(
+                fc["FirstName"],
+                fc["LastName"],
+                fc["Email"],
+                (int)phoneNumber,
+                Convert.ToInt32(fc["CampusID"]),
+                Convert.ToInt32(fc["ProgramID"])
+            );
+
             using (var client = new HttpClient())
             {
                 var response = await client.PostAsync("http://www1.campuslogin.com/Contacts/Web/ImportContactData.aspx", formData);
@@ -1801,6 +1864,15 @@ namespace MedixCollege.Controllers
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
+            Helpers.Helpers.SendToNova(
+                fc["FirstName"],
+                fc["LastName"],
+                fc["Email"],
+                (int)phoneNumber,
+                Convert.ToInt32(fc["CampusID"]),
+                Convert.ToInt32(fc["ProgramID"])
+            );
+
             using (var client = new HttpClient())
             {
                 var response = await client.PostAsync("http://www1.campuslogin.com/Contacts/Web/ImportContactData.aspx", formData);
@@ -1860,6 +1932,15 @@ namespace MedixCollege.Controllers
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
 
+            Helpers.Helpers.SendToNova(
+                fc["FirstName"],
+                fc["LastName"],
+                fc["Email"],
+                (int)phoneNumber,
+                Convert.ToInt32(fc["CampusID"]),
+                Convert.ToInt32(fc["ProgramID"])
+            );
+
             using (var client = new HttpClient())
             {
                 var response = await client.PostAsync("http://www1.campuslogin.com/Contacts/Web/ImportContactData.aspx", formData);
@@ -1902,6 +1983,15 @@ namespace MedixCollege.Controllers
             var mediaSource = mediaSources.FirstOrDefault(x => x.Key == Convert.ToInt32(fc["MediaID"])).Value;
 
             var formData = new FormUrlEncodedContent(fc.AllKeys.ToDictionary(k => k, v => fc[v]));
+
+            Helpers.Helpers.SendToNova(
+                fc["FirstName"],
+                fc["LastName"],
+                fc["Email"],
+                (int)phoneNumber,
+                Convert.ToInt32(fc["CampusID"]),
+                Convert.ToInt32(fc["ProgramID"])
+            );
 
             ViewBag.Success = true;
 
