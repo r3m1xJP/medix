@@ -239,6 +239,7 @@ namespace MedixCollege.Controllers
                 fc["FirstName"],
                 fc["LastName"],
                 fc["Email"],
+                fc["Telephone"] != null ? Convert.ToInt32(fc["Telephone"]) : 0,
                 Convert.ToInt32(fc["CampusID"]),
                 Convert.ToInt32(fc["ProgramID"])
             );
