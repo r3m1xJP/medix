@@ -274,6 +274,12 @@ namespace MedixCollege.Controllers
         }
 
         // GET: FB
+        public ActionResult PTAScarborough()
+        {
+            return View();
+        }
+
+        // GET: FB
         public ActionResult PHAScarborough()
         {
             return View();
@@ -465,7 +471,7 @@ namespace MedixCollege.Controllers
                                 message.To.Add(new MailAddress("chris@medixcollege.ca"));
                             }
 
-                            message.Subject = "New Lead - Medix - Ask a Question";
+                            message.Subject = "New Lead - Medix - Facebook CPC";
 
                             fc["CampusID"] = campus ?? fc["CampusID"];
                             fc["ProgramID"] = program ?? fc["ProgramID"];

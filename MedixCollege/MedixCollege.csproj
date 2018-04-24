@@ -1202,6 +1202,7 @@
     <Content Include="Views\Email\ECAScarborough.cshtml" />
     <Content Include="Views\Email\MOADScarborough.cshtml" />
     <Content Include="Views\Email\PHAScarborough.cshtml" />
+    <Content Include="Views\Email\PTAScarborough.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
