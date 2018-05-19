@@ -43,6 +43,11 @@ namespace MedixCollege.Controllers
             programs.Add(643, "PSW Upgrading");
             programs.Add(1171, "Thought Patterns");
             programs.Add(41065, "Birth Doula Workshop");
+            programs.Add(41070, "Postpartum Doula Training");
+            programs.Add(41071, "Physiotherapy Assistant");
+            programs.Add(41072, "Pre-Medical");
+            programs.Add(41075, "Reflexology");
+            programs.Add(41093, "Dental Administrator");
 
             mediaSources.Add(91063, "HIGH SCHOOL");
             mediaSources.Add(90080, "INTERNET");

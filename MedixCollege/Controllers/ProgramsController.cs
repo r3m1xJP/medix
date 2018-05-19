@@ -97,6 +97,12 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        // GET: Medical Office Administrator
+        public ActionResult DentalAdministrator()
+        {
+            return View();
+        }
+
         // GET: Personal Support Worker
         public ActionResult PersonalSupportWorker()
         {

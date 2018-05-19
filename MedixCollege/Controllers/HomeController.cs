@@ -58,6 +58,7 @@ namespace MedixCollege.Controllers
             programs.Add(41071, "Physiotherapy Assistant");
             programs.Add(41072, "Pre-Medical");
             programs.Add(41075, "Reflexology");
+            programs.Add(41093, "Dental Administrator");
 
             mediaGroups.Add(91063, "HIGH SCHOOL");
             mediaGroups.Add(90080, "INTERNET");

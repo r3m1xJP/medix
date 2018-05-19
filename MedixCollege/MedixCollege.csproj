@@ -534,6 +534,13 @@
     <Content Include="Content\images\70-moad-keyboard.jpg" />
     <Content Include="Content\images\70-moad-smile.jpg" />
     <Content Include="Content\images\70-moad-typing.jpg" />
+    <Content Include="Content\images\71-laughing.jpg" />
+    <Content Include="Content\images\71-thumbsup.jpg" />
+    <Content Include="Content\images\71-trainer.jpg" />
+    <Content Include="Content\images\72-pay.jpg" />
+    <Content Include="Content\images\72-pharmacy.jpg" />
+    <Content Include="Content\images\72-team.jpg" />
+    <Content Include="Content\images\73-back.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
@@ -812,6 +819,7 @@
     <Content Include="Content\images\premed_1.jpg" />
     <Content Include="Content\images\program-csw.jpg" />
     <Content Include="Content\images\program-cyw.jpg" />
+    <Content Include="Content\images\program-dental-admin-asst.jpg" />
     <Content Include="Content\images\program-dsw.jpg" />
     <Content Include="Content\images\program-eca.jpg" />
     <Content Include="Content\images\program-eca2.jpg" />
@@ -1216,6 +1224,7 @@
     <Content Include="Views\Email\MOADScarborough.cshtml" />
     <Content Include="Views\Email\PHAScarborough.cshtml" />
     <Content Include="Views\Email\PTAScarborough.cshtml" />
+    <Content Include="Views\Programs\DentalAdministrator.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
