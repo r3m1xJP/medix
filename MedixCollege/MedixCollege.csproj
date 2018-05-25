@@ -1225,6 +1225,7 @@
     <Content Include="Views\Email\PHAScarborough.cshtml" />
     <Content Include="Views\Email\PTAScarborough.cshtml" />
     <Content Include="Views\Programs\DentalAdministrator.cshtml" />
+    <Content Include="Views\Email\EmailDentalAdmin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

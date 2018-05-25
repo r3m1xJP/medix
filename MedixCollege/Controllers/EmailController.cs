@@ -261,6 +261,12 @@ namespace MedixCollege.Controllers
         }
 
         // GET: FB
+        public ActionResult EmailDentalAdmin()
+        {
+            return View();
+        }
+
+        // GET: FB
         public ActionResult EmailPhysioAssistant1()
         {
             return View();
