@@ -449,7 +449,7 @@ namespace MedixCollege.Controllers
                 fc["FirstName"],
                 fc["LastName"],
                 fc["Email"],
-                (int)phoneNumber,
+                (Int64)phoneNumber,
                 Convert.ToInt32(fc["CampusID"]),
                 Convert.ToInt32(fc["ProgramID"])
             );
@@ -668,7 +668,7 @@ namespace MedixCollege.Controllers
                 fc["FirstName"],
                 fc["LastName"],
                 fc["Email"],
-                (int)phoneNumber,
+                (Int64)phoneNumber,
                 Convert.ToInt32(fc["CampusID"]),
                 Convert.ToInt32(fc["ProgramID"])
             );
