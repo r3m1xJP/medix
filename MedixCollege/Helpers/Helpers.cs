@@ -20,7 +20,7 @@ namespace MedixCollege.Helpers
             return Regex.Matches(input, @"[a-zA-Z]").Count > 0;
         }
 
-        public static void SendToNova(string firstName, string lastName, string email, int phoneNumber, int campusId, int programId)
+        public static void SendToNova(string firstName, string lastName, string email, Int64 phoneNumber, int campusId, int programId)
         {
             var allowedCampuses = new List<int>() {
                 243,
