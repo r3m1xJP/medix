@@ -574,6 +574,18 @@
     <Content Include="Content\images\87-calendar.jpg" />
     <Content Include="Content\images\87-moad.jpg" />
     <Content Include="Content\images\87-tasks.jpg" />
+    <Content Include="Content\images\88-dental-admin.jpg" />
+    <Content Include="Content\images\88-interview.jpg" />
+    <Content Include="Content\images\88-shaking-hands.jpg" />
+    <Content Include="Content\images\89-double-leg.jpg" />
+    <Content Include="Content\images\89-leg-stretch.jpg" />
+    <Content Include="Content\images\89-stretching.jpg" />
+    <Content Include="Content\images\90-calendar.jpg" />
+    <Content Include="Content\images\90-student.jpg" />
+    <Content Include="Content\images\90-subway.jpg" />
+    <Content Include="Content\images\91-ankle.jpg" />
+    <Content Include="Content\images\91-calf.jpg" />
+    <Content Include="Content\images\91-stretch1.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
@@ -604,6 +616,7 @@
     <Content Include="Content\images\banner_pta_sca.jpg" />
     <Content Include="Content\images\banner_pta_scav2.jpg" />
     <Content Include="Content\images\banner_reflex.jpg" />
+    <Content Include="Content\images\banner_sep_classes.jpg" />
     <Content Include="Content\images\bicepcurl.jpg" />
     <Content Include="Content\images\blog-42-dental-assistant-with-kid.jpg" />
     <Content Include="Content\images\blog-42-dental-assistant.jpg" />
