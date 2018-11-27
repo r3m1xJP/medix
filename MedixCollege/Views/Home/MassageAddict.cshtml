@@ -1,0 +1,128 @@
+﻿@{
+    Layout = "~/Views/Home/_HomeLayout.cshtml";
+}
+@{
+    ViewBag.Title = "Book An Appointment - Massage Addict";
+}
+
+<div class="col-sm-12 no-padding botMARG">
+    <h1 class="contentPageH1">MASSAGE ADDICT BOOKING</h1>
+    <ol class="breadcrumb">
+        <li class="contentp">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li class="active contentp">Massage Addict</li>
+    </ol>
+</div>
+
+<div class="col-sm-8 mid-padding">
+    <br/>
+    <br/>
+
+
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+
+            <img class="img-responsive" width="50%" src="~/Content/images/massageaddict.png" alt="medix students working with client in dental lab" />
+            <br />
+
+            <table class="table table-responsive">
+
+            <tr>
+                <td>Book An Appointment at the Toronto Campus
+                <br/><br />
+                    <a href="https://go.booker.com/#/location/MedixTorontoCampus" target="_blank" class="btn btn-primary" role="button">Book Appointment</a>
+
+
+                    
+                </td>
+            </tr>
+                <tr>
+                    <td>
+                        Book An Appointment at the Brampton Campus
+                        <br /><br />
+                        <a href="https://go.booker.com/#/location/MedixBramptonCampus" target="_blank" class="btn btn-primary" role="button">Book Appointment</a>
+
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Book An Appointment at the Scarborough Campus
+                        <br /><br />
+                        <a href="https://go.booker.com/#/location/MedixScarboroughCampus" target="_blank" class="btn btn-primary" role="button">Book Appointment</a>
+
+
+
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="col-sm-4 pull-right no-padding">
+    <div class="panel panel-default bluePANEL2">
+
+        <div class="panel-body">
+            <form id="guelphAnatomyWorkshopForm" name="guelphAnatomyWorkshopForm" method="post" action="/home/GuelphAnatomyWorkshop" onsubmit="return validateMyForm();">
+                <div style="display:none;">
+                    <label>Keep this field blank</label>
+                    <input type="text" name="honeypot" id="honeypot" />
+                </div>
+                <h1 class="contentH1whitemain text-center">
+                    <span class="glyphicon glyphicon-comment"></span>&nbsp; REGISTER NOW
+                </h1><hr class="hrpgold" />
+                <input type="hidden" name="ORGID" value="240" />
+                <input type="hidden" name="MailListID" value="240011" />
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">FIRST NAME: <span class="text-danger">*</span></p>
+                    <input type="text" class="form-control pull-right" name="FirstName">
+                </div>
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">LAST NAME: <span class="text-danger">*</span></p>
+                    <input type="text" class="form-control pull-right" name="Lastname">
+                </div>
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">EMAIL: <span class="text-danger">*</span></p>
+                    <input type="text" class="form-control pull-right" name="EmailAddress">
+                </div>
+                <div class="input-group spacer-top">
+                    <p class="pull-left contentp-light">TELEPHONE: <span class="text-danger">*</span></p>
+                    <input type="text" class="form-control pull-right" name="Telephone">
+                </div>
+                <div class="input-group spacer-top">
+                    <label class="pull-left">COMMENTS: </label>
+                    <textarea class="form-control pull-right" name="Comment2"></textarea>
+                </div>
+                <div class="text-center">
+                    <input id="guelphAnatomyWorkshopSubmit" type="submit" value="Submit" class="btn popup-form-button spacer-top btn-block" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    function validateMyForm() {
+        // The field is empty, submit the form.
+        if (!document.getElementById("honeypot").value) {
+            return true;
+        }
+            // the field has a value it's a spam bot
+        else {
+            return false;
+        }
+    }
+</script>

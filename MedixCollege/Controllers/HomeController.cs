@@ -523,6 +523,10 @@ namespace MedixCollege.Controllers
             return View();
         }
 
+        public ActionResult MassageAddict()
+        {
+            return View();
+        }
         public ActionResult AccessibilityPolicy()
         {
             return View();

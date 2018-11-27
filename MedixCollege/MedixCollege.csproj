@@ -188,6 +188,9 @@
     <Content Include="Content\fonts\socicon-webfont.svg" />
     <Content Include="Content\fonts\texgyreheros-bold-webfont.svg" />
     <Content Include="Content\fonts\texgyreheros-regular-webfont.svg" />
+    <Content Include="Content\images\100-psw-food.jpg" />
+    <Content Include="Content\images\100-psw-help.jpg" />
+    <Content Include="Content\images\100-psw-read.jpg" />
     <Content Include="Content\images\150517-Hired-Medix-Brantford.jpg" />
     <Content Include="Content\images\150517-Hired-Medix-Kitchener.jpg" />
     <Content Include="Content\images\150517-Hired-Medix-London.jpg" />
@@ -586,6 +589,27 @@
     <Content Include="Content\images\91-ankle.jpg" />
     <Content Include="Content\images\91-calf.jpg" />
     <Content Include="Content\images\91-stretch1.jpg" />
+    <Content Include="Content\images\92-psw-laughing.jpg" />
+    <Content Include="Content\images\92-psw-smiling.jpg" />
+    <Content Include="Content\images\93-ioda-check.jpg" />
+    <Content Include="Content\images\93-ioda-group.jpg" />
+    <Content Include="Content\images\93-ioda-teeth-cleaning.jpg" />
+    <Content Include="Content\images\94-fhp-dumbbell.jpg" />
+    <Content Include="Content\images\94-fhp-picture.jpg" />
+    <Content Include="Content\images\94-fhp-smile.jpg" />
+    <Content Include="Content\images\95-PTA-neck.jpg" />
+    <Content Include="Content\images\95-PTA-wrist.jpg" />
+    <Content Include="Content\images\96-mlta-blood.jpg" />
+    <Content Include="Content\images\96-mlta-pain.jpg" />
+    <Content Include="Content\images\96-mlta-work.jpg" />
+    <Content Include="Content\images\97-eca-blow.jpg" />
+    <Content Include="Content\images\97-eca-class.jpg" />
+    <Content Include="Content\images\97-eca-mindfulness.jpg" />
+    <Content Include="Content\images\98-moad-desk.jpg" />
+    <Content Include="Content\images\98-moad-stretch.jpg" />
+    <Content Include="Content\images\98-moad-type.jpg" />
+    <Content Include="Content\images\99-pha-smile.jpg" />
+    <Content Include="Content\images\99-pha-talk.jpg" />
     <Content Include="Content\images\admissions-eo.jpg" />
     <Content Include="Content\images\admissions-fo.jpg" />
     <Content Include="Content\images\admissions-home.jpg" />
@@ -617,6 +641,7 @@
     <Content Include="Content\images\banner_pta_scav2.jpg" />
     <Content Include="Content\images\banner_reflex.jpg" />
     <Content Include="Content\images\banner_sep_classes.jpg" />
+    <Content Include="Content\images\banner_sep_classes_fall.jpg" />
     <Content Include="Content\images\bicepcurl.jpg" />
     <Content Include="Content\images\blog-42-dental-assistant-with-kid.jpg" />
     <Content Include="Content\images\blog-42-dental-assistant.jpg" />
@@ -800,6 +825,7 @@
     <Content Include="Content\images\massage1.jpg" />
     <Content Include="Content\images\massage2.jpg" />
     <Content Include="Content\images\massage3.jpg" />
+    <Content Include="Content\images\massageaddict.png" />
     <Content Include="Content\images\mcHIRED.jpg" />
     <Content Include="Content\images\medical-lab-worker.jpg" />
     <Content Include="Content\images\medical-lab.jpg" />
@@ -1279,6 +1305,7 @@
     <Content Include="Views\Email\PTAScarborough.cshtml" />
     <Content Include="Views\Programs\DentalAdministrator.cshtml" />
     <Content Include="Views\Email\EmailDentalAdmin.cshtml" />
+    <Content Include="Views\Home\MassageAddict.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

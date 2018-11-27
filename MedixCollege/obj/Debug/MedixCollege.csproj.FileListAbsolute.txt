@@ -149,4 +149,3 @@ C:\Users\Toppy\Documents\GitHub\MedixCollege\medix\MedixCollege\bin\Newtonsoft.J
 C:\Users\Toppy\Documents\GitHub\MedixCollege\medix\MedixCollege\obj\Debug\MedixCollege.csproj.CoreCompileInputs.cache
 C:\Users\Toppy\Documents\GitHub\MedixCollege\medix\MedixCollege\obj\Debug\MedixCollege.dll
 C:\Users\Toppy\Documents\GitHub\MedixCollege\medix\MedixCollege\obj\Debug\MedixCollege.pdb
-C:\Users\Toppy\Documents\GitHub\MedixCollege\medix\MedixCollege\obj\Debug\MedixCollege.csprojResolveAssemblyReference.cache
